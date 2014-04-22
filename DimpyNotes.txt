@@ -1,0 +1,241 @@
+Notes for creating Dimpy. Moved from Cplugin.cpp 12Feb12. Latest at top:
+2014-04-21
+Noticed that the previous version was getting the stride and dimension values wrong.
+Stride should be 2*n,2 for a C style contiguous array (not n, 2*n).
+
+Would also be nice to have a simple equivalent to 'Hello()' and ability to run script on startup.
+
+2014-03-10
+Worked on creating a DimPy loader and seperate python dll. The loader searches for python27.dll
+and loads it explicitly, while the python dll loads it implicitly. Uses the registry to find
+the location of the 2nd, python dll.
+
+2014-02-15
+Got:
+ - DM2008Helper working with latest version of DM SDK
+ - Built DimPy.dll
+
+Got error on startup:
+---------------------------
+DigitalMicrograph
+---------------------------
+The plug-in "DimPy.dll" was not loaded because the following error occured:
+
+Error formatting error message #193.
+---------------------------
+OK   
+---------------------------
+Fixed it by copying Python27.dll to DM folder, even though it was in System32...
+Removing Python_x64 directories from the path changed the message (I think it was about
+loading a 64-bit dll) to 'specified module not found'.
+
+Adding a Python32 python.exe that can be found to PATH fixed the problem. Not sure we can run without this?
+This works with old build DimPy (from email 11/7/13) but not with the one I just made!! Why??
+
+Then tried making sure DM2008Helper and DimPy used MultithreadedDLL (/MD) when building...
+That worked!
+
+
+2:01 PM 11/3/2013
+Haven't looked at this for a long time... left Nion, might be time to take another look...
+Looks like the most used version is the DimPy_Console debug build (DimPy.dll from 3/19/2012). It can also be found in the plugins folder of C:\Users\Matt\Work\TestEnvironment\DM\DigitalMicrograph
+
+The plugin exposes two functions, 'Hello' and 'World'. 'Hello()' opens the console and starts things. World looks like it was starting to do some function lookups as a way to call DM script functions.
+
+It would be quite nice if we could do something like dp.AA = np.zeros((512,512)) say and have it work, and similarly dp.AA() would call the AA script function (which is allowed in DM...). So maybe dp.AA could be an object that when assigned to would create a DM image, and when called would look up a DM function with the name and arguments supplied??
+
+Tried to get release version building: changed EditDM2008HelperStatic.py to copy latest debug and release and edit.
+
+Got it building after changing runtime to multithreaded dll. NB both debug and release build against this, so debug doesn't link to OS debug libraries... Probably not a big difference between the two (although 2.3 vs 1.4Mb...)
+
+9:29 PM 3/19/2012
+Now getting with numbers works (although admittedly by just formatting n into "[n]" and carrying on
+as a string). Would be nice to iterate over keys, we don't want a sequence as then taggroup[3] becomes ambiguous (or does it? Can we assume any non-string key is an index only, we don'ty allow any other keys)
+ok, sequence would be a bit nicer as we don't need to create an iterator object...
+It's a little odd though, would mean, eg for 
+
+tg_dict={"a":"AA", "b":"BB", "c":"CC"}
+then 
+tg_dict[0] = "a" and tg_dict[tg_dict[0]] gives us the first value, "AA"
+
+while
+tg_list=["DD", "EE", "FF"]
+then tg_list[0] = "DD", and tg_list[tg_list[0]] is undefined
+
+In the iterable approach, we'd always get keys ([1,2,3] or ['a','b','c']) that we can then use to reference the values. So iterable is the proper way to do this... An int, taggroup tuple would work
+as the iter object, but it should strictly return itself as it's iterobject, can we do that?
+Or can we just add a new int field to a taggroup for the current index and just pass a new reference? 
+
+Implemented the iter functions, seems to work. Added an inline TagGroupIterator class that has a TagGroup (not TagGroup*, I think ref counting should be ok??) and an index. Note %features must be defined before the class is encountered. Seems to work now:
+
+PyDM Starting...
+>>> t=dp.GetFrontImage().GetTagGroup()
+>>> t["gg"]="ffff"
+>>> t["ggc"]="ffffc"
+>>> t["dggc"]="ffffccc"
+>>> for i in t:
+...     print i
+...
+dggc
+gg
+ggc
+>>> t["list"] = range(10)
+>>> for i in t["list"]:
+...     print i
+...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>>
+
+
+
+11:45 PM 3/6/2012
+More TagGroups. Now we can
+t=dp.GetFrontImage().GetTagGroup()
+t["x"]=4
+t["y"]="bob"
+t["z"]={"k1":"df", "k2":"ff", "k33":45}
+t['a']=[34,77,88]
+etc
+Now in fact the setting is more flexible than the getting. in the above we can only get indexed tags via t["a"]["[1]"], we should be able to also do t['a'][1]. Also we should implement taggroups as a sequence, and also make any object that has a GetTags() function return that as a mapping (although not necessarily a sequence, as an image is more a sequence of pixels than a sequence of tags...).
+Removed public access to website :(
+
+10:59 PM 2/27/2012
+Worked on taggroups. Can't get nice way to get tag type, we can call GetTagType(x) for 0<=x<tg.CountTags() then we can call GetTagLabel(x) to get the name. Then I think we can call GetTagType(x, 0) to get the basic type, which, if a collection, we call GetTagType(x,1) to get the next type. But currently reading string and subtaggroup is there, eg 
+tg["X"]["S"] works.
+Next we need assignment and exposing as sequence so that tg[x]={}, tg[x][y]="bob" works and for x in tg: works too 
+
+
+11:41 PM 2/26/2012
+OLK has nixed the paper. Still some interesting ideas. So numpy works with images, eg np.asarray(dmimage) gives read write acess to the image data, with a datalocker that gets deleted when we no longer have any references.
+
+Next step is to get taggroups working. Note that indexed tags can be got with getting a tag with name [n], but we can't set a tag with that, we have to use indexed tag functions. It would be nice to work out if a taggroup is an indexed taglist or a taggroup, and expose one as a sequence, the other as a mapping.
+
+11:59 PM 2/21/2012
+Got importing images into numpy working
+Note that SWIG doesn't really support the new buffer interface, it lets you add the slots (bf_releasebuffer and bf_getbuffer) but tp_flags is hardcoded. We need Py_TPFLAGS_HAVE_NEWBUFFER in the flags for Gatan::DM::Image
+for it to support the new buffer functions. Although can we just define it globally? every object does have the
+struct places for it? OK did that instead
+
+11:51 AM 2/20/2012
+M&M deadline extended until Feb22
+Lets try and understand how to get image data into NumPy, and aim for a nice screenshot, with, say, a nice non power of 2 FFT and maybe IPython.
+
+Let's try adding an __item__(int) to image. We could also try making an extension dll that calls into DM and load that from DimPy. Would it be easier to reload that module instead of always restarting DM? Would it work? - don't think so, look like all function calls go through an initialized PlugIn that I'm not sure we can initialise ourselves. Tried, but it didn't work
+NB http://docs.python.org/faq/windows.html says
+
+Using a Python shell script to put up a Python interpreter window from inside your Windows app is not a good idea; the resulting window will be independent of your app’s windowing system. Rather, you (or the wxPythonWindow class) should create a “native” interpreter window. It is easy to connect that window to the Python interpreter. You can redirect Python’s i/o to _any_ object that supports read and write, so all you need is a Python object (defined in your extension module) that contains read() and write() methods.
+
+so we should think about that, and it looks like making a Python object is the easiest way to do this
+
+NB worth looking at http://ipython.org/ipython-doc/rel-0.12/interactive/reference.html#gui-support if we go with IPython
+
+So looks  alittle tricky getting the Buffer Data. http://www.swig.org/Doc1.1/HTML/Python.html talks about acessing data using functions, and returning objects that can be indexed, so image[0] returns a wrapper object such that image[0][0] gives the right pixel. But it seems as though with the right PyBuffer (eg see http://www.python.org/dev/peps/pep-3118/) this can all be done for us, and all we need to specify is a type and a format?
+
+http://old.nabble.com/swig-python-extension-accessing-PyObject-to-implment-pep-3118-(revised-buffer-Protocol)-td32548847.html looks helpful. Says to use -builtin and python slots in swig...
+
+11:14 AM 2/12/2012
+Removed notes from Multiple Cplugin.cpp files and moved to this file, DimpyNotes.txt
+So in summary, we have three versions:
+1. Console, no MFC or dotnot. Runs synchronously. Needs Python built with same runtime libs for reasiigning stdin/out to work properly
+2. Win32 version, no MFC (vs9 express editions doesn't support it). Not working currently, but could look into creating windows etc the old fashioned way
+3. .Net version. no MFC, dotnet 2.0. Needs a dotnet install, but for making an advanced UI will be a lot easier than 2.
+
+1. is the most simple, and I think looking into running python in it's own thread would be nice, assuming calling into DM is threadsafe (which it mostly seems to be, providing there are no deadlocks). Questions then arise about how to call Python functions from DM? So let's work on the basic console function, with the folowing DM functions:
+
+DimPy_EvaluateString(String s); //evaluates the string s
+DimPy_StartConsole(); //opens a new console window in a new thread, if it's not already open
+
+Then in Python,
+Dimpy module containing DM functions
+Dimpy.DM class with __getattr__ overrideen to allow for function discovery and inline images
+Dimpy functions need to return objects compatible with NumPy
+
+Configurational:
+Can we run without Python27 in root, and it finding it from the registry. I think we need this so that installed modules only need to be in one place. Yes. Python looks for HKEY_LOCAL_MACHINE\SOFTWARE\Python\PythonCore\2.7\InstallPath (NB this may be in SOFTWARE\Wow6432Node\ for 32bit installs, looking for the key in a 32-bit app will automatically redirect).
+
+Note that we don't actually have to have Python27.lib in the library import file (and also using the corrrect DM lib makes compiling a lot easier) - it uses #pragma comment(lib, "Pthon27.lib") (or _d.libe #if _DEBUG) which is nice
+
+Used _beginthreadex to start python loop. Moved swigFiles outside of projects so that all projects can use the same file (didn't update win32 nor dotnet project yet). Now strings work. How about images. It looks like
+returning the image data as a buffer may be the way to go, see eg http://docs.python.org/c-api/buffer.html
+//but what does numpy like? We should also convert tags to dictionaries
+
+
+
+MFM 8Feb12 cant find vsnet...Let's try for a non-MFC dot net version. Got it to compile with CLR, after removing DeleteFile and CreateDirectory (name clashes??) from the 
+DM interface file. Let's see if we can get a UI. Release build works too.
+Got it to build, but now see MSIL errors about running managed code at startup... sticking #pragma unmanaged before includes works (?)
+now it compiles, but can't find the functions!!! It can when we take off /clr. What's going on? If we take it off in the properties for this file, it works 
+even though the project is managed...
+OK, so moving things around into managed and unmanaged source files seems to work. It's a shame the compiler crashes when we look at the length of the text in the 
+rich text box, but it's getting there. In fact, if we alloc the console, we get the shell output. Next step is to work out how to display that ourselves
+1. PyRun_String outputs to stdout, can we get that info?
+2. What to do about line continuations?
+3. Do we need python.dll in same folder as DM? If not, how does it work out where Python is installed? HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Python.exe?
+4. What about running Python shell in seperate thread. Would make everything a lot easier. 
+
+
+
+
+mfm31Jan12
+So the rather useful DM::FindFunctionBySignature function (which I think is very close to Gatan::PlugIn::gDigitalMicrographInterface->lookup_function( string))
+will happily find functions for a wide variety of different types. Eg according to DMPlugInStubs, DM::GetSize takes an image, and two long*
+but FindFunctionBySignature(ImageRef, double*, double*) equally works. We then use this signature to call the function. 
+(calling FunctionGenerateStub on the function found gives:
+void GetSize( const Image &im, double *argument_2, long *argument_3 )
+{
+	static Function __sFunction = (DM_FunctionToken) NULL;
+	static const char *__sSignature = "void GetSize( BasicImage, double *, long * )";
+
+	DM_Variant params[3];
+
+	params[0].v_object = (DM_ObjectToken) im.get();
+	params[1].v_float64_ref = argument_2;
+	params[2].v_sint32_ref = argument_3;
+	GatanPlugIn::gDigitalMicrographInterface.CallFunction( __sFunction.get_ptr(), 3, params, __sSignature );
+}
+)
+
+So it looks like calling a function with a non-matching but compatible signature causes DM to do all the necessary casting for us
+Strings go to char*, String& to char**, other objects stay themselves.
+
+This means we should be able to write a function in python that takes a function and a variable number of args,
+then looks for a function with that name and takes the types from the args. We don't have any info about the return type though...
+One thing to note is that when we ask for a function with modified return types, the token is large (>80 000 000) and changeable, so I think a proxy object is created
+and we get a handle to it. With the native signature, the value is smaller (~3 000 000) and seems constant, so may refer to the fixed function in memory
+So can we get to the real function from the proxy one? Maybe. I think token is just a pointer, and it can probably be cast to something that might tell use where
+the real function is?
+
+
+
+
+mfm 2Feb12 What happens to the __sFunction token we use to call the function? Does that get populated with something useful? Nope, points to the same function
+we just found.
+
+
+
+
+mfm 6Feb12 - let's try to incorporate MFC into the DLL. At some point we're going to need a nice ish UI. OK, we run into problems. We need to build against v90 with MFC
+and the DM libraries, but the express editions don't support MFC. Also, we get the usual linking playing around. Lets' try using basic win32 functions instead.?
+A bit of a pain, but maybe doable. Tried linking with the self-built versions, just to see where we're waiting when running the loop.
+
+So how are we going to present shell to user? Do we run python in interactive mode, or do we just do a manual set of PyRun_SimpleString each time return is pressed?
+What do we return. Would IPython make this easier? Looks like the eval functions are closer to the ones we want. I think solution is to use VS.NET full edition
+which means we can then skip DM2008Helper, skip CLR, use MFC and eval string in a custom window (and load Python projects without converting). Let's look 
+for vs.net tomorrow. 
+
+
+
+MFM 30Jan 12. Worked more on interface file. Made SwigCopy batch file. Added autodocs. Started changing some int *r to int *OUTPUT, but
+then instead went the %apply float *OUTPUT  {float *lowLimit, float *highLimit }; route. Added applies for long, ulong, float, double, bool
+pointers. Added typemaps for const String& in and String out (finally, still have no idea how to work out the length of a string from itself)
+TODO: Can we call general script functions from Dimpy? This is almost like running SWIG at runtime to create modules that we link to dynamically
+What about classes? Can we wrap them in Python? Is there an easier way to call external functions? 
