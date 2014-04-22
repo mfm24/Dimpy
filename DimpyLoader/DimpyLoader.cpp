@@ -91,6 +91,19 @@ HMODULE try_from_registry(HKEY rt, char* path, char* valuename)
 		char *p=new char[l];
 		sprintf_s(p, l, "%s\\Python%c%c.dll", python_module_path, pythonver[0], pythonver[1]);
 		ret = LoadLibrary(p);
+		if(ret)
+		{
+			//we've loaded it, let's add to start of path
+			DWORD len = GetEnvironmentVariable("PATH", NULL, 0);
+			char *pathp=new char[len+3];
+			GetEnvironmentVariable("PATH", pathp, len+3);
+			char *newpath = new char[len+3+strlen((char*)python_module_path)+3];
+			sprintf(newpath, "%s;%s", python_module_path, pathp);
+			SetEnvironmentVariable("PATH", newpath);
+			delete[] pathp;
+			delete[] newpath;
+
+		}
 		delete[] p;
 	}
 	return ret;
@@ -180,7 +193,7 @@ long DimpyLoader_PyRun_SimpleString(const char *s)
 	if(to_call)
 		return to_call(s);
 	else
-		DM::Result("Found DimPy.dll but procedure 'main_from_dm' not found!");
+		DM::Result("Found DimPy.dll but procedure 'Dimpy_PyRun_SimpleString' not found!");
 	return -1;
 }
 void DimpyLoader_alloc_console_and_reassign_std()

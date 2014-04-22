@@ -5,6 +5,8 @@ Stride should be 2*n,2 for a C style contiguous array (not n, 2*n).
 
 Would also be nice to have a simple equivalent to 'Hello()' and ability to run script on startup.
 
+Added buildnotes for building the bits. Couldn't get DimpyLoader to load DimPy.dll now.
+
 2014-03-10
 Worked on creating a DimPy loader and seperate python dll. The loader searches for python27.dll
 and loads it explicitly, while the python dll loads it implicitly. Uses the registry to find
