@@ -169,9 +169,11 @@ found.
 	DM::Result("hello, ");
 }
 
+// exported functions
 extern "C" {
 	__declspec(dllexport) long Dimpy_Init(const char*);
 	__declspec(dllexport) long Dimpy_PyRun_SimpleString(const char*);
+	__declspec(dllexport) long Dimpy_StartREPL(bool bUseThread);
 }
 
 long Dimpy_Init(const char *pythonloc)
@@ -191,6 +193,22 @@ long Dimpy_Init(const char *pythonloc)
 long Dimpy_PyRun_SimpleString(const char*s)
 {
 	return PyRun_SimpleString(s);
+}
+
+long Dimpy_StartREPL(bool bUseThread)
+{
+	if (bUseThread)
+	{
+		unsigned int threadid;
+		_beginthreadex(NULL, 0, StartPyThread, NULL,  0, &threadid);
+	}
+	else
+	{
+		//PyRun_SimpleString("import DigitalMicrograph as DM");
+		PyRun_InteractiveLoop(stdin, "<stdin>");
+		FreeConsole();
+	}
+	return 0;
 }
 ///
 /// This is second of two functions which will be available to the script 

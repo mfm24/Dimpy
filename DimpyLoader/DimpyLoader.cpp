@@ -78,6 +78,8 @@ long get_reg_key(HKEY rt, char* path, char* valuename, BYTE** put_into)
 
 typedef void (*f_voidvoid)(void);
 typedef long (*f_longsz)(const char *);
+typedef long (*f_longb)(bool);
+
 HMODULE h_dimpy = NULL;
 BYTE *python_module_path=NULL;
 
@@ -98,7 +100,7 @@ HMODULE try_from_registry(HKEY rt, char* path, char* valuename)
 			char *pathp=new char[len+3];
 			GetEnvironmentVariable("PATH", pathp, len+3);
 			char *newpath = new char[len+3+strlen((char*)python_module_path)+3];
-			sprintf(newpath, "%s;%s", python_module_path, pathp);
+			sprintf(newpath, "%s;%s", pathp, python_module_path);
 			SetEnvironmentVariable("PATH", newpath);
 			delete[] pathp;
 			delete[] newpath;
@@ -205,14 +207,43 @@ void DimpyLoader_alloc_console_and_reassign_std()
     freopen("CONOUT$","wt",stdout);
     freopen("CONOUT$","wt",stderr);
     freopen("CONIN$","rt",stdin);
-	printf("DimPy Console\n");
+	printf("Welcome to the DimPy console!\n");
+}
+
+long DimpyLoader_StartREPL(bool b)
+{
+	if(h_dimpy == NULL)
+		DimpyLoader_Init();
+	if(h_dimpy == NULL)
+		return -1;
+	f_longb to_call = (f_longb) GetProcAddress(h_dimpy, "Dimpy_StartREPL");
+	if(to_call)
+		return to_call(b);
+	else
+		DM::Result("Found DimPy.dll but procedure 'Dimpy_StartREPL' not found!");
+	return -1;
+}
+
+void DimpyLoader_open_console()
+{
+	// Calls DimpyLoader_alloc_console_and_reassign_std after initialising
+	// python, and the prints out sys.version, like a grown-up shell would.
+	// We then start the REPL in a new thread.
+	if(h_dimpy == NULL)
+		DimpyLoader_Init();
+	if(h_dimpy == NULL)
+		return;
+	DimpyLoader_alloc_console_and_reassign_std();
+	DimpyLoader_PyRun_SimpleString("import sys; print(sys.version)");
+	DimpyLoader_StartREPL(true);
 }
 
 void LibraryExample::Start()
 {
 	// add our functions to the script library
 	AddFunction("long DimpyLoader_PyRun_SimpleString(string)", (void *) DimpyLoader_PyRun_SimpleString);
-	AddFunction("void DimpyLoader_alloc_console_and_reassign_std(void)", (void *) DimpyLoader_alloc_console_and_reassign_std);
+	//AddFunction("void DimpyLoader_alloc_console_and_reassign_std(void)", (void *) DimpyLoader_alloc_console_and_reassign_std);
+	AddFunction("void Dimpy_open_console(void)", (void *) DimpyLoader_open_console);
 }
 
 void LibraryExample::Run()

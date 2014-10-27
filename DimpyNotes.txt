@@ -1,11 +1,69 @@
 Notes for creating Dimpy. Moved from Cplugin.cpp 12Feb12. Latest at top:
+2014-10-26
+Been a while, but got email from Bernhard on Friday asking how it was going.
+Looks like we aer still moving away from the single DLL to the double
+approach. Need:
+	+ Threaded REPL function - call Dimpy_open_console()
+	- Remove un-needed plugin code from DimPy.dll
+	- Try to get ZMQ/IPython setup as default?
+
+2014-04-23
+
+Got it working. We do need the manifest to do so, and it's worth checking it (opening in VS and checking the manifest)
+Should be the same as the one in Python27.dll
+
+(Tried not embedding a manifest and having a separate .2.manifest (and .manifest)) but ProcMon showed it looking for neither and it failed)
+
+And DimpyLoader_PyRun_SimpleString("dir()") works now after rebuilding with a embedded manifest! 
+
+Import zmq fails because libzmq.pyd has no manifest. Doesn't seem to look for an external one (NB 
+http://csi-windows.com/blog/all/27-csi-news-general/245-find-out-why-your-external-manifest-is-being-ignored
+talks about this and suggests the manifests are cached, so maybe clearing the cache would make it look?)
+
+Finally used mt.exe to fix this. From python exe and VS console folder:
+mt -inputresource:python27.dll;#2 -outputresource:Lib\site-packages\zmq\libzmq.pyd;#2
+
+Still hoping to get IPython to run. import uuid fails probably due to http://bugs.python.org/issue17213
+see Igor fix there (to add is os.name not in ['nt', ...]) around c loading block
+
+Although this may have not been the problem. Can run open_ipython_window now, but nothing happens...
+DimpyLoader_PyRun_SimpleString("execfile(r'C:\\Users\\matt\\Dropbox\\personal\\dev\\Dimpy\\DimPy_Console\\scripts\\open_ipython_window.py')")
+
+2014-04-22
+If we start 32bit python and import ctypes; ctypes.cdll.DimPy
+Then procmon shows msvcp90 loaded from SxS 9.0.30729.6161
+And looks as though same version was loaded of msvcr.
+
+Under DM, it loads msvcp71 and msvcr71 at startup. Then DimpyLoader loads msvcr90D...
+(v 9.0.30729.1)
+could this be a problem?
+
+Let's try adding WinPython path to END of path and running release version...
+With release version, can't find msvcP90.dll. Doesn't even try SxS folders. Added msvc*.dll from
+python folder. Now we get an R6034 'application has made an attempt to  load the C runtime incorrectly'
+
+Still not working after stopping mt.exe errors by excluding folder from security essentials path.
+
+So things have got worse. At least with debug dlls we were getting further, although maybe just postponing
+these problems. Tried copying the msvcr version specified in the manifest to the DM folder but still no dice.
+
+But it was working - what happened? Can we build a simpler dll and make sure the release version of that works?
+
 2014-04-21
 Noticed that the previous version was getting the stride and dimension values wrong.
 Stride should be 2*n,2 for a C style contiguous array (not n, 2*n).
 
 Would also be nice to have a simple equivalent to 'Hello()' and ability to run script on startup.
 
-Added buildnotes for building the bits. Couldn't get DimpyLoader to load DimPy.dll now.
+Added buildnotes for building the bits. Couldn't get DimpyLoader to load DimPy.dll now. Looks like it's
+loading a 64-bit msvcp90.dll.
+
+Do we need to add the python27 folder to path (conveniently providing both python27.dll and 
+msvc*90.dll files) rather than just loading from the full path. Did this and it finds msvcp90 and then msvcr90 and then we get a 'Application has made an attempt to load the C runtime library incorrectly' R6034 error.
+Says this is because we need a manifest - is this for DM or DimpyLoader or DimPy?
+
+Tried not embedding the manifest (I think it's related to the mt.exe error before), but still can't fix it.
+I assume loading Python27.dll is loading the runtime, so it's likely to be a problem with DimPy.dll rather than DM?
 
 2014-03-10
 Worked on creating a DimPy loader and seperate python dll. The loader searches for python27.dll
