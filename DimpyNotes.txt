@@ -4,8 +4,22 @@ Been a while, but got email from Bernhard on Friday asking how it was going.
 Looks like we aer still moving away from the single DLL to the double
 approach. Need:
 	+ Threaded REPL function - call Dimpy_open_console()
-	- Remove un-needed plugin code from DimPy.dll
+	+ Remove un-needed plugin code from DimPy.dll (we do need to be
+		a plugin for libraries to link properly(?))
+	+ Why does dm.Result() crash - do we need to be a bonafide plugin???
+	Yes, unless we can find some way of programmatically installing a plugin
+	explicitly... We also need to make sure DimpyLoader gets opened before Dimpy
+	(Seems to be alphabetical at the moment, though may not be any guarantee of that)
+	It works for now (could we even have DimpyLoader as a dependency of Dimpy, and it
+	might load that before looking for Python??)
+
 	- Try to get ZMQ/IPython setup as default?
+	This isn't trivial. IPython.embed_kernel almost works, but gets hung up on signals not
+	working in non main thread. Seems to be docs for different version of IPython around.
+	Upgrading to IPython 2.3 (from 1.1)... No difference...
+	(There's still that problem about loading msvcr90 when it's already loaded...
+	might be in pyreadline, but this could be a fundamental problem with not being
+	the python runtime? see http://stackoverflow.com/questions/1348547/different-versions-of-msvcrt-in-ctypes)
 
 2014-04-23
 

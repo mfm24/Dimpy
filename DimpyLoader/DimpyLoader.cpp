@@ -167,7 +167,9 @@ void DimpyLoader_Init(void)
 		DM::Result("DimpyLoader: Loaded Python library!\n");
 		//and we finally load our dll
 		char *t=new char[strlen((char*)pDimpyPath)+100];
-		sprintf(t, "%s\\DimPy.dll", pDimpyPath);
+		// MFM 2104-10-26 DimPy has to be a plugin, so we don't
+		// need a dimpy path, should always be this:
+		sprintf(t, "Plugins\\DimpyMain.dll", pDimpyPath);
 		h_dimpy = LoadLibrary(t);
 		delete[] t;
 		if(h_dimpy)
@@ -176,10 +178,10 @@ void DimpyLoader_Init(void)
 			if(to_call)
 				to_call((char*) python_module_path);
 			else
-				DM::Result("Found DimPy.dll but procedure 'Dimpy_Init' not found!");
+				DM::Result("Found DimpyMain.dll but procedure 'Dimpy_Init' not found!");
 		}
 		else
-			DM::Result("Can't find DimPy.dll!");
+			DM::Result("Can't find DimpyMain.dll!");
 	}
 
 	delete[] pDimpyPath;
@@ -195,7 +197,7 @@ long DimpyLoader_PyRun_SimpleString(const char *s)
 	if(to_call)
 		return to_call(s);
 	else
-		DM::Result("Found DimPy.dll but procedure 'Dimpy_PyRun_SimpleString' not found!");
+		DM::Result("Found DimpyMain.dll but procedure 'Dimpy_PyRun_SimpleString' not found!");
 	return -1;
 }
 void DimpyLoader_alloc_console_and_reassign_std()
@@ -220,7 +222,7 @@ long DimpyLoader_StartREPL(bool b)
 	if(to_call)
 		return to_call(b);
 	else
-		DM::Result("Found DimPy.dll but procedure 'Dimpy_StartREPL' not found!");
+		DM::Result("Found DimpyMain.dll but procedure 'Dimpy_StartREPL' not found!");
 	return -1;
 }
 
@@ -240,9 +242,15 @@ void DimpyLoader_open_console()
 
 void LibraryExample::Start()
 {
+	// MFM 2014-10-26 for DimPy to have access to functions, it needs to be a real plugin
+	// Which means we need to load Python before DimPy gets loaded. So we
+	// do as soon as possible:
+	DimpyLoader_Init();
 	// add our functions to the script library
 	AddFunction("long DimpyLoader_PyRun_SimpleString(string)", (void *) DimpyLoader_PyRun_SimpleString);
-	//AddFunction("void DimpyLoader_alloc_console_and_reassign_std(void)", (void *) DimpyLoader_alloc_console_and_reassign_std);
+	//Setting stdout can be useful for getting results from SimpleString without
+	// the full REPL experience
+	AddFunction("void DimpyLoader_alloc_console_and_reassign_std(void)", (void *) DimpyLoader_alloc_console_and_reassign_std);
 	AddFunction("void Dimpy_open_console(void)", (void *) DimpyLoader_open_console);
 }
 

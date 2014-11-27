@@ -101,11 +101,18 @@ int PythonGatanDMImage_bf_getbuffer(PyObject *pyobj, Py_buffer *view, int flags)
   view->shape = new Py_ssize_t [view->ndim];
   view->strides = new Py_ssize_t [view->ndim];
   int px=1;
+  // The last index is the fast one (ie stride=view->itemsize)
+
   for(int i=0; i<view->ndim; i++)
   {
-    view->shape[i] = self->GetDimensionSize(i);
-    view->strides[i] = px*view->itemsize;
-    px*= view->shape[i];
+	// i is the 'DM' index (0=x, 1=y, 2=z(? - check - how is nd data stored??))
+	// py_index is python index (0=y, 1=x)
+	int py_index = view->ndim - 1 - i;
+    view->shape[py_index] = self->GetDimensionSize(i);
+    view->strides[py_index] = px*view->itemsize;
+	// for the next dimension, our stride is longer by the size of
+	// the dimension we just added
+    px*= view->shape[py_index];
   }
   view->len = px;
   view->suboffsets = NULL;
