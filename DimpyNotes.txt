@@ -1,4 +1,19 @@
 Notes for creating Dimpy. Moved from Cplugin.cpp 12Feb12. Latest at top:
+2015-08-22
+Bernhard stll bugging me!
+Had removed Python32 from the system with windows 10. Thought this might be a good time
+to try some installation instructions and send Bernhard the current version!
+
+Had some problems: Couldn't run from DM after installing WinPython-2.7.10
+Then when trying to build DimpyMain.dll got mt.exe failed (exited with erro 31). Still created
+a dll, but this one wouldn't load (didn't get as far as previous one...).
+** NEED TO EXCLUDE RELEASE FOLDER FROM WINDOWS DEFENDER else it locks file
+and prevents mt.exe from working!! **
+
+**ARG problem was any invalid function was crashing it and I was using non-exposed
+idmpy functions, not the dimpyLoader functions!!!**
+
+
 2014-10-26
 Been a while, but got email from Bernhard on Friday asking how it was going.
 Looks like we aer still moving away from the single DLL to the double
@@ -206,7 +221,7 @@ Lets try and understand how to get image data into NumPy, and aim for a nice scr
 Let's try adding an __item__(int) to image. We could also try making an extension dll that calls into DM and load that from DimPy. Would it be easier to reload that module instead of always restarting DM? Would it work? - don't think so, look like all function calls go through an initialized PlugIn that I'm not sure we can initialise ourselves. Tried, but it didn't work
 NB http://docs.python.org/faq/windows.html says
 
-Using a Python shell script to put up a Python interpreter window from inside your Windows app is not a good idea; the resulting window will be independent of your app’s windowing system. Rather, you (or the wxPythonWindow class) should create a “native” interpreter window. It is easy to connect that window to the Python interpreter. You can redirect Python’s i/o to _any_ object that supports read and write, so all you need is a Python object (defined in your extension module) that contains read() and write() methods.
+Using a Python shell script to put up a Python interpreter window from inside your Windows app is not a good idea; the resulting window will be independent of your appï¿½s windowing system. Rather, you (or the wxPythonWindow class) should create a ï¿½nativeï¿½ interpreter window. It is easy to connect that window to the Python interpreter. You can redirect Pythonï¿½s i/o to _any_ object that supports read and write, so all you need is a Python object (defined in your extension module) that contains read() and write() methods.
 
 so we should think about that, and it looks like making a Python object is the easiest way to do this
 

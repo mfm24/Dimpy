@@ -99,6 +99,7 @@ unsigned int __stdcall StartPyThread(VOID* args)
 
 // exported functions
 extern "C" {
+	// NB THESE ARE NOT DM functions! Use DimpyLoader functions to call these!
 	__declspec(dllexport) long Dimpy_Init(const char*);
 	__declspec(dllexport) long Dimpy_PyRun_SimpleString(const char*);
 	__declspec(dllexport) long Dimpy_StartREPL(bool bUseThread);
