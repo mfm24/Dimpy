@@ -20,14 +20,6 @@ see DimpyNotes.txt
 #define _GATANPLUGIN_USE_CLASS_PLUGINMAIN
 #include "DMPlugInMain.h"
 using namespace Gatan;
-class LibraryExample : public GatanPlugIn::PlugInMain
-{
-	virtual void Start() {}
-	virtual void Run() {}
-	virtual void Cleanup() {}
-	virtual void End() {}
-};
-LibraryExample gTemplatePlugIn;
 
 #include <python.h>
 #include <process.h> //for thread creation
@@ -101,8 +93,6 @@ unsigned int __stdcall StartPyThread(VOID* args)
 extern "C" {
 	// NB THESE ARE NOT DM functions! Use DimpyLoader functions to call these!
 	__declspec(dllexport) long Dimpy_Init(const char*);
-	__declspec(dllexport) long Dimpy_PyRun_SimpleString(const char*);
-	__declspec(dllexport) long Dimpy_StartREPL(bool bUseThread);
 }
 
 long Dimpy_Init(const char *pythonloc)
@@ -124,8 +114,12 @@ long Dimpy_PyRun_SimpleString(const char*s)
 	return PyRun_SimpleString(s);
 }
 
+bool hasStartedPython = false;
 long Dimpy_StartREPL(bool bUseThread)
 {
+	if(hasStartedPython)
+		return -1;
+	hasStartedPython = true;
 	if (bUseThread)
 	{
 		unsigned int threadid;
@@ -139,3 +133,47 @@ long Dimpy_StartREPL(bool bUseThread)
 	}
 	return 0;
 }
+ 
+bool hasAllocedConsole=false;
+void Dimpy_alloc_console_and_reassign_std()
+{
+	if(hasAllocedConsole)
+		return;
+	hasAllocedConsole = true;
+	AllocConsole();
+	// Redirect Standard IO Streams to the new console
+	//Note that it is critical that the python lib we're linking to uses the same C runtime. If not, setting stdout/in/err here
+	//won't affect the values in the runtime for the dll. 
+    freopen("CONOUT$","wt",stdout);
+    freopen("CONOUT$","wt",stderr);
+    freopen("CONIN$","rt",stdin);
+	printf("Welcome to the DimPy console!\n");
+}
+
+void Dimpy_open_console()
+{
+	// Calls DimpyLoader_alloc_console_and_reassign_std after initialising
+	// python, and the prints out sys.version, like a grown-up shell would.
+	// We then start the REPL in a new thread.
+	Dimpy_alloc_console_and_reassign_std();
+	Dimpy_PyRun_SimpleString("import sys; print(sys.version)");
+	Dimpy_StartREPL(true);
+}
+
+class LibraryExample : public GatanPlugIn::PlugInMain
+{
+	virtual void Start() 
+	{
+		// add our functions to the script library
+		AddFunction("long Dimpy_PyRun_SimpleString(string)", (void *) Dimpy_PyRun_SimpleString);
+		//Setting stdout can be useful for getting results from SimpleString without
+		// the full REPL experience
+		AddFunction("void Dimpy_alloc_console_and_reassign_std(void)", (void *) Dimpy_alloc_console_and_reassign_std);
+		AddFunction("void Dimpy_open_console(void)", (void *) Dimpy_open_console);
+		DM::AddScriptToMenu("Dimpy_open_console();", "Open Console", "DimPy", NULL, 0);
+	}
+	virtual void Run() {}
+	virtual void Cleanup() {}
+	virtual void End() {}
+};
+LibraryExample gTemplatePlugIn;

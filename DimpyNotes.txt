@@ -1,4 +1,9 @@
 Notes for creating Dimpy. Moved from Cplugin.cpp 12Feb12. Latest at top:
+2015-08-23
+Shared version with Bernhard via DropBox.
+Moved plugin functions into DimpyMain, and just made DimpyLoader only load python dll
+Added dimpy_start() function as recommended way to start.
+
 2015-08-22
 Bernhard stll bugging me!
 Had removed Python32 from the system with windows 10. Thought this might be a good time
@@ -11,7 +16,7 @@ a dll, but this one wouldn't load (didn't get as far as previous one...).
 and prevents mt.exe from working!! **
 
 **ARG problem was any invalid function was crashing it and I was using non-exposed
-idmpy functions, not the dimpyLoader functions!!!**
+dimpy functions, not the dimpyLoader functions!!!**
 
 
 2014-10-26
