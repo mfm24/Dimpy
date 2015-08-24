@@ -119,18 +119,6 @@ void DimpyLoader_Init(void)
 	//give sensible diagnostics if any libraries
 	//are missing.
 
-	//1st, do we have SimpyLocation in registry, (HKCU/Software/DimPy/Path) without this,
-	//no point continuing
-	BYTE *pDimpyPath = NULL;
-	long r = get_reg_key(HKEY_CURRENT_USER, "Software\\DimPy", "Path", &pDimpyPath);
-	if (r!=0)
-		r = min(r, get_reg_key(HKEY_LOCAL_MACHINE, "Software\\DimPy", "Path", &pDimpyPath));
-	if (r==2)  { DM::Result("Dimpy not installed!\n");  return; }
-	if (r==1)  { DM::Result("Dimpy not installed! (no 'Path' key found)\n");  return; }
-	char *t=new char[strlen((char*)pDimpyPath)+100];
-	sprintf(t, "FoundKey %s\n", pDimpyPath);
-	DM::Result(t);
-	delete[] t;
 	//we look for Python27.dll in the following locations, in order:
 	//1. HKCU/Software/Dimpy/PythonPath
 	//2. HKLM/Software/Dimpy/PythonPath
@@ -166,10 +154,9 @@ void DimpyLoader_Init(void)
 	{
 		DM::Result("DimpyLoader: Loaded Python library!\n");
 		//and we finally load our dll
-		char *t=new char[strlen((char*)pDimpyPath)+100];
+		char *t = "Plugins\\DimpyMain.dll";
 		// MFM 2104-10-26 DimPy has to be a plugin, so we don't
 		// need a dimpy path, should always be this:
-		sprintf(t, "Plugins\\DimpyMain.dll", pDimpyPath);
 		h_dimpy = LoadLibrary(t);
 		delete[] t;
 		if(h_dimpy)
@@ -183,61 +170,6 @@ void DimpyLoader_Init(void)
 		else
 			DM::Result("Can't find DimpyMain.dll!");
 	}
-
-	delete[] pDimpyPath;
-}
-
-long DimpyLoader_PyRun_SimpleString(const char *s)
-{
-	if(h_dimpy == NULL)
-		DimpyLoader_Init();
-	if(h_dimpy == NULL)
-		return -1;
-	f_longsz to_call = (f_longsz) GetProcAddress(h_dimpy, "Dimpy_PyRun_SimpleString");
-	if(to_call)
-		return to_call(s);
-	else
-		DM::Result("Found DimpyMain.dll but procedure 'Dimpy_PyRun_SimpleString' not found!");
-	return -1;
-}
-void DimpyLoader_alloc_console_and_reassign_std()
-{
-	AllocConsole();
-	// Redirect Standard IO Streams to the new console
-	//Note that it is critical that the python lib we're linking to uses the same C runtime. If not, setting stdout/in/err here
-	//won't affect the values in the runtime for the dll. 
-    freopen("CONOUT$","wt",stdout);
-    freopen("CONOUT$","wt",stderr);
-    freopen("CONIN$","rt",stdin);
-	printf("Welcome to the DimPy console!\n");
-}
-
-long DimpyLoader_StartREPL(bool b)
-{
-	if(h_dimpy == NULL)
-		DimpyLoader_Init();
-	if(h_dimpy == NULL)
-		return -1;
-	f_longb to_call = (f_longb) GetProcAddress(h_dimpy, "Dimpy_StartREPL");
-	if(to_call)
-		return to_call(b);
-	else
-		DM::Result("Found DimpyMain.dll but procedure 'Dimpy_StartREPL' not found!");
-	return -1;
-}
-
-void DimpyLoader_open_console()
-{
-	// Calls DimpyLoader_alloc_console_and_reassign_std after initialising
-	// python, and the prints out sys.version, like a grown-up shell would.
-	// We then start the REPL in a new thread.
-	if(h_dimpy == NULL)
-		DimpyLoader_Init();
-	if(h_dimpy == NULL)
-		return;
-	DimpyLoader_alloc_console_and_reassign_std();
-	DimpyLoader_PyRun_SimpleString("import sys; print(sys.version)");
-	DimpyLoader_StartREPL(true);
 }
 
 void LibraryExample::Start()
@@ -246,12 +178,6 @@ void LibraryExample::Start()
 	// Which means we need to load Python before DimPy gets loaded. So we
 	// do as soon as possible:
 	DimpyLoader_Init();
-	// add our functions to the script library
-	AddFunction("long DimpyLoader_PyRun_SimpleString(string)", (void *) DimpyLoader_PyRun_SimpleString);
-	//Setting stdout can be useful for getting results from SimpleString without
-	// the full REPL experience
-	AddFunction("void DimpyLoader_alloc_console_and_reassign_std(void)", (void *) DimpyLoader_alloc_console_and_reassign_std);
-	AddFunction("void Dimpy_open_console(void)", (void *) DimpyLoader_open_console);
 }
 
 void LibraryExample::Run()

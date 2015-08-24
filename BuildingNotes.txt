@@ -1,0 +1,19 @@
+# mfm 2014-04-21
+# put latest building instructions here
+1. Swig files:
+cd C:\Users\matt\Dropbox\personal\dev\Dimpy
+cd SWIGFiles
+..\swigwin-2.0.4\swig.exe -c++ -python -shadow -builtin DigitalMicrograph.i
+# should create DigitalMicrograph_wrap.cxx
+
+2. building python dimpy dll
+build DimPy_Console in vs2010 using v90 tools
+Keep seeing mt.exe failed with code 31 errors...
+	 ** Remove folder from Windows Defender path to prevent this**
+Just building after (not rebuilding) seems to fix it
+
+3. build DimpyLoader
+use vs2010 with v90 tools.
+
+
+

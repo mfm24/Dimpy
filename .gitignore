@@ -1,0 +1,7 @@
+swigwin-2.0.4
+Release
+Debug
+ipch
+*.opensdf
+*.sdf
+*.suo
