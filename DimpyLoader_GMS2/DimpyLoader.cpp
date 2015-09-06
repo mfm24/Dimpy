@@ -1,6 +1,8 @@
 ///
 /// This plugin will install two simple script functions, 'Hello' and 'World'
 ///
+#include "Shlobj.h"
+
 #define _GATAN_USE_STL_STRING
 #define _GATANPLUGIN_USES_LIBRARY_VERSION 2
 #include "DMPlugInBasic.h"
@@ -8,33 +10,14 @@
 #define _GATANPLUGIN_USE_CLASS_PLUGINMAIN
 #include "DMPlugInMain.h"
 
+
 #if _MSC_VER>=1600
 	#pragma error Use v90 toolset to compile this file!
 #endif
 
-#ifdef _DEBUG
-#pragma comment(lib, "DMPlugInBasic_dll-Dbg.lib")
-#pragma comment(lib, "..\\DM2008Helper\\DM2008HelperStaticEdit_debug.lib")
-#else
-#pragma comment(lib, "DMPlugInBasic_dll.lib")
-#pragma comment(lib, "..\\DM2008Helper\\DM2008HelperStaticEdit_release.lib")
-#endif
-//MFM 2014-02-14
-//can't get DMSDK 3.8.2 without implementing this...
-//need to reference something in lib for it to load
-double teststaticlib();
-double d= teststaticlib();
-namespace Gatan
-{
-	namespace PlugIn
-	{
-		void DMScript_HandleException(struct Gatan::PlugIn::DM_Env *env,class std::exception const & ex)
-		{
-			DM::Result(ex.what());
-			DMScript_HandleException(env);
-		}
-	}
-}
+
+#pragma comment(lib, "DMPlugInBasic.lib")
+#pragma comment(lib, "Foundation.lib")
 
 using namespace Gatan;
 
@@ -46,7 +29,7 @@ class LibraryExample : public GatanPlugIn::PlugInMain
 	virtual void End();
 };
 
-char pythonver[2] = {'2', '7'};
+char pythonver[2] = {'x', 'y'};
 
 long get_reg_key(HKEY rt, char* path, char* valuename, BYTE** put_into)
 {
@@ -111,9 +94,44 @@ HMODULE try_from_registry(HKEY rt, char* path, char* valuename)
 	return ret;
 }
 
+size_t GetProgramDataFolder(char* dest, size_t len) {
+	PWSTR path;
+	SHGetKnownFolderPath(FOLDERID_ProgramData, 0, NULL, &path);
+	size_t pathlen = wcslen(path);
+	
+	/*
+	char t[256];
+	sprintf(t, "Got %d chars", pathlen);
+	DM::Result(t);
+	// */
+	if (pathlen <= len) {
+		size_t conv;
+		wcstombs_s(&conv, dest, len, path, pathlen);
+	}
+	CoTaskMemFree(path);
+	return pathlen;
+}
+
+//for debugging so we can use printf instead of DM::Result
+bool hasAllocedConsole=false;
+void DimpyLoader_alloc_console_and_reassign_std()
+{
+	if(hasAllocedConsole)
+		return;
+	hasAllocedConsole = true;
+	AllocConsole();
+	// Redirect Standard IO Streams to the new console
+	//Note that it is critical that the python lib we're linking to uses the same C runtime. If not, setting stdout/in/err here
+	//won't affect the values in the runtime for the dll. 
+    freopen("CONOUT$","wt",stdout);
+    freopen("CONOUT$","wt",stderr);
+    freopen("CONIN$","rt",stdin);
+	printf("Welcome to the DimPy console!\n");
+}
+
 void DimpyLoader_Init(void)
 {
-	//We try to dynamically load Python27.dll.
+	//We try to dynamically load Pythonxy.dll.
 	//Then load Dimpy.dll to properly start things.
 	//Using this double-dll approach so that we can
 	//give sensible diagnostics if any libraries
@@ -136,17 +154,32 @@ void DimpyLoader_Init(void)
 	//    2. HKCU/Software/Python/PythonCore/x.y/InstallPath/""
 	//    3. HKLM/Software/Python/PythonCore/x.y/InstallPath/""
 	// If none found, we just try LoadLibrary("pythonxy.dll") instead...
+	//DimpyLoader_alloc_console_and_reassign_std();
 	HMODULE h = NULL;
 	HANDLE hand = NULL;
-	char t[256];
+	const int buflen = 256;
+	char t[buflen];
 	WIN32_FIND_DATA finddata;
-	hand = FindFirstFile("DimPy??.dll", &finddata);
+	char pluginpath[buflen];
+	
+
+	//get plugin folder and sprintf into plugin path
+	GetProgramDataFolder(t, buflen);
+	sprintf_s(pluginpath, buflen, "%s\\Gatan\\Plugins", t);
+
+	// t is now our file path finder
+	sprintf_s(t, buflen, "%s\\DimPy??.dll", pluginpath);
+	hand = FindFirstFile(t, &finddata);
 	if (hand == INVALID_HANDLE_VALUE) {
 		DM::Result("0_DimpyLoader: No DimPy dll found! DimPy unavailable!\n");
+		return;
 	}
 	else {
 		FindClose(hand);
-		sscanf(finddata.cFileName, "DimPy%c%c.dll", &pythonver[0], &pythonver[1]);
+		// make t our scanf string
+		// want the last 6 chars to be xy.dll. We don't care about, say, case of preceding path...
+		int x = sscanf(&finddata.cFileName[strlen(finddata.cFileName)-6], "%c%c.dll", &pythonver[0], &pythonver[1]);
+		assert(x==2);
 	}
 
 	sprintf(t, "0_DimpyLoader: searching for Python%c.%c environment...", pythonver[0], pythonver[1]); 
@@ -181,7 +214,7 @@ void DimpyLoader_Init(void)
 	{
 		DM::Result("found!\n");
 		//and we finally load our dll
-		sprintf(t, "Plugins\\DimpyMain.dll");
+		sprintf_s(t, buflen, "%s\\DimPy%c%c.dll", pluginpath, pythonver[0], pythonver[1]);
 		// MFM 2104-10-26 DimPy has to be a plugin, so we don't
 		// need a dimpy path, should always be this:
 		h_dimpy = LoadLibrary(t);

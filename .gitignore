@@ -1,7 +1,12 @@
 swigwin-2.0.4
+swigwin-3.0.7
 Release
 Debug
 ipch
 *.opensdf
 *.sdf
 *.suo
+__pycache__
+SwigFiles_DM2_64/Dimpy_wrap.c
+SwigFiles_DM2_64/Dimpy_wrap.cxx
+SwigFiles_DM2_64/DimPy.py

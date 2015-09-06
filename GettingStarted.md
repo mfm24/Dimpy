@@ -4,22 +4,22 @@ Dimpy Getting Started Instructions
 Installation
 ============
 
-*MFM 2015-08-22*
+*MFM 2015-09-05*
 
-Currently for 32-bit DM1 and 32-bit Python 2.7
+Instructions for 64-bit GMS2 and Python 3.4
 
-1. Download python2.7 (WinPython recommended)
-2. Copy `0_DimpyLoader.dll` and `DimpyMain.dll` to DM plugin folder
+1. Download python3.4 (WinPython recommended)
+2. Copy `0_DimpyLoader.dll` and `Dimpy3.dll` to DM plugin folder
 3. We need to set some reigstry values so that the plugins can find the Python folder
 this should be automated in the future:
  
  - Set **HKCU\Software\DimPy\PythonPath** to the location of `python27.dll`. 
-   If using WinPython, will be something like `path\WinPython-32bit-2.7.10.2\python-2.7.10`
+   If using WinPython, will be something like `path\WinPython-64bit-3.4.3.5\python-3.4.3.amd64`
    
-4. Run DM. Make sure you don't get any errors loading DimpyMain or 0_DimpyLoader DLLs. You should see the following in the results window:
+4. Run DM. Make sure you don't get any errors loading Dimpy34 or 0_DimpyLoader DLLs. You should see the following in the results window:
 
 ````
-DimpyLoader: Loaded Python library!
+0_DimpyLoader: searching for Python3.4 environment...found!
 ````
 
 Usage
@@ -60,7 +60,7 @@ Create an image in DM. Then in the DimPy console:
 ```
 im = dm.GetFrontImage()
 # can set tags in the image easily:
-im_taggroup = im.GetTagGroup()
+im_taggroup = dm.ImageGetTagGroup(im)
 im_taggroup["MyTag"] = "Hello"
 # convert to a numpy array using np.asarray. This becomes a read/write
 # view of the underlying DM data 
@@ -102,11 +102,9 @@ Reference
 The following DM functions are exposed:
 
 ####long Dimpy_PyRun_SimpleString(string)
-Execute a single command
-####void Dimpy_alloc_console_and_reassign_std(void)
-Allocate a console and reassign stdin and stdout to it
+*For debugging only*. Execute a single command. This won't work once the console is open, and there is no standard output for any results.
 ####void Dimpy_open_console(void)
-Calls Dimpy_alloc_console_and_reassign_std then starts the REPL. All you need at the moment!
+Opens a console window and runs the Python interpreter in a new thread. All you need at the moment!
 
 
 Outstanding Issues
@@ -138,19 +136,13 @@ RGB Images
 ----------
 Not properly implemented yet.
 
-Non-displayable types
----------------------
-There are some types 
 
 Quitting DM
 -----------
-Doens't quit nicely (but could be a DM1.8 under Win10 problem??)
+Doens't quit nicely! Needs to close Python and console nicely when shutting down. Would be nice if console close button didn'y close DM too!
 
 Next Steps
 ==========
-- Work on DM plugin to remove extraneous registry keys and add menu items for
-  frequently used functionality.
-- Get support for Python 3.x, GMS 2
 - Start on Python side module. Should allow easy access to images, etc. May want
   a DM-only one (easy access to all loaded images, easy to add, get images (dm.images['MyImage'] = dm.images['A'] + dm.images['B'] etc) and a no-DM one (eg a module for doing easy irow, icol, same fft as
   DM, some identical functions like cross correlate, etc)
@@ -165,3 +157,4 @@ Next Steps
   exit(ObjectAsLong(o))
   ```
 - Get installer working. (Custom command class in Python?)
+- Add docstrings from header file automatically

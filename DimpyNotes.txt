@@ -1,4 +1,76 @@
 Notes for creating Dimpy. Moved from Cplugin.cpp 12Feb12. Latest at top:
+2015-09-05
+Got problems with stdin/out/err working! Need to explicitly send **bytes** values to msvcr functions!
+
+Now np.asarray(dm.GetFrontImage()) doesn't work - says x doesn't support the buffer interface. Weren't we using the new buffer interface? Is it a flags thing??
+
+Nope, just had to have declarations for the classes (empty) in interface file (had removed more from the header file than before)
+
+2015-09-02
+Does it make sense to have a (third!) v100 dll that gets called from v90 dll to setup console, realloc input, etc. This could even be a pyd file?
+
+Could also try getting FIL struct in ctypes and instpecting what __iob_func actually returns, and how it changes with freopen, etc??
+
+Ttrying to get msvcr100.__iob_func() as stdin, but it doesn't seem to work. Does changing sys.stdin actually change msvcr100.__iob_func()[0]?
+
+Can we call freopen using ctypes??
+This does something:
+m = ctypes.windll.msvcr100
+m.freopen('CON', 'rt', m.__iob_func())
+
+Does this work:
+Dimpy_PyRun_SimpleString("import ctypes")
+Dimpy_PyRun_SimpleString("k = ctypes.windll.Kernel32")
+Dimpy_PyRun_SimpleString("m = ctypes.cdll.msvcr100")
+Dimpy_PyRun_SimpleString("k.AllocConsole()")
+Dimpy_PyRun_SimpleString("m.freopen('CON', 'rt', m.__iob_func())")
+
+// uses sys to set up stdout, err
+Dimpy_PyRun_SimpleString("import sys")
+Dimpy_PyRun_SimpleString("sys.stdout=open('CON', 'wt')")
+Dimpy_PyRun_SimpleString("sys.stderr=open('CON', 'wt')")
+Dimpy_PyRun_SimpleString("print('Hello')")
+
+Dimpy_PyRun_SimpleString("x=input('hi')")
+Dimpy_PyRun_SimpleString("print('hi %s' % x)")
+
+
+2015-09-01
+I think problem is python is using msvcr100 and plugins are v90.
+This DOES work from DM script:
+Dimpy_PyRun_SimpleString("import ctypes")
+Dimpy_PyRun_SimpleString("ctypes.windll.Kernel32.AllocConsole()")
+Dimpy_PyRun_SimpleString("import sys")
+Dimpy_PyRun_SimpleString("sys.stdin=open('CON', 'rt')")
+Dimpy_PyRun_SimpleString("sys.stdout=open('CON', 'wt')")
+Dimpy_PyRun_SimpleString("sys.stderr=open('CON', 'wt')")
+Dimpy_PyRun_SimpleString("print('Hello')")
+
+So let's see what happens if we do all the assignment from Python...
+
+Can we call ctypes.msvcr100.__iob_func to get stdin pointer?
+
+2015-08-30
+IT WORKS! Needed PyImport_AppendInittab to include module prior to Py_Initialize! Now we have the functions at least, test functionality later!
+
+
+Finally got x64 builds working. Installed Express edition, but that doesn't have the x64 atlmfc includes. Tried SDK and Python env, but they also don't have mfc (which DM lib needs). Finally had to install 90-day VS2008 pro demo.
+
+Got GMS2 versions of DimpyLoader and Dimpyxy.dll made (Renamed DimPyMain to DimPyxy.dll so loader knows which python library to look for), also changed registry Key from PythonPath to PythonxyPath.
+GETTING STARTED needs REWRITING NOW!
+
+Got latest swig and boost 1_38 for latest GMS
+
+Menu item appears twice - why?
+
+Got a bit further by making sure Pythonhome string persists, but still can't load _DimPy and console redirection not working (or python not starting...?). RUNS under DEBUGGER happily, which is useful!
+
+After building everything, can get a working shell only if I allow console from Loader (not Dimpy.dll (?)) and it can't find _DimPy. So something odd's going on...
+
+2015-08-29
+Trying GMS2. Got SDK installed (NB it's at C:\ProgramData\Gatan). Tried to build against latest version of downloading boost 1.38 (latest DOES NOT work).
+BUT... I don't think I have a v90 x64. Trying v100 x64 doesn't work because we don't have mfc90, but I'm not sure what's needing that? Could be python27.dll (was trying 27 under GMS2)? Still doesn't work linking to python 37 - could be DMPlugin.dll then? Nothing we can do about that... Need v90 x64 build environment, I think
+
 2015-08-23
 Shared version with Bernhard via DropBox.
 Moved plugin functions into DimpyMain, and just made DimpyLoader only load python dll

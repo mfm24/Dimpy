@@ -1,5 +1,6 @@
 # mfm 2014-04-21
 # put latest building instructions here
+# THIS IS OBSOLETE FOR GMS2. See readme.md in SwigFiles_DM2_64
 1. Swig files:
 cd C:\Users\matt\Dropbox\personal\dev\Dimpy
 cd SWIGFiles
