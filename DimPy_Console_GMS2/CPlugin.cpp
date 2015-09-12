@@ -31,21 +31,7 @@ using namespace Gatan;
 
 long Dimpy_PyRun_SimpleString(const char*s);
 
-//MFM 2014-02-14
-//can't get DMSDK 3.8.2 without implementing this...
-namespace Gatan
-{
-	namespace PlugIn
-	{
-		void DMScript_HandleException(struct Gatan::PlugIn::DM_Env *env,class std::exception const & ex)
-		{
-			DM::Result(ex.what());
-			DMScript_HandleException(env);
-		}
-	}
-}
-
-
+//Import Gatan libraries
 #pragma comment(lib, "DMPlugInBasic.lib")
 #pragma comment(lib, "Foundation.lib")
 
@@ -61,7 +47,7 @@ FILE* getMsvcr100StdIn()
     PyObject* pLocal = PyDict_New();
 	PyObject* err;
 	// NB PyEval_GetGlobals, PyEval_GetLocals are only valid during a Python call (eg if calling an extension from python)
-	// when embedding wemost likely aren't in a python call. So we have to create a globals dict with
+	// when embedding we most likely aren't in a python call. So we have to create a globals dict with
 	// builtins included...
 	PyDict_SetItemString(pGlobal, "__builtins__", PyEval_GetBuiltins());
 	PyObject* pValue2 = PyRun_String("import ctypes", Py_file_input, pGlobal, pLocal);
@@ -96,6 +82,7 @@ void changeStdinFromPython()
 		"sys.stderr = open('CONOUT$', 'wt')\n"
 		);
 }
+
 unsigned int __stdcall StartPyThread(VOID* args)
 {
 	changeStdinFromPython();
@@ -177,10 +164,6 @@ long Dimpy_StartREPL(bool bUseThread)
 
 void Dimpy_open_console()
 {
-	// Calls DimpyLoader_alloc_console_and_reassign_std after initialising
-	// python, and the prints out sys.version, like a grown-up shell would.
-	// We then start the REPL in a new thread.
-	//Dimpy_alloc_console_and_reassign_std();
 	Dimpy_StartREPL(true);
 }
 
