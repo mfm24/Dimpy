@@ -21,6 +21,8 @@
 
 using namespace Gatan;
 
+const int buflen = 1024;
+
 class LibraryExample : public GatanPlugIn::PlugInMain
 {
 	virtual void Start();
@@ -129,6 +131,37 @@ void DimpyLoader_alloc_console_and_reassign_std()
 	printf("Welcome to the DimPy console!\n");
 }
 
+bool findDimpyPlugin(char* pathout, int pathoutlen, bool verbose=false)
+{
+	// we look for a Dimpyxy plugin in user_plugin, common_plugin, plugin in that order
+	// and return the first one we find.
+	char t[buflen];
+	HANDLE hand = NULL;
+	WIN32_FIND_DATA finddata;
+	// we clear out array:
+	sprintf_s(pathout, pathoutlen, "");
+	char* names[] = {"user_plugin", "common_plugin", "plugin"};
+	for(int i=0; i<sizeof(names)/sizeof(names[0]); i++) {
+		Gatan::DM::String s = DM::GetApplicationDirectory(names[i], false);
+		sprintf_s(t, buflen, "%s\\DimPy??.dll", s.get_string().c_str());
+		hand = FindFirstFile(t, &finddata);
+		if (hand == INVALID_HANDLE_VALUE) {
+			if(verbose)
+			{
+				char err[buflen];
+				sprintf_s(err, buflen, "0_DimpyLoader: No DimPy dll found in %s\n", s.get_string().c_str());
+				DM::Result(err);
+			}
+			continue;
+		}
+		else {
+			sprintf_s(pathout, pathoutlen, "%s", finddata.cFileName);
+			FindClose(hand);
+			return true;
+		}
+	}
+	return false;
+}
 void DimpyLoader_Init(void)
 {
 	//We try to dynamically load Pythonxy.dll.
@@ -156,31 +189,20 @@ void DimpyLoader_Init(void)
 	// If none found, we just try LoadLibrary("pythonxy.dll") instead...
 	//DimpyLoader_alloc_console_and_reassign_std();
 	HMODULE h = NULL;
-	HANDLE hand = NULL;
-	const int buflen = 256;
+
 	char t[buflen];
-	WIN32_FIND_DATA finddata;
 	char pluginpath[buflen];
 	
-
-	//get plugin folder and sprintf into plugin path
-	GetProgramDataFolder(t, buflen);
-	sprintf_s(pluginpath, buflen, "%s\\Gatan\\Plugins", t);
-
-	// t is now our file path finder
-	sprintf_s(t, buflen, "%s\\DimPy??.dll", pluginpath);
-	hand = FindFirstFile(t, &finddata);
-	if (hand == INVALID_HANDLE_VALUE) {
-		DM::Result("0_DimpyLoader: No DimPy dll found! DimPy unavailable!\n");
+	//find plugin
+	if(!findDimpyPlugin(pluginpath, buflen) || strlen(pluginpath) < 6)
+	{
+		// post error by calling again with verbse flag
+		findDimpyPlugin(pluginpath, buflen, true);
+		DM::Result("0_DimpyLoader: No DimPy dll found! DimPy is unavailable!\n");
 		return;
 	}
-	else {
-		FindClose(hand);
-		// make t our scanf string
-		// want the last 6 chars to be xy.dll. We don't care about, say, case of preceding path...
-		int x = sscanf(&finddata.cFileName[strlen(finddata.cFileName)-6], "%c%c.dll", &pythonver[0], &pythonver[1]);
-		assert(x==2);
-	}
+	int x = sscanf(&pluginpath[strlen(pluginpath)-6], "%c%c.dll", &pythonver[0], &pythonver[1]);
+	assert(x==2);
 
 	sprintf(t, "0_DimpyLoader: searching for Python%c.%c environment...", pythonver[0], pythonver[1]); 
 	DM::Result(t);
@@ -208,27 +230,33 @@ void DimpyLoader_Init(void)
 		//delete[] t;
 	}
 
-	if(h==NULL)
-		DM::Result("Can't find Python library!\n");
+	if(h==NULL) {
+		sprintf_s(t, buflen, "0_DimpyLoader: Can't find Python library! Set key 'Python%c%cPath' in 'HKEY_CURRENT_USER\\Software\\DimPy'!\n",
+					pythonver[0], pythonver[1]);
+		DM::Result(t);
+		return;
+	}
+
+	DM::Result("found!\n");
+	//and we finally load our dll
+	h_dimpy = LoadLibrary(pluginpath);
+	if(h_dimpy)
+	{
+		f_longsz to_call = (f_longsz) GetProcAddress(h_dimpy, "Dimpy_Init");
+		if(to_call)
+			to_call((char*) python_module_path);
+		else
+		{
+			sprintf_s(t, buflen, "0_DimpyLoader: Found DimpyDll (%s) but unable to call 'Dimpy_Init'! DimPy is unavailable!\n", pluginpath);
+			DM::Result(t);
+		}
+	}
 	else
 	{
-		DM::Result("found!\n");
-		//and we finally load our dll
-		sprintf_s(t, buflen, "%s\\DimPy%c%c.dll", pluginpath, pythonver[0], pythonver[1]);
-		// MFM 2104-10-26 DimPy has to be a plugin, so we don't
-		// need a dimpy path, should always be this:
-		h_dimpy = LoadLibrary(t);
-		if(h_dimpy)
-		{
-			f_longsz to_call = (f_longsz) GetProcAddress(h_dimpy, "Dimpy_Init");
-			if(to_call)
-				to_call((char*) python_module_path);
-			else
-				DM::Result("Found DimpyMain.dll but procedure 'Dimpy_Init' not found!");
-		}
-		else
-			DM::Result("Can't find DimpyMain.dll!");
+		sprintf_s(t, buflen, "0_DimpyLoader: Found DimpyDll (%s) but unable to load it! DimPy is unavailable!\n", pluginpath);
+		DM::Result(t);
 	}
+	
 }
 
 void LibraryExample::Start()
