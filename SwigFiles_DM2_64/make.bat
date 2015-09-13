@@ -1,0 +1,1 @@
+..\swigwin-3.0.7\swig -c++ -python -shadow -builtin dimpy.i

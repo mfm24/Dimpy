@@ -3485,50 +3485,44 @@ SwigPyBuiltin_SetMetaType (PyTypeObject *type, PyTypeObject *metatype)
 /* -------- TYPES TABLE (BEGIN) -------- */
 
 #define SWIGTYPE_p_CDialog swig_types[0]
-#define SWIGTYPE_p_CWnd swig_types[1]
-#define SWIGTYPE_p_DM_FileReference swig_types[2]
-#define SWIGTYPE_p_DM_ObjectToken swig_types[3]
-#define SWIGTYPE_p_Gatan__DM__Component swig_types[4]
-#define SWIGTYPE_p_Gatan__DM__Function swig_types[5]
-#define SWIGTYPE_p_Gatan__DM__Image swig_types[6]
-#define SWIGTYPE_p_Gatan__DM__ImageDisplay swig_types[7]
-#define SWIGTYPE_p_Gatan__DM__ImageDocument swig_types[8]
-#define SWIGTYPE_p_Gatan__DM__LinePlotImageDisplay swig_types[9]
-#define SWIGTYPE_p_Gatan__DM__ROI swig_types[10]
-#define SWIGTYPE_p_Gatan__DM__RasterImageDisplay swig_types[11]
-#define SWIGTYPE_p_Gatan__DM__ScriptObject swig_types[12]
-#define SWIGTYPE_p_Gatan__DM__String swig_types[13]
-#define SWIGTYPE_p_Gatan__DM__SurfacePlotImageDisplay swig_types[14]
-#define SWIGTYPE_p_Gatan__DM__TagGroup swig_types[15]
-#define SWIGTYPE_p_Gatan__DM__Throwable swig_types[16]
-#define SWIGTYPE_p_Gatan__DM__Window swig_types[17]
-#define SWIGTYPE_p_Gatan__PlugIn__DM_Env swig_types[18]
-#define SWIGTYPE_p_PlugIn__DM_Env swig_types[19]
-#define SWIGTYPE_p_Py_ssize_t swig_types[20]
-#define SWIGTYPE_p_SSIZE_T swig_types[21]
-#define SWIGTYPE_p_SwigPyObject swig_types[22]
-#define SWIGTYPE_p_SystemIdleProc swig_types[23]
-#define SWIGTYPE_p_TagGroupIterator swig_types[24]
-#define SWIGTYPE_p_ULONG_PTR swig_types[25]
-#define SWIGTYPE_p_bool swig_types[26]
-#define SWIGTYPE_p_boost__function0T_void_t swig_types[27]
-#define SWIGTYPE_p_char swig_types[28]
-#define SWIGTYPE_p_char_range swig_types[29]
-#define SWIGTYPE_p_complex128_t swig_types[30]
-#define SWIGTYPE_p_const_value_rangeT_Gatan__DM__ScriptObject_t swig_types[31]
-#define SWIGTYPE_p_double swig_types[32]
-#define SWIGTYPE_p_float swig_types[33]
-#define SWIGTYPE_p_long swig_types[34]
-#define SWIGTYPE_p_rgba_uint8_os_t swig_types[35]
-#define SWIGTYPE_p_short swig_types[36]
-#define SWIGTYPE_p_std__string swig_types[37]
-#define SWIGTYPE_p_std__vectorT_Gatan__DM__ScriptObject_t swig_types[38]
-#define SWIGTYPE_p_uint16 swig_types[39]
-#define SWIGTYPE_p_uint32 swig_types[40]
-#define SWIGTYPE_p_ulong swig_types[41]
-#define SWIGTYPE_p_ulong_ptr_t swig_types[42]
-static swig_type_info *swig_types[44];
-static swig_module_info swig_module = {swig_types, 43, 0, 0, 0, 0};
+#define SWIGTYPE_p_DM_FileReference swig_types[1]
+#define SWIGTYPE_p_Gatan__DM__Component swig_types[2]
+#define SWIGTYPE_p_Gatan__DM__Function swig_types[3]
+#define SWIGTYPE_p_Gatan__DM__Image swig_types[4]
+#define SWIGTYPE_p_Gatan__DM__ImageDisplay swig_types[5]
+#define SWIGTYPE_p_Gatan__DM__ImageDocument swig_types[6]
+#define SWIGTYPE_p_Gatan__DM__LinePlotImageDisplay swig_types[7]
+#define SWIGTYPE_p_Gatan__DM__ROI swig_types[8]
+#define SWIGTYPE_p_Gatan__DM__RasterImageDisplay swig_types[9]
+#define SWIGTYPE_p_Gatan__DM__ScriptObject swig_types[10]
+#define SWIGTYPE_p_Gatan__DM__String swig_types[11]
+#define SWIGTYPE_p_Gatan__DM__SurfacePlotImageDisplay swig_types[12]
+#define SWIGTYPE_p_Gatan__DM__TagGroup swig_types[13]
+#define SWIGTYPE_p_Gatan__DM__Throwable swig_types[14]
+#define SWIGTYPE_p_Gatan__DM__Window swig_types[15]
+#define SWIGTYPE_p_Gatan__PlugIn__DM_Env swig_types[16]
+#define SWIGTYPE_p_Py_ssize_t swig_types[17]
+#define SWIGTYPE_p_SSIZE_T swig_types[18]
+#define SWIGTYPE_p_SwigPyObject swig_types[19]
+#define SWIGTYPE_p_SystemIdleProc swig_types[20]
+#define SWIGTYPE_p_TagGroupIterator swig_types[21]
+#define SWIGTYPE_p_ULONG_PTR swig_types[22]
+#define SWIGTYPE_p_bool swig_types[23]
+#define SWIGTYPE_p_char swig_types[24]
+#define SWIGTYPE_p_char_range swig_types[25]
+#define SWIGTYPE_p_complex128_t swig_types[26]
+#define SWIGTYPE_p_double swig_types[27]
+#define SWIGTYPE_p_float swig_types[28]
+#define SWIGTYPE_p_long swig_types[29]
+#define SWIGTYPE_p_rgba_uint8_os_t swig_types[30]
+#define SWIGTYPE_p_short swig_types[31]
+#define SWIGTYPE_p_std__string swig_types[32]
+#define SWIGTYPE_p_uint16 swig_types[33]
+#define SWIGTYPE_p_uint32 swig_types[34]
+#define SWIGTYPE_p_ulong swig_types[35]
+#define SWIGTYPE_p_ulong_ptr_t swig_types[36]
+static swig_type_info *swig_types[38];
+static swig_module_info swig_module = {swig_types, 37, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -3790,10 +3784,10 @@ PyObject* PythonTagGroup_mp_subscript(PyObject *self, PyObject *key)
 			skey=(char*)PyUnicode_DATA(key);
 		}
 		else {
-			SWIG_exception_fail(SWIG_ValueError, "in method 'TagGroup::__subscript__', argument 2 must be 8-bit uncicode");
+			SWIG_exception_fail(SWIG_ValueError, "in method 'TagGroup::__subscript__', argument 2 must be 8-bit unicode");
 		}
 	}
-  else { 
+    else { 
     SWIG_exception_fail(SWIG_ValueError, "in method 'TagGroup::__subscript__', argument 2 of type 'String' or 'int' or 'unicode'"); 
   } 
   Gatan::DM::TagGroup *tg = reinterpret_cast<Gatan::DM::TagGroup*>(argp);
@@ -13269,50 +13263,6 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_GetApplicationInfo(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  long arg1 ;
-  long *arg2 = (long *) 0 ;
-  long val1 ;
-  int ecode1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  bool result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:GetApplicationInfo",&obj0,&obj1)) SWIG_fail;
-  ecode1 = SWIG_AsVal_long(obj0, &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "GetApplicationInfo" "', argument " "1"" of type '" "long""'");
-  } 
-  arg1 = static_cast< long >(val1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_long, 0 |  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "GetApplicationInfo" "', argument " "2"" of type '" "long *""'"); 
-  }
-  arg2 = reinterpret_cast< long * >(argp2);
-  result = (bool)Gatan::DM::GetApplicationInfo(arg1,arg2);
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_GetApplicationCWnd(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  CWnd *result = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)":GetApplicationCWnd")) SWIG_fail;
-  result = (CWnd *)Gatan::DM::GetApplicationCWnd();
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_CWnd, 0 |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
 SWIGINTERN PyObject *_wrap_WindowGetPlatformImplementation(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   Gatan::DM::Window *arg1 = 0 ;
@@ -15450,42 +15400,6 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_AddCustomMenuGroup(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  char *arg1 = (char *) 0 ;
-  char *arg2 = (char *) 0 ;
-  int res1 ;
-  char *buf1 = 0 ;
-  int alloc1 = 0 ;
-  int res2 ;
-  char *buf2 = 0 ;
-  int alloc2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:AddCustomMenuGroup",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_AsCharPtrAndSize(obj0, &buf1, NULL, &alloc1);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AddCustomMenuGroup" "', argument " "1"" of type '" "char const *""'");
-  }
-  arg1 = reinterpret_cast< char * >(buf1);
-  res2 = SWIG_AsCharPtrAndSize(obj1, &buf2, NULL, &alloc2);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AddCustomMenuGroup" "', argument " "2"" of type '" "char const *""'");
-  }
-  arg2 = reinterpret_cast< char * >(buf2);
-  Gatan::DM::AddCustomMenuGroup((char const *)arg1,(char const *)arg2);
-  resultobj = SWIG_Py_Void();
-  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
-  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
-  return resultobj;
-fail:
-  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
-  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
-  return NULL;
-}
-
-
 SWIGINTERN PyObject *_wrap_GetPixel(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   Gatan::DM::Image *arg1 = 0 ;
@@ -17411,7 +17325,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_ImageDisplayChangeDisplayType__SWIG_0(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_ImageDisplayChangeDisplayType(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   Gatan::DM::ImageDisplay *arg1 = 0 ;
   long arg2 ;
@@ -19728,7 +19642,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_ImageDocumentAddImageDisplay__SWIG_0(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_ImageDocumentAddImageDisplay(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   Gatan::DM::ImageDocument *arg1 = 0 ;
   Gatan::DM::Image *arg2 = 0 ;
@@ -28100,618 +28014,6 @@ SWIGINTERN PyObject *_wrap_NextImage(PyObject *self, PyObject *args) {
   arg1 = reinterpret_cast< Gatan::DM::Image * >(argp1);
   result = Gatan::DM::NextImage((Gatan::DM::Image const &)*arg1);
   resultobj = SWIG_NewPointerObj((new Gatan::DM::Image(static_cast< const Gatan::DM::Image& >(result))), SWIGTYPE_p_Gatan__DM__Image, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectTransformCompose(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  double arg1 ;
-  double arg2 ;
-  double arg3 ;
-  double arg4 ;
-  double arg5 ;
-  double arg6 ;
-  double arg7 ;
-  double arg8 ;
-  double *arg9 = (double *) 0 ;
-  double *arg10 = (double *) 0 ;
-  double *arg11 = (double *) 0 ;
-  double *arg12 = (double *) 0 ;
-  double val1 ;
-  int ecode1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  double val3 ;
-  int ecode3 = 0 ;
-  double val4 ;
-  int ecode4 = 0 ;
-  double val5 ;
-  int ecode5 = 0 ;
-  double val6 ;
-  int ecode6 = 0 ;
-  double val7 ;
-  int ecode7 = 0 ;
-  double val8 ;
-  int ecode8 = 0 ;
-  void *argp9 = 0 ;
-  int res9 = 0 ;
-  void *argp10 = 0 ;
-  int res10 = 0 ;
-  void *argp11 = 0 ;
-  int res11 = 0 ;
-  void *argp12 = 0 ;
-  int res12 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  PyObject * obj4 = 0 ;
-  PyObject * obj5 = 0 ;
-  PyObject * obj6 = 0 ;
-  PyObject * obj7 = 0 ;
-  PyObject * obj8 = 0 ;
-  PyObject * obj9 = 0 ;
-  PyObject * obj10 = 0 ;
-  PyObject * obj11 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOOOOOOOOOOO:ObjectTransformCompose",&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10,&obj11)) SWIG_fail;
-  ecode1 = SWIG_AsVal_double(obj0, &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "ObjectTransformCompose" "', argument " "1"" of type '" "double""'");
-  } 
-  arg1 = static_cast< double >(val1);
-  ecode2 = SWIG_AsVal_double(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ObjectTransformCompose" "', argument " "2"" of type '" "double""'");
-  } 
-  arg2 = static_cast< double >(val2);
-  ecode3 = SWIG_AsVal_double(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ObjectTransformCompose" "', argument " "3"" of type '" "double""'");
-  } 
-  arg3 = static_cast< double >(val3);
-  ecode4 = SWIG_AsVal_double(obj3, &val4);
-  if (!SWIG_IsOK(ecode4)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "ObjectTransformCompose" "', argument " "4"" of type '" "double""'");
-  } 
-  arg4 = static_cast< double >(val4);
-  ecode5 = SWIG_AsVal_double(obj4, &val5);
-  if (!SWIG_IsOK(ecode5)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "ObjectTransformCompose" "', argument " "5"" of type '" "double""'");
-  } 
-  arg5 = static_cast< double >(val5);
-  ecode6 = SWIG_AsVal_double(obj5, &val6);
-  if (!SWIG_IsOK(ecode6)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "ObjectTransformCompose" "', argument " "6"" of type '" "double""'");
-  } 
-  arg6 = static_cast< double >(val6);
-  ecode7 = SWIG_AsVal_double(obj6, &val7);
-  if (!SWIG_IsOK(ecode7)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "ObjectTransformCompose" "', argument " "7"" of type '" "double""'");
-  } 
-  arg7 = static_cast< double >(val7);
-  ecode8 = SWIG_AsVal_double(obj7, &val8);
-  if (!SWIG_IsOK(ecode8)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "ObjectTransformCompose" "', argument " "8"" of type '" "double""'");
-  } 
-  arg8 = static_cast< double >(val8);
-  res9 = SWIG_ConvertPtr(obj8, &argp9,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res9)) {
-    SWIG_exception_fail(SWIG_ArgError(res9), "in method '" "ObjectTransformCompose" "', argument " "9"" of type '" "double *""'"); 
-  }
-  arg9 = reinterpret_cast< double * >(argp9);
-  res10 = SWIG_ConvertPtr(obj9, &argp10,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res10)) {
-    SWIG_exception_fail(SWIG_ArgError(res10), "in method '" "ObjectTransformCompose" "', argument " "10"" of type '" "double *""'"); 
-  }
-  arg10 = reinterpret_cast< double * >(argp10);
-  res11 = SWIG_ConvertPtr(obj10, &argp11,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res11)) {
-    SWIG_exception_fail(SWIG_ArgError(res11), "in method '" "ObjectTransformCompose" "', argument " "11"" of type '" "double *""'"); 
-  }
-  arg11 = reinterpret_cast< double * >(argp11);
-  res12 = SWIG_ConvertPtr(obj11, &argp12,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res12)) {
-    SWIG_exception_fail(SWIG_ArgError(res12), "in method '" "ObjectTransformCompose" "', argument " "12"" of type '" "double *""'"); 
-  }
-  arg12 = reinterpret_cast< double * >(argp12);
-  Gatan::DM::ObjectTransformCompose(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,arg12);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectTransformInvert(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  double arg1 ;
-  double arg2 ;
-  double arg3 ;
-  double arg4 ;
-  double *arg5 = (double *) 0 ;
-  double *arg6 = (double *) 0 ;
-  double *arg7 = (double *) 0 ;
-  double *arg8 = (double *) 0 ;
-  double val1 ;
-  int ecode1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  double val3 ;
-  int ecode3 = 0 ;
-  double val4 ;
-  int ecode4 = 0 ;
-  void *argp5 = 0 ;
-  int res5 = 0 ;
-  void *argp6 = 0 ;
-  int res6 = 0 ;
-  void *argp7 = 0 ;
-  int res7 = 0 ;
-  void *argp8 = 0 ;
-  int res8 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  PyObject * obj4 = 0 ;
-  PyObject * obj5 = 0 ;
-  PyObject * obj6 = 0 ;
-  PyObject * obj7 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOOOOOOO:ObjectTransformInvert",&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7)) SWIG_fail;
-  ecode1 = SWIG_AsVal_double(obj0, &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "ObjectTransformInvert" "', argument " "1"" of type '" "double""'");
-  } 
-  arg1 = static_cast< double >(val1);
-  ecode2 = SWIG_AsVal_double(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ObjectTransformInvert" "', argument " "2"" of type '" "double""'");
-  } 
-  arg2 = static_cast< double >(val2);
-  ecode3 = SWIG_AsVal_double(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ObjectTransformInvert" "', argument " "3"" of type '" "double""'");
-  } 
-  arg3 = static_cast< double >(val3);
-  ecode4 = SWIG_AsVal_double(obj3, &val4);
-  if (!SWIG_IsOK(ecode4)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "ObjectTransformInvert" "', argument " "4"" of type '" "double""'");
-  } 
-  arg4 = static_cast< double >(val4);
-  res5 = SWIG_ConvertPtr(obj4, &argp5,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res5)) {
-    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "ObjectTransformInvert" "', argument " "5"" of type '" "double *""'"); 
-  }
-  arg5 = reinterpret_cast< double * >(argp5);
-  res6 = SWIG_ConvertPtr(obj5, &argp6,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res6)) {
-    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "ObjectTransformInvert" "', argument " "6"" of type '" "double *""'"); 
-  }
-  arg6 = reinterpret_cast< double * >(argp6);
-  res7 = SWIG_ConvertPtr(obj6, &argp7,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res7)) {
-    SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "ObjectTransformInvert" "', argument " "7"" of type '" "double *""'"); 
-  }
-  arg7 = reinterpret_cast< double * >(argp7);
-  res8 = SWIG_ConvertPtr(obj7, &argp8,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res8)) {
-    SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "ObjectTransformInvert" "', argument " "8"" of type '" "double *""'"); 
-  }
-  arg8 = reinterpret_cast< double * >(argp8);
-  Gatan::DM::ObjectTransformInvert(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectTransformTransformPoint(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  double arg1 ;
-  double arg2 ;
-  double arg3 ;
-  double arg4 ;
-  double arg5 ;
-  double arg6 ;
-  double *arg7 = (double *) 0 ;
-  double *arg8 = (double *) 0 ;
-  double val1 ;
-  int ecode1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  double val3 ;
-  int ecode3 = 0 ;
-  double val4 ;
-  int ecode4 = 0 ;
-  double val5 ;
-  int ecode5 = 0 ;
-  double val6 ;
-  int ecode6 = 0 ;
-  void *argp7 = 0 ;
-  int res7 = 0 ;
-  void *argp8 = 0 ;
-  int res8 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  PyObject * obj4 = 0 ;
-  PyObject * obj5 = 0 ;
-  PyObject * obj6 = 0 ;
-  PyObject * obj7 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOOOOOOO:ObjectTransformTransformPoint",&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7)) SWIG_fail;
-  ecode1 = SWIG_AsVal_double(obj0, &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "ObjectTransformTransformPoint" "', argument " "1"" of type '" "double""'");
-  } 
-  arg1 = static_cast< double >(val1);
-  ecode2 = SWIG_AsVal_double(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ObjectTransformTransformPoint" "', argument " "2"" of type '" "double""'");
-  } 
-  arg2 = static_cast< double >(val2);
-  ecode3 = SWIG_AsVal_double(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ObjectTransformTransformPoint" "', argument " "3"" of type '" "double""'");
-  } 
-  arg3 = static_cast< double >(val3);
-  ecode4 = SWIG_AsVal_double(obj3, &val4);
-  if (!SWIG_IsOK(ecode4)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "ObjectTransformTransformPoint" "', argument " "4"" of type '" "double""'");
-  } 
-  arg4 = static_cast< double >(val4);
-  ecode5 = SWIG_AsVal_double(obj4, &val5);
-  if (!SWIG_IsOK(ecode5)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "ObjectTransformTransformPoint" "', argument " "5"" of type '" "double""'");
-  } 
-  arg5 = static_cast< double >(val5);
-  ecode6 = SWIG_AsVal_double(obj5, &val6);
-  if (!SWIG_IsOK(ecode6)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "ObjectTransformTransformPoint" "', argument " "6"" of type '" "double""'");
-  } 
-  arg6 = static_cast< double >(val6);
-  res7 = SWIG_ConvertPtr(obj6, &argp7,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res7)) {
-    SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "ObjectTransformTransformPoint" "', argument " "7"" of type '" "double *""'"); 
-  }
-  arg7 = reinterpret_cast< double * >(argp7);
-  res8 = SWIG_ConvertPtr(obj7, &argp8,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res8)) {
-    SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "ObjectTransformTransformPoint" "', argument " "8"" of type '" "double *""'"); 
-  }
-  arg8 = reinterpret_cast< double * >(argp8);
-  Gatan::DM::ObjectTransformTransformPoint(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectTransformTransformRect(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  double arg1 ;
-  double arg2 ;
-  double arg3 ;
-  double arg4 ;
-  double arg5 ;
-  double arg6 ;
-  double arg7 ;
-  double arg8 ;
-  double *arg9 = (double *) 0 ;
-  double *arg10 = (double *) 0 ;
-  double *arg11 = (double *) 0 ;
-  double *arg12 = (double *) 0 ;
-  double val1 ;
-  int ecode1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  double val3 ;
-  int ecode3 = 0 ;
-  double val4 ;
-  int ecode4 = 0 ;
-  double val5 ;
-  int ecode5 = 0 ;
-  double val6 ;
-  int ecode6 = 0 ;
-  double val7 ;
-  int ecode7 = 0 ;
-  double val8 ;
-  int ecode8 = 0 ;
-  void *argp9 = 0 ;
-  int res9 = 0 ;
-  void *argp10 = 0 ;
-  int res10 = 0 ;
-  void *argp11 = 0 ;
-  int res11 = 0 ;
-  void *argp12 = 0 ;
-  int res12 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  PyObject * obj4 = 0 ;
-  PyObject * obj5 = 0 ;
-  PyObject * obj6 = 0 ;
-  PyObject * obj7 = 0 ;
-  PyObject * obj8 = 0 ;
-  PyObject * obj9 = 0 ;
-  PyObject * obj10 = 0 ;
-  PyObject * obj11 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOOOOOOOOOOO:ObjectTransformTransformRect",&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10,&obj11)) SWIG_fail;
-  ecode1 = SWIG_AsVal_double(obj0, &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "ObjectTransformTransformRect" "', argument " "1"" of type '" "double""'");
-  } 
-  arg1 = static_cast< double >(val1);
-  ecode2 = SWIG_AsVal_double(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ObjectTransformTransformRect" "', argument " "2"" of type '" "double""'");
-  } 
-  arg2 = static_cast< double >(val2);
-  ecode3 = SWIG_AsVal_double(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ObjectTransformTransformRect" "', argument " "3"" of type '" "double""'");
-  } 
-  arg3 = static_cast< double >(val3);
-  ecode4 = SWIG_AsVal_double(obj3, &val4);
-  if (!SWIG_IsOK(ecode4)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "ObjectTransformTransformRect" "', argument " "4"" of type '" "double""'");
-  } 
-  arg4 = static_cast< double >(val4);
-  ecode5 = SWIG_AsVal_double(obj4, &val5);
-  if (!SWIG_IsOK(ecode5)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "ObjectTransformTransformRect" "', argument " "5"" of type '" "double""'");
-  } 
-  arg5 = static_cast< double >(val5);
-  ecode6 = SWIG_AsVal_double(obj5, &val6);
-  if (!SWIG_IsOK(ecode6)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "ObjectTransformTransformRect" "', argument " "6"" of type '" "double""'");
-  } 
-  arg6 = static_cast< double >(val6);
-  ecode7 = SWIG_AsVal_double(obj6, &val7);
-  if (!SWIG_IsOK(ecode7)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "ObjectTransformTransformRect" "', argument " "7"" of type '" "double""'");
-  } 
-  arg7 = static_cast< double >(val7);
-  ecode8 = SWIG_AsVal_double(obj7, &val8);
-  if (!SWIG_IsOK(ecode8)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "ObjectTransformTransformRect" "', argument " "8"" of type '" "double""'");
-  } 
-  arg8 = static_cast< double >(val8);
-  res9 = SWIG_ConvertPtr(obj8, &argp9,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res9)) {
-    SWIG_exception_fail(SWIG_ArgError(res9), "in method '" "ObjectTransformTransformRect" "', argument " "9"" of type '" "double *""'"); 
-  }
-  arg9 = reinterpret_cast< double * >(argp9);
-  res10 = SWIG_ConvertPtr(obj9, &argp10,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res10)) {
-    SWIG_exception_fail(SWIG_ArgError(res10), "in method '" "ObjectTransformTransformRect" "', argument " "10"" of type '" "double *""'"); 
-  }
-  arg10 = reinterpret_cast< double * >(argp10);
-  res11 = SWIG_ConvertPtr(obj10, &argp11,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res11)) {
-    SWIG_exception_fail(SWIG_ArgError(res11), "in method '" "ObjectTransformTransformRect" "', argument " "11"" of type '" "double *""'"); 
-  }
-  arg11 = reinterpret_cast< double * >(argp11);
-  res12 = SWIG_ConvertPtr(obj11, &argp12,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res12)) {
-    SWIG_exception_fail(SWIG_ArgError(res12), "in method '" "ObjectTransformTransformRect" "', argument " "12"" of type '" "double *""'"); 
-  }
-  arg12 = reinterpret_cast< double * >(argp12);
-  Gatan::DM::ObjectTransformTransformRect(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,arg12);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectTransformUntransformPoint(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  double arg1 ;
-  double arg2 ;
-  double arg3 ;
-  double arg4 ;
-  double arg5 ;
-  double arg6 ;
-  double *arg7 = (double *) 0 ;
-  double *arg8 = (double *) 0 ;
-  double val1 ;
-  int ecode1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  double val3 ;
-  int ecode3 = 0 ;
-  double val4 ;
-  int ecode4 = 0 ;
-  double val5 ;
-  int ecode5 = 0 ;
-  double val6 ;
-  int ecode6 = 0 ;
-  void *argp7 = 0 ;
-  int res7 = 0 ;
-  void *argp8 = 0 ;
-  int res8 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  PyObject * obj4 = 0 ;
-  PyObject * obj5 = 0 ;
-  PyObject * obj6 = 0 ;
-  PyObject * obj7 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOOOOOOO:ObjectTransformUntransformPoint",&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7)) SWIG_fail;
-  ecode1 = SWIG_AsVal_double(obj0, &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "ObjectTransformUntransformPoint" "', argument " "1"" of type '" "double""'");
-  } 
-  arg1 = static_cast< double >(val1);
-  ecode2 = SWIG_AsVal_double(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ObjectTransformUntransformPoint" "', argument " "2"" of type '" "double""'");
-  } 
-  arg2 = static_cast< double >(val2);
-  ecode3 = SWIG_AsVal_double(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ObjectTransformUntransformPoint" "', argument " "3"" of type '" "double""'");
-  } 
-  arg3 = static_cast< double >(val3);
-  ecode4 = SWIG_AsVal_double(obj3, &val4);
-  if (!SWIG_IsOK(ecode4)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "ObjectTransformUntransformPoint" "', argument " "4"" of type '" "double""'");
-  } 
-  arg4 = static_cast< double >(val4);
-  ecode5 = SWIG_AsVal_double(obj4, &val5);
-  if (!SWIG_IsOK(ecode5)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "ObjectTransformUntransformPoint" "', argument " "5"" of type '" "double""'");
-  } 
-  arg5 = static_cast< double >(val5);
-  ecode6 = SWIG_AsVal_double(obj5, &val6);
-  if (!SWIG_IsOK(ecode6)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "ObjectTransformUntransformPoint" "', argument " "6"" of type '" "double""'");
-  } 
-  arg6 = static_cast< double >(val6);
-  res7 = SWIG_ConvertPtr(obj6, &argp7,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res7)) {
-    SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "ObjectTransformUntransformPoint" "', argument " "7"" of type '" "double *""'"); 
-  }
-  arg7 = reinterpret_cast< double * >(argp7);
-  res8 = SWIG_ConvertPtr(obj7, &argp8,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res8)) {
-    SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "ObjectTransformUntransformPoint" "', argument " "8"" of type '" "double *""'"); 
-  }
-  arg8 = reinterpret_cast< double * >(argp8);
-  Gatan::DM::ObjectTransformUntransformPoint(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectTransformUntransformRect(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  double arg1 ;
-  double arg2 ;
-  double arg3 ;
-  double arg4 ;
-  double arg5 ;
-  double arg6 ;
-  double arg7 ;
-  double arg8 ;
-  double *arg9 = (double *) 0 ;
-  double *arg10 = (double *) 0 ;
-  double *arg11 = (double *) 0 ;
-  double *arg12 = (double *) 0 ;
-  double val1 ;
-  int ecode1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  double val3 ;
-  int ecode3 = 0 ;
-  double val4 ;
-  int ecode4 = 0 ;
-  double val5 ;
-  int ecode5 = 0 ;
-  double val6 ;
-  int ecode6 = 0 ;
-  double val7 ;
-  int ecode7 = 0 ;
-  double val8 ;
-  int ecode8 = 0 ;
-  void *argp9 = 0 ;
-  int res9 = 0 ;
-  void *argp10 = 0 ;
-  int res10 = 0 ;
-  void *argp11 = 0 ;
-  int res11 = 0 ;
-  void *argp12 = 0 ;
-  int res12 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  PyObject * obj4 = 0 ;
-  PyObject * obj5 = 0 ;
-  PyObject * obj6 = 0 ;
-  PyObject * obj7 = 0 ;
-  PyObject * obj8 = 0 ;
-  PyObject * obj9 = 0 ;
-  PyObject * obj10 = 0 ;
-  PyObject * obj11 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOOOOOOOOOOO:ObjectTransformUntransformRect",&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10,&obj11)) SWIG_fail;
-  ecode1 = SWIG_AsVal_double(obj0, &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "ObjectTransformUntransformRect" "', argument " "1"" of type '" "double""'");
-  } 
-  arg1 = static_cast< double >(val1);
-  ecode2 = SWIG_AsVal_double(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ObjectTransformUntransformRect" "', argument " "2"" of type '" "double""'");
-  } 
-  arg2 = static_cast< double >(val2);
-  ecode3 = SWIG_AsVal_double(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ObjectTransformUntransformRect" "', argument " "3"" of type '" "double""'");
-  } 
-  arg3 = static_cast< double >(val3);
-  ecode4 = SWIG_AsVal_double(obj3, &val4);
-  if (!SWIG_IsOK(ecode4)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "ObjectTransformUntransformRect" "', argument " "4"" of type '" "double""'");
-  } 
-  arg4 = static_cast< double >(val4);
-  ecode5 = SWIG_AsVal_double(obj4, &val5);
-  if (!SWIG_IsOK(ecode5)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "ObjectTransformUntransformRect" "', argument " "5"" of type '" "double""'");
-  } 
-  arg5 = static_cast< double >(val5);
-  ecode6 = SWIG_AsVal_double(obj5, &val6);
-  if (!SWIG_IsOK(ecode6)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "ObjectTransformUntransformRect" "', argument " "6"" of type '" "double""'");
-  } 
-  arg6 = static_cast< double >(val6);
-  ecode7 = SWIG_AsVal_double(obj6, &val7);
-  if (!SWIG_IsOK(ecode7)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "ObjectTransformUntransformRect" "', argument " "7"" of type '" "double""'");
-  } 
-  arg7 = static_cast< double >(val7);
-  ecode8 = SWIG_AsVal_double(obj7, &val8);
-  if (!SWIG_IsOK(ecode8)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "ObjectTransformUntransformRect" "', argument " "8"" of type '" "double""'");
-  } 
-  arg8 = static_cast< double >(val8);
-  res9 = SWIG_ConvertPtr(obj8, &argp9,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res9)) {
-    SWIG_exception_fail(SWIG_ArgError(res9), "in method '" "ObjectTransformUntransformRect" "', argument " "9"" of type '" "double *""'"); 
-  }
-  arg9 = reinterpret_cast< double * >(argp9);
-  res10 = SWIG_ConvertPtr(obj9, &argp10,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res10)) {
-    SWIG_exception_fail(SWIG_ArgError(res10), "in method '" "ObjectTransformUntransformRect" "', argument " "10"" of type '" "double *""'"); 
-  }
-  arg10 = reinterpret_cast< double * >(argp10);
-  res11 = SWIG_ConvertPtr(obj10, &argp11,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res11)) {
-    SWIG_exception_fail(SWIG_ArgError(res11), "in method '" "ObjectTransformUntransformRect" "', argument " "11"" of type '" "double *""'"); 
-  }
-  arg11 = reinterpret_cast< double * >(argp11);
-  res12 = SWIG_ConvertPtr(obj11, &argp12,SWIGTYPE_p_double, 0 |  0 );
-  if (!SWIG_IsOK(res12)) {
-    SWIG_exception_fail(SWIG_ArgError(res12), "in method '" "ObjectTransformUntransformRect" "', argument " "12"" of type '" "double *""'"); 
-  }
-  arg12 = reinterpret_cast< double * >(argp12);
-  Gatan::DM::ObjectTransformUntransformRect(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,arg12);
-  resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
   return NULL;
@@ -44848,7 +44150,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_TransferTagsAndApplyDataBar__SWIG_0(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_TransferTagsAndApplyDataBar(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   Gatan::DM::Image *arg1 = 0 ;
   void *argp1 = 0 ;
@@ -46903,4907 +46205,5571 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_CountImageDisplays__SWIG_0(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  uint32 result;
-  
-  if (!PyArg_ParseTuple(args,(char *)":CountImageDisplays")) SWIG_fail;
-  result = Gatan::DM::CountImageDisplays();
-  resultobj = SWIG_NewPointerObj((new uint32(static_cast< const uint32& >(result))), SWIGTYPE_p_uint32, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_CountImageDisplays__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::Image *arg1 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  uint32 result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:CountImageDisplays",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__Image,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CountImageDisplays" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "CountImageDisplays" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::Image * >(argp1);
-  result = Gatan::DM::CountImageDisplays((Gatan::DM::Image const &)*arg1);
-  resultobj = SWIG_NewPointerObj((new uint32(static_cast< const uint32& >(result))), SWIGTYPE_p_uint32, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_CountImageDisplays(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[2] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 0) {
-    return _wrap_CountImageDisplays__SWIG_0(self, args);
-  }
-  if (argc == 1) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__Image, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_CountImageDisplays__SWIG_1(self, args);
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'CountImageDisplays'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::CountImageDisplays()\n"
-    "    Gatan::DM::CountImageDisplays(Gatan::DM::Image const &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_ShowImage__SWIG_0(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::Image *arg1 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  Gatan::DM::Window result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:ShowImage",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__Image,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ShowImage" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ShowImage" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::Image * >(argp1);
-  result = Gatan::DM::ShowImage((Gatan::DM::Image const &)*arg1);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Window(static_cast< const Gatan::DM::Window& >(result))), SWIGTYPE_p_Gatan__DM__Window, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ShowImage__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  DM_ObjectToken *arg1 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  Gatan::DM::Window result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:ShowImage",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_DM_ObjectToken,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ShowImage" "', argument " "1"" of type '" "DM_ObjectToken const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ShowImage" "', argument " "1"" of type '" "DM_ObjectToken const &""'"); 
-  }
-  arg1 = reinterpret_cast< DM_ObjectToken * >(argp1);
-  result = Gatan::DM::ShowImage((DM_ObjectToken const &)*arg1);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Window(static_cast< const Gatan::DM::Window& >(result))), SWIGTYPE_p_Gatan__DM__Window, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ShowImage__SWIG_2(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::Image *arg1 = 0 ;
-  Gatan::DM::ImageDisplay *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::Window result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ShowImage",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__Image,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ShowImage" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ShowImage" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::Image * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ShowImage" "', argument " "2"" of type '" "Gatan::DM::ImageDisplay &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ShowImage" "', argument " "2"" of type '" "Gatan::DM::ImageDisplay &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp2);
-  result = Gatan::DM::ShowImage((Gatan::DM::Image const &)*arg1,*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Window(static_cast< const Gatan::DM::Window& >(result))), SWIGTYPE_p_Gatan__DM__Window, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ShowImage__SWIG_3(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::Image *arg1 = 0 ;
-  Gatan::DM::ImageDisplay *arg2 = 0 ;
-  Gatan::DM::ImageDocument *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  Gatan::DM::Window result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ShowImage",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__Image,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ShowImage" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ShowImage" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::Image * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ShowImage" "', argument " "2"" of type '" "Gatan::DM::ImageDisplay &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ShowImage" "', argument " "2"" of type '" "Gatan::DM::ImageDisplay &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__ImageDocument,  0 );
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ShowImage" "', argument " "3"" of type '" "Gatan::DM::ImageDocument &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ShowImage" "', argument " "3"" of type '" "Gatan::DM::ImageDocument &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::ImageDocument * >(argp3);
-  result = Gatan::DM::ShowImage((Gatan::DM::Image const &)*arg1,*arg2,*arg3);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Window(static_cast< const Gatan::DM::Window& >(result))), SWIGTYPE_p_Gatan__DM__Window, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ShowImage(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[4] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 1) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__Image, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_ShowImage__SWIG_0(self, args);
-    }
-  }
-  if (argc == 1) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_DM_ObjectToken, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_ShowImage__SWIG_1(self, args);
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__Image, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_ShowImage__SWIG_2(self, args);
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__Image, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        void *vptr = 0;
-        int res = SWIG_ConvertPtr(argv[2], &vptr, SWIGTYPE_p_Gatan__DM__ImageDocument, 0);
-        _v = SWIG_CheckState(res);
-        if (_v) {
-          return _wrap_ShowImage__SWIG_3(self, args);
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ShowImage'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::ShowImage(Gatan::DM::Image const &)\n"
-    "    Gatan::DM::ShowImage(DM_ObjectToken const &)\n"
-    "    Gatan::DM::ShowImage(Gatan::DM::Image const &,Gatan::DM::ImageDisplay &)\n"
-    "    Gatan::DM::ShowImage(Gatan::DM::Image const &,Gatan::DM::ImageDisplay &,Gatan::DM::ImageDocument &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_ShowImageDisplay__SWIG_0(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  Gatan::DM::Window result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:ShowImageDisplay",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ShowImageDisplay" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ShowImageDisplay" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  result = Gatan::DM::ShowImageDisplay((Gatan::DM::ImageDisplay const &)*arg1);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Window(static_cast< const Gatan::DM::Window& >(result))), SWIGTYPE_p_Gatan__DM__Window, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ShowImageDisplay__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ImageDocument *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::Window result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ShowImageDisplay",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ShowImageDisplay" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ShowImageDisplay" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ImageDocument,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ShowImageDisplay" "', argument " "2"" of type '" "Gatan::DM::ImageDocument &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ShowImageDisplay" "', argument " "2"" of type '" "Gatan::DM::ImageDocument &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ImageDocument * >(argp2);
-  result = Gatan::DM::ShowImageDisplay((Gatan::DM::ImageDisplay const &)*arg1,*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Window(static_cast< const Gatan::DM::Window& >(result))), SWIGTYPE_p_Gatan__DM__Window, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ShowImageDisplay(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[3] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 1) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_ShowImageDisplay__SWIG_0(self, args);
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Gatan__DM__ImageDocument, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_ShowImageDisplay__SWIG_1(self, args);
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ShowImageDisplay'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::ShowImageDisplay(Gatan::DM::ImageDisplay const &)\n"
-    "    Gatan::DM::ShowImageDisplay(Gatan::DM::ImageDisplay const &,Gatan::DM::ImageDocument &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_GetNthImageDisplay__SWIG_0(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  uint32 arg1 ;
-  void *argp1 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  Gatan::DM::ImageDisplay result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:GetNthImageDisplay",&obj0)) SWIG_fail;
-  {
-    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_uint32,  0  | 0);
-    if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GetNthImageDisplay" "', argument " "1"" of type '" "uint32""'"); 
-    }  
-    if (!argp1) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "1"" of type '" "uint32""'");
-    } else {
-      uint32 * temp = reinterpret_cast< uint32 * >(argp1);
-      arg1 = *temp;
-      if (SWIG_IsNewObj(res1)) delete temp;
-    }
-  }
-  result = Gatan::DM::GetNthImageDisplay(arg1);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ImageDisplay(static_cast< const Gatan::DM::ImageDisplay& >(result))), SWIGTYPE_p_Gatan__DM__ImageDisplay, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_GetNthImageDisplay__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  uint32 arg1 ;
-  Gatan::DM::ImageDocument *arg2 = 0 ;
-  void *argp1 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::ImageDisplay result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:GetNthImageDisplay",&obj0,&obj1)) SWIG_fail;
-  {
-    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_uint32,  0  | 0);
-    if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GetNthImageDisplay" "', argument " "1"" of type '" "uint32""'"); 
-    }  
-    if (!argp1) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "1"" of type '" "uint32""'");
-    } else {
-      uint32 * temp = reinterpret_cast< uint32 * >(argp1);
-      arg1 = *temp;
-      if (SWIG_IsNewObj(res1)) delete temp;
-    }
-  }
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ImageDocument,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "GetNthImageDisplay" "', argument " "2"" of type '" "Gatan::DM::ImageDocument &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "2"" of type '" "Gatan::DM::ImageDocument &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ImageDocument * >(argp2);
-  result = Gatan::DM::GetNthImageDisplay(arg1,*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ImageDisplay(static_cast< const Gatan::DM::ImageDisplay& >(result))), SWIGTYPE_p_Gatan__DM__ImageDisplay, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_GetNthImageDisplay__SWIG_2(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  uint32 arg1 ;
-  Gatan::DM::ImageDocument *arg2 = 0 ;
-  Gatan::DM::Window *arg3 = 0 ;
-  void *argp1 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  Gatan::DM::ImageDisplay result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:GetNthImageDisplay",&obj0,&obj1,&obj2)) SWIG_fail;
-  {
-    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_uint32,  0  | 0);
-    if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GetNthImageDisplay" "', argument " "1"" of type '" "uint32""'"); 
-    }  
-    if (!argp1) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "1"" of type '" "uint32""'");
-    } else {
-      uint32 * temp = reinterpret_cast< uint32 * >(argp1);
-      arg1 = *temp;
-      if (SWIG_IsNewObj(res1)) delete temp;
-    }
-  }
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ImageDocument,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "GetNthImageDisplay" "', argument " "2"" of type '" "Gatan::DM::ImageDocument &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "2"" of type '" "Gatan::DM::ImageDocument &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ImageDocument * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__Window,  0 );
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "GetNthImageDisplay" "', argument " "3"" of type '" "Gatan::DM::Window &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "3"" of type '" "Gatan::DM::Window &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::Window * >(argp3);
-  result = Gatan::DM::GetNthImageDisplay(arg1,*arg2,*arg3);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ImageDisplay(static_cast< const Gatan::DM::ImageDisplay& >(result))), SWIGTYPE_p_Gatan__DM__ImageDisplay, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_GetNthImageDisplay__SWIG_3(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::Image *arg1 = 0 ;
-  uint32 arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::ImageDisplay result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:GetNthImageDisplay",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__Image,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GetNthImageDisplay" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::Image * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_uint32,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "GetNthImageDisplay" "', argument " "2"" of type '" "uint32""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "2"" of type '" "uint32""'");
-    } else {
-      uint32 * temp = reinterpret_cast< uint32 * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
-  result = Gatan::DM::GetNthImageDisplay((Gatan::DM::Image const &)*arg1,arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ImageDisplay(static_cast< const Gatan::DM::ImageDisplay& >(result))), SWIGTYPE_p_Gatan__DM__ImageDisplay, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_GetNthImageDisplay__SWIG_4(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::Image *arg1 = 0 ;
-  uint32 arg2 ;
-  Gatan::DM::ImageDocument *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  Gatan::DM::ImageDisplay result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:GetNthImageDisplay",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__Image,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GetNthImageDisplay" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::Image * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_uint32,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "GetNthImageDisplay" "', argument " "2"" of type '" "uint32""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "2"" of type '" "uint32""'");
-    } else {
-      uint32 * temp = reinterpret_cast< uint32 * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__ImageDocument,  0 );
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "GetNthImageDisplay" "', argument " "3"" of type '" "Gatan::DM::ImageDocument &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "3"" of type '" "Gatan::DM::ImageDocument &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::ImageDocument * >(argp3);
-  result = Gatan::DM::GetNthImageDisplay((Gatan::DM::Image const &)*arg1,arg2,*arg3);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ImageDisplay(static_cast< const Gatan::DM::ImageDisplay& >(result))), SWIGTYPE_p_Gatan__DM__ImageDisplay, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_GetNthImageDisplay__SWIG_5(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::Image *arg1 = 0 ;
-  uint32 arg2 ;
-  Gatan::DM::ImageDocument *arg3 = 0 ;
-  Gatan::DM::Window *arg4 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  void *argp4 = 0 ;
-  int res4 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  Gatan::DM::ImageDisplay result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOOO:GetNthImageDisplay",&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__Image,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GetNthImageDisplay" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::Image * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_uint32,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "GetNthImageDisplay" "', argument " "2"" of type '" "uint32""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "2"" of type '" "uint32""'");
-    } else {
-      uint32 * temp = reinterpret_cast< uint32 * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__ImageDocument,  0 );
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "GetNthImageDisplay" "', argument " "3"" of type '" "Gatan::DM::ImageDocument &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "3"" of type '" "Gatan::DM::ImageDocument &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::ImageDocument * >(argp3);
-  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_Gatan__DM__Window,  0 );
-  if (!SWIG_IsOK(res4)) {
-    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "GetNthImageDisplay" "', argument " "4"" of type '" "Gatan::DM::Window &""'"); 
-  }
-  if (!argp4) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthImageDisplay" "', argument " "4"" of type '" "Gatan::DM::Window &""'"); 
-  }
-  arg4 = reinterpret_cast< Gatan::DM::Window * >(argp4);
-  result = Gatan::DM::GetNthImageDisplay((Gatan::DM::Image const &)*arg1,arg2,*arg3,*arg4);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ImageDisplay(static_cast< const Gatan::DM::ImageDisplay& >(result))), SWIGTYPE_p_Gatan__DM__ImageDisplay, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_GetNthImageDisplay(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[5] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 4) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 1) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_uint32, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_GetNthImageDisplay__SWIG_0(self, args);
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_uint32, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Gatan__DM__ImageDocument, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_GetNthImageDisplay__SWIG_1(self, args);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__Image, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_uint32, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_GetNthImageDisplay__SWIG_3(self, args);
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_uint32, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      void *vptr = 0;
-      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Gatan__DM__ImageDocument, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        void *vptr = 0;
-        int res = SWIG_ConvertPtr(argv[2], &vptr, SWIGTYPE_p_Gatan__DM__Window, 0);
-        _v = SWIG_CheckState(res);
-        if (_v) {
-          return _wrap_GetNthImageDisplay__SWIG_2(self, args);
-        }
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__Image, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_uint32, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        void *vptr = 0;
-        int res = SWIG_ConvertPtr(argv[2], &vptr, SWIGTYPE_p_Gatan__DM__ImageDocument, 0);
-        _v = SWIG_CheckState(res);
-        if (_v) {
-          return _wrap_GetNthImageDisplay__SWIG_4(self, args);
-        }
-      }
-    }
-  }
-  if (argc == 4) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__Image, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_uint32, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        void *vptr = 0;
-        int res = SWIG_ConvertPtr(argv[2], &vptr, SWIGTYPE_p_Gatan__DM__ImageDocument, 0);
-        _v = SWIG_CheckState(res);
-        if (_v) {
-          void *vptr = 0;
-          int res = SWIG_ConvertPtr(argv[3], &vptr, SWIGTYPE_p_Gatan__DM__Window, 0);
-          _v = SWIG_CheckState(res);
-          if (_v) {
-            return _wrap_GetNthImageDisplay__SWIG_5(self, args);
-          }
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'GetNthImageDisplay'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::GetNthImageDisplay(uint32)\n"
-    "    Gatan::DM::GetNthImageDisplay(uint32,Gatan::DM::ImageDocument &)\n"
-    "    Gatan::DM::GetNthImageDisplay(uint32,Gatan::DM::ImageDocument &,Gatan::DM::Window &)\n"
-    "    Gatan::DM::GetNthImageDisplay(Gatan::DM::Image const &,uint32)\n"
-    "    Gatan::DM::GetNthImageDisplay(Gatan::DM::Image const &,uint32,Gatan::DM::ImageDocument &)\n"
-    "    Gatan::DM::GetNthImageDisplay(Gatan::DM::Image const &,uint32,Gatan::DM::ImageDocument &,Gatan::DM::Window &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_NewImageDisplay(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::Image *arg1 = 0 ;
-  Gatan::DM::String *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::ImageDisplay result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:NewImageDisplay",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__Image,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NewImageDisplay" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "NewImageDisplay" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::Image * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NewImageDisplay" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "NewImageDisplay" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::String * >(argp2);
-  result = Gatan::DM::NewImageDisplay((Gatan::DM::Image const &)*arg1,(Gatan::DM::String const &)*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ImageDisplay(static_cast< const Gatan::DM::ImageDisplay& >(result))), SWIGTYPE_p_Gatan__DM__ImageDisplay, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDocumentAddImageDisplay__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDocument *arg1 = 0 ;
-  Gatan::DM::ImageDisplay *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::ImageDisplay result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDocumentAddImageDisplay",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDocument,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDocumentAddImageDisplay" "', argument " "1"" of type '" "Gatan::DM::ImageDocument const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDocumentAddImageDisplay" "', argument " "1"" of type '" "Gatan::DM::ImageDocument const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDocument * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDocumentAddImageDisplay" "', argument " "2"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDocumentAddImageDisplay" "', argument " "2"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp2);
-  result = Gatan::DM::ImageDocumentAddImageDisplay((Gatan::DM::ImageDocument const &)*arg1,(Gatan::DM::ImageDisplay const &)*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ImageDisplay(static_cast< const Gatan::DM::ImageDisplay& >(result))), SWIGTYPE_p_Gatan__DM__ImageDisplay, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDocumentAddImageDisplay__SWIG_2(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDocument *arg1 = 0 ;
-  Gatan::DM::Image *arg2 = 0 ;
-  Gatan::DM::String *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  Gatan::DM::ImageDisplay result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ImageDocumentAddImageDisplay",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDocument,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDocumentAddImageDisplay" "', argument " "1"" of type '" "Gatan::DM::ImageDocument const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDocumentAddImageDisplay" "', argument " "1"" of type '" "Gatan::DM::ImageDocument const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDocument * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__Image,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDocumentAddImageDisplay" "', argument " "2"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDocumentAddImageDisplay" "', argument " "2"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::Image * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ImageDocumentAddImageDisplay" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDocumentAddImageDisplay" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::String * >(argp3);
-  result = Gatan::DM::ImageDocumentAddImageDisplay((Gatan::DM::ImageDocument const &)*arg1,(Gatan::DM::Image const &)*arg2,(Gatan::DM::String const &)*arg3);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ImageDisplay(static_cast< const Gatan::DM::ImageDisplay& >(result))), SWIGTYPE_p_Gatan__DM__ImageDisplay, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDocumentAddImageDisplay(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[4] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDocument, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_ImageDocumentAddImageDisplay__SWIG_1(self, args);
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDocument, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_Gatan__DM__Image, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_Gatan__DM__String, 0);
-        _v = SWIG_CheckState(res);
-        if (_v) {
-          return _wrap_ImageDocumentAddImageDisplay__SWIG_2(self, args);
-        }
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDocument, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_Gatan__DM__Image, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        {
-          int res = SWIG_AsVal_long(argv[2], NULL);
-          _v = SWIG_CheckState(res);
-        }
-        if (_v) {
-          return _wrap_ImageDocumentAddImageDisplay__SWIG_0(self, args);
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ImageDocumentAddImageDisplay'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::ImageDocumentAddImageDisplay(Gatan::DM::ImageDocument const &,Gatan::DM::Image const &,long)\n"
-    "    Gatan::DM::ImageDocumentAddImageDisplay(Gatan::DM::ImageDocument const &,Gatan::DM::ImageDisplay const &)\n"
-    "    Gatan::DM::ImageDocumentAddImageDisplay(Gatan::DM::ImageDocument const &,Gatan::DM::Image const &,Gatan::DM::String const &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayAddImage(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::Image *arg2 = 0 ;
-  Gatan::DM::String *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  Gatan::DM::ScriptObject result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ImageDisplayAddImage",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayAddImage" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayAddImage" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__Image,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayAddImage" "', argument " "2"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayAddImage" "', argument " "2"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::Image * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ImageDisplayAddImage" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayAddImage" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::String * >(argp3);
-  result = Gatan::DM::ImageDisplayAddImage((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::Image const &)*arg2,(Gatan::DM::String const &)*arg3);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ScriptObject(static_cast< const Gatan::DM::ScriptObject& >(result))), SWIGTYPE_p_Gatan__DM__ScriptObject, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayChangeDisplayType__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::String *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::ImageDisplay result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayChangeDisplayType",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayChangeDisplayType" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayChangeDisplayType" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayChangeDisplayType" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayChangeDisplayType" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::String * >(argp2);
-  result = Gatan::DM::ImageDisplayChangeDisplayType((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::String const &)*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ImageDisplay(static_cast< const Gatan::DM::ImageDisplay& >(result))), SWIGTYPE_p_Gatan__DM__ImageDisplay, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayChangeDisplayType(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[3] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_Gatan__DM__String, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_ImageDisplayChangeDisplayType__SWIG_1(self, args);
-      }
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_long(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_ImageDisplayChangeDisplayType__SWIG_0(self, args);
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ImageDisplayChangeDisplayType'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::ImageDisplayChangeDisplayType(Gatan::DM::ImageDisplay const &,long)\n"
-    "    Gatan::DM::ImageDisplayChangeDisplayType(Gatan::DM::ImageDisplay const &,Gatan::DM::String const &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayCountSlices(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  uint32 result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:ImageDisplayCountSlices",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayCountSlices" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayCountSlices" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  result = Gatan::DM::ImageDisplayCountSlices((Gatan::DM::ImageDisplay const &)*arg1);
-  resultobj = SWIG_NewPointerObj((new uint32(static_cast< const uint32& >(result))), SWIGTYPE_p_uint32, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayFindSliceIndexById(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  uint32 *arg3 = (uint32 *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  bool result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ImageDisplayFindSliceIndexById",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayFindSliceIndexById" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayFindSliceIndexById" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayFindSliceIndexById" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayFindSliceIndexById" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3,SWIGTYPE_p_uint32, 0 |  0 );
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ImageDisplayFindSliceIndexById" "', argument " "3"" of type '" "uint32 *""'"); 
-  }
-  arg3 = reinterpret_cast< uint32 * >(argp3);
-  result = (bool)Gatan::DM::ImageDisplayFindSliceIndexById((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2,arg3);
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSliceIdByIndex(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  uint32 arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::ScriptObject result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayGetSliceIdByIndex",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetSliceIdByIndex" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceIdByIndex" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_uint32,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayGetSliceIdByIndex" "', argument " "2"" of type '" "uint32""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceIdByIndex" "', argument " "2"" of type '" "uint32""'");
-    } else {
-      uint32 * temp = reinterpret_cast< uint32 * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
-  result = Gatan::DM::ImageDisplayGetSliceIdByIndex((Gatan::DM::ImageDisplay const &)*arg1,arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ScriptObject(static_cast< const Gatan::DM::ScriptObject& >(result))), SWIGTYPE_p_Gatan__DM__ScriptObject, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSliceIdByLabel(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::String *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::ScriptObject result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayGetSliceIdByLabel",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetSliceIdByLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceIdByLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayGetSliceIdByLabel" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceIdByLabel" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::String * >(argp2);
-  result = Gatan::DM::ImageDisplayGetSliceIdByLabel((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::String const &)*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ScriptObject(static_cast< const Gatan::DM::ScriptObject& >(result))), SWIGTYPE_p_Gatan__DM__ScriptObject, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayContainsSliceWithId(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  bool result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayContainsSliceWithId",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayContainsSliceWithId" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayContainsSliceWithId" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayContainsSliceWithId" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayContainsSliceWithId" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  result = (bool)Gatan::DM::ImageDisplayContainsSliceWithId((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2);
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSliceLabelById(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::String result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayGetSliceLabelById",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetSliceLabelById" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceLabelById" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayGetSliceLabelById" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceLabelById" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  result = Gatan::DM::ImageDisplayGetSliceLabelById((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::String(static_cast< const Gatan::DM::String& >(result))), SWIGTYPE_p_Gatan__DM__String, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplaySetSliceLabelById(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  Gatan::DM::String *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ImageDisplaySetSliceLabelById",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplaySetSliceLabelById" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetSliceLabelById" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplaySetSliceLabelById" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetSliceLabelById" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ImageDisplaySetSliceLabelById" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetSliceLabelById" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::String * >(argp3);
-  Gatan::DM::ImageDisplaySetSliceLabelById((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2,(Gatan::DM::String const &)*arg3);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetFullSliceLabelById(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::String result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayGetFullSliceLabelById",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetFullSliceLabelById" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetFullSliceLabelById" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayGetFullSliceLabelById" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetFullSliceLabelById" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  result = Gatan::DM::ImageDisplayGetFullSliceLabelById((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::String(static_cast< const Gatan::DM::String& >(result))), SWIGTYPE_p_Gatan__DM__String, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayFindSliceIdByLabel(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::String *arg2 = 0 ;
-  Gatan::DM::ScriptObject *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  bool result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ImageDisplayFindSliceIdByLabel",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayFindSliceIdByLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayFindSliceIdByLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayFindSliceIdByLabel" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayFindSliceIdByLabel" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::String * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__ScriptObject,  0 );
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ImageDisplayFindSliceIdByLabel" "', argument " "3"" of type '" "Gatan::DM::ScriptObject &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayFindSliceIdByLabel" "', argument " "3"" of type '" "Gatan::DM::ScriptObject &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp3);
-  result = (bool)Gatan::DM::ImageDisplayFindSliceIdByLabel((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::String const &)*arg2,*arg3);
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetCalibrationSlice(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  Gatan::DM::ScriptObject result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:ImageDisplayGetCalibrationSlice",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetCalibrationSlice" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetCalibrationSlice" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  result = Gatan::DM::ImageDisplayGetCalibrationSlice((Gatan::DM::ImageDisplay const &)*arg1);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ScriptObject(static_cast< const Gatan::DM::ScriptObject& >(result))), SWIGTYPE_p_Gatan__DM__ScriptObject, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplaySetCalibrationSlice(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplaySetCalibrationSlice",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplaySetCalibrationSlice" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetCalibrationSlice" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplaySetCalibrationSlice" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetCalibrationSlice" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  Gatan::DM::ImageDisplaySetCalibrationSlice((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSinglePrimarySlice(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  Gatan::DM::ScriptObject result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:ImageDisplayGetSinglePrimarySlice",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetSinglePrimarySlice" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSinglePrimarySlice" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  result = Gatan::DM::ImageDisplayGetSinglePrimarySlice((Gatan::DM::ImageDisplay const &)*arg1);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ScriptObject(static_cast< const Gatan::DM::ScriptObject& >(result))), SWIGTYPE_p_Gatan__DM__ScriptObject, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayIsSliceSelected(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  bool result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayIsSliceSelected",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayIsSliceSelected" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayIsSliceSelected" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayIsSliceSelected" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayIsSliceSelected" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  result = (bool)Gatan::DM::ImageDisplayIsSliceSelected((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2);
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplaySetSliceSelected(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  bool arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  bool val3 ;
-  int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ImageDisplaySetSliceSelected",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplaySetSliceSelected" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetSliceSelected" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplaySetSliceSelected" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetSliceSelected" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  ecode3 = SWIG_AsVal_bool(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ImageDisplaySetSliceSelected" "', argument " "3"" of type '" "bool""'");
-  } 
-  arg3 = static_cast< bool >(val3);
-  Gatan::DM::ImageDisplaySetSliceSelected((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2,arg3);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayIsSliceVisible(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  bool result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayIsSliceVisible",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayIsSliceVisible" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayIsSliceVisible" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayIsSliceVisible" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayIsSliceVisible" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  result = (bool)Gatan::DM::ImageDisplayIsSliceVisible((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2);
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplaySetSliceVisible(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  bool arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  bool val3 ;
-  int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ImageDisplaySetSliceVisible",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplaySetSliceVisible" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetSliceVisible" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplaySetSliceVisible" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetSliceVisible" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  ecode3 = SWIG_AsVal_bool(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ImageDisplaySetSliceVisible" "', argument " "3"" of type '" "bool""'");
-  } 
-  arg3 = static_cast< bool >(val3);
-  Gatan::DM::ImageDisplaySetSliceVisible((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2,arg3);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayDeleteSliceWithId(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  bool result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayDeleteSliceWithId",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayDeleteSliceWithId" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayDeleteSliceWithId" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayDeleteSliceWithId" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayDeleteSliceWithId" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  result = (bool)Gatan::DM::ImageDisplayDeleteSliceWithId((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2);
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSliceImageById__SWIG_0(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::Image result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayGetSliceImageById",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetSliceImageById" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageById" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayGetSliceImageById" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageById" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  result = Gatan::DM::ImageDisplayGetSliceImageById((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Image(static_cast< const Gatan::DM::Image& >(result))), SWIGTYPE_p_Gatan__DM__Image, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSliceImageByLabel__SWIG_0(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::String *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::Image result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayGetSliceImageByLabel",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetSliceImageByLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageByLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayGetSliceImageByLabel" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageByLabel" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::String * >(argp2);
-  result = Gatan::DM::ImageDisplayGetSliceImageByLabel((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::String const &)*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Image(static_cast< const Gatan::DM::Image& >(result))), SWIGTYPE_p_Gatan__DM__Image, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSliceImageByIndex__SWIG_0(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  uint32 arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::Image result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayGetSliceImageByIndex",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetSliceImageByIndex" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageByIndex" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_uint32,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayGetSliceImageByIndex" "', argument " "2"" of type '" "uint32""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageByIndex" "', argument " "2"" of type '" "uint32""'");
-    } else {
-      uint32 * temp = reinterpret_cast< uint32 * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
-  result = Gatan::DM::ImageDisplayGetSliceImageByIndex((Gatan::DM::ImageDisplay const &)*arg1,arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Image(static_cast< const Gatan::DM::Image& >(result))), SWIGTYPE_p_Gatan__DM__Image, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSliceImageById__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  Gatan::DM::ROI *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  Gatan::DM::Image result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ImageDisplayGetSliceImageById",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetSliceImageById" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageById" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayGetSliceImageById" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageById" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__ROI,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ImageDisplayGetSliceImageById" "', argument " "3"" of type '" "Gatan::DM::ROI const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageById" "', argument " "3"" of type '" "Gatan::DM::ROI const &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::ROI * >(argp3);
-  result = Gatan::DM::ImageDisplayGetSliceImageById((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::ScriptObject const &)*arg2,(Gatan::DM::ROI const &)*arg3);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Image(static_cast< const Gatan::DM::Image& >(result))), SWIGTYPE_p_Gatan__DM__Image, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSliceImageById(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[4] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_Gatan__DM__ScriptObject, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_ImageDisplayGetSliceImageById__SWIG_0(self, args);
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_Gatan__DM__ScriptObject, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_Gatan__DM__ROI, 0);
-        _v = SWIG_CheckState(res);
-        if (_v) {
-          return _wrap_ImageDisplayGetSliceImageById__SWIG_1(self, args);
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ImageDisplayGetSliceImageById'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::ImageDisplayGetSliceImageById(Gatan::DM::ImageDisplay const &,Gatan::DM::ScriptObject const &)\n"
-    "    Gatan::DM::ImageDisplayGetSliceImageById(Gatan::DM::ImageDisplay const &,Gatan::DM::ScriptObject const &,Gatan::DM::ROI const &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSliceImageByLabel__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::String *arg2 = 0 ;
-  Gatan::DM::ROI *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  Gatan::DM::Image result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ImageDisplayGetSliceImageByLabel",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetSliceImageByLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageByLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayGetSliceImageByLabel" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageByLabel" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::String * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__ROI,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ImageDisplayGetSliceImageByLabel" "', argument " "3"" of type '" "Gatan::DM::ROI const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageByLabel" "', argument " "3"" of type '" "Gatan::DM::ROI const &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::ROI * >(argp3);
-  result = Gatan::DM::ImageDisplayGetSliceImageByLabel((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::String const &)*arg2,(Gatan::DM::ROI const &)*arg3);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Image(static_cast< const Gatan::DM::Image& >(result))), SWIGTYPE_p_Gatan__DM__Image, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSliceImageByLabel(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[4] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_Gatan__DM__String, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_ImageDisplayGetSliceImageByLabel__SWIG_0(self, args);
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_Gatan__DM__String, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_Gatan__DM__ROI, 0);
-        _v = SWIG_CheckState(res);
-        if (_v) {
-          return _wrap_ImageDisplayGetSliceImageByLabel__SWIG_1(self, args);
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ImageDisplayGetSliceImageByLabel'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::ImageDisplayGetSliceImageByLabel(Gatan::DM::ImageDisplay const &,Gatan::DM::String const &)\n"
-    "    Gatan::DM::ImageDisplayGetSliceImageByLabel(Gatan::DM::ImageDisplay const &,Gatan::DM::String const &,Gatan::DM::ROI const &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSliceImageByIndex__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  uint32 arg2 ;
-  Gatan::DM::ROI *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  Gatan::DM::Image result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ImageDisplayGetSliceImageByIndex",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetSliceImageByIndex" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageByIndex" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_uint32,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayGetSliceImageByIndex" "', argument " "2"" of type '" "uint32""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageByIndex" "', argument " "2"" of type '" "uint32""'");
-    } else {
-      uint32 * temp = reinterpret_cast< uint32 * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__ROI,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ImageDisplayGetSliceImageByIndex" "', argument " "3"" of type '" "Gatan::DM::ROI const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetSliceImageByIndex" "', argument " "3"" of type '" "Gatan::DM::ROI const &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::ROI * >(argp3);
-  result = Gatan::DM::ImageDisplayGetSliceImageByIndex((Gatan::DM::ImageDisplay const &)*arg1,arg2,(Gatan::DM::ROI const &)*arg3);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Image(static_cast< const Gatan::DM::Image& >(result))), SWIGTYPE_p_Gatan__DM__Image, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetSliceImageByIndex(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[4] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_uint32, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_ImageDisplayGetSliceImageByIndex__SWIG_0(self, args);
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ImageDisplay, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_uint32, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_Gatan__DM__ROI, 0);
-        _v = SWIG_CheckState(res);
-        if (_v) {
-          return _wrap_ImageDisplayGetSliceImageByIndex__SWIG_1(self, args);
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ImageDisplayGetSliceImageByIndex'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::ImageDisplayGetSliceImageByIndex(Gatan::DM::ImageDisplay const &,uint32)\n"
-    "    Gatan::DM::ImageDisplayGetSliceImageByIndex(Gatan::DM::ImageDisplay const &,uint32,Gatan::DM::ROI const &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplaySetIntensityLabel(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  Gatan::DM::String *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplaySetIntensityLabel",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplaySetIntensityLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetIntensityLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplaySetIntensityLabel" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetIntensityLabel" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::String * >(argp2);
-  Gatan::DM::ImageDisplaySetIntensityLabel((Gatan::DM::ImageDisplay const &)*arg1,(Gatan::DM::String const &)*arg2);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplaySetDimensionLabel(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  uint32 arg2 ;
-  Gatan::DM::String *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ImageDisplaySetDimensionLabel",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplaySetDimensionLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetDimensionLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_uint32,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplaySetDimensionLabel" "', argument " "2"" of type '" "uint32""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetDimensionLabel" "', argument " "2"" of type '" "uint32""'");
-    } else {
-      uint32 * temp = reinterpret_cast< uint32 * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ImageDisplaySetDimensionLabel" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplaySetDimensionLabel" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::String * >(argp3);
-  Gatan::DM::ImageDisplaySetDimensionLabel((Gatan::DM::ImageDisplay const &)*arg1,arg2,(Gatan::DM::String const &)*arg3);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetIntensityLabel(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  Gatan::DM::String result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:ImageDisplayGetIntensityLabel",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetIntensityLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetIntensityLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  result = Gatan::DM::ImageDisplayGetIntensityLabel((Gatan::DM::ImageDisplay const &)*arg1);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::String(static_cast< const Gatan::DM::String& >(result))), SWIGTYPE_p_Gatan__DM__String, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ImageDisplayGetDimensionLabel(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ImageDisplay *arg1 = 0 ;
-  uint32 arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::String result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ImageDisplayGetDimensionLabel",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ImageDisplayGetDimensionLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetDimensionLabel" "', argument " "1"" of type '" "Gatan::DM::ImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ImageDisplay * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_uint32,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ImageDisplayGetDimensionLabel" "', argument " "2"" of type '" "uint32""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ImageDisplayGetDimensionLabel" "', argument " "2"" of type '" "uint32""'");
-    } else {
-      uint32 * temp = reinterpret_cast< uint32 * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
-  result = Gatan::DM::ImageDisplayGetDimensionLabel((Gatan::DM::ImageDisplay const &)*arg1,arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::String(static_cast< const Gatan::DM::String& >(result))), SWIGTYPE_p_Gatan__DM__String, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_TransferTagsAndApplyDataBar__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::Image *arg1 = 0 ;
-  uint32 arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:TransferTagsAndApplyDataBar",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__Image,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TransferTagsAndApplyDataBar" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TransferTagsAndApplyDataBar" "', argument " "1"" of type '" "Gatan::DM::Image const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::Image * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_uint32,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TransferTagsAndApplyDataBar" "', argument " "2"" of type '" "uint32""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TransferTagsAndApplyDataBar" "', argument " "2"" of type '" "uint32""'");
-    } else {
-      uint32 * temp = reinterpret_cast< uint32 * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
-  Gatan::DM::TransferTagsAndApplyDataBar((Gatan::DM::Image const &)*arg1,arg2);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_TransferTagsAndApplyDataBar(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[3] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 1) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__Image, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_TransferTagsAndApplyDataBar__SWIG_0(self, args);
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__Image, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_uint32, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_TransferTagsAndApplyDataBar__SWIG_1(self, args);
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'TransferTagsAndApplyDataBar'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::TransferTagsAndApplyDataBar(Gatan::DM::Image const &)\n"
-    "    Gatan::DM::TransferTagsAndApplyDataBar(Gatan::DM::Image const &,uint32)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_Throw(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::Throwable *arg1 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:Throw",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__Throwable,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Throw" "', argument " "1"" of type '" "Gatan::DM::Throwable const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Throw" "', argument " "1"" of type '" "Gatan::DM::Throwable const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::Throwable * >(argp1);
-  Gatan::DM::Throw((Gatan::DM::Throwable const &)*arg1);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_PostException(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::Throwable *arg1 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:PostException",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__Throwable,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PostException" "', argument " "1"" of type '" "Gatan::DM::Throwable const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PostException" "', argument " "1"" of type '" "Gatan::DM::Throwable const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::Throwable * >(argp1);
-  Gatan::DM::PostException((Gatan::DM::Throwable const &)*arg1);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_NewThrowableFromString(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  ::Gatan::PlugIn::DM_Env *arg1 = (::Gatan::PlugIn::DM_Env *) 0 ;
-  Gatan::DM::String *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::Throwable result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:NewThrowableFromString",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Gatan__PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NewThrowableFromString" "', argument " "1"" of type '" "::Gatan::PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< ::Gatan::PlugIn::DM_Env * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NewThrowableFromString" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "NewThrowableFromString" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::String * >(argp2);
-  result = Gatan::DM::NewThrowableFromString(arg1,(Gatan::DM::String const &)*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::Throwable(static_cast< const Gatan::DM::Throwable& >(result))), SWIGTYPE_p_Gatan__DM__Throwable, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_OutputDebugString(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::String *arg1 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:OutputDebugString",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OutputDebugString" "', argument " "1"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "OutputDebugString" "', argument " "1"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::String * >(argp1);
-  Gatan::DM::OutputDebugString((Gatan::DM::String const &)*arg1);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ThrowUserAbort(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  
-  if (!PyArg_ParseTuple(args,(char *)":ThrowUserAbort")) SWIG_fail;
-  Gatan::DM::ThrowUserAbort();
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_GetInstallationID(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::String result;
-  
-  if (!PyArg_ParseTuple(args,(char *)":GetInstallationID")) SWIG_fail;
-  result = Gatan::DM::GetInstallationID();
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::String(static_cast< const Gatan::DM::String& >(result))), SWIGTYPE_p_Gatan__DM__String, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_IsProductLicensed(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  char *arg1 = (char *) 0 ;
-  int res1 ;
-  char *buf1 = 0 ;
-  int alloc1 = 0 ;
-  PyObject * obj0 = 0 ;
-  bool result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:IsProductLicensed",&obj0)) SWIG_fail;
-  res1 = SWIG_AsCharPtrAndSize(obj0, &buf1, NULL, &alloc1);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IsProductLicensed" "', argument " "1"" of type '" "char const *""'");
-  }
-  arg1 = reinterpret_cast< char * >(buf1);
-  result = (bool)Gatan::DM::IsProductLicensed((char const *)arg1);
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
-  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
-  return resultobj;
-fail:
-  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_CountProductFeatures(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  char *arg1 = (char *) 0 ;
-  int res1 ;
-  char *buf1 = 0 ;
-  int alloc1 = 0 ;
-  PyObject * obj0 = 0 ;
-  ulong result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:CountProductFeatures",&obj0)) SWIG_fail;
-  res1 = SWIG_AsCharPtrAndSize(obj0, &buf1, NULL, &alloc1);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CountProductFeatures" "', argument " "1"" of type '" "char const *""'");
-  }
-  arg1 = reinterpret_cast< char * >(buf1);
-  result = Gatan::DM::CountProductFeatures((char const *)arg1);
-  resultobj = SWIG_NewPointerObj((new ulong(static_cast< const ulong& >(result))), SWIGTYPE_p_ulong, SWIG_POINTER_OWN |  0 );
-  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
-  return resultobj;
-fail:
-  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_GetNthProductFeature(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  char *arg1 = (char *) 0 ;
-  ulong arg2 ;
-  int res1 ;
-  char *buf1 = 0 ;
-  int alloc1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  ulong result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:GetNthProductFeature",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_AsCharPtrAndSize(obj0, &buf1, NULL, &alloc1);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GetNthProductFeature" "', argument " "1"" of type '" "char const *""'");
-  }
-  arg1 = reinterpret_cast< char * >(buf1);
-  {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_ulong,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "GetNthProductFeature" "', argument " "2"" of type '" "ulong""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GetNthProductFeature" "', argument " "2"" of type '" "ulong""'");
-    } else {
-      ulong * temp = reinterpret_cast< ulong * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
-  result = Gatan::DM::GetNthProductFeature((char const *)arg1,arg2);
-  resultobj = SWIG_NewPointerObj((new ulong(static_cast< const ulong& >(result))), SWIGTYPE_p_ulong, SWIG_POINTER_OWN |  0 );
-  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
-  return resultobj;
-fail:
-  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_LinePlotImageDisplayAddPeakLabel(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::LinePlotImageDisplay *arg1 = 0 ;
-  float arg2 ;
-  float arg3 ;
-  Gatan::DM::String *arg4 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  float val3 ;
-  int ecode3 = 0 ;
-  void *argp4 = 0 ;
-  int res4 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOOO:LinePlotImageDisplayAddPeakLabel",&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__LinePlotImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinePlotImageDisplayAddPeakLabel" "', argument " "1"" of type '" "Gatan::DM::LinePlotImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "LinePlotImageDisplayAddPeakLabel" "', argument " "1"" of type '" "Gatan::DM::LinePlotImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::LinePlotImageDisplay * >(argp1);
-  ecode2 = SWIG_AsVal_float(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "LinePlotImageDisplayAddPeakLabel" "', argument " "2"" of type '" "float""'");
-  } 
-  arg2 = static_cast< float >(val2);
-  ecode3 = SWIG_AsVal_float(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "LinePlotImageDisplayAddPeakLabel" "', argument " "3"" of type '" "float""'");
-  } 
-  arg3 = static_cast< float >(val3);
-  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res4)) {
-    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "LinePlotImageDisplayAddPeakLabel" "', argument " "4"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp4) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "LinePlotImageDisplayAddPeakLabel" "', argument " "4"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg4 = reinterpret_cast< Gatan::DM::String * >(argp4);
-  Gatan::DM::LinePlotImageDisplayAddPeakLabel((Gatan::DM::LinePlotImageDisplay const &)*arg1,arg2,arg3,(Gatan::DM::String const &)*arg4);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_LinePlotImageDisplayRemovePeakLabel(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::LinePlotImageDisplay *arg1 = 0 ;
-  float arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:LinePlotImageDisplayRemovePeakLabel",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__LinePlotImageDisplay,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinePlotImageDisplayRemovePeakLabel" "', argument " "1"" of type '" "Gatan::DM::LinePlotImageDisplay const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "LinePlotImageDisplayRemovePeakLabel" "', argument " "1"" of type '" "Gatan::DM::LinePlotImageDisplay const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::LinePlotImageDisplay * >(argp1);
-  ecode2 = SWIG_AsVal_float(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "LinePlotImageDisplayRemovePeakLabel" "', argument " "2"" of type '" "float""'");
-  } 
-  arg2 = static_cast< float >(val2);
-  Gatan::DM::LinePlotImageDisplayRemovePeakLabel((Gatan::DM::LinePlotImageDisplay const &)*arg1,arg2);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_GetDefaultLinePlotDisplaySize(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  float *arg1 = (float *) 0 ;
-  float *arg2 = (float *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:GetDefaultLinePlotDisplaySize",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_float, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GetDefaultLinePlotDisplaySize" "', argument " "1"" of type '" "float *""'"); 
-  }
-  arg1 = reinterpret_cast< float * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_float, 0 |  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "GetDefaultLinePlotDisplaySize" "', argument " "2"" of type '" "float *""'"); 
-  }
-  arg2 = reinterpret_cast< float * >(argp2);
-  Gatan::DM::GetDefaultLinePlotDisplaySize(arg1,arg2);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_NewObjectList__SWIG_0(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  PlugIn::DM_Env *arg1 = (PlugIn::DM_Env *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  Gatan::DM::ScriptObjectList result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:NewObjectList",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NewObjectList" "', argument " "1"" of type '" "PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< PlugIn::DM_Env * >(argp1);
-  result = Gatan::DM::NewObjectList(arg1);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ScriptObjectList(static_cast< const Gatan::DM::ScriptObjectList& >(result))), SWIGTYPE_p_Gatan__DM__ScriptObject, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_NewObjectList__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  PlugIn::DM_Env *arg1 = (PlugIn::DM_Env *) 0 ;
-  const_value_range< Gatan::DM::ScriptObject > *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::ScriptObjectList result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:NewObjectList",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NewObjectList" "', argument " "1"" of type '" "PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< PlugIn::DM_Env * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_const_value_rangeT_Gatan__DM__ScriptObject_t,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NewObjectList" "', argument " "2"" of type '" "const_value_range< Gatan::DM::ScriptObject > const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "NewObjectList" "', argument " "2"" of type '" "const_value_range< Gatan::DM::ScriptObject > const &""'"); 
-  }
-  arg2 = reinterpret_cast< const_value_range< Gatan::DM::ScriptObject > * >(argp2);
-  result = Gatan::DM::NewObjectList(arg1,(const_value_range< Gatan::DM::ScriptObject > const &)*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ScriptObjectList(static_cast< const Gatan::DM::ScriptObjectList& >(result))), SWIGTYPE_p_Gatan__DM__ScriptObject, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_NewObjectList(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[3] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 1) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_PlugIn__DM_Env, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_NewObjectList__SWIG_0(self, args);
-    }
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_PlugIn__DM_Env, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_const_value_rangeT_Gatan__DM__ScriptObject_t, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_NewObjectList__SWIG_1(self, args);
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'NewObjectList'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::NewObjectList(PlugIn::DM_Env *)\n"
-    "    Gatan::DM::NewObjectList(PlugIn::DM_Env *,const_value_range< Gatan::DM::ScriptObject > const &)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectList_SizeOfList(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  PlugIn::DM_Env *arg1 = (PlugIn::DM_Env *) 0 ;
-  Gatan::DM::ScriptObjectList *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  ulong result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ObjectList_SizeOfList",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ObjectList_SizeOfList" "', argument " "1"" of type '" "PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< PlugIn::DM_Env * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ObjectList_SizeOfList" "', argument " "2"" of type '" "Gatan::DM::ScriptObjectList const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_SizeOfList" "', argument " "2"" of type '" "Gatan::DM::ScriptObjectList const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObjectList * >(argp2);
-  result = Gatan::DM::ObjectList_SizeOfList(arg1,(Gatan::DM::ScriptObject const &)*arg2);
-  resultobj = SWIG_NewPointerObj((new ulong(static_cast< const ulong& >(result))), SWIGTYPE_p_ulong, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectList_ClearList(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  PlugIn::DM_Env *arg1 = (PlugIn::DM_Env *) 0 ;
-  Gatan::DM::ScriptObjectList *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:ObjectList_ClearList",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ObjectList_ClearList" "', argument " "1"" of type '" "PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< PlugIn::DM_Env * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ObjectList_ClearList" "', argument " "2"" of type '" "Gatan::DM::ScriptObjectList const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_ClearList" "', argument " "2"" of type '" "Gatan::DM::ScriptObjectList const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObjectList * >(argp2);
-  Gatan::DM::ObjectList_ClearList(arg1,(Gatan::DM::ScriptObject const &)*arg2);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectList_ObjectAt(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  PlugIn::DM_Env *arg1 = (PlugIn::DM_Env *) 0 ;
-  Gatan::DM::ScriptObjectList *arg2 = 0 ;
-  ulong arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  Gatan::DM::ScriptObject result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ObjectList_ObjectAt",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ObjectList_ObjectAt" "', argument " "1"" of type '" "PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< PlugIn::DM_Env * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ObjectList_ObjectAt" "', argument " "2"" of type '" "Gatan::DM::ScriptObjectList const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_ObjectAt" "', argument " "2"" of type '" "Gatan::DM::ScriptObjectList const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObjectList * >(argp2);
-  {
-    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_ulong,  0  | 0);
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ObjectList_ObjectAt" "', argument " "3"" of type '" "ulong""'"); 
-    }  
-    if (!argp3) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_ObjectAt" "', argument " "3"" of type '" "ulong""'");
-    } else {
-      ulong * temp = reinterpret_cast< ulong * >(argp3);
-      arg3 = *temp;
-      if (SWIG_IsNewObj(res3)) delete temp;
-    }
-  }
-  result = Gatan::DM::ObjectList_ObjectAt(arg1,(Gatan::DM::ScriptObject const &)*arg2,arg3);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ScriptObject(static_cast< const Gatan::DM::ScriptObject& >(result))), SWIGTYPE_p_Gatan__DM__ScriptObject, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectList_ObjectsAt(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  PlugIn::DM_Env *arg1 = (PlugIn::DM_Env *) 0 ;
-  Gatan::DM::ScriptObjectList *arg2 = 0 ;
-  ulong arg3 ;
-  ulong arg4 ;
-  std::vector< Gatan::DM::ScriptObject > *arg5 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 ;
-  int res3 = 0 ;
-  void *argp4 ;
-  int res4 = 0 ;
-  void *argp5 = 0 ;
-  int res5 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  PyObject * obj4 = 0 ;
-  ulong result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOOOO:ObjectList_ObjectsAt",&obj0,&obj1,&obj2,&obj3,&obj4)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ObjectList_ObjectsAt" "', argument " "1"" of type '" "PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< PlugIn::DM_Env * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ObjectList_ObjectsAt" "', argument " "2"" of type '" "Gatan::DM::ScriptObjectList const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_ObjectsAt" "', argument " "2"" of type '" "Gatan::DM::ScriptObjectList const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObjectList * >(argp2);
-  {
-    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_ulong,  0  | 0);
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ObjectList_ObjectsAt" "', argument " "3"" of type '" "ulong""'"); 
-    }  
-    if (!argp3) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_ObjectsAt" "', argument " "3"" of type '" "ulong""'");
-    } else {
-      ulong * temp = reinterpret_cast< ulong * >(argp3);
-      arg3 = *temp;
-      if (SWIG_IsNewObj(res3)) delete temp;
-    }
-  }
-  {
-    res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_ulong,  0  | 0);
-    if (!SWIG_IsOK(res4)) {
-      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "ObjectList_ObjectsAt" "', argument " "4"" of type '" "ulong""'"); 
-    }  
-    if (!argp4) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_ObjectsAt" "', argument " "4"" of type '" "ulong""'");
-    } else {
-      ulong * temp = reinterpret_cast< ulong * >(argp4);
-      arg4 = *temp;
-      if (SWIG_IsNewObj(res4)) delete temp;
-    }
-  }
-  res5 = SWIG_ConvertPtr(obj4, &argp5, SWIGTYPE_p_std__vectorT_Gatan__DM__ScriptObject_t,  0 );
-  if (!SWIG_IsOK(res5)) {
-    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "ObjectList_ObjectsAt" "', argument " "5"" of type '" "std::vector< Gatan::DM::ScriptObject > &""'"); 
-  }
-  if (!argp5) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_ObjectsAt" "', argument " "5"" of type '" "std::vector< Gatan::DM::ScriptObject > &""'"); 
-  }
-  arg5 = reinterpret_cast< std::vector< Gatan::DM::ScriptObject > * >(argp5);
-  result = Gatan::DM::ObjectList_ObjectsAt(arg1,(Gatan::DM::ScriptObject const &)*arg2,arg3,arg4,*arg5);
-  resultobj = SWIG_NewPointerObj((new ulong(static_cast< const ulong& >(result))), SWIGTYPE_p_ulong, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectList_AddObjectToList(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  PlugIn::DM_Env *arg1 = (PlugIn::DM_Env *) 0 ;
-  Gatan::DM::ScriptObjectList *arg2 = 0 ;
-  Gatan::DM::ScriptObject *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  long result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ObjectList_AddObjectToList",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ObjectList_AddObjectToList" "', argument " "1"" of type '" "PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< PlugIn::DM_Env * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ObjectList_AddObjectToList" "', argument " "2"" of type '" "Gatan::DM::ScriptObjectList const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_AddObjectToList" "', argument " "2"" of type '" "Gatan::DM::ScriptObjectList const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObjectList * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ObjectList_AddObjectToList" "', argument " "3"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_AddObjectToList" "', argument " "3"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp3);
-  result = (long)Gatan::DM::ObjectList_AddObjectToList(arg1,(Gatan::DM::ScriptObject const &)*arg2,(Gatan::DM::ScriptObject const &)*arg3);
-  resultobj = SWIG_From_long(static_cast< long >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectList_AddObjectsToList(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  PlugIn::DM_Env *arg1 = (PlugIn::DM_Env *) 0 ;
-  Gatan::DM::ScriptObjectList *arg2 = 0 ;
-  const_value_range< Gatan::DM::ScriptObject > *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ObjectList_AddObjectsToList",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ObjectList_AddObjectsToList" "', argument " "1"" of type '" "PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< PlugIn::DM_Env * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ObjectList_AddObjectsToList" "', argument " "2"" of type '" "Gatan::DM::ScriptObjectList const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_AddObjectsToList" "', argument " "2"" of type '" "Gatan::DM::ScriptObjectList const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObjectList * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_const_value_rangeT_Gatan__DM__ScriptObject_t,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ObjectList_AddObjectsToList" "', argument " "3"" of type '" "const_value_range< Gatan::DM::ScriptObject > const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_AddObjectsToList" "', argument " "3"" of type '" "const_value_range< Gatan::DM::ScriptObject > const &""'"); 
-  }
-  arg3 = reinterpret_cast< const_value_range< Gatan::DM::ScriptObject > * >(argp3);
-  Gatan::DM::ObjectList_AddObjectsToList(arg1,(Gatan::DM::ScriptObject const &)*arg2,(const_value_range< Gatan::DM::ScriptObject > const &)*arg3);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ObjectList_MergeFrom(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  PlugIn::DM_Env *arg1 = (PlugIn::DM_Env *) 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  Gatan::DM::ScriptObject *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ObjectList_MergeFrom",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ObjectList_MergeFrom" "', argument " "1"" of type '" "PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< PlugIn::DM_Env * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ObjectList_MergeFrom" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_MergeFrom" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ObjectList_MergeFrom" "', argument " "3"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ObjectList_MergeFrom" "', argument " "3"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp3);
-  Gatan::DM::ObjectList_MergeFrom(arg1,(Gatan::DM::ScriptObject const &)*arg2,(Gatan::DM::ScriptObject const &)*arg3);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ExecuteInMainThread(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  PlugIn::DM_Env *arg1 = (PlugIn::DM_Env *) 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  Gatan::DM::String *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ExecuteInMainThread",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ExecuteInMainThread" "', argument " "1"" of type '" "PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< PlugIn::DM_Env * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ExecuteInMainThread" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ExecuteInMainThread" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ExecuteInMainThread" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ExecuteInMainThread" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::String * >(argp3);
-  Gatan::DM::ExecuteInMainThread(arg1,(Gatan::DM::ScriptObject const &)*arg2,(Gatan::DM::String const &)*arg3);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ExecuteInBackgroundThread(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  PlugIn::DM_Env *arg1 = (PlugIn::DM_Env *) 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  Gatan::DM::String *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ExecuteInBackgroundThread",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ExecuteInBackgroundThread" "', argument " "1"" of type '" "PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< PlugIn::DM_Env * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ExecuteInBackgroundThread" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ExecuteInBackgroundThread" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ExecuteInBackgroundThread" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ExecuteInBackgroundThread" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::String * >(argp3);
-  Gatan::DM::ExecuteInBackgroundThread(arg1,(Gatan::DM::ScriptObject const &)*arg2,(Gatan::DM::String const &)*arg3);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ExecuteInCOMFreeThreadedApartment(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  PlugIn::DM_Env *arg1 = (PlugIn::DM_Env *) 0 ;
-  Gatan::DM::ScriptObject *arg2 = 0 ;
-  Gatan::DM::String *arg3 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:ExecuteInCOMFreeThreadedApartment",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PlugIn__DM_Env, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ExecuteInCOMFreeThreadedApartment" "', argument " "1"" of type '" "PlugIn::DM_Env *""'"); 
-  }
-  arg1 = reinterpret_cast< PlugIn::DM_Env * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ExecuteInCOMFreeThreadedApartment" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ExecuteInCOMFreeThreadedApartment" "', argument " "2"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ExecuteInCOMFreeThreadedApartment" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ExecuteInCOMFreeThreadedApartment" "', argument " "3"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg3 = reinterpret_cast< Gatan::DM::String * >(argp3);
-  Gatan::DM::ExecuteInCOMFreeThreadedApartment(arg1,(Gatan::DM::ScriptObject const &)*arg2,(Gatan::DM::String const &)*arg3);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_NewVoidProcCallback(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  boost::function0< void > *arg1 = 0 ;
-  char_range *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  Gatan::DM::ScriptObject result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:NewVoidProcCallback",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_boost__function0T_void_t,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NewVoidProcCallback" "', argument " "1"" of type '" "boost::function0< void > const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "NewVoidProcCallback" "', argument " "1"" of type '" "boost::function0< void > const &""'"); 
-  }
-  arg1 = reinterpret_cast< boost::function0< void > * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_char_range,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NewVoidProcCallback" "', argument " "2"" of type '" "char_range const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "NewVoidProcCallback" "', argument " "2"" of type '" "char_range const &""'"); 
-  }
-  arg2 = reinterpret_cast< char_range * >(argp2);
-  result = Gatan::DM::NewVoidProcCallback((boost::function0< void > const &)*arg1,(char_range const &)*arg2);
-  resultobj = SWIG_NewPointerObj((new Gatan::DM::ScriptObject(static_cast< const Gatan::DM::ScriptObject& >(result))), SWIGTYPE_p_Gatan__DM__ScriptObject, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_AddMainThreadPeriodicTask__SWIG_0(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ScriptObject *arg1 = 0 ;
-  Gatan::DM::String *arg2 = 0 ;
-  double arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  double val3 ;
-  int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  ulong_ptr_t result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:AddMainThreadPeriodicTask",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AddMainThreadPeriodicTask" "', argument " "1"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AddMainThreadPeriodicTask" "', argument " "1"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AddMainThreadPeriodicTask" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AddMainThreadPeriodicTask" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::String * >(argp2);
-  ecode3 = SWIG_AsVal_double(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "AddMainThreadPeriodicTask" "', argument " "3"" of type '" "double""'");
-  } 
-  arg3 = static_cast< double >(val3);
-  result = Gatan::DM::AddMainThreadPeriodicTask((Gatan::DM::ScriptObject const &)*arg1,(Gatan::DM::String const &)*arg2,arg3);
-  resultobj = SWIG_NewPointerObj((new ulong_ptr_t(static_cast< const ulong_ptr_t& >(result))), SWIGTYPE_p_ulong_ptr_t, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_AddMainThreadPeriodicTask__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  boost::function0< void > *arg1 = 0 ;
-  double arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  ulong_ptr_t result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:AddMainThreadPeriodicTask",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_boost__function0T_void_t,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AddMainThreadPeriodicTask" "', argument " "1"" of type '" "boost::function0< void > const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AddMainThreadPeriodicTask" "', argument " "1"" of type '" "boost::function0< void > const &""'"); 
-  }
-  arg1 = reinterpret_cast< boost::function0< void > * >(argp1);
-  ecode2 = SWIG_AsVal_double(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "AddMainThreadPeriodicTask" "', argument " "2"" of type '" "double""'");
-  } 
-  arg2 = static_cast< double >(val2);
-  result = Gatan::DM::AddMainThreadPeriodicTask((boost::function0< void > const &)*arg1,arg2);
-  resultobj = SWIG_NewPointerObj((new ulong_ptr_t(static_cast< const ulong_ptr_t& >(result))), SWIGTYPE_p_ulong_ptr_t, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_AddMainThreadPeriodicTask(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[4] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_boost__function0T_void_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_double(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_AddMainThreadPeriodicTask__SWIG_1(self, args);
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ScriptObject, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_Gatan__DM__String, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        {
-          int res = SWIG_AsVal_double(argv[2], NULL);
-          _v = SWIG_CheckState(res);
-        }
-        if (_v) {
-          return _wrap_AddMainThreadPeriodicTask__SWIG_0(self, args);
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'AddMainThreadPeriodicTask'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::AddMainThreadPeriodicTask(Gatan::DM::ScriptObject const &,Gatan::DM::String const &,double)\n"
-    "    Gatan::DM::AddMainThreadPeriodicTask(boost::function0< void > const &,double)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_RemoveMainThreadTask(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  ulong_ptr_t arg1 ;
-  void *argp1 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:RemoveMainThreadTask",&obj0)) SWIG_fail;
-  {
-    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_ulong_ptr_t,  0  | 0);
-    if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RemoveMainThreadTask" "', argument " "1"" of type '" "ulong_ptr_t""'"); 
-    }  
-    if (!argp1) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RemoveMainThreadTask" "', argument " "1"" of type '" "ulong_ptr_t""'");
-    } else {
-      ulong_ptr_t * temp = reinterpret_cast< ulong_ptr_t * >(argp1);
-      arg1 = *temp;
-      if (SWIG_IsNewObj(res1)) delete temp;
-    }
-  }
-  Gatan::DM::RemoveMainThreadTask(arg1);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_AddBackgroundPeriodicTask__SWIG_0(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  Gatan::DM::ScriptObject *arg1 = 0 ;
-  Gatan::DM::String *arg2 = 0 ;
-  double arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  double val3 ;
-  int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  ulong_ptr_t result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:AddBackgroundPeriodicTask",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Gatan__DM__ScriptObject,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AddBackgroundPeriodicTask" "', argument " "1"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AddBackgroundPeriodicTask" "', argument " "1"" of type '" "Gatan::DM::ScriptObject const &""'"); 
-  }
-  arg1 = reinterpret_cast< Gatan::DM::ScriptObject * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Gatan__DM__String,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AddBackgroundPeriodicTask" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AddBackgroundPeriodicTask" "', argument " "2"" of type '" "Gatan::DM::String const &""'"); 
-  }
-  arg2 = reinterpret_cast< Gatan::DM::String * >(argp2);
-  ecode3 = SWIG_AsVal_double(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "AddBackgroundPeriodicTask" "', argument " "3"" of type '" "double""'");
-  } 
-  arg3 = static_cast< double >(val3);
-  result = Gatan::DM::AddBackgroundPeriodicTask((Gatan::DM::ScriptObject const &)*arg1,(Gatan::DM::String const &)*arg2,arg3);
-  resultobj = SWIG_NewPointerObj((new ulong_ptr_t(static_cast< const ulong_ptr_t& >(result))), SWIGTYPE_p_ulong_ptr_t, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_AddBackgroundPeriodicTask__SWIG_1(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  boost::function0< void > *arg1 = 0 ;
-  double arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  ulong_ptr_t result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:AddBackgroundPeriodicTask",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_boost__function0T_void_t,  0  | 0);
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AddBackgroundPeriodicTask" "', argument " "1"" of type '" "boost::function0< void > const &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AddBackgroundPeriodicTask" "', argument " "1"" of type '" "boost::function0< void > const &""'"); 
-  }
-  arg1 = reinterpret_cast< boost::function0< void > * >(argp1);
-  ecode2 = SWIG_AsVal_double(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "AddBackgroundPeriodicTask" "', argument " "2"" of type '" "double""'");
-  } 
-  arg2 = static_cast< double >(val2);
-  result = Gatan::DM::AddBackgroundPeriodicTask((boost::function0< void > const &)*arg1,arg2);
-  resultobj = SWIG_NewPointerObj((new ulong_ptr_t(static_cast< const ulong_ptr_t& >(result))), SWIGTYPE_p_ulong_ptr_t, SWIG_POINTER_OWN |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_AddBackgroundPeriodicTask(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[4] = {
-    0
-  };
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_boost__function0T_void_t, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      {
-        int res = SWIG_AsVal_double(argv[1], NULL);
-        _v = SWIG_CheckState(res);
-      }
-      if (_v) {
-        return _wrap_AddBackgroundPeriodicTask__SWIG_1(self, args);
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v;
-    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_Gatan__DM__ScriptObject, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_Gatan__DM__String, 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        {
-          int res = SWIG_AsVal_double(argv[2], NULL);
-          _v = SWIG_CheckState(res);
-        }
-        if (_v) {
-          return _wrap_AddBackgroundPeriodicTask__SWIG_0(self, args);
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'AddBackgroundPeriodicTask'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    Gatan::DM::AddBackgroundPeriodicTask(Gatan::DM::ScriptObject const &,Gatan::DM::String const &,double)\n"
-    "    Gatan::DM::AddBackgroundPeriodicTask(boost::function0< void > const &,double)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_RemoveBackgroundTask(PyObject *self, PyObject *args) {
-  PyObject *resultobj = 0;
-  ulong_ptr_t arg1 ;
-  void *argp1 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:RemoveBackgroundTask",&obj0)) SWIG_fail;
-  {
-    res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_ulong_ptr_t,  0  | 0);
-    if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RemoveBackgroundTask" "', argument " "1"" of type '" "ulong_ptr_t""'"); 
-    }  
-    if (!argp1) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RemoveBackgroundTask" "', argument " "1"" of type '" "ulong_ptr_t""'");
-    } else {
-      ulong_ptr_t * temp = reinterpret_cast< ulong_ptr_t * >(argp1);
-      arg1 = *temp;
-      if (SWIG_IsNewObj(res1)) delete temp;
-    }
-  }
-  Gatan::DM::RemoveBackgroundTask(arg1);
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
-	 { (char *)"AbortAcquisitionDaemon", _wrap_AbortAcquisitionDaemon, METH_VARARGS, (char *)"AbortAcquisitionDaemon(Image argument_1)"},
-	 { (char *)"AbortAllAcquisitionDaemons", _wrap_AbortAllAcquisitionDaemons, METH_VARARGS, (char *)"AbortAllAcquisitionDaemons()"},
-	 { (char *)"AddCustomTool", _wrap_AddCustomTool, METH_VARARGS, (char *)"AddCustomTool(char const * icon, long toolInstance)"},
-	 { (char *)"AddFunction", _wrap_AddFunction, METH_VARARGS, (char *)"AddFunction(char const * prototype, void * function)"},
-	 { (char *)"AddPathToCopyToImageList", _wrap_AddPathToCopyToImageList, METH_VARARGS, (char *)"AddPathToCopyToImageList(char const * path)"},
-	 { (char *)"AddScriptFileToMenu", _wrap_AddScriptFileToMenu, METH_VARARGS, (char *)"AddScriptFileToMenu(char const * fileName, char const * commandName, char const * menuName, char const * optionalSubMenuName, bool isLibrary)"},
-	 { (char *)"AddScriptFileToPackage", _wrap_AddScriptFileToPackage, METH_VARARGS, (char *)"AddScriptFileToPackage(char const * fileName, char const * packageName, long packageLevel, char const * commandName, char const * menuName, char const * optionalSubMenuName, bool isLibrary)"},
-	 { (char *)"AddScriptToMenu", _wrap_AddScriptToMenu, METH_VARARGS, (char *)"AddScriptToMenu(char const * script, char const * commandName, char const * menuName, char const * optionalSubMenuName, bool isLibrary)"},
-	 { (char *)"AddScriptToPackage", _wrap_AddScriptToPackage, METH_VARARGS, (char *)"AddScriptToPackage(char const * script, char const * packageName, long packageLevel, char const * commandName, char const * menuName, char const * optionalSubMenuName, bool isLibrary)"},
-	 { (char *)"AddTagsToPackage", _wrap_AddTagsToPackage, METH_VARARGS, (char *)"AddTagsToPackage(TagGroup tags, char const * packageName, long packageLevel, char const * identifier)"},
-	 { (char *)"AdjustScriptMenuItem", _wrap_AdjustScriptMenuItem, METH_VARARGS, (char *)"AdjustScriptMenuItem(char const * commandName, char const * menuName, char const * optionalSubMenuName, char const * newCommandName, bool enabled, bool checked, char key, long acceleratorPos)"},
-	 { (char *)"AllocString", _wrap_AllocString, METH_VARARGS, (char *)"AllocString(long length) -> long"},
-	 { (char *)"ApplicationGetApplicationMode", _wrap_ApplicationGetApplicationMode, METH_VARARGS, (char *)"ApplicationGetApplicationMode() -> Gatan::DM::String"},
-	 { (char *)"ApplicationGetBounds", _wrap_ApplicationGetBounds, METH_VARARGS, (char *)"ApplicationGetBounds(long * t, long * l, long * b, long * r)"},
-	 { (char *)"ApplicationGetOrigin", _wrap_ApplicationGetOrigin, METH_VARARGS, (char *)"ApplicationGetOrigin(long * x, long * y)"},
-	 { (char *)"ApplyDataBar", _wrap_ApplyDataBar, METH_VARARGS, (char *)"ApplyDataBar(Gatan::DM::ImageDisplay const & imgDisp)"},
-	 { (char *)"ApproveDisplayBuffer", _wrap_ApproveDisplayBuffer, METH_VARARGS, (char *)"ApproveDisplayBuffer(Image argument_1)"},
-	 { (char *)"ApproveSurvey", _wrap_ApproveSurvey, METH_VARARGS, (char *)"ApproveSurvey(Image argument_1)"},
-	 { (char *)"AutoCorrelate", _wrap_AutoCorrelate, METH_VARARGS, (char *)"AutoCorrelate(Image source) -> Image"},
-	 { (char *)"AutoCorrelation", _wrap_AutoCorrelation, METH_VARARGS, (char *)"AutoCorrelation(Image source) -> Image"},
-	 { (char *)"Beep", _wrap_Beep, METH_VARARGS, (char *)"Beep()"},
+	 { (char *)"AbortAcquisitionDaemon", _wrap_AbortAcquisitionDaemon, METH_VARARGS, (char *)"\n"
+		"AbortAcquisitionDaemon(Image argument_1)\n"
+		"\n"
+		"AbortAcquisitionDaemon: Abort all acquisition daemons associated with the image.\n"
+		""},
+	 { (char *)"AbortAllAcquisitionDaemons", _wrap_AbortAllAcquisitionDaemons, METH_VARARGS, (char *)"\n"
+		"AbortAllAcquisitionDaemons()\n"
+		"\n"
+		"AbortAllAcquisitionDaemons: Abort all acquisition daemons with any image within the \n"
+		"application.\n"
+		""},
+	 { (char *)"AddCustomTool", _wrap_AddCustomTool, METH_VARARGS, (char *)"\n"
+		"AddCustomTool(char const * icon, long toolInstance)\n"
+		"\n"
+		"AddCustomTool: Add the tool to the custom tool list. See the SDK documentation for more \n"
+		"information.\n"
+		""},
+	 { (char *)"AddFunction", _wrap_AddFunction, METH_VARARGS, (char *)"\n"
+		"AddFunction(char const * prototype, void * function)\n"
+		"\n"
+		"AddFunction: Uses the prototype string to define a function for use in the script \n"
+		"language.\n"
+		""},
+	 { (char *)"AddPathToCopyToImageList", _wrap_AddPathToCopyToImageList, METH_VARARGS, (char *)"\n"
+		"AddPathToCopyToImageList(char const * path)\n"
+		"\n"
+		"AddPathToCopyToImageList: Adds 'path' to the list of tags to transfer to acquired images.\n"
+		""},
+	 { (char *)"AddScriptFileToMenu", _wrap_AddScriptFileToMenu, METH_VARARGS, (char *)"\n"
+		"AddScriptFileToMenu(char const * fileName, char const * commandName, char const * menuName, char const * optionalSubMenuName, bool isLibrary)\n"
+		"\n"
+		"AddScriptFileToMenu: Install the script in the file indicated by fileName into the \n"
+		"application. The commandName indicates the string by which this script will be known to \n"
+		"the application. If the script is to be installed in the menu, the menuName and \n"
+		"optionalSubMenuName parameters specify the menu. Pass 1 for isLibrary if the script is a \n"
+		"library only and 0 to install it in the menu.\n"
+		""},
+	 { (char *)"AddScriptFileToPackage", _wrap_AddScriptFileToPackage, METH_VARARGS, (char *)"\n"
+		"AddScriptFileToPackage(char const * fileName, char const * packageName, long packageLevel, char const * commandName, char const * menuName, char const * optionalSubMenuName, bool isLibrary)\n"
+		"\n"
+		"AddScriptFileToPackage: Install the script in the file indicated by fileName into the \n"
+		"package. The commandName indicates the string by which this script will be known to the \n"
+		"application. If the script is to be installed in the menu, the menuName and \n"
+		"optionalSubMenuName parameters specify the menu. Pass 1 for isLibrary if the script is a \n"
+		"library only and 0 to install it in the menu.\n"
+		""},
+	 { (char *)"AddScriptToMenu", _wrap_AddScriptToMenu, METH_VARARGS, (char *)"\n"
+		"AddScriptToMenu(char const * script, char const * commandName, char const * menuName, char const * optionalSubMenuName, bool isLibrary)\n"
+		"\n"
+		"AddScriptToMenu: Install the script into the application. The commandName indicates the \n"
+		"string by which this script will be known to the application. If the script is to be \n"
+		"installed in the menu, the menuName and optionalSubMenuName parameters specify the menu. \n"
+		"Pass 1 for isLibrary if the script is a library only and 0 to install it in the menu.\n"
+		""},
+	 { (char *)"AddScriptToPackage", _wrap_AddScriptToPackage, METH_VARARGS, (char *)"\n"
+		"AddScriptToPackage(char const * script, char const * packageName, long packageLevel, char const * commandName, char const * menuName, char const * optionalSubMenuName, bool isLibrary)\n"
+		"\n"
+		"AddScriptToPackage: Install the script into the application. The commandName indicates \n"
+		"the string by which this script will be known to the application. If the script is to be \n"
+		"installed in the menu, the menuName and optionalSubMenuName parameters specify the menu. \n"
+		"Pass 1 for isLibrary if the script is a library only and 0 to install it in the menu.\n"
+		""},
+	 { (char *)"AddTagsToPackage", _wrap_AddTagsToPackage, METH_VARARGS, (char *)"\n"
+		"AddTagsToPackage(TagGroup tags, char const * packageName, long packageLevel, char const * identifier)\n"
+		"\n"
+		"AddTagsToPackage: Install the tags into the package. The identifier is used to identify \n"
+		"the tags in the packages. Clients should take care to use unique identifiers. See the \n"
+		"Java model of naming classes.\n"
+		""},
+	 { (char *)"AdjustScriptMenuItem", _wrap_AdjustScriptMenuItem, METH_VARARGS, (char *)"\n"
+		"AdjustScriptMenuItem(char const * commandName, char const * menuName, char const * optionalSubMenuName, char const * newCommandName, bool enabled, bool checked, char key, long acceleratorPos)\n"
+		"\n"
+		"AdjustScriptMenuItem: Adjusts the display characteristics of the given script menu item. \n"
+		"NewCommandName specifies the new name for the menu item. The menu item will have to be \n"
+		"referred to by that name from then forth. Enabled/checked indicate whether the item is \n"
+		"enabled/checked. Key refers to the command key equivalent on the MacOS. Pass 0 to have no \n"
+		"command key equivalent. AcceleratorPos refers to the position of the accelerator \n"
+		"equivalent on Windows. Pass -1 to have to accelerator.\n"
+		""},
+	 { (char *)"AllocString", _wrap_AllocString, METH_VARARGS, (char *)"\n"
+		"AllocString(long length) -> long\n"
+		"\n"
+		"AllocString: Allocates a string used in the script language. Length should include eos \n"
+		"character.\n"
+		""},
+	 { (char *)"ApplicationGetApplicationMode", _wrap_ApplicationGetApplicationMode, METH_VARARGS, (char *)"\n"
+		"ApplicationGetApplicationMode() -> Gatan::DM::String\n"
+		"\n"
+		"ApplicationGetApplicationMode: Gets the current mode of DigitalMicrograph as a string.\n"
+		""},
+	 { (char *)"ApplicationGetBounds", _wrap_ApplicationGetBounds, METH_VARARGS, (char *)"\n"
+		"ApplicationGetBounds(long * t, long * l, long * b, long * r)\n"
+		"\n"
+		"ApplicationGetBounds: Gets the bounds of the main area of the application in application \n"
+		"coordinates.\n"
+		""},
+	 { (char *)"ApplicationGetOrigin", _wrap_ApplicationGetOrigin, METH_VARARGS, (char *)"\n"
+		"ApplicationGetOrigin(long * x, long * y)\n"
+		"\n"
+		"ApplicationGetOrigin: Gets the origin of the application in global coordinates.\n"
+		""},
+	 { (char *)"ApplyDataBar", _wrap_ApplyDataBar, METH_VARARGS, (char *)"\n"
+		"ApplyDataBar(Gatan::DM::ImageDisplay const & imgDisp)\n"
+		"\n"
+		"ApplyDataBar: Applies a data bar to the image.\n"
+		""},
+	 { (char *)"ApproveDisplayBuffer", _wrap_ApproveDisplayBuffer, METH_VARARGS, (char *)"\n"
+		"ApproveDisplayBuffer(Image argument_1)\n"
+		"\n"
+		"ApproveDisplayBuffer: Mark the display buffer as valid.\n"
+		""},
+	 { (char *)"ApproveSurvey", _wrap_ApproveSurvey, METH_VARARGS, (char *)"\n"
+		"ApproveSurvey(Image argument_1)\n"
+		"\n"
+		"ApproveSurvey: Mark the image as already surveyed.\n"
+		""},
+	 { (char *)"AutoCorrelate", _wrap_AutoCorrelate, METH_VARARGS, (char *)"\n"
+		"AutoCorrelate(Image source) -> Image\n"
+		"\n"
+		"AutoCorrelate: Return an image which is the result of the auto correlation of source.\n"
+		""},
+	 { (char *)"AutoCorrelation", _wrap_AutoCorrelation, METH_VARARGS, (char *)"\n"
+		"AutoCorrelation(Image source) -> Image\n"
+		"\n"
+		"AutoCorrelation: Return an image which is the result of the auto correlation of source.\n"
+		""},
+	 { (char *)"Beep", _wrap_Beep, METH_VARARGS, (char *)"\n"
+		"Beep()\n"
+		"\n"
+		"Beep: Play the current system beep.\n"
+		""},
 	 { (char *)"BinaryImage", _wrap_BinaryImage, METH_VARARGS, (char *)"\n"
 		"BinaryImage(char const * title, long d0, long d1, long d2, long d3) -> Image\n"
 		"BinaryImage(char const * title, long d0, long d1, long d2) -> Image\n"
 		"BinaryImage(char const * title, long d0) -> Image\n"
 		"BinaryImage(char const * title, long d0, long d1) -> Image\n"
+		"\n"
+		"BinaryImage: Creates a 1D binary image of size [d0] with the given title.\n"
 		""},
-	 { (char *)"BrowseTagFile", _wrap_BrowseTagFile, METH_VARARGS, (char *)"BrowseTagFile()"},
-	 { (char *)"ChooseMenuItem", _wrap_ChooseMenuItem, METH_VARARGS, (char *)"ChooseMenuItem(char const * menu, char const * subMenu, char const * item) -> bool"},
-	 { (char *)"ClassAddMethod", _wrap_ClassAddMethod, METH_VARARGS, (char *)"ClassAddMethod(::Gatan::PlugIn::DM_Env * dm_env, Gatan::DM::String const & class_name, Gatan::DM::Function const & method) -> Gatan::DM::Function"},
-	 { (char *)"ClassRemoveMethod", _wrap_ClassRemoveMethod, METH_VARARGS, (char *)"ClassRemoveMethod(Gatan::DM::String const & class_name, Gatan::DM::Function const & method)"},
-	 { (char *)"CleanImage", _wrap_CleanImage, METH_VARARGS, (char *)"CleanImage(Image argument_1)"},
-	 { (char *)"ClearDisplayBuffer", _wrap_ClearDisplayBuffer, METH_VARARGS, (char *)"ClearDisplayBuffer(Image argument_1)"},
-	 { (char *)"ClearSelection", _wrap_ClearSelection, METH_VARARGS, (char *)"ClearSelection(Image argument_1)"},
-	 { (char *)"ClipboardGetAsString", _wrap_ClipboardGetAsString, METH_VARARGS, (char *)"ClipboardGetAsString(Gatan::DM::String & str) -> bool"},
-	 { (char *)"ClipboardGetAsTagGroup", _wrap_ClipboardGetAsTagGroup, METH_VARARGS, (char *)"ClipboardGetAsTagGroup(TagGroup tagGroup) -> bool"},
-	 { (char *)"ClipboardSetAsString", _wrap_ClipboardSetAsString, METH_VARARGS, (char *)"ClipboardSetAsString(Gatan::DM::String const & argument_1)"},
-	 { (char *)"ClipboardSetAsTagGroup", _wrap_ClipboardSetAsTagGroup, METH_VARARGS, (char *)"ClipboardSetAsTagGroup(TagGroup tagGroup)"},
-	 { (char *)"CloseFile", _wrap_CloseFile, METH_VARARGS, (char *)"CloseFile(DM_FileReference file)"},
-	 { (char *)"CloseImage", _wrap_CloseImage, METH_VARARGS, (char *)"CloseImage(Image argument_1)"},
-	 { (char *)"CloseProgressWindow", _wrap_CloseProgressWindow, METH_VARARGS, (char *)"CloseProgressWindow()"},
-	 { (char *)"CloseTimeBar", _wrap_CloseTimeBar, METH_VARARGS, (char *)"CloseTimeBar()"},
-	 { (char *)"CommandDown", _wrap_CommandDown, METH_VARARGS, (char *)"CommandDown() -> bool"},
-	 { (char *)"LMouseButtonDown", _wrap_LMouseButtonDown, METH_VARARGS, (char *)"LMouseButtonDown() -> bool"},
-	 { (char *)"RMouseButtonDown", _wrap_RMouseButtonDown, METH_VARARGS, (char *)"RMouseButtonDown() -> bool"},
+	 { (char *)"BrowseTagFile", _wrap_BrowseTagFile, METH_VARARGS, (char *)"\n"
+		"BrowseTagFile()\n"
+		"\n"
+		"BrowseTagFile: Present an open file dialog to the user, allow them to select a tag file, \n"
+		"and then allow them to browse through it.\n"
+		""},
+	 { (char *)"ChooseMenuItem", _wrap_ChooseMenuItem, METH_VARARGS, (char *)"\n"
+		"ChooseMenuItem(char const * menu, char const * subMenu, char const * item) -> bool\n"
+		"\n"
+		"ChooseMenuItem: Choose the given menu item.\n"
+		""},
+	 { (char *)"ClassAddMethod", _wrap_ClassAddMethod, METH_VARARGS, (char *)"\n"
+		"ClassAddMethod(::Gatan::PlugIn::DM_Env * dm_env, Gatan::DM::String const & class_name, Gatan::DM::Function const & method) -> Gatan::DM::Function\n"
+		"\n"
+		"ClassAddMethod:\n"
+		""},
+	 { (char *)"ClassRemoveMethod", _wrap_ClassRemoveMethod, METH_VARARGS, (char *)"\n"
+		"ClassRemoveMethod(Gatan::DM::String const & class_name, Gatan::DM::Function const & method)\n"
+		"\n"
+		"ClassRemoveMethod:\n"
+		""},
+	 { (char *)"CleanImage", _wrap_CleanImage, METH_VARARGS, (char *)"\n"
+		"CleanImage(Image argument_1)\n"
+		"\n"
+		"CleanImage: Mark the image as having been saved.\n"
+		""},
+	 { (char *)"ClearDisplayBuffer", _wrap_ClearDisplayBuffer, METH_VARARGS, (char *)"\n"
+		"ClearDisplayBuffer(Image argument_1)\n"
+		"\n"
+		"ClearDisplayBuffer: Clear the display buffer.\n"
+		""},
+	 { (char *)"ClearSelection", _wrap_ClearSelection, METH_VARARGS, (char *)"\n"
+		"ClearSelection(Image argument_1)\n"
+		"\n"
+		"ClearSelection: Remove selection (if any) from the image.\n"
+		""},
+	 { (char *)"ClipboardGetAsString", _wrap_ClipboardGetAsString, METH_VARARGS, (char *)"\n"
+		"ClipboardGetAsString(Gatan::DM::String & str) -> bool\n"
+		"\n"
+		"ClipboardGetAsString: Gets the contents of the clipboard as a string with the given \n"
+		"encoding, if possible, and returns true if successful.\n"
+		""},
+	 { (char *)"ClipboardGetAsTagGroup", _wrap_ClipboardGetAsTagGroup, METH_VARARGS, (char *)"\n"
+		"ClipboardGetAsTagGroup(TagGroup tagGroup) -> bool\n"
+		"\n"
+		"ClipboardGetAsTagGroup: Gets the contents of the clipboard as a tag group, if possible, \n"
+		"and returns true if successful.\n"
+		""},
+	 { (char *)"ClipboardSetAsString", _wrap_ClipboardSetAsString, METH_VARARGS, (char *)"\n"
+		"ClipboardSetAsString(Gatan::DM::String const & argument_1)\n"
+		"\n"
+		"ClipboardSetAsString: Sets the contents of the clipboard to the text.\n"
+		""},
+	 { (char *)"ClipboardSetAsTagGroup", _wrap_ClipboardSetAsTagGroup, METH_VARARGS, (char *)"\n"
+		"ClipboardSetAsTagGroup(TagGroup tagGroup)\n"
+		"\n"
+		"ClipboardSetAsTagGroup: Sets the contents of the clipboard to the tag group.\n"
+		""},
+	 { (char *)"CloseFile", _wrap_CloseFile, METH_VARARGS, (char *)"\n"
+		"CloseFile(DM_FileReference file)\n"
+		"\n"
+		"CloseFile: Close the file. This function should be called to close a file whenever a \n"
+		"file is opened.\n"
+		""},
+	 { (char *)"CloseImage", _wrap_CloseImage, METH_VARARGS, (char *)"\n"
+		"CloseImage(Image argument_1)\n"
+		"\n"
+		"CloseImage: Attempt to close the image.  If the data has changed, a dialog box appears \n"
+		"to ask the user to save the image before closing it.\n"
+		""},
+	 { (char *)"CloseProgressWindow", _wrap_CloseProgressWindow, METH_VARARGS, (char *)"\n"
+		"CloseProgressWindow()\n"
+		"\n"
+		"CloseProgressWindow: Close the progress window if it is open.\n"
+		""},
+	 { (char *)"CloseTimeBar", _wrap_CloseTimeBar, METH_VARARGS, (char *)"\n"
+		"CloseTimeBar()\n"
+		"\n"
+		"CloseTimeBar: Closes the time bar.\n"
+		""},
+	 { (char *)"CommandDown", _wrap_CommandDown, METH_VARARGS, (char *)"\n"
+		"CommandDown() -> bool\n"
+		"\n"
+		"CommandDown: Returns 1 if the command key is down and 0 otherwise.\n"
+		""},
+	 { (char *)"LMouseButtonDown", _wrap_LMouseButtonDown, METH_VARARGS, (char *)"\n"
+		"LMouseButtonDown() -> bool\n"
+		"\n"
+		"CommandDown: Returns 1 if the command key is down and 0 otherwise.\n"
+		""},
+	 { (char *)"RMouseButtonDown", _wrap_RMouseButtonDown, METH_VARARGS, (char *)"\n"
+		"RMouseButtonDown() -> bool\n"
+		"\n"
+		"CommandDown: Returns 1 if the command key is down and 0 otherwise.\n"
+		""},
 	 { (char *)"ComplexImage", _wrap_ComplexImage, METH_VARARGS, (char *)"\n"
 		"ComplexImage(char const * title, long bytes, long d0, long d1, long d2, long d3) -> Image\n"
 		"ComplexImage(char const * title, long bytes, long d0, long d1, long d2) -> Image\n"
 		"ComplexImage(char const * title, long bytes, long d0, long d1) -> Image\n"
 		"ComplexImage(char const * title, long bytes, long d0) -> Image\n"
+		"\n"
+		"ComplexImage: Creates a 2D complex image of size [d0,d1] with the given title. The bytes \n"
+		"parameter can be 8 or 16 for single and double precision floating point numbers.\n"
 		""},
-	 { (char *)"ComplexToPacked", _wrap_ComplexToPacked, METH_VARARGS, (char *)"ComplexToPacked(Image source) -> Image"},
-	 { (char *)"ComplexToPacked2", _wrap_ComplexToPacked2, METH_VARARGS, (char *)"ComplexToPacked2(Image source, long style) -> Image"},
-	 { (char *)"ComponentAddChildAfter", _wrap_ComponentAddChildAfter, METH_VARARGS, (char *)"ComponentAddChildAfter(Gatan::DM::Component const & parent, Gatan::DM::Component const & child, Gatan::DM::Component const & annot_pos)"},
-	 { (char *)"ComponentAddChildAtBeginning", _wrap_ComponentAddChildAtBeginning, METH_VARARGS, (char *)"ComponentAddChildAtBeginning(Gatan::DM::Component const & parent, Gatan::DM::Component const & child)"},
-	 { (char *)"ComponentAddChildAtEnd", _wrap_ComponentAddChildAtEnd, METH_VARARGS, (char *)"ComponentAddChildAtEnd(Gatan::DM::Component const & parent, Gatan::DM::Component const & child)"},
-	 { (char *)"ComponentAddChildBefore", _wrap_ComponentAddChildBefore, METH_VARARGS, (char *)"ComponentAddChildBefore(Gatan::DM::Component const & parent, Gatan::DM::Component const & child, Gatan::DM::Component const & annot_pos)"},
-	 { (char *)"ComponentAddNewComponent", _wrap_ComponentAddNewComponent, METH_VARARGS, (char *)"ComponentAddNewComponent(Gatan::DM::Component const & parent, long type, float f1, float f2, float f3, float f4) -> Gatan::DM::Component"},
-	 { (char *)"ComponentClone", _wrap_ComponentClone, METH_VARARGS, (char *)"ComponentClone(Gatan::DM::Component const & comp, bool doDeepCopy) -> Gatan::DM::Component"},
-	 { (char *)"ComponentCountChildren", _wrap_ComponentCountChildren, METH_VARARGS, (char *)"ComponentCountChildren(Gatan::DM::Component const & comp) -> long"},
-	 { (char *)"ComponentCountChildrenOfType", _wrap_ComponentCountChildrenOfType, METH_VARARGS, (char *)"ComponentCountChildrenOfType(Gatan::DM::Component const & comp, long type) -> long"},
-	 { (char *)"ComponentGetBoundingRect", _wrap_ComponentGetBoundingRect, METH_VARARGS, (char *)"ComponentGetBoundingRect(Gatan::DM::Component const & comp, float * t, float * l, float * b, float * r)"},
-	 { (char *)"ComponentGetBoundingRectInView", _wrap_ComponentGetBoundingRectInView, METH_VARARGS, (char *)"ComponentGetBoundingRectInView(Gatan::DM::Component const & comp, float * t, float * l, float * b, float * r)"},
-	 { (char *)"ComponentGetChild", _wrap_ComponentGetChild, METH_VARARGS, (char *)"ComponentGetChild(Gatan::DM::Component const & comp, long index) -> Gatan::DM::Component"},
-	 { (char *)"ComponentGetChildByID", _wrap_ComponentGetChildByID, METH_VARARGS, (char *)"ComponentGetChildByID(Gatan::DM::Component const & comp, long ID) -> Gatan::DM::Component"},
-	 { (char *)"ComponentGetChildToLocalTransform", _wrap_ComponentGetChildToLocalTransform, METH_VARARGS, (char *)"ComponentGetChildToLocalTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)"},
-	 { (char *)"ComponentGetChildToPageTransform", _wrap_ComponentGetChildToPageTransform, METH_VARARGS, (char *)"ComponentGetChildToPageTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)"},
-	 { (char *)"ComponentGetChildToViewTransform", _wrap_ComponentGetChildToViewTransform, METH_VARARGS, (char *)"ComponentGetChildToViewTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)"},
-	 { (char *)"ComponentGetChildToWindowTransform", _wrap_ComponentGetChildToWindowTransform, METH_VARARGS, (char *)"ComponentGetChildToWindowTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)"},
-	 { (char *)"ComponentGetControlPoint", _wrap_ComponentGetControlPoint, METH_VARARGS, (char *)"ComponentGetControlPoint(Gatan::DM::Component const & comp, long loc, float * x, float * y) -> bool"},
-	 { (char *)"ComponentGetDescendentByID", _wrap_ComponentGetDescendentByID, METH_VARARGS, (char *)"ComponentGetDescendentByID(Gatan::DM::Component const & comp, long ID) -> Gatan::DM::Component"},
-	 { (char *)"ComponentGetDrawingMode", _wrap_ComponentGetDrawingMode, METH_VARARGS, (char *)"ComponentGetDrawingMode(Gatan::DM::Component const & comp) -> long"},
-	 { (char *)"ComponentGetFillMode", _wrap_ComponentGetFillMode, METH_VARARGS, (char *)"ComponentGetFillMode(Gatan::DM::Component const & comp) -> long"},
-	 { (char *)"ComponentGetFontAttributes", _wrap_ComponentGetFontAttributes, METH_VARARGS, (char *)"ComponentGetFontAttributes(Gatan::DM::Component const & comp) -> long"},
-	 { (char *)"ComponentGetFontFaceName", _wrap_ComponentGetFontFaceName, METH_VARARGS, (char *)"ComponentGetFontFaceName(Gatan::DM::Component const & comp) -> Gatan::DM::String"},
-	 { (char *)"ComponentGetFontInfo", _wrap_ComponentGetFontInfo, METH_VARARGS, (char *)"ComponentGetFontInfo(Gatan::DM::Component const & comp, Gatan::DM::String & faceName, long * attributes, long * size)"},
-	 { (char *)"ComponentGetFontSize", _wrap_ComponentGetFontSize, METH_VARARGS, (char *)"ComponentGetFontSize(Gatan::DM::Component const & comp) -> long"},
-	 { (char *)"ComponentGetID", _wrap_ComponentGetID, METH_VARARGS, (char *)"ComponentGetID(Gatan::DM::Component const & annot) -> long"},
-	 { (char *)"ComponentGetImageDocument", _wrap_ComponentGetImageDocument, METH_VARARGS, (char *)"ComponentGetImageDocument(Gatan::DM::Component const & annot) -> Gatan::DM::ImageDocument"},
-	 { (char *)"ComponentGetLocalToPageTransform", _wrap_ComponentGetLocalToPageTransform, METH_VARARGS, (char *)"ComponentGetLocalToPageTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)"},
-	 { (char *)"ComponentGetLocalToViewTransform", _wrap_ComponentGetLocalToViewTransform, METH_VARARGS, (char *)"ComponentGetLocalToViewTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)"},
-	 { (char *)"ComponentGetLocalToWindowTransform", _wrap_ComponentGetLocalToWindowTransform, METH_VARARGS, (char *)"ComponentGetLocalToWindowTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)"},
-	 { (char *)"ComponentGetNthChildOfType", _wrap_ComponentGetNthChildOfType, METH_VARARGS, (char *)"ComponentGetNthChildOfType(Gatan::DM::Component const & comp, long type, long index) -> Gatan::DM::Component"},
-	 { (char *)"ComponentGetParentComponent", _wrap_ComponentGetParentComponent, METH_VARARGS, (char *)"ComponentGetParentComponent(Gatan::DM::Component const & comp) -> Gatan::DM::Component"},
-	 { (char *)"ComponentGetParentImageDisplay", _wrap_ComponentGetParentImageDisplay, METH_VARARGS, (char *)"ComponentGetParentImageDisplay(Gatan::DM::Component const & comp) -> Gatan::DM::ImageDisplay"},
-	 { (char *)"ComponentGetRect", _wrap_ComponentGetRect, METH_VARARGS, (char *)"ComponentGetRect(Gatan::DM::Component const & comp, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"ComponentGetRectInView", _wrap_ComponentGetRectInView, METH_VARARGS, (char *)"ComponentGetRectInView(Gatan::DM::Component const & comp, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"ComponentGetTagGroup", _wrap_ComponentGetTagGroup, METH_VARARGS, (char *)"ComponentGetTagGroup(Gatan::DM::Component const & annot) -> TagGroup"},
-	 { (char *)"ComponentGetType", _wrap_ComponentGetType, METH_VARARGS, (char *)"ComponentGetType(Gatan::DM::Component const & annot) -> long"},
-	 { (char *)"ComponentIsOfType", _wrap_ComponentIsOfType, METH_VARARGS, (char *)"ComponentIsOfType(Gatan::DM::Component const & annot, long type) -> bool"},
-	 { (char *)"ComponentIsSelected", _wrap_ComponentIsSelected, METH_VARARGS, (char *)"ComponentIsSelected(Gatan::DM::Component const & comp) -> bool"},
-	 { (char *)"ComponentIsValid", _wrap_ComponentIsValid, METH_VARARGS, (char *)"ComponentIsValid(Gatan::DM::Component const & annot) -> bool"},
-	 { (char *)"ComponentOffsetControlPoint", _wrap_ComponentOffsetControlPoint, METH_VARARGS, (char *)"ComponentOffsetControlPoint(Gatan::DM::Component const & comp, long loc, float x, float y, long restrict_style)"},
-	 { (char *)"ComponentPositionAroundPoint", _wrap_ComponentPositionAroundPoint, METH_VARARGS, (char *)"ComponentPositionAroundPoint(Gatan::DM::Component const & comp, float new_x, float new_y, float rel_x, float rel_y, bool horz, bool vert)"},
-	 { (char *)"ComponentRemoveFromParent", _wrap_ComponentRemoveFromParent, METH_VARARGS, (char *)"ComponentRemoveFromParent(Gatan::DM::Component const & comp)"},
-	 { (char *)"ComponentSetControlPoint", _wrap_ComponentSetControlPoint, METH_VARARGS, (char *)"ComponentSetControlPoint(Gatan::DM::Component const & comp, long loc, float x, float y, long restrict_style)"},
-	 { (char *)"ComponentSetDrawingMode", _wrap_ComponentSetDrawingMode, METH_VARARGS, (char *)"ComponentSetDrawingMode(Gatan::DM::Component const & comp, long mode)"},
-	 { (char *)"ComponentSetFillMode", _wrap_ComponentSetFillMode, METH_VARARGS, (char *)"ComponentSetFillMode(Gatan::DM::Component const & comp, long mode)"},
-	 { (char *)"ComponentSetFontAttributes", _wrap_ComponentSetFontAttributes, METH_VARARGS, (char *)"ComponentSetFontAttributes(Gatan::DM::Component const & comp, long attributes)"},
-	 { (char *)"ComponentSetFontFaceName", _wrap_ComponentSetFontFaceName, METH_VARARGS, (char *)"ComponentSetFontFaceName(Gatan::DM::Component const & comp, Gatan::DM::String const & face_name)"},
-	 { (char *)"ComponentSetFontInfo", _wrap_ComponentSetFontInfo, METH_VARARGS, (char *)"ComponentSetFontInfo(Gatan::DM::Component const & comp, Gatan::DM::String const & face_name, long attributes, long size)"},
-	 { (char *)"ComponentSetFontSize", _wrap_ComponentSetFontSize, METH_VARARGS, (char *)"ComponentSetFontSize(Gatan::DM::Component const & comp, long size)"},
-	 { (char *)"ComponentSetRect", _wrap_ComponentSetRect, METH_VARARGS, (char *)"ComponentSetRect(Gatan::DM::Component const & comp, float top, float left, float bottom, float right)"},
-	 { (char *)"ComponentSetSelected", _wrap_ComponentSetSelected, METH_VARARGS, (char *)"ComponentSetSelected(Gatan::DM::Component const & comp, bool select)"},
-	 { (char *)"ComponentSetSelectable", _wrap_ComponentSetSelectable, METH_VARARGS, (char *)"ComponentSetSelectable(Gatan::DM::Component const & comp, bool selectable)"},
-	 { (char *)"ComponentTransformCoordinates", _wrap_ComponentTransformCoordinates, METH_VARARGS, (char *)"ComponentTransformCoordinates(Gatan::DM::Component const & comp, float off_x, float off_y, float scale_x, float scale_y)"},
-	 { (char *)"ConjMultiplyPackedByPacked", _wrap_ConjMultiplyPackedByPacked, METH_VARARGS, (char *)"ConjMultiplyPackedByPacked(Image a, Image b)"},
-	 { (char *)"ConnectObject", _wrap_ConnectObject, METH_VARARGS, (char *)"ConnectObject(long object, char const * message, char const * ident, Gatan::DM::ScriptObject const & scriptObject, char const * method)"},
-	 { (char *)"ContinueCancelDialog", _wrap_ContinueCancelDialog, METH_VARARGS, (char *)"ContinueCancelDialog(char const * prompt) -> bool"},
-	 { (char *)"ControlDown", _wrap_ControlDown, METH_VARARGS, (char *)"ControlDown() -> bool"},
-	 { (char *)"ConvertImageData", _wrap_ConvertImageData, METH_VARARGS, (char *)"ConvertImageData(Image arg1, Image to)"},
-	 { (char *)"ConvertImageDataSlice_2D", _wrap_ConvertImageDataSlice_2D, METH_VARARGS, (char *)"ConvertImageDataSlice_2D(Image arg1, Image to, long x_l, long y_l, long f_x_0, long f_y_0, long f_x_d, long f_x_s, long f_y_d, long f_y_s, long t_x_0, long t_y_0, long t_x_d, long t_x_s, long t_y_d, long t_y_s)"},
-	 { (char *)"ConvertInt16ToFloat", _wrap_ConvertInt16ToFloat, METH_VARARGS, (char *)"ConvertInt16ToFloat(Image a, Image b)"},
-	 { (char *)"ConvertPICTToRGBImage", _wrap_ConvertPICTToRGBImage, METH_VARARGS, (char *)"ConvertPICTToRGBImage(long picture) -> Image"},
-	 { (char *)"ConvertToByte", _wrap_ConvertToByte, METH_VARARGS, (char *)"ConvertToByte(Image argument_1)"},
-	 { (char *)"ConvertToComplex", _wrap_ConvertToComplex, METH_VARARGS, (char *)"ConvertToComplex(Image argument_1)"},
-	 { (char *)"ConvertToFloat", _wrap_ConvertToFloat, METH_VARARGS, (char *)"ConvertToFloat(Image argument_1)"},
-	 { (char *)"ConvertToLong", _wrap_ConvertToLong, METH_VARARGS, (char *)"ConvertToLong(Image argument_1)"},
-	 { (char *)"ConvertToPackedComplex", _wrap_ConvertToPackedComplex, METH_VARARGS, (char *)"ConvertToPackedComplex(Image argument_1)"},
-	 { (char *)"ConvertToShort", _wrap_ConvertToShort, METH_VARARGS, (char *)"ConvertToShort(Image argument_1)"},
-	 { (char *)"ConvertUInt8ToFloat", _wrap_ConvertUInt8ToFloat, METH_VARARGS, (char *)"ConvertUInt8ToFloat(Image a, Image b)"},
-	 { (char *)"ConvertUInt8ToDisplay8", _wrap_ConvertUInt8ToDisplay8, METH_VARARGS, (char *)"ConvertUInt8ToDisplay8(Image src, long top, long left, long bottom, long right, long dst, long rowBytes)"},
-	 { (char *)"Convolution", _wrap_Convolution, METH_VARARGS, (char *)"Convolution(Image source, Image kernel) -> Image"},
-	 { (char *)"CopyGWorldCTable", _wrap_CopyGWorldCTable, METH_VARARGS, (char *)"CopyGWorldCTable(Image argument_1) -> long"},
-	 { (char *)"CountAllImages", _wrap_CountAllImages, METH_VARARGS, (char *)"CountAllImages() -> long"},
-	 { (char *)"CountDocumentWindows", _wrap_CountDocumentWindows, METH_VARARGS, (char *)"CountDocumentWindows() -> long"},
-	 { (char *)"CountDocumentWindowsOfType", _wrap_CountDocumentWindowsOfType, METH_VARARGS, (char *)"CountDocumentWindowsOfType(long type) -> long"},
-	 { (char *)"CountFloatingWindows", _wrap_CountFloatingWindows, METH_VARARGS, (char *)"CountFloatingWindows() -> long"},
-	 { (char *)"CountImageDocuments", _wrap_CountImageDocuments, METH_VARARGS, (char *)"CountImageDocuments() -> long"},
-	 { (char *)"CountImages", _wrap_CountImages, METH_VARARGS, (char *)"CountImages() -> long"},
-	 { (char *)"CountScreens", _wrap_CountScreens, METH_VARARGS, (char *)"CountScreens() -> long"},
-	 { (char *)"CountScriptFunctions", _wrap_CountScriptFunctions, METH_VARARGS, (char *)"CountScriptFunctions(char const * fnName) -> long"},
-	 { (char *)"CreateBinary1DImage", _wrap_CreateBinary1DImage, METH_VARARGS, (char *)"CreateBinary1DImage(char const * title, long d0) -> Image"},
-	 { (char *)"CreateBinary2DImage", _wrap_CreateBinary2DImage, METH_VARARGS, (char *)"CreateBinary2DImage(char const * title, long d0, long d1) -> Image"},
-	 { (char *)"CreateBinary3DImage", _wrap_CreateBinary3DImage, METH_VARARGS, (char *)"CreateBinary3DImage(char const * title, long d0, long d1, long d2) -> Image"},
-	 { (char *)"CreateByteImage", _wrap_CreateByteImage, METH_VARARGS, (char *)"CreateByteImage(char const * title, long width, long height) -> Image"},
-	 { (char *)"CreateComplex1DImage", _wrap_CreateComplex1DImage, METH_VARARGS, (char *)"CreateComplex1DImage(char const * title, long bytes, long d0) -> Image"},
-	 { (char *)"CreateComplex2DImage", _wrap_CreateComplex2DImage, METH_VARARGS, (char *)"CreateComplex2DImage(char const * title, long bytes, long d0, long d1) -> Image"},
-	 { (char *)"CreateComplex3DImage", _wrap_CreateComplex3DImage, METH_VARARGS, (char *)"CreateComplex3DImage(char const * title, long bytes, long d0, long d1, long d2) -> Image"},
-	 { (char *)"CreateComplexImage", _wrap_CreateComplexImage, METH_VARARGS, (char *)"CreateComplexImage(char const * title, long width, long height) -> Image"},
-	 { (char *)"CreateDirectory", _wrap_CreateDirectory, METH_VARARGS, (char *)"CreateDirectory(Gatan::DM::String const & dir_path)"},
-	 { (char *)"CreateFile", _wrap_CreateFile, METH_VARARGS, (char *)"CreateFile(Gatan::DM::String const & file_path)"},
-	 { (char *)"CreateFileForWriting", _wrap_CreateFileForWriting, METH_VARARGS, (char *)"CreateFileForWriting(Gatan::DM::String const & file_path) -> DM_FileReference"},
-	 { (char *)"CreateFloatImage", _wrap_CreateFloatImage, METH_VARARGS, (char *)"CreateFloatImage(char const * title, long width, long height) -> Image"},
-	 { (char *)"CreateImageFromDisplay", _wrap_CreateImageFromDisplay, METH_VARARGS, (char *)"CreateImageFromDisplay(Image argument_1) -> Image"},
-	 { (char *)"CreateInteger1DImage", _wrap_CreateInteger1DImage, METH_VARARGS, (char *)"CreateInteger1DImage(char const * title, long bytes, bool isSigned, long d0) -> Image"},
-	 { (char *)"CreateInteger2DImage", _wrap_CreateInteger2DImage, METH_VARARGS, (char *)"CreateInteger2DImage(char const * title, long bytes, bool isSigned, long d0, long d1) -> Image"},
-	 { (char *)"CreateInteger3DImage", _wrap_CreateInteger3DImage, METH_VARARGS, (char *)"CreateInteger3DImage(char const * title, long bytes, bool isSigned, long d0, long d1, long d2) -> Image"},
-	 { (char *)"CreateLongImage", _wrap_CreateLongImage, METH_VARARGS, (char *)"CreateLongImage(char const * title, long width, long height) -> Image"},
-	 { (char *)"CreateMaskFromAnnotations", _wrap_CreateMaskFromAnnotations, METH_VARARGS, (char *)"CreateMaskFromAnnotations(Gatan::DM::RasterImageDisplay const rdisp, long filter_length, bool is_opaque, bool * has_mask) -> Image"},
+	 { (char *)"ComplexToPacked", _wrap_ComplexToPacked, METH_VARARGS, (char *)"\n"
+		"ComplexToPacked(Image source) -> Image\n"
+		"\n"
+		"ComplexToPacked: Creates a new packed complex image from the complex 8-byte source.\n"
+		""},
+	 { (char *)"ComplexToPacked2", _wrap_ComplexToPacked2, METH_VARARGS, (char *)"\n"
+		"ComplexToPacked2(Image source, long style) -> Image\n"
+		"\n"
+		"ComplexToPacked2: Creates a new packed complex image from the complex 8-byte source.\n"
+		""},
+	 { (char *)"ComponentAddChildAfter", _wrap_ComponentAddChildAfter, METH_VARARGS, (char *)"\n"
+		"ComponentAddChildAfter(Gatan::DM::Component const & parent, Gatan::DM::Component const & child, Gatan::DM::Component const & annot_pos)\n"
+		"\n"
+		"ComponentAddChildAfter: Adds 'child' to 'parent's list of sub-annotations after \n"
+		"'annot_pos'.\n"
+		""},
+	 { (char *)"ComponentAddChildAtBeginning", _wrap_ComponentAddChildAtBeginning, METH_VARARGS, (char *)"\n"
+		"ComponentAddChildAtBeginning(Gatan::DM::Component const & parent, Gatan::DM::Component const & child)\n"
+		"\n"
+		"ComponentAddChildAtBeginning: Adds 'child' to the beginning of 'parent's list of \n"
+		"sub-annotations.\n"
+		""},
+	 { (char *)"ComponentAddChildAtEnd", _wrap_ComponentAddChildAtEnd, METH_VARARGS, (char *)"\n"
+		"ComponentAddChildAtEnd(Gatan::DM::Component const & parent, Gatan::DM::Component const & child)\n"
+		"\n"
+		"ComponentAddChildAtEnd: Adds 'child' to the end of 'parent's list of sub-annotations.\n"
+		""},
+	 { (char *)"ComponentAddChildBefore", _wrap_ComponentAddChildBefore, METH_VARARGS, (char *)"\n"
+		"ComponentAddChildBefore(Gatan::DM::Component const & parent, Gatan::DM::Component const & child, Gatan::DM::Component const & annot_pos)\n"
+		"\n"
+		"ComponentAddChildBefore: Adds 'child' to 'parent's list of sub-annotations before \n"
+		"'annot_pos'.\n"
+		""},
+	 { (char *)"ComponentAddNewComponent", _wrap_ComponentAddNewComponent, METH_VARARGS, (char *)"\n"
+		"ComponentAddNewComponent(Gatan::DM::Component const & parent, long type, float f1, float f2, float f3, float f4) -> Gatan::DM::Component\n"
+		"\n"
+		"ComponentAddNewComponent: Creates a new annotaiton of type 'type' and adds it to 'parent'\n"
+		""},
+	 { (char *)"ComponentClone", _wrap_ComponentClone, METH_VARARGS, (char *)"\n"
+		"ComponentClone(Gatan::DM::Component const & comp, bool doDeepCopy) -> Gatan::DM::Component\n"
+		"\n"
+		"ComponentClone: Returns a identical copy of the component and all its sub-components, \n"
+		"copying associated images if 'doDeepCopy' is true.\n"
+		""},
+	 { (char *)"ComponentCountChildren", _wrap_ComponentCountChildren, METH_VARARGS, (char *)"\n"
+		"ComponentCountChildren(Gatan::DM::Component const & comp) -> long\n"
+		"\n"
+		"ComponentCountChildren: Returns the number of sub components.\n"
+		""},
+	 { (char *)"ComponentCountChildrenOfType", _wrap_ComponentCountChildrenOfType, METH_VARARGS, (char *)"\n"
+		"ComponentCountChildrenOfType(Gatan::DM::Component const & comp, long type) -> long\n"
+		"\n"
+		"ComponentCountChildrenOfType: Returns the number of sub-components of type 'type'.\n"
+		""},
+	 { (char *)"ComponentGetBoundingRect", _wrap_ComponentGetBoundingRect, METH_VARARGS, (char *)"\n"
+		"ComponentGetBoundingRect(Gatan::DM::Component const & comp, float * t, float * l, float * b, float * r)\n"
+		"\n"
+		"ComponentGetBoundingRect: Gets the bounding rect of the annotation.\n"
+		""},
+	 { (char *)"ComponentGetBoundingRectInView", _wrap_ComponentGetBoundingRectInView, METH_VARARGS, (char *)"\n"
+		"ComponentGetBoundingRectInView(Gatan::DM::Component const & comp, float * t, float * l, float * b, float * r)\n"
+		"\n"
+		"ComponentGetBoundingRectInView: Gets the bounding rect of the annotation.\n"
+		""},
+	 { (char *)"ComponentGetChild", _wrap_ComponentGetChild, METH_VARARGS, (char *)"\n"
+		"ComponentGetChild(Gatan::DM::Component const & comp, long index) -> Gatan::DM::Component\n"
+		"\n"
+		"ComponentGetChild: Returns the 'index'th sub-component of 'comp'.\n"
+		""},
+	 { (char *)"ComponentGetChildByID", _wrap_ComponentGetChildByID, METH_VARARGS, (char *)"\n"
+		"ComponentGetChildByID(Gatan::DM::Component const & comp, long ID) -> Gatan::DM::Component\n"
+		"\n"
+		"ComponentGetChildByID: Returns the component child of 'comp' with id 'ID'.\n"
+		""},
+	 { (char *)"ComponentGetChildToLocalTransform", _wrap_ComponentGetChildToLocalTransform, METH_VARARGS, (char *)"\n"
+		"ComponentGetChildToLocalTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)\n"
+		"\n"
+		"ComponentGetChildToLocalTransform: Gets the transformation from  child to local \n"
+		"coordinates.\n"
+		""},
+	 { (char *)"ComponentGetChildToPageTransform", _wrap_ComponentGetChildToPageTransform, METH_VARARGS, (char *)"\n"
+		"ComponentGetChildToPageTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)\n"
+		"\n"
+		"ComponentGetChildToPageTransform: Gets the transformation from child to page coordinates.\n"
+		""},
+	 { (char *)"ComponentGetChildToViewTransform", _wrap_ComponentGetChildToViewTransform, METH_VARARGS, (char *)"\n"
+		"ComponentGetChildToViewTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)\n"
+		"\n"
+		"ComponentGetChildToViewTransform: Gets the transformation from child to view coordinates.\n"
+		""},
+	 { (char *)"ComponentGetChildToWindowTransform", _wrap_ComponentGetChildToWindowTransform, METH_VARARGS, (char *)"\n"
+		"ComponentGetChildToWindowTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)\n"
+		"\n"
+		"ComponentGetChildToWindowTransform: Gets the transformation from child to window \n"
+		"coordinates.\n"
+		""},
+	 { (char *)"ComponentGetControlPoint", _wrap_ComponentGetControlPoint, METH_VARARGS, (char *)"\n"
+		"ComponentGetControlPoint(Gatan::DM::Component const & comp, long loc, float * x, float * y) -> bool\n"
+		"\n"
+		"ComponentGetControlPoint: Returns the value '(x,y)' associated with the control point, \n"
+		"and returns 'true' if the control point is valid\n"
+		""},
+	 { (char *)"ComponentGetDescendentByID", _wrap_ComponentGetDescendentByID, METH_VARARGS, (char *)"\n"
+		"ComponentGetDescendentByID(Gatan::DM::Component const & comp, long ID) -> Gatan::DM::Component\n"
+		"\n"
+		"ComponentGetDescendentByID: Returns the component child of 'comp' with id 'ID'.\n"
+		""},
+	 { (char *)"ComponentGetDrawingMode", _wrap_ComponentGetDrawingMode, METH_VARARGS, (char *)"\n"
+		"ComponentGetDrawingMode(Gatan::DM::Component const & comp) -> long\n"
+		"\n"
+		"ComponentGetDrawingMode: Gets the drawing mode of the image doucment component.\n"
+		""},
+	 { (char *)"ComponentGetFillMode", _wrap_ComponentGetFillMode, METH_VARARGS, (char *)"\n"
+		"ComponentGetFillMode(Gatan::DM::Component const & comp) -> long\n"
+		"\n"
+		"ComponentGetFillMode: Gets the fill mode of the image doucment component.\n"
+		""},
+	 { (char *)"ComponentGetFontAttributes", _wrap_ComponentGetFontAttributes, METH_VARARGS, (char *)"\n"
+		"ComponentGetFontAttributes(Gatan::DM::Component const & comp) -> long\n"
+		"\n"
+		"ComponentGetFontAttributes: Gets the attributes of the component's font.\n"
+		""},
+	 { (char *)"ComponentGetFontFaceName", _wrap_ComponentGetFontFaceName, METH_VARARGS, (char *)"\n"
+		"ComponentGetFontFaceName(Gatan::DM::Component const & comp) -> Gatan::DM::String\n"
+		"\n"
+		"ComponentGetFontFaceName: Gets the face name of the component's font.\n"
+		""},
+	 { (char *)"ComponentGetFontInfo", _wrap_ComponentGetFontInfo, METH_VARARGS, (char *)"\n"
+		"ComponentGetFontInfo(Gatan::DM::Component const & comp, Gatan::DM::String & faceName, long * attributes, long * size)\n"
+		"\n"
+		"ComponentGetFontInfo: Gets a description of the component's font.\n"
+		""},
+	 { (char *)"ComponentGetFontSize", _wrap_ComponentGetFontSize, METH_VARARGS, (char *)"\n"
+		"ComponentGetFontSize(Gatan::DM::Component const & comp) -> long\n"
+		"\n"
+		"ComponentGetFontSize: Gets the point size of the component's font.\n"
+		""},
+	 { (char *)"ComponentGetID", _wrap_ComponentGetID, METH_VARARGS, (char *)"\n"
+		"ComponentGetID(Gatan::DM::Component const & annot) -> long\n"
+		"\n"
+		"ComponentGetID: Gets the unique identifier of the annotation in the image document.\n"
+		""},
+	 { (char *)"ComponentGetImageDocument", _wrap_ComponentGetImageDocument, METH_VARARGS, (char *)"\n"
+		"ComponentGetImageDocument(Gatan::DM::Component const & annot) -> Gatan::DM::ImageDocument\n"
+		"\n"
+		"ComponentGetImageDocument: Gets the image document associated with the annotation.\n"
+		""},
+	 { (char *)"ComponentGetLocalToPageTransform", _wrap_ComponentGetLocalToPageTransform, METH_VARARGS, (char *)"\n"
+		"ComponentGetLocalToPageTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)\n"
+		"\n"
+		"ComponentGetLocalToPageTransform: Gets the transformation from local to page coordinates.\n"
+		""},
+	 { (char *)"ComponentGetLocalToViewTransform", _wrap_ComponentGetLocalToViewTransform, METH_VARARGS, (char *)"\n"
+		"ComponentGetLocalToViewTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)\n"
+		"\n"
+		"ComponentGetLocalToViewTransform: Gets the transformation from local to view coordinates.\n"
+		""},
+	 { (char *)"ComponentGetLocalToWindowTransform", _wrap_ComponentGetLocalToWindowTransform, METH_VARARGS, (char *)"\n"
+		"ComponentGetLocalToWindowTransform(Gatan::DM::Component const & comp, float * off_x, float * off_y, float * scale_x, float * scale_y)\n"
+		"\n"
+		"ComponentGetLocalToWindowTransform: Gets the transformation from local to window \n"
+		"coordinates.\n"
+		""},
+	 { (char *)"ComponentGetNthChildOfType", _wrap_ComponentGetNthChildOfType, METH_VARARGS, (char *)"\n"
+		"ComponentGetNthChildOfType(Gatan::DM::Component const & comp, long type, long index) -> Gatan::DM::Component\n"
+		"\n"
+		"ComponentGetNthChildOfType: Returns the nth sub-component of type 'type'.\n"
+		""},
+	 { (char *)"ComponentGetParentComponent", _wrap_ComponentGetParentComponent, METH_VARARGS, (char *)"\n"
+		"ComponentGetParentComponent(Gatan::DM::Component const & comp) -> Gatan::DM::Component\n"
+		"\n"
+		"ComponentGetParentComponent: Gets the parent component of 'comp', if any.\n"
+		""},
+	 { (char *)"ComponentGetParentImageDisplay", _wrap_ComponentGetParentImageDisplay, METH_VARARGS, (char *)"\n"
+		"ComponentGetParentImageDisplay(Gatan::DM::Component const & comp) -> Gatan::DM::ImageDisplay\n"
+		"\n"
+		"ComponentGetParentImageDisplay: Gets the parent image display of the 'comp', if any.\n"
+		""},
+	 { (char *)"ComponentGetRect", _wrap_ComponentGetRect, METH_VARARGS, (char *)"\n"
+		"ComponentGetRect(Gatan::DM::Component const & comp, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"ComponentGetRect: Gets the rectangle of the annotation.\n"
+		""},
+	 { (char *)"ComponentGetRectInView", _wrap_ComponentGetRectInView, METH_VARARGS, (char *)"\n"
+		"ComponentGetRectInView(Gatan::DM::Component const & comp, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"ComponentGetRectInView: Gets the rectangle of the annotation.\n"
+		""},
+	 { (char *)"ComponentGetTagGroup", _wrap_ComponentGetTagGroup, METH_VARARGS, (char *)"\n"
+		"ComponentGetTagGroup(Gatan::DM::Component const & annot) -> TagGroup\n"
+		"\n"
+		"ComponentGetTagGroup: Gets the tag group associated with the annotation.\n"
+		""},
+	 { (char *)"ComponentGetType", _wrap_ComponentGetType, METH_VARARGS, (char *)"\n"
+		"ComponentGetType(Gatan::DM::Component const & annot) -> long\n"
+		"\n"
+		"ComponentGetType: Gets the type of the annotation.\n"
+		""},
+	 { (char *)"ComponentIsOfType", _wrap_ComponentIsOfType, METH_VARARGS, (char *)"\n"
+		"ComponentIsOfType(Gatan::DM::Component const & annot, long type) -> bool\n"
+		"\n"
+		"ComponentIsOfType: Gets the type of the annotation.\n"
+		""},
+	 { (char *)"ComponentIsSelected", _wrap_ComponentIsSelected, METH_VARARGS, (char *)"\n"
+		"ComponentIsSelected(Gatan::DM::Component const & comp) -> bool\n"
+		"\n"
+		"ComponentIsSelected: Returns whether the component is selected.\n"
+		""},
+	 { (char *)"ComponentIsValid", _wrap_ComponentIsValid, METH_VARARGS, (char *)"\n"
+		"ComponentIsValid(Gatan::DM::Component const & annot) -> bool\n"
+		"\n"
+		"ComponentIsValid: Returns true if 'annot' points to a valid object.\n"
+		""},
+	 { (char *)"ComponentOffsetControlPoint", _wrap_ComponentOffsetControlPoint, METH_VARARGS, (char *)"\n"
+		"ComponentOffsetControlPoint(Gatan::DM::Component const & comp, long loc, float x, float y, long restrict_style)\n"
+		"\n"
+		"ComponentOffsetControlPoint: Changes the control point 'loc' of 'comp' by '(x,y)' using \n"
+		"restrictions specified by 'restrict_style'.\n"
+		""},
+	 { (char *)"ComponentPositionAroundPoint", _wrap_ComponentPositionAroundPoint, METH_VARARGS, (char *)"\n"
+		"ComponentPositionAroundPoint(Gatan::DM::Component const & comp, float new_x, float new_y, float rel_x, float rel_y, bool horz, bool vert)\n"
+		"\n"
+		"ComponentPositionAroundPoint: Moves the annotation so if 'horz', the 'rel_x' horizontal \n"
+		"point in the bounding rect is at 'new_x', and if 'vert', the 'rel_y' vertical point in \n"
+		"the bounding rect is at 'new_y'\n"
+		""},
+	 { (char *)"ComponentRemoveFromParent", _wrap_ComponentRemoveFromParent, METH_VARARGS, (char *)"\n"
+		"ComponentRemoveFromParent(Gatan::DM::Component const & comp)\n"
+		"\n"
+		"ComponentRemoveFromParent: Removes the image document component from its parent.\n"
+		""},
+	 { (char *)"ComponentSetControlPoint", _wrap_ComponentSetControlPoint, METH_VARARGS, (char *)"\n"
+		"ComponentSetControlPoint(Gatan::DM::Component const & comp, long loc, float x, float y, long restrict_style)\n"
+		"\n"
+		"ComponentSetControlPoint: Sets the control point 'loc' of 'comp' to '(x,y)' using \n"
+		"restrictions specified by 'restrict_style'.\n"
+		""},
+	 { (char *)"ComponentSetDrawingMode", _wrap_ComponentSetDrawingMode, METH_VARARGS, (char *)"\n"
+		"ComponentSetDrawingMode(Gatan::DM::Component const & comp, long mode)\n"
+		"\n"
+		"ComponentSetDrawingMode: Sets the drawing mode of the image document component.\n"
+		""},
+	 { (char *)"ComponentSetFillMode", _wrap_ComponentSetFillMode, METH_VARARGS, (char *)"\n"
+		"ComponentSetFillMode(Gatan::DM::Component const & comp, long mode)\n"
+		"\n"
+		"ComponentSetFillMode: Sets the fill mode of the image document component.\n"
+		""},
+	 { (char *)"ComponentSetFontAttributes", _wrap_ComponentSetFontAttributes, METH_VARARGS, (char *)"\n"
+		"ComponentSetFontAttributes(Gatan::DM::Component const & comp, long attributes)\n"
+		"\n"
+		"ComponentSetFontAttributes: Sets the attributes of the component's font.\n"
+		""},
+	 { (char *)"ComponentSetFontFaceName", _wrap_ComponentSetFontFaceName, METH_VARARGS, (char *)"\n"
+		"ComponentSetFontFaceName(Gatan::DM::Component const & comp, Gatan::DM::String const & face_name)\n"
+		"\n"
+		"ComponentSetFontFaceName: Sets the face name of the component's font.\n"
+		""},
+	 { (char *)"ComponentSetFontInfo", _wrap_ComponentSetFontInfo, METH_VARARGS, (char *)"\n"
+		"ComponentSetFontInfo(Gatan::DM::Component const & comp, Gatan::DM::String const & face_name, long attributes, long size)\n"
+		"\n"
+		"ComponentSetFontInfo: Sets the font information of the component's font.\n"
+		""},
+	 { (char *)"ComponentSetFontSize", _wrap_ComponentSetFontSize, METH_VARARGS, (char *)"\n"
+		"ComponentSetFontSize(Gatan::DM::Component const & comp, long size)\n"
+		"\n"
+		"ComponentSetFontSize: Sets the point size of the component's font.\n"
+		""},
+	 { (char *)"ComponentSetRect", _wrap_ComponentSetRect, METH_VARARGS, (char *)"\n"
+		"ComponentSetRect(Gatan::DM::Component const & comp, float top, float left, float bottom, float right)\n"
+		"\n"
+		"ComponentSetRect: Sets the rectangle of the annotation.\n"
+		""},
+	 { (char *)"ComponentSetSelected", _wrap_ComponentSetSelected, METH_VARARGS, (char *)"\n"
+		"ComponentSetSelected(Gatan::DM::Component const & comp, bool select)\n"
+		"\n"
+		"ComponentSetSelected: Sets the selection status of the component.\n"
+		""},
+	 { (char *)"ComponentSetSelectable", _wrap_ComponentSetSelectable, METH_VARARGS, (char *)"\n"
+		"ComponentSetSelectable(Gatan::DM::Component const & comp, bool selectable)\n"
+		"\n"
+		"ComponentSetSelectable: Sets whether the component can be selected.\n"
+		""},
+	 { (char *)"ComponentTransformCoordinates", _wrap_ComponentTransformCoordinates, METH_VARARGS, (char *)"\n"
+		"ComponentTransformCoordinates(Gatan::DM::Component const & comp, float off_x, float off_y, float scale_x, float scale_y)\n"
+		"\n"
+		"ComponentTransformCoordinates: Transforms the component by the specified transform.\n"
+		""},
+	 { (char *)"ConjMultiplyPackedByPacked", _wrap_ConjMultiplyPackedByPacked, METH_VARARGS, (char *)"\n"
+		"ConjMultiplyPackedByPacked(Image a, Image b)\n"
+		"\n"
+		"ConjMultiplyPackedByPacked: Conjugate multiply packed image a by packed image b and \n"
+		"store the result in b. No data type checking is performed.\n"
+		""},
+	 { (char *)"ConnectObject", _wrap_ConnectObject, METH_VARARGS, (char *)"\n"
+		"ConnectObject(long object, char const * message, char const * ident, Gatan::DM::ScriptObject const & scriptObject, char const * method)\n"
+		"\n"
+		"ConnectObject: Build the connection with the given object and message under ident.\n"
+		""},
+	 { (char *)"ContinueCancelDialog", _wrap_ContinueCancelDialog, METH_VARARGS, (char *)"\n"
+		"ContinueCancelDialog(char const * prompt) -> bool\n"
+		"\n"
+		"ContinueCancelDialog: Puts up a dialog with both a Continue button and Cancel button. \n"
+		"Returns 1 for Continue and 0 for Cancel.\n"
+		""},
+	 { (char *)"ControlDown", _wrap_ControlDown, METH_VARARGS, (char *)"\n"
+		"ControlDown() -> bool\n"
+		"\n"
+		"ControlDown: Returns 1 if the control key is down and 0 otherwise.\n"
+		""},
+	 { (char *)"ConvertImageData", _wrap_ConvertImageData, METH_VARARGS, (char *)"\n"
+		"ConvertImageData(Image arg1, Image to)\n"
+		"\n"
+		"ConvertImageData:\n"
+		""},
+	 { (char *)"ConvertImageDataSlice_2D", _wrap_ConvertImageDataSlice_2D, METH_VARARGS, (char *)"\n"
+		"ConvertImageDataSlice_2D(Image arg1, Image to, long x_l, long y_l, long f_x_0, long f_y_0, long f_x_d, long f_x_s, long f_y_d, long f_y_s, long t_x_0, long t_y_0, long t_x_d, long t_x_s, long t_y_d, long t_y_s)\n"
+		"\n"
+		"ConvertImageDataSlice_2D:\n"
+		""},
+	 { (char *)"ConvertInt16ToFloat", _wrap_ConvertInt16ToFloat, METH_VARARGS, (char *)"\n"
+		"ConvertInt16ToFloat(Image a, Image b)\n"
+		"\n"
+		"ConvertInt16ToFloat: Convert the signed 2-byte data in image a to real data and store \n"
+		"the result in image b. No data type checking is performed.\n"
+		""},
+	 { (char *)"ConvertPICTToRGBImage", _wrap_ConvertPICTToRGBImage, METH_VARARGS, (char *)"\n"
+		"ConvertPICTToRGBImage(long picture) -> Image\n"
+		"\n"
+		"ConvertPICTToRGBImage: Convert a PICT stored in a handle to an RGB image.\n"
+		""},
+	 { (char *)"ConvertToByte", _wrap_ConvertToByte, METH_VARARGS, (char *)"\n"
+		"ConvertToByte(Image argument_1)\n"
+		"\n"
+		"ConvertToByte: Converts the given image to unsigned integer 1-byte data.\n"
+		""},
+	 { (char *)"ConvertToComplex", _wrap_ConvertToComplex, METH_VARARGS, (char *)"\n"
+		"ConvertToComplex(Image argument_1)\n"
+		"\n"
+		"ConvertToComplex: Converts the given image to complex single precision data.\n"
+		""},
+	 { (char *)"ConvertToFloat", _wrap_ConvertToFloat, METH_VARARGS, (char *)"\n"
+		"ConvertToFloat(Image argument_1)\n"
+		"\n"
+		"ConvertToFloat: Converts the given image to single precision real data.\n"
+		""},
+	 { (char *)"ConvertToLong", _wrap_ConvertToLong, METH_VARARGS, (char *)"\n"
+		"ConvertToLong(Image argument_1)\n"
+		"\n"
+		"ConvertToLong: Converts the given image to signed integer 4-byte data.\n"
+		""},
+	 { (char *)"ConvertToPackedComplex", _wrap_ConvertToPackedComplex, METH_VARARGS, (char *)"\n"
+		"ConvertToPackedComplex(Image argument_1)\n"
+		"\n"
+		"ConvertToPackedComplex: Converts the given image to packed complex data.\n"
+		""},
+	 { (char *)"ConvertToShort", _wrap_ConvertToShort, METH_VARARGS, (char *)"\n"
+		"ConvertToShort(Image argument_1)\n"
+		"\n"
+		"ConvertToShort: Converts the given image to signed integer 2-byte data.\n"
+		""},
+	 { (char *)"ConvertUInt8ToFloat", _wrap_ConvertUInt8ToFloat, METH_VARARGS, (char *)"\n"
+		"ConvertUInt8ToFloat(Image a, Image b)\n"
+		"\n"
+		"ConvertUInt8ToFloat: Convert the unsigned 1-byte data in image a to real data and \n"
+		"store the result in image b. No data type checking is performed.\n"
+		""},
+	 { (char *)"ConvertUInt8ToDisplay8", _wrap_ConvertUInt8ToDisplay8, METH_VARARGS, (char *)"\n"
+		"ConvertUInt8ToDisplay8(Image src, long top, long left, long bottom, long right, long dst, long rowBytes)\n"
+		"\n"
+		"ConvertUInt8ToDisplay8: Copy the sub-area of unsigned 1-byte integer image src \n"
+		"indicated by [top,left,bottom,right] to dst. The rowBytes parameter indicates the length \n"
+		"of the row of dst. To copy to the screen, pass 0 for dst and rowBytes. No data type \n"
+		"checking is performed.\n"
+		""},
+	 { (char *)"Convolution", _wrap_Convolution, METH_VARARGS, (char *)"\n"
+		"Convolution(Image source, Image kernel) -> Image\n"
+		"\n"
+		"Convolution: Creates a new image that is the convolution of the source image with the \n"
+		"kernel. The kernel should be less than 7x7.\n"
+		""},
+	 { (char *)"CopyGWorldCTable", _wrap_CopyGWorldCTable, METH_VARARGS, (char *)"\n"
+		"CopyGWorldCTable(Image argument_1) -> long\n"
+		"\n"
+		"CopyGWorldCTable: Copy the OS Color Table of the image and return it. ( Returns \n"
+		"CTabHandle for MacOS, HGLOBAL for Windows ).\n"
+		""},
+	 { (char *)"CountAllImages", _wrap_CountAllImages, METH_VARARGS, (char *)"\n"
+		"CountAllImages() -> long\n"
+		"\n"
+		"CountAllImages: Returns the number of images.\n"
+		""},
+	 { (char *)"CountDocumentWindows", _wrap_CountDocumentWindows, METH_VARARGS, (char *)"\n"
+		"CountDocumentWindows() -> long\n"
+		"\n"
+		"CountDocumentWindows: Returns the number of document windows.\n"
+		""},
+	 { (char *)"CountDocumentWindowsOfType", _wrap_CountDocumentWindowsOfType, METH_VARARGS, (char *)"\n"
+		"CountDocumentWindowsOfType(long type) -> long\n"
+		"\n"
+		"CountDocumentWindowsOfType: Returns the number of document windows with type 'type'.\n"
+		""},
+	 { (char *)"CountFloatingWindows", _wrap_CountFloatingWindows, METH_VARARGS, (char *)"\n"
+		"CountFloatingWindows() -> long\n"
+		"\n"
+		"CountFloatingWindows: Returns the number of floating windows.\n"
+		""},
+	 { (char *)"CountImageDocuments", _wrap_CountImageDocuments, METH_VARARGS, (char *)"\n"
+		"CountImageDocuments() -> long\n"
+		"\n"
+		"CountImageDocuments: Returns the number of image documents.\n"
+		""},
+	 { (char *)"CountImages", _wrap_CountImages, METH_VARARGS, (char *)"\n"
+		"CountImages() -> long\n"
+		"\n"
+		"CountImages: Count the number of images.\n"
+		""},
+	 { (char *)"CountScreens", _wrap_CountScreens, METH_VARARGS, (char *)"\n"
+		"CountScreens() -> long\n"
+		"\n"
+		"CountScreens: Returns the number of screens.\n"
+		""},
+	 { (char *)"CountScriptFunctions", _wrap_CountScriptFunctions, METH_VARARGS, (char *)"\n"
+		"CountScriptFunctions(char const * fnName) -> long\n"
+		"\n"
+		"CountScriptFunctions: Returns the number of script functions having name 'fnName'.\n"
+		""},
+	 { (char *)"CreateBinary1DImage", _wrap_CreateBinary1DImage, METH_VARARGS, (char *)"\n"
+		"CreateBinary1DImage(char const * title, long d0) -> Image\n"
+		"\n"
+		"CreateBinary1DImage: Creates a 1D binary image of size [d0] with the given title.\n"
+		""},
+	 { (char *)"CreateBinary2DImage", _wrap_CreateBinary2DImage, METH_VARARGS, (char *)"\n"
+		"CreateBinary2DImage(char const * title, long d0, long d1) -> Image\n"
+		"\n"
+		"CreateBinary2DImage: Creates a 2D binary image of size [d0,d1] with the given title.\n"
+		""},
+	 { (char *)"CreateBinary3DImage", _wrap_CreateBinary3DImage, METH_VARARGS, (char *)"\n"
+		"CreateBinary3DImage(char const * title, long d0, long d1, long d2) -> Image\n"
+		"\n"
+		"CreateBinary3DImage: Creates a 3D binary image of size [d0,d1,d2] with the given title.\n"
+		""},
+	 { (char *)"CreateByteImage", _wrap_CreateByteImage, METH_VARARGS, (char *)"\n"
+		"CreateByteImage(char const * title, long width, long height) -> Image\n"
+		"\n"
+		"CreateByteImage: Creates a 2D unsigned 1-byte integer image of size [width,height] with \n"
+		"the given title.\n"
+		""},
+	 { (char *)"CreateComplex1DImage", _wrap_CreateComplex1DImage, METH_VARARGS, (char *)"\n"
+		"CreateComplex1DImage(char const * title, long bytes, long d0) -> Image\n"
+		"\n"
+		"CreateComplex1DImage: Creates a 1D complex image of size [d0] with the given title. The \n"
+		"bytes parameter can be 8 or 16 for single and double precision floating point numbers.\n"
+		""},
+	 { (char *)"CreateComplex2DImage", _wrap_CreateComplex2DImage, METH_VARARGS, (char *)"\n"
+		"CreateComplex2DImage(char const * title, long bytes, long d0, long d1) -> Image\n"
+		"\n"
+		"CreateComplex2DImage: Creates a 2D complex image of size [d0,d1] with the given title. \n"
+		"The bytes parameter can be 8 or 16 for single and double precision floating point numbers.\n"
+		""},
+	 { (char *)"CreateComplex3DImage", _wrap_CreateComplex3DImage, METH_VARARGS, (char *)"\n"
+		"CreateComplex3DImage(char const * title, long bytes, long d0, long d1, long d2) -> Image\n"
+		"\n"
+		"CreateComplex3DImage: Creates a 3D complex image of size [d0,d1,d2] with the given \n"
+		"title. The bytes parameter can be 8 or 16 for single and double precision floating point \n"
+		"numbers.\n"
+		""},
+	 { (char *)"CreateComplexImage", _wrap_CreateComplexImage, METH_VARARGS, (char *)"\n"
+		"CreateComplexImage(char const * title, long width, long height) -> Image\n"
+		"\n"
+		"CreateComplexImage: Creates a 2D single precision complex image of size [width,height] \n"
+		"with the given title.\n"
+		""},
+	 { (char *)"CreateDirectory", _wrap_CreateDirectory, METH_VARARGS, (char *)"\n"
+		"CreateDirectory(Gatan::DM::String const & dir_path)\n"
+		"\n"
+		"CreateDirectory: Create a folder named fileName.\n"
+		""},
+	 { (char *)"CreateFile", _wrap_CreateFile, METH_VARARGS, (char *)"\n"
+		"CreateFile(Gatan::DM::String const & file_path)\n"
+		"\n"
+		"CreateFile: Create a file named fileName.\n"
+		""},
+	 { (char *)"CreateFileForWriting", _wrap_CreateFileForWriting, METH_VARARGS, (char *)"\n"
+		"CreateFileForWriting(Gatan::DM::String const & file_path) -> DM_FileReference\n"
+		"\n"
+		"CreateFileForWriting: Create and open the file for writing. Return the file reference \n"
+		"for this file. This call must be balanced with call to CloseFile() with the returned \n"
+		"reference number.\n"
+		""},
+	 { (char *)"CreateFloatImage", _wrap_CreateFloatImage, METH_VARARGS, (char *)"\n"
+		"CreateFloatImage(char const * title, long width, long height) -> Image\n"
+		"\n"
+		"CreateFloatImage: Creates a 2D single precision float image of size [width,height] with \n"
+		"the given title.\n"
+		""},
+	 { (char *)"CreateImageFromDisplay", _wrap_CreateImageFromDisplay, METH_VARARGS, (char *)"\n"
+		"CreateImageFromDisplay(Image argument_1) -> Image\n"
+		"\n"
+		"CreateImageFromDisplay: Convert the display of image to an RGB image.\n"
+		""},
+	 { (char *)"CreateInteger1DImage", _wrap_CreateInteger1DImage, METH_VARARGS, (char *)"\n"
+		"CreateInteger1DImage(char const * title, long bytes, bool isSigned, long d0) -> Image\n"
+		"\n"
+		"CreateInteger1DImage: Creates a 1D integer image of size [d0] with the given title. The \n"
+		"bytes and isSigned parameters specify integer specific attributes of the data.\n"
+		""},
+	 { (char *)"CreateInteger2DImage", _wrap_CreateInteger2DImage, METH_VARARGS, (char *)"\n"
+		"CreateInteger2DImage(char const * title, long bytes, bool isSigned, long d0, long d1) -> Image\n"
+		"\n"
+		"CreateInteger2DImage: Creates a 2D integer image of size [d0,d1] with the given title. \n"
+		"The bytes and isSigned parameters specify integer specific attributes of the data.\n"
+		""},
+	 { (char *)"CreateInteger3DImage", _wrap_CreateInteger3DImage, METH_VARARGS, (char *)"\n"
+		"CreateInteger3DImage(char const * title, long bytes, bool isSigned, long d0, long d1, long d2) -> Image\n"
+		"\n"
+		"CreateInteger3DImage: Creates a 3D integer image of size [d0,d1,d2] with the given \n"
+		"title. The bytes can be 1, 2, or 4 and isSigned can be 1 (true) or 0 (false).\n"
+		""},
+	 { (char *)"CreateLongImage", _wrap_CreateLongImage, METH_VARARGS, (char *)"\n"
+		"CreateLongImage(char const * title, long width, long height) -> Image\n"
+		"\n"
+		"CreateLongImage: Creates a 2D signed 4-byte integer image of size [width,height] with \n"
+		"the given title.\n"
+		""},
+	 { (char *)"CreateMaskFromAnnotations", _wrap_CreateMaskFromAnnotations, METH_VARARGS, (char *)"\n"
+		"CreateMaskFromAnnotations(Gatan::DM::RasterImageDisplay const rdisp, long filter_length, bool is_opaque, bool * has_mask) -> Image\n"
+		"\n"
+		"CreateMaskFromAnnotations: Creates a 2D binary mask from an image display's annotations.\n"
+		""},
 	 { (char *)"CreatePackedComplexImage", _wrap_CreatePackedComplexImage, METH_VARARGS, (char *)"\n"
 		"CreatePackedComplexImage(char const * title, long width, long height) -> Image\n"
 		"CreatePackedComplexImage(char const * title, long data_type, long width, long height) -> Image\n"
+		"\n"
+		"CreatePackedComplexImage: Creates a 2D packed complex image of size [width,height] with \n"
+		"the given title and 8byte complex data (floats).\n"
 		""},
-	 { (char *)"CreateReal1DImage", _wrap_CreateReal1DImage, METH_VARARGS, (char *)"CreateReal1DImage(char const * title, long bytes, long d0) -> Image"},
-	 { (char *)"CreateReal2DImage", _wrap_CreateReal2DImage, METH_VARARGS, (char *)"CreateReal2DImage(char const * title, long bytes, long d0, long d1) -> Image"},
-	 { (char *)"CreateReal3DImage", _wrap_CreateReal3DImage, METH_VARARGS, (char *)"CreateReal3DImage(char const * title, long bytes, long d0, long d1, long d2) -> Image"},
-	 { (char *)"CreateRGB1DImage", _wrap_CreateRGB1DImage, METH_VARARGS, (char *)"CreateRGB1DImage(char const * title, long bytes, long d0) -> Image"},
-	 { (char *)"CreateRGB2DImage", _wrap_CreateRGB2DImage, METH_VARARGS, (char *)"CreateRGB2DImage(char const * title, long bytes, long d0, long d1) -> Image"},
-	 { (char *)"CreateRGB3DImage", _wrap_CreateRGB3DImage, METH_VARARGS, (char *)"CreateRGB3DImage(char const * title, long bytes, long d0, long d1, long d2) -> Image"},
-	 { (char *)"CreateRGBImage", _wrap_CreateRGBImage, METH_VARARGS, (char *)"CreateRGBImage(char const * title, long width, long height) -> Image"},
-	 { (char *)"CreateRGBImageFromPicture", _wrap_CreateRGBImageFromPicture, METH_VARARGS, (char *)"CreateRGBImageFromPicture(long picture) -> Image"},
-	 { (char *)"CreateShortImage", _wrap_CreateShortImage, METH_VARARGS, (char *)"CreateShortImage(char const * title, long width, long height) -> Image"},
-	 { (char *)"CrossCorrelate", _wrap_CrossCorrelate, METH_VARARGS, (char *)"CrossCorrelate(Image source1, Image source2) -> Image"},
-	 { (char *)"CrossCorrelation", _wrap_CrossCorrelation, METH_VARARGS, (char *)"CrossCorrelation(Image source1, Image source2) -> Image"},
-	 { (char *)"CrossProduct", _wrap_CrossProduct, METH_VARARGS, (char *)"CrossProduct(Image a, Image b) -> Image"},
-	 { (char *)"CWCloseWindow", _wrap_CWCloseWindow, METH_VARARGS, (char *)"CWCloseWindow(long windowObject)"},
-	 { (char *)"CWCreateWindow", _wrap_CWCreateWindow, METH_VARARGS, (char *)"CWCreateWindow(long windowInstance, short top, short left, short bottom, short right) -> long"},
-	 { (char *)"CWDeleteWindow", _wrap_CWDeleteWindow, METH_VARARGS, (char *)"CWDeleteWindow(long windowObject)"},
-	 { (char *)"CWGetWindowPtr", _wrap_CWGetWindowPtr, METH_VARARGS, (char *)"CWGetWindowPtr(long windowObject) -> long"},
-	 { (char *)"CWInvalidateWindow", _wrap_CWInvalidateWindow, METH_VARARGS, (char *)"CWInvalidateWindow(long windowObject)"},
-	 { (char *)"DeallocString", _wrap_DeallocString, METH_VARARGS, (char *)"DeallocString(long string)"},
-	 { (char *)"Delay", _wrap_Delay, METH_VARARGS, (char *)"Delay(long argument_1)"},
-	 { (char *)"DeleteDirectory", _wrap_DeleteDirectory, METH_VARARGS, (char *)"DeleteDirectory(Gatan::DM::String const & dir_path)"},
-	 { (char *)"DeleteFile", _wrap_DeleteFile, METH_VARARGS, (char *)"DeleteFile(Gatan::DM::String const & file_path)"},
-	 { (char *)"DeleteImage", _wrap_DeleteImage, METH_VARARGS, (char *)"DeleteImage(Image argument_1)"},
-	 { (char *)"DeleteImageFile", _wrap_DeleteImageFile, METH_VARARGS, (char *)"DeleteImageFile(char const * fileName)"},
-	 { (char *)"DestroyPicture", _wrap_DestroyPicture, METH_VARARGS, (char *)"DestroyPicture(long * picture)"},
-	 { (char *)"DisconnectObject", _wrap_DisconnectObject, METH_VARARGS, (char *)"DisconnectObject(long object, char const * message, char const * ident)"},
-	 { (char *)"DisplayAt", _wrap_DisplayAt, METH_VARARGS, (char *)"DisplayAt(Image argument_1, long x, long y)"},
-	 { (char *)"DisplayImageDocumentWithDialog", _wrap_DisplayImageDocumentWithDialog, METH_VARARGS, (char *)"DisplayImageDocumentWithDialog(Gatan::DM::ImageDocument const & imgDoc, CDialog * dlgPtr, uint32 dlgPosition)"},
-	 { (char *)"DoesClassExist", _wrap_DoesClassExist, METH_VARARGS, (char *)"DoesClassExist(Gatan::DM::String const & dir_path) -> bool"},
-	 { (char *)"DoesDirectoryExist", _wrap_DoesDirectoryExist, METH_VARARGS, (char *)"DoesDirectoryExist(Gatan::DM::String const & dir_path) -> bool"},
-	 { (char *)"DoesFileExist", _wrap_DoesFileExist, METH_VARARGS, (char *)"DoesFileExist(Gatan::DM::String const & dir_path) -> bool"},
-	 { (char *)"DoesFunctionExist", _wrap_DoesFunctionExist, METH_VARARGS, (char *)"DoesFunctionExist(Gatan::DM::String const & dir_path) -> bool"},
-	 { (char *)"DoesImageExist", _wrap_DoesImageExist, METH_VARARGS, (char *)"DoesImageExist(long imageID) -> bool"},
-	 { (char *)"DoEvents", _wrap_DoEvents, METH_VARARGS, (char *)"DoEvents()"},
-	 { (char *)"EditorWindowAddText", _wrap_EditorWindowAddText, METH_VARARGS, (char *)"EditorWindowAddText(Gatan::DM::Window const & window, Gatan::DM::String const & text)"},
-	 { (char *)"EditorWindowGetFont", _wrap_EditorWindowGetFont, METH_VARARGS, (char *)"EditorWindowGetFont(Gatan::DM::Window const & window, Gatan::DM::String & face_name, ulong * attributes, ulong * size)"},
-	 { (char *)"EditorWindowGetText", _wrap_EditorWindowGetText, METH_VARARGS, (char *)"EditorWindowGetText(Gatan::DM::Window const & window) -> Gatan::DM::String"},
-	 { (char *)"EditorWindowPrint", _wrap_EditorWindowPrint, METH_VARARGS, (char *)"EditorWindowPrint(Gatan::DM::Window const & window) -> bool"},
-	 { (char *)"EditorWindowSaveToFile", _wrap_EditorWindowSaveToFile, METH_VARARGS, (char *)"EditorWindowSaveToFile(Gatan::DM::Window const & window, Gatan::DM::String const & path)"},
-	 { (char *)"EditorWindowSetFont", _wrap_EditorWindowSetFont, METH_VARARGS, (char *)"EditorWindowSetFont(Gatan::DM::Window const & window, Gatan::DM::String const & face_name, ulong attributes, ulong size)"},
-	 { (char *)"EditorWindowSetText", _wrap_EditorWindowSetText, METH_VARARGS, (char *)"EditorWindowSetText(Gatan::DM::Window const & window, Gatan::DM::String const & text)"},
-	 { (char *)"EMBeamShift", _wrap_EMBeamShift, METH_VARARGS, (char *)"EMBeamShift(long xAmount, long yAmount)"},
-	 { (char *)"EMChangeFocus", _wrap_EMChangeFocus, METH_VARARGS, (char *)"EMChangeFocus(long amount)"},
-	 { (char *)"EMChangeStigmation", _wrap_EMChangeStigmation, METH_VARARGS, (char *)"EMChangeStigmation(long xAmount, long yAmount)"},
-	 { (char *)"EMChangeTilt", _wrap_EMChangeTilt, METH_VARARGS, (char *)"EMChangeTilt(long xAmount, long yAmount)"},
-	 { (char *)"EMCloseCommunication", _wrap_EMCloseCommunication, METH_VARARGS, (char *)"EMCloseCommunication()"},
-	 { (char *)"EMImageShift", _wrap_EMImageShift, METH_VARARGS, (char *)"EMImageShift(long xAmount, long yAmount)"},
-	 { (char *)"EMLinkControlFunctions", _wrap_EMLinkControlFunctions, METH_VARARGS, (char *)"EMLinkControlFunctions(void * functions)"},
-	 { (char *)"EMPrepareImageShift", _wrap_EMPrepareImageShift, METH_VARARGS, (char *)"EMPrepareImageShift()"},
-	 { (char *)"EMPrepareShift", _wrap_EMPrepareShift, METH_VARARGS, (char *)"EMPrepareShift()"},
-	 { (char *)"EMPrepareStigmation", _wrap_EMPrepareStigmation, METH_VARARGS, (char *)"EMPrepareStigmation()"},
-	 { (char *)"EMPrepareTilt", _wrap_EMPrepareTilt, METH_VARARGS, (char *)"EMPrepareTilt()"},
-	 { (char *)"EMSetupCommunication", _wrap_EMSetupCommunication, METH_VARARGS, (char *)"EMSetupCommunication()"},
-	 { (char *)"EMUnlinkControlFunctions", _wrap_EMUnlinkControlFunctions, METH_VARARGS, (char *)"EMUnlinkControlFunctions()"},
-	 { (char *)"ErrorDialog", _wrap_ErrorDialog, METH_VARARGS, (char *)"ErrorDialog(short error)"},
+	 { (char *)"CreateReal1DImage", _wrap_CreateReal1DImage, METH_VARARGS, (char *)"\n"
+		"CreateReal1DImage(char const * title, long bytes, long d0) -> Image\n"
+		"\n"
+		"CreateReal1DImage: Creates a 1D real image of size [d0] with the given title. The bytes \n"
+		"parameter can be 4 or 8 for single and double precision floating point numbers.\n"
+		""},
+	 { (char *)"CreateReal2DImage", _wrap_CreateReal2DImage, METH_VARARGS, (char *)"\n"
+		"CreateReal2DImage(char const * title, long bytes, long d0, long d1) -> Image\n"
+		"\n"
+		"CreateReal2DImage: Creates a 2D real image of size [d0,d1] with the given title. The \n"
+		"bytes parameter can be 4 or 8 for single and double precision floating point numbers.\n"
+		""},
+	 { (char *)"CreateReal3DImage", _wrap_CreateReal3DImage, METH_VARARGS, (char *)"\n"
+		"CreateReal3DImage(char const * title, long bytes, long d0, long d1, long d2) -> Image\n"
+		"\n"
+		"CreateReal3DImage: Creates a 3D real image of size [d0,d1,d2] with the given title. The \n"
+		"bytes parameter can be 4 or 8 for single and double precision floating point numbers.\n"
+		""},
+	 { (char *)"CreateRGB1DImage", _wrap_CreateRGB1DImage, METH_VARARGS, (char *)"\n"
+		"CreateRGB1DImage(char const * title, long bytes, long d0) -> Image\n"
+		"\n"
+		"CreateRGB1DImage: Creates a 1D RGB image of size [d0] with the given title. The bytes \n"
+		"parameter must be 4.\n"
+		""},
+	 { (char *)"CreateRGB2DImage", _wrap_CreateRGB2DImage, METH_VARARGS, (char *)"\n"
+		"CreateRGB2DImage(char const * title, long bytes, long d0, long d1) -> Image\n"
+		"\n"
+		"CreateRGB2DImage: Creates a 2D RGB image of size [d0,d1] with the given title. The bytes \n"
+		"parameter must be 4.\n"
+		""},
+	 { (char *)"CreateRGB3DImage", _wrap_CreateRGB3DImage, METH_VARARGS, (char *)"\n"
+		"CreateRGB3DImage(char const * title, long bytes, long d0, long d1, long d2) -> Image\n"
+		"\n"
+		"CreateRGB3DImage: Creates a 3D RGB image of size [d0,d1,d2] with the given title. The \n"
+		"bytes parameter must be 4.\n"
+		""},
+	 { (char *)"CreateRGBImage", _wrap_CreateRGBImage, METH_VARARGS, (char *)"\n"
+		"CreateRGBImage(char const * title, long width, long height) -> Image\n"
+		"\n"
+		"CreateRGBImage: Creates a 2D RGB image of size [width,height] with the given title.\n"
+		""},
+	 { (char *)"CreateRGBImageFromPicture", _wrap_CreateRGBImageFromPicture, METH_VARARGS, (char *)"\n"
+		"CreateRGBImageFromPicture(long picture) -> Image\n"
+		"\n"
+		"CreateRGBImageFromPicture: Create an RGB image by drawing into it with a picture\n"
+		""},
+	 { (char *)"CreateShortImage", _wrap_CreateShortImage, METH_VARARGS, (char *)"\n"
+		"CreateShortImage(char const * title, long width, long height) -> Image\n"
+		"\n"
+		"CreateShortImage: Creates a 2D signed 2-byte integer image of size [width,height] with \n"
+		"the given title.\n"
+		""},
+	 { (char *)"CrossCorrelate", _wrap_CrossCorrelate, METH_VARARGS, (char *)"\n"
+		"CrossCorrelate(Image source1, Image source2) -> Image\n"
+		"\n"
+		"CrossCorrelate: Return an image which is the result of the cross correlation of source1 \n"
+		"and source2.\n"
+		""},
+	 { (char *)"CrossCorrelation", _wrap_CrossCorrelation, METH_VARARGS, (char *)"\n"
+		"CrossCorrelation(Image source1, Image source2) -> Image\n"
+		"\n"
+		"CrossCorrelation: Return an image which is the result of the cross correlation of \n"
+		"source1 and source2.\n"
+		""},
+	 { (char *)"CrossProduct", _wrap_CrossProduct, METH_VARARGS, (char *)"\n"
+		"CrossProduct(Image a, Image b) -> Image\n"
+		"\n"
+		"CrossProduct: Return the matrix cross product image of matrix images a and b.\n"
+		""},
+	 { (char *)"CWCloseWindow", _wrap_CWCloseWindow, METH_VARARGS, (char *)"\n"
+		"CWCloseWindow(long windowObject)\n"
+		"\n"
+		"CWCloseWindow: Close a custom window. See the SDK documentation for more information.\n"
+		""},
+	 { (char *)"CWCreateWindow", _wrap_CWCreateWindow, METH_VARARGS, (char *)"\n"
+		"CWCreateWindow(long windowInstance, short top, short left, short bottom, short right) -> long\n"
+		"\n"
+		"CWCreateWindow: Create a custom window. See the SDK documentation for more information.\n"
+		""},
+	 { (char *)"CWDeleteWindow", _wrap_CWDeleteWindow, METH_VARARGS, (char *)"\n"
+		"CWDeleteWindow(long windowObject)\n"
+		"\n"
+		"CWDeleteWindow: Delete a custom window. See the SDK documentation for more information.\n"
+		""},
+	 { (char *)"CWGetWindowPtr", _wrap_CWGetWindowPtr, METH_VARARGS, (char *)"\n"
+		"CWGetWindowPtr(long windowObject) -> long\n"
+		"\n"
+		"CWGetWindowPtr: Get the MacOS WindowPtr from the window. See the SDK documentation for \n"
+		"more information.\n"
+		""},
+	 { (char *)"CWInvalidateWindow", _wrap_CWInvalidateWindow, METH_VARARGS, (char *)"\n"
+		"CWInvalidateWindow(long windowObject)\n"
+		"\n"
+		"CWInvalidateWindow: Invalidate a custom window. See the SDK documentation for more \n"
+		"information.\n"
+		""},
+	 { (char *)"DeallocString", _wrap_DeallocString, METH_VARARGS, (char *)"\n"
+		"DeallocString(long string)\n"
+		"\n"
+		"DeallocString: Deallocates a string used in the script language.\n"
+		""},
+	 { (char *)"Delay", _wrap_Delay, METH_VARARGS, (char *)"\n"
+		"Delay(long argument_1)\n"
+		"\n"
+		"Delay: Delay for the given number of tick counts.\n"
+		""},
+	 { (char *)"DeleteDirectory", _wrap_DeleteDirectory, METH_VARARGS, (char *)"\n"
+		"DeleteDirectory(Gatan::DM::String const & dir_path)\n"
+		"\n"
+		"DeleteDirectory: Deletes the folder named dirName.\n"
+		""},
+	 { (char *)"DeleteFile", _wrap_DeleteFile, METH_VARARGS, (char *)"\n"
+		"DeleteFile(Gatan::DM::String const & file_path)\n"
+		"\n"
+		"DeleteFile: Delete the file.\n"
+		""},
+	 { (char *)"DeleteImage", _wrap_DeleteImage, METH_VARARGS, (char *)"\n"
+		"DeleteImage(Image argument_1)\n"
+		"\n"
+		"DeleteImage: Close the image without asking the user to save it.\n"
+		""},
+	 { (char *)"DeleteImageFile", _wrap_DeleteImageFile, METH_VARARGS, (char *)"\n"
+		"DeleteImageFile(char const * fileName)\n"
+		"\n"
+		"DeleteImageFile: Delete the image file.\n"
+		""},
+	 { (char *)"DestroyPicture", _wrap_DestroyPicture, METH_VARARGS, (char *)"\n"
+		"DestroyPicture(long * picture)\n"
+		"\n"
+		"DestroyPicture: Destroy a picture\n"
+		""},
+	 { (char *)"DisconnectObject", _wrap_DisconnectObject, METH_VARARGS, (char *)"\n"
+		"DisconnectObject(long object, char const * message, char const * ident)\n"
+		"\n"
+		"DisconnectObject: Break the connection specified by ident for the given object and \n"
+		"message.\n"
+		""},
+	 { (char *)"DisplayAt", _wrap_DisplayAt, METH_VARARGS, (char *)"\n"
+		"DisplayAt(Image argument_1, long x, long y)\n"
+		"\n"
+		"DisplayAt: Display the image's image document if it is not display already and moves the \n"
+		"window position to [x,y] screen coordinates.\n"
+		""},
+	 { (char *)"DisplayImageDocumentWithDialog", _wrap_DisplayImageDocumentWithDialog, METH_VARARGS, (char *)"\n"
+		"DisplayImageDocumentWithDialog(Gatan::DM::ImageDocument const & imgDoc, CDialog * dlgPtr, uint32 dlgPosition)\n"
+		"\n"
+		"DisplayImageDocumentWithDialog: Display the image document with a dialog attached.  The\n"
+		"position of the dialog is set by dlgPosition (top=0, bottom=1, left=2, right=3).\n"
+		""},
+	 { (char *)"DoesClassExist", _wrap_DoesClassExist, METH_VARARGS, (char *)"\n"
+		"DoesClassExist(Gatan::DM::String const & dir_path) -> bool\n"
+		"\n"
+		"DoesClassExist:\n"
+		""},
+	 { (char *)"DoesDirectoryExist", _wrap_DoesDirectoryExist, METH_VARARGS, (char *)"\n"
+		"DoesDirectoryExist(Gatan::DM::String const & dir_path) -> bool\n"
+		"\n"
+		"DoesDirectoryExist: Returns 'true' if the named directory exists\n"
+		""},
+	 { (char *)"DoesFileExist", _wrap_DoesFileExist, METH_VARARGS, (char *)"\n"
+		"DoesFileExist(Gatan::DM::String const & dir_path) -> bool\n"
+		"\n"
+		"DoesFileExist: Returns 'true' if the named file exists\n"
+		""},
+	 { (char *)"DoesFunctionExist", _wrap_DoesFunctionExist, METH_VARARGS, (char *)"\n"
+		"DoesFunctionExist(Gatan::DM::String const & dir_path) -> bool\n"
+		"\n"
+		"DoesFunctionExist: Determines if the given function exists.\n"
+		""},
+	 { (char *)"DoesImageExist", _wrap_DoesImageExist, METH_VARARGS, (char *)"\n"
+		"DoesImageExist(long imageID) -> bool\n"
+		"\n"
+		"DoesImageExist: Determine if the image with imageID exists and returns 1 if it does; \n"
+		"return 0 otherwise.\n"
+		""},
+	 { (char *)"DoEvents", _wrap_DoEvents, METH_VARARGS, (char *)"\n"
+		"DoEvents()\n"
+		"\n"
+		"DoEvents: Process all pending MacOS events.\n"
+		""},
+	 { (char *)"EditorWindowAddText", _wrap_EditorWindowAddText, METH_VARARGS, (char *)"\n"
+		"EditorWindowAddText(Gatan::DM::Window const & window, Gatan::DM::String const & text)\n"
+		"\n"
+		"EditorWindowAddText: Appends the text to a editor window.\n"
+		""},
+	 { (char *)"EditorWindowGetFont", _wrap_EditorWindowGetFont, METH_VARARGS, (char *)"\n"
+		"EditorWindowGetFont(Gatan::DM::Window const & window, Gatan::DM::String & face_name, ulong * attributes, ulong * size)\n"
+		"\n"
+		"EditorWindowGetFont: Gets the font of a script window.\n"
+		""},
+	 { (char *)"EditorWindowGetText", _wrap_EditorWindowGetText, METH_VARARGS, (char *)"\n"
+		"EditorWindowGetText(Gatan::DM::Window const & window) -> Gatan::DM::String\n"
+		"\n"
+		"EditorWindowGetText: Gets the text in an editor window.\n"
+		""},
+	 { (char *)"EditorWindowPrint", _wrap_EditorWindowPrint, METH_VARARGS, (char *)"\n"
+		"EditorWindowPrint(Gatan::DM::Window const & window) -> bool\n"
+		"\n"
+		"EditorWindowPrint: Prints the editor window.\n"
+		""},
+	 { (char *)"EditorWindowSaveToFile", _wrap_EditorWindowSaveToFile, METH_VARARGS, (char *)"\n"
+		"EditorWindowSaveToFile(Gatan::DM::Window const & window, Gatan::DM::String const & path)\n"
+		"\n"
+		"EditorWindowSaveToFile: Saves the editor window to the specified path.\n"
+		""},
+	 { (char *)"EditorWindowSetFont", _wrap_EditorWindowSetFont, METH_VARARGS, (char *)"\n"
+		"EditorWindowSetFont(Gatan::DM::Window const & window, Gatan::DM::String const & face_name, ulong attributes, ulong size)\n"
+		"\n"
+		"EditorWindowSetFont: Sets the font of a script window.\n"
+		""},
+	 { (char *)"EditorWindowSetText", _wrap_EditorWindowSetText, METH_VARARGS, (char *)"\n"
+		"EditorWindowSetText(Gatan::DM::Window const & window, Gatan::DM::String const & text)\n"
+		"\n"
+		"EditorWindowSetText: Sets the text in an editor window.\n"
+		""},
+	 { (char *)"EMBeamShift", _wrap_EMBeamShift, METH_VARARGS, (char *)"\n"
+		"EMBeamShift(long xAmount, long yAmount)\n"
+		"\n"
+		"EMBeamShift: Shift the beam by xAmount, yAmount. The EM Control Plug-in must be \n"
+		"currently installed and configured.\n"
+		""},
+	 { (char *)"EMChangeFocus", _wrap_EMChangeFocus, METH_VARARGS, (char *)"\n"
+		"EMChangeFocus(long amount)\n"
+		"\n"
+		"EMChangeFocus: Change the focus by amount. The EM Control Plug-in must be currently \n"
+		"installed and configured.\n"
+		""},
+	 { (char *)"EMChangeStigmation", _wrap_EMChangeStigmation, METH_VARARGS, (char *)"\n"
+		"EMChangeStigmation(long xAmount, long yAmount)\n"
+		"\n"
+		"EMChangeStigmation: Change the stigmation by xAmount, yAmount. The EM Control Plug-in \n"
+		"must be currently installed and configured.\n"
+		""},
+	 { (char *)"EMChangeTilt", _wrap_EMChangeTilt, METH_VARARGS, (char *)"\n"
+		"EMChangeTilt(long xAmount, long yAmount)\n"
+		"\n"
+		"EMChangeTilt: Change the tilt by xAmount, yAmount. The EM Control Plug-in must be \n"
+		"currently installed and configured.\n"
+		""},
+	 { (char *)"EMCloseCommunication", _wrap_EMCloseCommunication, METH_VARARGS, (char *)"\n"
+		"EMCloseCommunication()\n"
+		"\n"
+		"EMCloseCommunication: Close communication to the microscope. The EM Control Plug-in must \n"
+		"be currently installed and configured.\n"
+		""},
+	 { (char *)"EMImageShift", _wrap_EMImageShift, METH_VARARGS, (char *)"\n"
+		"EMImageShift(long xAmount, long yAmount)\n"
+		"\n"
+		"EMImageShift: Shift the image by xAmount, yAmount. The EM Control Plug-in must be \n"
+		"currently installed and configured.\n"
+		""},
+	 { (char *)"EMLinkControlFunctions", _wrap_EMLinkControlFunctions, METH_VARARGS, (char *)"\n"
+		"EMLinkControlFunctions(void * functions)\n"
+		"\n"
+		"EMLinkControlFunctions: Establish link between microscope control functions and the \n"
+		"application. The EM Control Plug-in must be currently installed and configured.\n"
+		""},
+	 { (char *)"EMPrepareImageShift", _wrap_EMPrepareImageShift, METH_VARARGS, (char *)"\n"
+		"EMPrepareImageShift()\n"
+		"\n"
+		"EMPrepareImageShift: Prepare image shift. Call this before a sequence of image shift \n"
+		"changes. The EM Control Plug-in must be currently installed and configured.\n"
+		""},
+	 { (char *)"EMPrepareShift", _wrap_EMPrepareShift, METH_VARARGS, (char *)"\n"
+		"EMPrepareShift()\n"
+		"\n"
+		"EMPrepareShift: Prepare beam shift. Call this before a sequence of beam shift changes. \n"
+		"The EM Control Plug-in must be currently installed and configured.\n"
+		""},
+	 { (char *)"EMPrepareStigmation", _wrap_EMPrepareStigmation, METH_VARARGS, (char *)"\n"
+		"EMPrepareStigmation()\n"
+		"\n"
+		"EMPrepareStigmation: Prepare stigmation. Call this before a sequence of stigmation \n"
+		"changes. The EM Control Plug-in must be currently installed and configured.\n"
+		""},
+	 { (char *)"EMPrepareTilt", _wrap_EMPrepareTilt, METH_VARARGS, (char *)"\n"
+		"EMPrepareTilt()\n"
+		"\n"
+		"EMPrepareTilt: Prepare tilt. Call this before a sequence of tilt changes. The EM Control \n"
+		"Plug-in must be currently installed and configured.\n"
+		""},
+	 { (char *)"EMSetupCommunication", _wrap_EMSetupCommunication, METH_VARARGS, (char *)"\n"
+		"EMSetupCommunication()\n"
+		"\n"
+		"EMSetupCommunication: Setup communication with the microscope. The EM Control Plug-in \n"
+		"must be currently installed and configured.\n"
+		""},
+	 { (char *)"EMUnlinkControlFunctions", _wrap_EMUnlinkControlFunctions, METH_VARARGS, (char *)"\n"
+		"EMUnlinkControlFunctions()\n"
+		"\n"
+		"EMUnlinkControlFunctions: Break link between microscope control functions and the \n"
+		"application. The EM Control Plug-in must be currently installed and configured.\n"
+		""},
+	 { (char *)"ErrorDialog", _wrap_ErrorDialog, METH_VARARGS, (char *)"\n"
+		"ErrorDialog(short error)\n"
+		"\n"
+		"ErrorDialog: Puts up a dialog explaining the application error.\n"
+		""},
 	 { (char *)"ExecuteScriptFile", _wrap_ExecuteScriptFile, METH_VARARGS, (char *)"\n"
 		"ExecuteScriptFile(char const * fileName, ulong script_index) -> double\n"
 		"ExecuteScriptFile(char const * fileName) -> double\n"
+		"\n"
+		"ExecuteScriptFile: Executes the script file indicated by fileName and returns the exit \n"
+		"value of that script.  A script may specify a specific exit value by exiting with the \n"
+		"exit(n) function.  If a script does not use the exit() function the exit value will be 0.\n"
 		""},
-	 { (char *)"ExecuteScriptString", _wrap_ExecuteScriptString, METH_VARARGS, (char *)"ExecuteScriptString(Gatan::DM::String const & text) -> double"},
-	 { (char *)"Extract2D_Linear", _wrap_Extract2D_Linear, METH_VARARGS, (char *)"Extract2D_Linear(Image arg1, Image to, long extract_style, double x_start, double y_start, double x_scale_0, double y_scale_0, double x_scale_1, double y_scale_1)"},
-	 { (char *)"FFT", _wrap_FFT, METH_VARARGS, (char *)"FFT(Image source) -> Image"},
-	 { (char *)"FindFrontImage", _wrap_FindFrontImage, METH_VARARGS, (char *)"FindFrontImage() -> Image"},
+	 { (char *)"ExecuteScriptString", _wrap_ExecuteScriptString, METH_VARARGS, (char *)"\n"
+		"ExecuteScriptString(Gatan::DM::String const & text) -> double\n"
+		"\n"
+		"ExecuteScriptString: Executes the script text and returns the exit value of that script. \n"
+		" A script may specify a specific exit value by exiting with the exit(n) function.  If a \n"
+		"script does not use the exit() function the exit value will be 0.\n"
+		""},
+	 { (char *)"Extract2D_Linear", _wrap_Extract2D_Linear, METH_VARARGS, (char *)"\n"
+		"Extract2D_Linear(Image arg1, Image to, long extract_style, double x_start, double y_start, double x_scale_0, double y_scale_0, double x_scale_1, double y_scale_1)\n"
+		"\n"
+		"Extract2D_Linear:\n"
+		""},
+	 { (char *)"FFT", _wrap_FFT, METH_VARARGS, (char *)"\n"
+		"FFT(Image source) -> Image\n"
+		"\n"
+		"FFT: Creates a new complex 8-byte image from the FFT of the complex image source.\n"
+		""},
+	 { (char *)"FindFrontImage", _wrap_FindFrontImage, METH_VARARGS, (char *)"\n"
+		"FindFrontImage() -> Image\n"
+		"\n"
+		"FindFrontImage: Returns the front image. Doesn't throw exceptions.\n"
+		""},
 	 { (char *)"FindFunctionBySignature", _wrap_FindFunctionBySignature, METH_VARARGS, (char *)"\n"
 		"FindFunctionBySignature(char_range const & signature) -> Gatan::DM::Function\n"
 		"FindFunctionBySignature(char_range const & name, char_range const & signature) -> Gatan::DM::Function\n"
+		"\n"
+		"FindFunctionBySignature: Looks for a function that matches the given signature.\n"
 		""},
-	 { (char *)"FindImageByID", _wrap_FindImageByID, METH_VARARGS, (char *)"FindImageByID(long id) -> Image"},
-	 { (char *)"FindImageByIndex", _wrap_FindImageByIndex, METH_VARARGS, (char *)"FindImageByIndex(long index) -> Image"},
-	 { (char *)"FindImageByLabel", _wrap_FindImageByLabel, METH_VARARGS, (char *)"FindImageByLabel(char const * label) -> Image"},
-	 { (char *)"FindImageByName", _wrap_FindImageByName, METH_VARARGS, (char *)"FindImageByName(char const * name) -> Image"},
-	 { (char *)"FindLike", _wrap_FindLike, METH_VARARGS, (char *)"FindLike(char const * name, long width, long height, short dataType) -> Image"},
-	 { (char *)"FindNextImage", _wrap_FindNextImage, METH_VARARGS, (char *)"FindNextImage(Image argument_1) -> Image"},
-	 { (char *)"FindReferenceImage", _wrap_FindReferenceImage, METH_VARARGS, (char *)"FindReferenceImage(char const * name, short dataType, long width, long height) -> Image"},
-	 { (char *)"FirstImage", _wrap_FirstImage, METH_VARARGS, (char *)"FirstImage() -> Image"},
-	 { (char *)"FlipHorizontal", _wrap_FlipHorizontal, METH_VARARGS, (char *)"FlipHorizontal(Image argument_1)"},
-	 { (char *)"FlipVertical", _wrap_FlipVertical, METH_VARARGS, (char *)"FlipVertical(Image argument_1)"},
-	 { (char *)"FloatingModelessDialog", _wrap_FloatingModelessDialog, METH_VARARGS, (char *)"FloatingModelessDialog(char const * prompt, char const * buttonName, long semaphore)"},
-	 { (char *)"fngetkey", _wrap_fngetkey, METH_VARARGS, (char *)"fngetkey() -> short"},
-	 { (char *)"ForceSurvey", _wrap_ForceSurvey, METH_VARARGS, (char *)"ForceSurvey(Image argument_1)"},
-	 { (char *)"FreeSemaphore", _wrap_FreeSemaphore, METH_VARARGS, (char *)"FreeSemaphore(long argument_1)"},
-	 { (char *)"FunctionCountParameters", _wrap_FunctionCountParameters, METH_VARARGS, (char *)"FunctionCountParameters(Gatan::DM::Function const & func) -> ulong"},
-	 { (char *)"FunctionGenerateStub", _wrap_FunctionGenerateStub, METH_VARARGS, (char *)"FunctionGenerateStub(Gatan::DM::Function const & func, bool include_body, ulong version) -> Gatan::DM::String"},
-	 { (char *)"FunctionIsValid", _wrap_FunctionIsValid, METH_VARARGS, (char *)"FunctionIsValid(Gatan::DM::Function const & func) -> bool"},
-	 { (char *)"Get1DSize", _wrap_Get1DSize, METH_VARARGS, (char *)"Get1DSize(Image argument_1, long * d0)"},
-	 { (char *)"Get2DSize", _wrap_Get2DSize, METH_VARARGS, (char *)"Get2DSize(Image argument_1, long * d0, long * d1)"},
-	 { (char *)"Get3DSize", _wrap_Get3DSize, METH_VARARGS, (char *)"Get3DSize(Image argument_1, long * d0, long * d1, long * d2)"},
-	 { (char *)"GetApplicationInfo", _wrap_GetApplicationInfo, METH_VARARGS, (char *)"GetApplicationInfo(long info_kind, long * info) -> bool"},
-	 { (char *)"GetApplicationCWnd", _wrap_GetApplicationCWnd, METH_VARARGS, (char *)"GetApplicationCWnd() -> CWnd *"},
-	 { (char *)"WindowGetPlatformImplementation", _wrap_WindowGetPlatformImplementation, METH_VARARGS, (char *)"WindowGetPlatformImplementation(Gatan::DM::Window const & window) -> ULONG_PTR"},
-	 { (char *)"GetBoolean", _wrap_GetBoolean, METH_VARARGS, (char *)"GetBoolean(char const * prompt, bool initalValue, bool * result) -> bool"},
-	 { (char *)"GetCalibrationDialog", _wrap_GetCalibrationDialog, METH_VARARGS, (char *)"GetCalibrationDialog(float aw, float ah, float * xs, float * ys, char const * initialUnitString, char * unitString) -> bool"},
-	 { (char *)"GetCLUT", _wrap_GetCLUT, METH_VARARGS, (char *)"GetCLUT(Image argument_1) -> Image"},
-	 { (char *)"GetDataPtr", _wrap_GetDataPtr, METH_VARARGS, (char *)"GetDataPtr(Image argument_1) -> long"},
-	 { (char *)"GetDataType", _wrap_GetDataType, METH_VARARGS, (char *)"GetDataType(Image argument_1) -> short"},
-	 { (char *)"GetDate", _wrap_GetDate, METH_VARARGS, (char *)"GetDate(long dateFormat, char * buffer, long buffer_length)"},
+	 { (char *)"FindImageByID", _wrap_FindImageByID, METH_VARARGS, (char *)"\n"
+		"FindImageByID(long id) -> Image\n"
+		"\n"
+		"FindImageByID: Returns the image having the given id, or an invalid image of no image \n"
+		"has that id.\n"
+		""},
+	 { (char *)"FindImageByIndex", _wrap_FindImageByIndex, METH_VARARGS, (char *)"\n"
+		"FindImageByIndex(long index) -> Image\n"
+		"\n"
+		"FindImageByIndex: Returns the 'index'th image.\n"
+		""},
+	 { (char *)"FindImageByLabel", _wrap_FindImageByLabel, METH_VARARGS, (char *)"\n"
+		"FindImageByLabel(char const * label) -> Image\n"
+		"\n"
+		"FindImageByLabel: Returns the image having the given label, or an invalid image if no \n"
+		"such image exists.\n"
+		""},
+	 { (char *)"FindImageByName", _wrap_FindImageByName, METH_VARARGS, (char *)"\n"
+		"FindImageByName(char const * name) -> Image\n"
+		"\n"
+		"FindImageByName: Returns the image having the given name, or an invalid image of no \n"
+		"image has that name.\n"
+		""},
+	 { (char *)"FindLike", _wrap_FindLike, METH_VARARGS, (char *)"\n"
+		"FindLike(char const * name, long width, long height, short dataType) -> Image\n"
+		"\n"
+		"FindLike: Look for an image with the given name, width, height, and dataType. Return it \n"
+		"if found.\n"
+		""},
+	 { (char *)"FindNextImage", _wrap_FindNextImage, METH_VARARGS, (char *)"\n"
+		"FindNextImage(Image argument_1) -> Image\n"
+		"\n"
+		"FindNextImage: Find the next image.\n"
+		""},
+	 { (char *)"FindReferenceImage", _wrap_FindReferenceImage, METH_VARARGS, (char *)"\n"
+		"FindReferenceImage(char const * name, short dataType, long width, long height) -> Image\n"
+		"\n"
+		"FindReferenceImage: Look for an image with the given name, width, height, and dataType. \n"
+		"If it's found, return it. If it's not found, try to load it from disk.\n"
+		""},
+	 { (char *)"FirstImage", _wrap_FirstImage, METH_VARARGS, (char *)"\n"
+		"FirstImage() -> Image\n"
+		"\n"
+		"FirstImage: Find the first image.\n"
+		""},
+	 { (char *)"FlipHorizontal", _wrap_FlipHorizontal, METH_VARARGS, (char *)"\n"
+		"FlipHorizontal(Image argument_1)\n"
+		"\n"
+		"FlipHorizontal: Flips the image horizontally.\n"
+		""},
+	 { (char *)"FlipVertical", _wrap_FlipVertical, METH_VARARGS, (char *)"\n"
+		"FlipVertical(Image argument_1)\n"
+		"\n"
+		"FlipVertical: Flips the image vertically.\n"
+		""},
+	 { (char *)"FloatingModelessDialog", _wrap_FloatingModelessDialog, METH_VARARGS, (char *)"\n"
+		"FloatingModelessDialog(char const * prompt, char const * buttonName, long semaphore)\n"
+		"\n"
+		"FloatingModelessDialog: Present a floating window with the prompt and buttonName. When \n"
+		"the user presses the button, the semaphore will be cleared. This function can only be \n"
+		"used in the background.\n"
+		""},
+	 { (char *)"fngetkey", _wrap_fngetkey, METH_VARARGS, (char *)"\n"
+		"fngetkey() -> short\n"
+		"\n"
+		"fngetkey: Returns the key that was last pressed.\n"
+		""},
+	 { (char *)"ForceSurvey", _wrap_ForceSurvey, METH_VARARGS, (char *)"\n"
+		"ForceSurvey(Image argument_1)\n"
+		"\n"
+		"ForceSurvey: Cause an immediate survey of the image.\n"
+		""},
+	 { (char *)"FreeSemaphore", _wrap_FreeSemaphore, METH_VARARGS, (char *)"\n"
+		"FreeSemaphore(long argument_1)\n"
+		"\n"
+		"FreeSemaphore: Free the semaphore. Used only with background processing.\n"
+		""},
+	 { (char *)"FunctionCountParameters", _wrap_FunctionCountParameters, METH_VARARGS, (char *)"\n"
+		"FunctionCountParameters(Gatan::DM::Function const & func) -> ulong\n"
+		"\n"
+		"FunctionCountParameters: Returns the number of parameters of the function.\n"
+		""},
+	 { (char *)"FunctionGenerateStub", _wrap_FunctionGenerateStub, METH_VARARGS, (char *)"\n"
+		"FunctionGenerateStub(Gatan::DM::Function const & func, bool include_body, ulong version) -> Gatan::DM::String\n"
+		"\n"
+		"FunctionGenerateStub: Generates a stub function in the format specified by version.\n"
+		""},
+	 { (char *)"FunctionIsValid", _wrap_FunctionIsValid, METH_VARARGS, (char *)"\n"
+		"FunctionIsValid(Gatan::DM::Function const & func) -> bool\n"
+		"\n"
+		"FunctionIsValid: Returns true if 'func' is a valid object.\n"
+		""},
+	 { (char *)"Get1DSize", _wrap_Get1DSize, METH_VARARGS, (char *)"\n"
+		"Get1DSize(Image argument_1, long * d0)\n"
+		"\n"
+		"Get1DSize: Store the length of the 1D image into the d0 variable.\n"
+		""},
+	 { (char *)"Get2DSize", _wrap_Get2DSize, METH_VARARGS, (char *)"\n"
+		"Get2DSize(Image argument_1, long * d0, long * d1)\n"
+		"\n"
+		"Get2DSize: Store the width and height of the 2D image into the d0 and d1 variables.\n"
+		""},
+	 { (char *)"Get3DSize", _wrap_Get3DSize, METH_VARARGS, (char *)"\n"
+		"Get3DSize(Image argument_1, long * d0, long * d1, long * d2)\n"
+		"\n"
+		"Get3DSize: Store the x,y, and z sizes of the 3D image into the d0, d1, and d2 variables.\n"
+		""},
+	 { (char *)"WindowGetPlatformImplementation", _wrap_WindowGetPlatformImplementation, METH_VARARGS, (char *)"\n"
+		"WindowGetPlatformImplementation(Gatan::DM::Window const & window) -> ULONG_PTR\n"
+		"\n"
+		"WindowGetPlatformImplementation: gets the window handle\n"
+		""},
+	 { (char *)"GetBoolean", _wrap_GetBoolean, METH_VARARGS, (char *)"\n"
+		"GetBoolean(char const * prompt, bool initalValue, bool * result) -> bool\n"
+		"\n"
+		"GetBoolean: Puts up a dialog with the given prompt and allows the user to enter Boolean. \n"
+		"The initial value is passed as a parameter and the result in stored in result. Returns 1 \n"
+		"for OK and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetCalibrationDialog", _wrap_GetCalibrationDialog, METH_VARARGS, (char *)"\n"
+		"GetCalibrationDialog(float aw, float ah, float * xs, float * ys, char const * initialUnitString, char * unitString) -> bool\n"
+		"\n"
+		"GetCalibrationDialog: Present the calibration dialog to the user. The calibrating pixel \n"
+		"dimensions are passed as the [aw,ah] parameters. The resulting calibration is stored into \n"
+		"the [xs,ys] parameters. The initial unit string is passed in and the resulting unit \n"
+		"string is copied into the unitString buffer.Returns 1 for OK and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetCLUT", _wrap_GetCLUT, METH_VARARGS, (char *)"\n"
+		"GetCLUT(Image argument_1) -> Image\n"
+		"\n"
+		"GetCLUT: Return the image's CLUT as a 256x1 RGB image.\n"
+		""},
+	 { (char *)"GetDataPtr", _wrap_GetDataPtr, METH_VARARGS, (char *)"\n"
+		"GetDataPtr(Image argument_1) -> long\n"
+		"\n"
+		"GetDataPtr: Return a pointer to the actual image data.  If the image data is changed, \n"
+		"the function DMImageDataChanged() must be called to ensure proper updating, etc. This \n"
+		"call must be balanced with a call to ReleaseDataPtr().\n"
+		""},
+	 { (char *)"GetDataType", _wrap_GetDataType, METH_VARARGS, (char *)"\n"
+		"GetDataType(Image argument_1) -> short\n"
+		"\n"
+		"GetDataType: Return the enumerated data type of the image.\n"
+		""},
+	 { (char *)"GetDate", _wrap_GetDate, METH_VARARGS, (char *)"\n"
+		"GetDate(long dateFormat, char * buffer, long buffer_length)\n"
+		"\n"
+		"GetDate: Return a string representing the current date in the date format indicated by \n"
+		"dateFormat. The dateFormat parameter can be 0=short, 1=long, 2=abbreviated.\n"
+		""},
 	 { (char *)"GetDirectoryDialog", _wrap_GetDirectoryDialog, METH_VARARGS, (char *)"\n"
 		"GetDirectoryDialog(char * dirName, long buff_length) -> bool\n"
 		"GetDirectoryDialog(Gatan::DM::String const & prompt, Gatan::DM::String const & init_path, Gatan::DM::String & dirName) -> bool\n"
+		"\n"
+		"GetDirectoryDialog: Puts up the GetDirectory dialog and stores the path of the chosen \n"
+		"directory in 'dirName'\n"
 		""},
-	 { (char *)"GetDisplayAsImage", _wrap_GetDisplayAsImage, METH_VARARGS, (char *)"GetDisplayAsImage(Image argument_1) -> Image"},
-	 { (char *)"GetDocumentWindow", _wrap_GetDocumentWindow, METH_VARARGS, (char *)"GetDocumentWindow(long index) -> Gatan::DM::Window"},
-	 { (char *)"GetDocumentWindowByTitle", _wrap_GetDocumentWindowByTitle, METH_VARARGS, (char *)"GetDocumentWindowByTitle(Gatan::DM::String const & name) -> Gatan::DM::Window"},
-	 { (char *)"GetEstimatedMinMax", _wrap_GetEstimatedMinMax, METH_VARARGS, (char *)"GetEstimatedMinMax(Image argument_1, float * minPtr, float * maxPtr)"},
-	 { (char *)"GetException", _wrap_GetException, METH_VARARGS, (char *)"GetException(short * error, long * context)"},
-	 { (char *)"GetExceptionDescription", _wrap_GetExceptionDescription, METH_VARARGS, (char *)"GetExceptionDescription() -> Gatan::DM::String"},
-	 { (char *)"GetExceptionString", _wrap_GetExceptionString, METH_VARARGS, (char *)"GetExceptionString(char * dst)"},
-	 { (char *)"GetFilesInDirectory", _wrap_GetFilesInDirectory, METH_VARARGS, (char *)"GetFilesInDirectory(Gatan::DM::String const & path, ulong search_flags) -> TagGroup"},
-	 { (char *)"GetFloatingWindow", _wrap_GetFloatingWindow, METH_VARARGS, (char *)"GetFloatingWindow(long index) -> Gatan::DM::Window"},
-	 { (char *)"GetFourImages", _wrap_GetFourImages, METH_VARARGS, (char *)"GetFourImages(char const * title, Image image1, Image image2, Image image3, Image image4) -> bool"},
-	 { (char *)"GetFourImagesWithPrompt", _wrap_GetFourImagesWithPrompt, METH_VARARGS, (char *)"GetFourImagesWithPrompt(char const * prompt, char const * title, Image image1, Image image2, Image image3, Image image4) -> bool"},
-	 { (char *)"GetFourLabeledImagesWithPrompt", _wrap_GetFourLabeledImagesWithPrompt, METH_VARARGS, (char *)"GetFourLabeledImagesWithPrompt(char const * prompt, char const * title, char const * label1, Image image1, char const * label2, Image image2, char const * label3, Image image3, char const * label4, Image image4) -> bool"},
+	 { (char *)"GetDisplayAsImage", _wrap_GetDisplayAsImage, METH_VARARGS, (char *)"\n"
+		"GetDisplayAsImage(Image argument_1) -> Image\n"
+		"\n"
+		"GetDisplayAsImage: Convert the display of image to an RGB image.\n"
+		""},
+	 { (char *)"GetDocumentWindow", _wrap_GetDocumentWindow, METH_VARARGS, (char *)"\n"
+		"GetDocumentWindow(long index) -> Gatan::DM::Window\n"
+		"\n"
+		"GetDocumentWindow: Gets the 'index'th document window.\n"
+		""},
+	 { (char *)"GetDocumentWindowByTitle", _wrap_GetDocumentWindowByTitle, METH_VARARGS, (char *)"\n"
+		"GetDocumentWindowByTitle(Gatan::DM::String const & name) -> Gatan::DM::Window\n"
+		"\n"
+		"GetDocumentWindowByTitle: Gets the document window named 'name'.\n"
+		""},
+	 { (char *)"GetEstimatedMinMax", _wrap_GetEstimatedMinMax, METH_VARARGS, (char *)"\n"
+		"GetEstimatedMinMax(Image argument_1, float * minPtr, float * maxPtr)\n"
+		"\n"
+		"GetEstimatedMinMax: Store the current estimated minimum and maximum of the image into \n"
+		"the minPtr and maxPtr variables.\n"
+		""},
+	 { (char *)"GetException", _wrap_GetException, METH_VARARGS, (char *)"\n"
+		"GetException(short * error, long * context)\n"
+		"\n"
+		"GetException: Store the current exception into the error and context variables.\n"
+		""},
+	 { (char *)"GetExceptionDescription", _wrap_GetExceptionDescription, METH_VARARGS, (char *)"\n"
+		"GetExceptionDescription() -> Gatan::DM::String\n"
+		"\n"
+		"GetExceptionDescription: Return the message that would be displayed in the error dialog \n"
+		"box for an exception as a string.\n"
+		""},
+	 { (char *)"GetExceptionString", _wrap_GetExceptionString, METH_VARARGS, (char *)"\n"
+		"GetExceptionString(char * dst)\n"
+		"\n"
+		"GetExceptionString: Copies the message that would displayed in the error dialog box for \n"
+		"an exception into dst.\n"
+		""},
+	 { (char *)"GetFilesInDirectory", _wrap_GetFilesInDirectory, METH_VARARGS, (char *)"\n"
+		"GetFilesInDirectory(Gatan::DM::String const & path, ulong search_flags) -> TagGroup\n"
+		"\n"
+		"GetFilesInDirectory: Returns a tag group containing a list of the file names in the \n"
+		"directory 'dir_path'\n"
+		""},
+	 { (char *)"GetFloatingWindow", _wrap_GetFloatingWindow, METH_VARARGS, (char *)"\n"
+		"GetFloatingWindow(long index) -> Gatan::DM::Window\n"
+		"\n"
+		"GetFloatingWindow: Gets the 'index'th floating window.\n"
+		""},
+	 { (char *)"GetFourImages", _wrap_GetFourImages, METH_VARARGS, (char *)"\n"
+		"GetFourImages(char const * title, Image image1, Image image2, Image image3, Image image4) -> bool\n"
+		"\n"
+		"GetFourImages: Puts up a dialog and allows the user to choose four images.  Returns 1 \n"
+		"for Ok and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetFourImagesWithPrompt", _wrap_GetFourImagesWithPrompt, METH_VARARGS, (char *)"\n"
+		"GetFourImagesWithPrompt(char const * prompt, char const * title, Image image1, Image image2, Image image3, Image image4) -> bool\n"
+		"\n"
+		"GetFourImagesWithPrompt: Puts up a dialog with the given prompt and allows the user to \n"
+		"choose four images.  Returns 1 for Ok and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetFourLabeledImagesWithPrompt", _wrap_GetFourLabeledImagesWithPrompt, METH_VARARGS, (char *)"\n"
+		"GetFourLabeledImagesWithPrompt(char const * prompt, char const * title, char const * label1, Image image1, char const * label2, Image image2, char const * label3, Image image3, char const * label4, Image image4) -> bool\n"
+		"\n"
+		"GetFourLabeledImagesWithPrompt: Puts up a dialog with the given prompt and allows the \n"
+		"user to choose four images.  Returns 1 for Ok and 0 for Cancel.\n"
+		""},
 	 { (char *)"GetFrontImage", _wrap_GetFrontImage, METH_VARARGS, (char *)"\n"
 		"GetFrontImage() -> Image\n"
 		"GetFrontImage(Image argument_1) -> bool\n"
+		"\n"
+		"GetFrontImage: Return the foremost image.\n"
 		""},
-	 { (char *)"GetFrontImageDocument", _wrap_GetFrontImageDocument, METH_VARARGS, (char *)"GetFrontImageDocument() -> Gatan::DM::ImageDocument"},
-	 { (char *)"GetFrontImageID", _wrap_GetFrontImageID, METH_VARARGS, (char *)"GetFrontImageID() -> long"},
-	 { (char *)"GetImageDataSeed", _wrap_GetImageDataSeed, METH_VARARGS, (char *)"GetImageDataSeed(Image argument_1) -> long"},
-	 { (char *)"GetImageDocument", _wrap_GetImageDocument, METH_VARARGS, (char *)"GetImageDocument(long position) -> Gatan::DM::ImageDocument"},
-	 { (char *)"GetImageDocumentByID", _wrap_GetImageDocumentByID, METH_VARARGS, (char *)"GetImageDocumentByID(long id) -> Gatan::DM::ImageDocument"},
-	 { (char *)"GetImageDocumentByPath", _wrap_GetImageDocumentByPath, METH_VARARGS, (char *)"GetImageDocumentByPath(Gatan::DM::String const & path) -> Gatan::DM::ImageDocument"},
+	 { (char *)"GetFrontImageDocument", _wrap_GetFrontImageDocument, METH_VARARGS, (char *)"\n"
+		"GetFrontImageDocument() -> Gatan::DM::ImageDocument\n"
+		"\n"
+		"GetFrontImageDocument: Returns the front image document.\n"
+		""},
+	 { (char *)"GetFrontImageID", _wrap_GetFrontImageID, METH_VARARGS, (char *)"\n"
+		"GetFrontImageID() -> long\n"
+		"\n"
+		"GetFrontImageID: Return the id of the front most image window.\n"
+		""},
+	 { (char *)"GetImageDataSeed", _wrap_GetImageDataSeed, METH_VARARGS, (char *)"\n"
+		"GetImageDataSeed(Image argument_1) -> long\n"
+		"\n"
+		"GetImageDataSeed: Return a seed representing the data of the image. Each time the image \n"
+		"data changes, the seed will change.\n"
+		""},
+	 { (char *)"GetImageDocument", _wrap_GetImageDocument, METH_VARARGS, (char *)"\n"
+		"GetImageDocument(long position) -> Gatan::DM::ImageDocument\n"
+		"\n"
+		"GetImageDocument: Returns the image document by position with the application.\n"
+		""},
+	 { (char *)"GetImageDocumentByID", _wrap_GetImageDocumentByID, METH_VARARGS, (char *)"\n"
+		"GetImageDocumentByID(long id) -> Gatan::DM::ImageDocument\n"
+		"\n"
+		"GetImageDocumentByID: Returns the image document whose id is 'id'.\n"
+		""},
+	 { (char *)"GetImageDocumentByPath", _wrap_GetImageDocumentByPath, METH_VARARGS, (char *)"\n"
+		"GetImageDocumentByPath(Gatan::DM::String const & path) -> Gatan::DM::ImageDocument\n"
+		"\n"
+		"GetImageDocumentByID: Returns the image document whose id is 'id'.\n"
+		""},
 	 { (char *)"GetImageFromID", _wrap_GetImageFromID, METH_VARARGS, (char *)"\n"
 		"GetImageFromID(Image argument_1, long imageID) -> bool\n"
 		"GetImageFromID(long imageID) -> Image\n"
+		"\n"
+		"GetImageFromID: Store the image corresponding the imageID into the image variable. \n"
+		"Return 1 if one is found; return 0 otherwise.\n"
 		""},
-	 { (char *)"GetImageID", _wrap_GetImageID, METH_VARARGS, (char *)"GetImageID(Image argument_1) -> long"},
-	 { (char *)"GetImageWindow", _wrap_GetImageWindow, METH_VARARGS, (char *)"GetImageWindow(Image argument_1) -> long"},
-	 { (char *)"GetInteger", _wrap_GetInteger, METH_VARARGS, (char *)"GetInteger(char const * prompt, long initalValue, long * result) -> bool"},
-	 { (char *)"GetInversionMode", _wrap_GetInversionMode, METH_VARARGS, (char *)"GetInversionMode(Image argument_1) -> bool"},
+	 { (char *)"GetImageID", _wrap_GetImageID, METH_VARARGS, (char *)"\n"
+		"GetImageID(Image argument_1) -> long\n"
+		"\n"
+		"GetImageID: Return the id of the image.\n"
+		""},
+	 { (char *)"GetImageWindow", _wrap_GetImageWindow, METH_VARARGS, (char *)"\n"
+		"GetImageWindow(Image argument_1) -> long\n"
+		"\n"
+		"GetImageWindow: Return the MacOS window associated with the image.\n"
+		""},
+	 { (char *)"GetInteger", _wrap_GetInteger, METH_VARARGS, (char *)"\n"
+		"GetInteger(char const * prompt, long initalValue, long * result) -> bool\n"
+		"\n"
+		"GetInteger: Puts up a dialog with the given prompt and allows the user to enter an \n"
+		"integer. The initial value is passed as a parameter and the result in stored in result. \n"
+		"Returns 1 for OK and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetInversionMode", _wrap_GetInversionMode, METH_VARARGS, (char *)"\n"
+		"GetInversionMode(Image argument_1) -> bool\n"
+		"\n"
+		"GetInversionMode: Return the contrast inversion mode of the image (1=inverted, 0=not \n"
+		"inverted).\n"
+		""},
 	 { (char *)"GetLabel", _wrap_GetLabel, METH_VARARGS, (char *)"\n"
 		"GetLabel(Image argument_1) -> Gatan::DM::String\n"
 		"GetLabel(Image argument_1, char * buffer)\n"
+		"\n"
+		"GetLabel: Return the image label of the image.\n"
 		""},
-	 { (char *)"GetLimits", _wrap_GetLimits, METH_VARARGS, (char *)"GetLimits(Image argument_1, float * lowPtr, float * highPtr)"},
-	 { (char *)"GetMaximalDocumentWindowRect", _wrap_GetMaximalDocumentWindowRect, METH_VARARGS, (char *)"GetMaximalDocumentWindowRect(long options, long * top, long * left, long * bottom, long * right)"},
+	 { (char *)"GetLimits", _wrap_GetLimits, METH_VARARGS, (char *)"\n"
+		"GetLimits(Image argument_1, float * lowPtr, float * highPtr)\n"
+		"\n"
+		"GetLimits: Stores display limits into the lowPtr and highPtr variables.\n"
+		""},
+	 { (char *)"GetMaximalDocumentWindowRect", _wrap_GetMaximalDocumentWindowRect, METH_VARARGS, (char *)"\n"
+		"GetMaximalDocumentWindowRect(long options, long * top, long * left, long * bottom, long * right)\n"
+		"\n"
+		"GetMaximalDocumentWindowRect: Gets the bounds of the content region of the largest \n"
+		"document window.\n"
+		""},
 	 { (char *)"GetName", _wrap_GetName, METH_VARARGS, (char *)"\n"
 		"GetName(Image argument_1) -> Gatan::DM::String\n"
 		"GetName(Image argument_1, char * buffer)\n"
+		"\n"
+		"GetName: Return the name of the image's image document.\n"
 		""},
 	 { (char *)"GetNamedImage", _wrap_GetNamedImage, METH_VARARGS, (char *)"\n"
 		"GetNamedImage(char const * name) -> Image\n"
 		"GetNamedImage(Image argument_1, char const * name) -> bool\n"
+		"\n"
+		"GetNamedImage: Return the image with the image document name.\n"
 		""},
-	 { (char *)"GetNextImageID", _wrap_GetNextImageID, METH_VARARGS, (char *)"GetNextImageID(long id) -> long"},
-	 { (char *)"GetNthDocumentWindowOfType", _wrap_GetNthDocumentWindowOfType, METH_VARARGS, (char *)"GetNthDocumentWindowOfType(long type, long index) -> Gatan::DM::Window"},
-	 { (char *)"GetNthImageID", _wrap_GetNthImageID, METH_VARARGS, (char *)"GetNthImageID(long n) -> long"},
-	 { (char *)"GetNumber", _wrap_GetNumber, METH_VARARGS, (char *)"GetNumber(char const * prompt, float initalValue, float * result) -> bool"},
-	 { (char *)"GetOneImage", _wrap_GetOneImage, METH_VARARGS, (char *)"GetOneImage(char const * title, Image image1) -> bool"},
-	 { (char *)"GetOneImageWithPrompt", _wrap_GetOneImageWithPrompt, METH_VARARGS, (char *)"GetOneImageWithPrompt(char const * prompt, char const * title, Image image1) -> bool"},
-	 { (char *)"GetOneLabeledImageWithPrompt", _wrap_GetOneLabeledImageWithPrompt, METH_VARARGS, (char *)"GetOneLabeledImageWithPrompt(char const * prompt, char const * title, char const * label1, Image image1) -> bool"},
-	 { (char *)"GetOrigin", _wrap_GetOrigin, METH_VARARGS, (char *)"GetOrigin(Image argument_1, float * x, float * y)"},
-	 { (char *)"GetOSTickCount", _wrap_GetOSTickCount, METH_VARARGS, (char *)"GetOSTickCount() -> uint32"},
-	 { (char *)"GetOSTicksPerSecond", _wrap_GetOSTicksPerSecond, METH_VARARGS, (char *)"GetOSTicksPerSecond() -> uint32"},
-	 { (char *)"GetPackageTags", _wrap_GetPackageTags, METH_VARARGS, (char *)"GetPackageTags(char const * identifier) -> TagGroup"},
-	 { (char *)"GetPersistentTagGroup", _wrap_GetPersistentTagGroup, METH_VARARGS, (char *)"GetPersistentTagGroup() -> TagGroup"},
-	 { (char *)"GetUserPersistentTagGroup", _wrap_GetUserPersistentTagGroup, METH_VARARGS, (char *)"GetUserPersistentTagGroup() -> TagGroup"},
-	 { (char *)"AddCustomMenuGroup", _wrap_AddCustomMenuGroup, METH_VARARGS, (char *)"AddCustomMenuGroup(char const * title, char const * items)"},
-	 { (char *)"GetPixel", _wrap_GetPixel, METH_VARARGS, (char *)"GetPixel(Image argument_1, long x, long y) -> double"},
-	 { (char *)"GetPlatformInfo", _wrap_GetPlatformInfo, METH_VARARGS, (char *)"GetPlatformInfo(long info) -> long"},
-	 { (char *)"GetRawSize", _wrap_GetRawSize, METH_VARARGS, (char *)"GetRawSize(Image argument_1) -> long"},
-	 { (char *)"GetRawStreamPos", _wrap_GetRawStreamPos, METH_VARARGS, (char *)"GetRawStreamPos(long rawStream, long * pos)"},
-	 { (char *)"GetRawStreamSize", _wrap_GetRawStreamSize, METH_VARARGS, (char *)"GetRawStreamSize(long rawStream, long * size)"},
-	 { (char *)"GetResultsWindow", _wrap_GetResultsWindow, METH_VARARGS, (char *)"GetResultsWindow(bool open) -> Gatan::DM::Window"},
-	 { (char *)"GetROIFromID", _wrap_GetROIFromID, METH_VARARGS, (char *)"GetROIFromID(long id) -> Gatan::DM::ROI"},
-	 { (char *)"GetScale", _wrap_GetScale, METH_VARARGS, (char *)"GetScale(Image argument_1, float * x, float * y)"},
-	 { (char *)"GetScreenSize", _wrap_GetScreenSize, METH_VARARGS, (char *)"GetScreenSize(long * width, long * height)"},
-	 { (char *)"GetScriptObjectFromID", _wrap_GetScriptObjectFromID, METH_VARARGS, (char *)"GetScriptObjectFromID(long id) -> Gatan::DM::ScriptObject"},
-	 { (char *)"GetSelection", _wrap_GetSelection, METH_VARARGS, (char *)"GetSelection(Image argument_1, long * top, long * left, long * bottom, long * right) -> bool"},
-	 { (char *)"GetSize", _wrap_GetSize, METH_VARARGS, (char *)"GetSize(Image argument_1, long * width, long * height)"},
-	 { (char *)"GetSpecialDirectory", _wrap_GetSpecialDirectory, METH_VARARGS, (char *)"GetSpecialDirectory(long index) -> Gatan::DM::String"},
-	 { (char *)"GetSpecialWindow", _wrap_GetSpecialWindow, METH_VARARGS, (char *)"GetSpecialWindow(long index) -> long"},
-	 { (char *)"GetString", _wrap_GetString, METH_VARARGS, (char *)"GetString(char const * prompt, char const * initalValue, char * result) -> bool"},
-	 { (char *)"GetSurvey", _wrap_GetSurvey, METH_VARARGS, (char *)"GetSurvey(Image argument_1) -> bool"},
-	 { (char *)"GetThreeImages", _wrap_GetThreeImages, METH_VARARGS, (char *)"GetThreeImages(char const * title, Image image1, Image image2, Image image3) -> bool"},
-	 { (char *)"GetThreeImagesWithPrompt", _wrap_GetThreeImagesWithPrompt, METH_VARARGS, (char *)"GetThreeImagesWithPrompt(char const * prompt, char const * title, Image image1, Image image2, Image image3) -> bool"},
-	 { (char *)"GetThreeLabeledImagesWithPrompt", _wrap_GetThreeLabeledImagesWithPrompt, METH_VARARGS, (char *)"GetThreeLabeledImagesWithPrompt(char const * prompt, char const * title, char const * label1, Image image1, char const * label2, Image image2, char const * label3, Image image3) -> bool"},
-	 { (char *)"GetTicks", _wrap_GetTicks, METH_VARARGS, (char *)"GetTicks() -> uint32"},
-	 { (char *)"GetTicksPerSecond", _wrap_GetTicksPerSecond, METH_VARARGS, (char *)"GetTicksPerSecond() -> uint32"},
-	 { (char *)"GetTime", _wrap_GetTime, METH_VARARGS, (char *)"GetTime(bool wantSeconds, char * buffer, long buffer_length)"},
-	 { (char *)"GetTwoImages", _wrap_GetTwoImages, METH_VARARGS, (char *)"GetTwoImages(char const * title, Image image1, Image image2) -> bool"},
-	 { (char *)"GetTwoImagesWithPrompt", _wrap_GetTwoImagesWithPrompt, METH_VARARGS, (char *)"GetTwoImagesWithPrompt(char const * prompt, char const * title, Image image1, Image image2) -> bool"},
-	 { (char *)"GetTwoLabeledImagesWithPrompt", _wrap_GetTwoLabeledImagesWithPrompt, METH_VARARGS, (char *)"GetTwoLabeledImagesWithPrompt(char const * prompt, char const * title, char const * label1, Image image1, char const * label2, Image image2) -> bool"},
-	 { (char *)"GetUnitsH", _wrap_GetUnitsH, METH_VARARGS, (char *)"GetUnitsH(Image argument_1, float x) -> float"},
-	 { (char *)"GetUnitString", _wrap_GetUnitString, METH_VARARGS, (char *)"GetUnitString(Image argument_1, char * buffer)"},
-	 { (char *)"GetUnitsV", _wrap_GetUnitsV, METH_VARARGS, (char *)"GetUnitsV(Image argument_1, float y) -> float"},
-	 { (char *)"GetVarianceFloat", _wrap_GetVarianceFloat, METH_VARARGS, (char *)"GetVarianceFloat(Image argument_1) -> float"},
-	 { (char *)"GetWindowPosition", _wrap_GetWindowPosition, METH_VARARGS, (char *)"GetWindowPosition(Image argument_1, long * xPos, long * yPos)"},
-	 { (char *)"GetWindowSize", _wrap_GetWindowSize, METH_VARARGS, (char *)"GetWindowSize(Image argument_1, long * width, long * height)"},
-	 { (char *)"GetZoom", _wrap_GetZoom, METH_VARARGS, (char *)"GetZoom(Image argument_1) -> float"},
-	 { (char *)"GrabSemaphore", _wrap_GrabSemaphore, METH_VARARGS, (char *)"GrabSemaphore(long argument_1)"},
-	 { (char *)"GroupAnnotationUngroup", _wrap_GroupAnnotationUngroup, METH_VARARGS, (char *)"GroupAnnotationUngroup(Gatan::DM::Component const & comp)"},
-	 { (char *)"HasAcquisitionDaemon", _wrap_HasAcquisitionDaemon, METH_VARARGS, (char *)"HasAcquisitionDaemon(Image argument_1) -> bool"},
-	 { (char *)"HideImage", _wrap_HideImage, METH_VARARGS, (char *)"HideImage(Image argument_1)"},
-	 { (char *)"IFFT", _wrap_IFFT, METH_VARARGS, (char *)"IFFT(Image source) -> Image"},
-	 { (char *)"ImageCalculateHistogram", _wrap_ImageCalculateHistogram, METH_VARARGS, (char *)"ImageCalculateHistogram(Image image, Image hist_image, long complexMode, float min, float max)"},
-	 { (char *)"ImageCalculateMinMax", _wrap_ImageCalculateMinMax, METH_VARARGS, (char *)"ImageCalculateMinMax(Image image, long surveyTechnique, long complexMode, float * min, float * max)"},
-	 { (char *)"ImageClone", _wrap_ImageClone, METH_VARARGS, (char *)"ImageClone(Image img) -> Image"},
-	 { (char *)"ImageCopyCalibrationFrom", _wrap_ImageCopyCalibrationFrom, METH_VARARGS, (char *)"ImageCopyCalibrationFrom(Image image, Image src_image)"},
-	 { (char *)"ImageCountImageDisplays", _wrap_ImageCountImageDisplays, METH_VARARGS, (char *)"ImageCountImageDisplays(Image argument_1) -> long"},
-	 { (char *)"ImageCountImageDisplaysInImageDocument", _wrap_ImageCountImageDisplaysInImageDocument, METH_VARARGS, (char *)"ImageCountImageDisplaysInImageDocument(Image argument_1, Gatan::DM::ImageDocument const & imgDoc) -> long"},
-	 { (char *)"ImageCreateImageDisplay", _wrap_ImageCreateImageDisplay, METH_VARARGS, (char *)"ImageCreateImageDisplay(Image argument_1, long displayType) -> Gatan::DM::ImageDisplay"},
-	 { (char *)"ImageDataChanged", _wrap_ImageDataChanged, METH_VARARGS, (char *)"ImageDataChanged(Image argument_1)"},
-	 { (char *)"ImageDisplayAccumulateROIsToMask", _wrap_ImageDisplayAccumulateROIsToMask, METH_VARARGS, (char *)"ImageDisplayAccumulateROIsToMask(Gatan::DM::ImageDisplay const & imgDisp, Image mask, float top, float left, float bottom, float right, float mask_val)"},
-	 { (char *)"ImageDisplayAddKeyListener", _wrap_ImageDisplayAddKeyListener, METH_VARARGS, (char *)"ImageDisplayAddKeyListener(Gatan::DM::ImageDisplay const & imgDisp, char const * listener_key, char const * listener_script, char const * client_id)"},
-	 { (char *)"ImageDisplayAddROI", _wrap_ImageDisplayAddROI, METH_VARARGS, (char *)"ImageDisplayAddROI(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & roi)"},
-	 { (char *)"ImageDisplayAddROIAtBeginning", _wrap_ImageDisplayAddROIAtBeginning, METH_VARARGS, (char *)"ImageDisplayAddROIAtBeginning(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & roi)"},
-	 { (char *)"ImageDisplayAddROIAtEnd", _wrap_ImageDisplayAddROIAtEnd, METH_VARARGS, (char *)"ImageDisplayAddROIAtEnd(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & roi)"},
-	 { (char *)"ImageDisplayCountROIs", _wrap_ImageDisplayCountROIs, METH_VARARGS, (char *)"ImageDisplayCountROIs(Gatan::DM::ImageDisplay const & imgDisp) -> long"},
-	 { (char *)"ImageDisplayDeleteROI", _wrap_ImageDisplayDeleteROI, METH_VARARGS, (char *)"ImageDisplayDeleteROI(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & roi)"},
-	 { (char *)"ImageDisplayDoesROIExist", _wrap_ImageDisplayDoesROIExist, METH_VARARGS, (char *)"ImageDisplayDoesROIExist(Gatan::DM::ImageDisplay const & imgDisp, char const * name) -> bool"},
-	 { (char *)"ImageDisplayExportToFile", _wrap_ImageDisplayExportToFile, METH_VARARGS, (char *)"ImageDisplayExportToFile(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::String const & format, Gatan::DM::String const & file_name)"},
-	 { (char *)"ImageDisplayGetBufferedImage", _wrap_ImageDisplayGetBufferedImage, METH_VARARGS, (char *)"ImageDisplayGetBufferedImage(Gatan::DM::ImageDisplay const & imgDisp) -> Image"},
-	 { (char *)"ImageDisplayGetComplexMode", _wrap_ImageDisplayGetComplexMode, METH_VARARGS, (char *)"ImageDisplayGetComplexMode(Gatan::DM::ImageDisplay const & imgDisp) -> long"},
-	 { (char *)"ImageDisplayGetComplexModeRange", _wrap_ImageDisplayGetComplexModeRange, METH_VARARGS, (char *)"ImageDisplayGetComplexModeRange(Gatan::DM::ImageDisplay const & imgDisp) -> float"},
-	 { (char *)"ImageDisplayGetContrastLimits", _wrap_ImageDisplayGetContrastLimits, METH_VARARGS, (char *)"ImageDisplayGetContrastLimits(Gatan::DM::ImageDisplay const & imgDisp, float * low, float * high)"},
-	 { (char *)"ImageDisplayGetOutlierTrimLimits", _wrap_ImageDisplayGetOutlierTrimLimits, METH_VARARGS, (char *)"ImageDisplayGetOutlierTrimLimits(Gatan::DM::ImageDisplay const & imgDisp, double * low, double * high)"},
-	 { (char *)"ImageDisplayGetContrastChangeTriggerFractions", _wrap_ImageDisplayGetContrastChangeTriggerFractions, METH_VARARGS, (char *)"ImageDisplayGetContrastChangeTriggerFractions(Gatan::DM::ImageDisplay const & imgDisp, double * low, double * high)"},
-	 { (char *)"ImageDisplayGetContrastMode", _wrap_ImageDisplayGetContrastMode, METH_VARARGS, (char *)"ImageDisplayGetContrastMode(Gatan::DM::ImageDisplay const & imgDisp) -> long"},
-	 { (char *)"ImageDisplayGetContrastParameters", _wrap_ImageDisplayGetContrastParameters, METH_VARARGS, (char *)"ImageDisplayGetContrastParameters(Gatan::DM::ImageDisplay const & imgDisp, float * bright, float * contrast)"},
-	 { (char *)"ImageDisplayGetDisplayedImage", _wrap_ImageDisplayGetDisplayedImage, METH_VARARGS, (char *)"ImageDisplayGetDisplayedImage(Gatan::DM::ImageDisplay const & imgDisp) -> Image"},
+	 { (char *)"GetNextImageID", _wrap_GetNextImageID, METH_VARARGS, (char *)"\n"
+		"GetNextImageID(long id) -> long\n"
+		"\n"
+		"GetNextImageID: Return the id of the image window following the image with the given id.\n"
+		""},
+	 { (char *)"GetNthDocumentWindowOfType", _wrap_GetNthDocumentWindowOfType, METH_VARARGS, (char *)"\n"
+		"GetNthDocumentWindowOfType(long type, long index) -> Gatan::DM::Window\n"
+		"\n"
+		"GetNthDocumentWindowOfType: Returns the 'index'th document window of type 'type'.\n"
+		""},
+	 { (char *)"GetNthImageID", _wrap_GetNthImageID, METH_VARARGS, (char *)"\n"
+		"GetNthImageID(long n) -> long\n"
+		"\n"
+		"GetNthImageID: Return the id of the nth image (number from 0). The images are in no \n"
+		"particular order.\n"
+		""},
+	 { (char *)"GetNumber", _wrap_GetNumber, METH_VARARGS, (char *)"\n"
+		"GetNumber(char const * prompt, float initalValue, float * result) -> bool\n"
+		"\n"
+		"GetNumber: Puts up a dialog with the given prompt and allows the user to enter a number. \n"
+		"The initial value is passed as a parameter and the result in stored in result. Returns 1 \n"
+		"for OK and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetOneImage", _wrap_GetOneImage, METH_VARARGS, (char *)"\n"
+		"GetOneImage(char const * title, Image image1) -> bool\n"
+		"\n"
+		"GetOneImage: Puts up a dialog and allows the user to choose an image.  Returns 1 for Ok \n"
+		"and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetOneImageWithPrompt", _wrap_GetOneImageWithPrompt, METH_VARARGS, (char *)"\n"
+		"GetOneImageWithPrompt(char const * prompt, char const * title, Image image1) -> bool\n"
+		"\n"
+		"GetOneImageWithPrompt: Puts up a dialog and allows the user to choose an image.  Returns \n"
+		"1 for Ok and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetOneLabeledImageWithPrompt", _wrap_GetOneLabeledImageWithPrompt, METH_VARARGS, (char *)"\n"
+		"GetOneLabeledImageWithPrompt(char const * prompt, char const * title, char const * label1, Image image1) -> bool\n"
+		"\n"
+		"GetOneLabeledImageWithPrompt: Puts up a dialog and allows the user to choose an image.  \n"
+		"Returns 1 for Ok and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetOrigin", _wrap_GetOrigin, METH_VARARGS, (char *)"\n"
+		"GetOrigin(Image argument_1, float * x, float * y)\n"
+		"\n"
+		"GetOrigin: Store the origin of image into the x and y variables. The origin is in the \n"
+		"same units as scale.\n"
+		""},
+	 { (char *)"GetOSTickCount", _wrap_GetOSTickCount, METH_VARARGS, (char *)"\n"
+		"GetOSTickCount() -> uint32\n"
+		"\n"
+		"GetOSTickCount: Return a tick count appropriate for the operating system.\n"
+		""},
+	 { (char *)"GetOSTicksPerSecond", _wrap_GetOSTicksPerSecond, METH_VARARGS, (char *)"\n"
+		"GetOSTicksPerSecond() -> uint32\n"
+		"\n"
+		"GetOSTicksPerSecond: Return the number of ticks per second of a tick count appropriate \n"
+		"for the operating system.\n"
+		""},
+	 { (char *)"GetPackageTags", _wrap_GetPackageTags, METH_VARARGS, (char *)"\n"
+		"GetPackageTags(char const * identifier) -> TagGroup\n"
+		"\n"
+		"GetPackageTags: Return the tags specified by identifier. The identifier is used to \n"
+		"identify tags loaded with a specific package.\n"
+		""},
+	 { (char *)"GetPersistentTagGroup", _wrap_GetPersistentTagGroup, METH_VARARGS, (char *)"\n"
+		"GetPersistentTagGroup() -> TagGroup\n"
+		"\n"
+		"GetPersistentTagGroup: Gets the persistent tag group.\n"
+		""},
+	 { (char *)"GetUserPersistentTagGroup", _wrap_GetUserPersistentTagGroup, METH_VARARGS, (char *)"\n"
+		"GetUserPersistentTagGroup() -> TagGroup\n"
+		"\n"
+		"GetPersistentTagGroup: Gets the persistent tag group.\n"
+		""},
+	 { (char *)"GetPixel", _wrap_GetPixel, METH_VARARGS, (char *)"\n"
+		"GetPixel(Image argument_1, long x, long y) -> double\n"
+		"\n"
+		"GetPixel: Gets the value of the pixel in the image at [x,y].\n"
+		""},
+	 { (char *)"GetPlatformInfo", _wrap_GetPlatformInfo, METH_VARARGS, (char *)"\n"
+		"GetPlatformInfo(long info) -> long\n"
+		"\n"
+		"GetPlatformInfo: Return platform info. info=1 is general platform (1=MacOS,2=Win32,3=Windows64).\n"
+		""},
+	 { (char *)"GetRawSize", _wrap_GetRawSize, METH_VARARGS, (char *)"\n"
+		"GetRawSize(Image argument_1) -> long\n"
+		"\n"
+		"GetRawSize: Return the total size of the image data of the image.\n"
+		""},
+	 { (char *)"GetRawStreamPos", _wrap_GetRawStreamPos, METH_VARARGS, (char *)"\n"
+		"GetRawStreamPos(long rawStream, long * pos)\n"
+		"\n"
+		"GetRawStreamPos: Store the current position in rawStream into the pos variable.\n"
+		""},
+	 { (char *)"GetRawStreamSize", _wrap_GetRawStreamSize, METH_VARARGS, (char *)"\n"
+		"GetRawStreamSize(long rawStream, long * size)\n"
+		"\n"
+		"GetRawStreamSize: Store the length of rawStream into the size variable.\n"
+		""},
+	 { (char *)"GetResultsWindow", _wrap_GetResultsWindow, METH_VARARGS, (char *)"\n"
+		"GetResultsWindow(bool open) -> Gatan::DM::Window\n"
+		"\n"
+		"GetResultsWindow: Gets the results window.  If the window is not open, and 'open' is \n"
+		"true, the results window is opened.\n"
+		""},
+	 { (char *)"GetROIFromID", _wrap_GetROIFromID, METH_VARARGS, (char *)"\n"
+		"GetROIFromID(long id) -> Gatan::DM::ROI\n"
+		"\n"
+		"GetROIFromID: Returns the region of interest associated with the ID or NULL if it does \n"
+		"not exist.\n"
+		""},
+	 { (char *)"GetScale", _wrap_GetScale, METH_VARARGS, (char *)"\n"
+		"GetScale(Image argument_1, float * x, float * y)\n"
+		"\n"
+		"GetScale: Store the scale of image into the x and y variables.\n"
+		""},
+	 { (char *)"GetScreenSize", _wrap_GetScreenSize, METH_VARARGS, (char *)"\n"
+		"GetScreenSize(long * width, long * height)\n"
+		"\n"
+		"GetScreenSize: Store the size of the screen into the width and height variables.\n"
+		""},
+	 { (char *)"GetScriptObjectFromID", _wrap_GetScriptObjectFromID, METH_VARARGS, (char *)"\n"
+		"GetScriptObjectFromID(long id) -> Gatan::DM::ScriptObject\n"
+		"\n"
+		"GetScriptObjectFromID: Returns the script object associated with the ID or NULL if the \n"
+		"object does not exist.\n"
+		""},
+	 { (char *)"GetSelection", _wrap_GetSelection, METH_VARARGS, (char *)"\n"
+		"GetSelection(Image argument_1, long * top, long * left, long * bottom, long * right) -> bool\n"
+		"\n"
+		"GetSelection: Stores the coordinates (in pixels) of the image's selection into the top, \n"
+		"left, bottom, and right variables. Returns 1 if there was a selection and 0 if there \n"
+		"wasn't.\n"
+		""},
+	 { (char *)"GetSize", _wrap_GetSize, METH_VARARGS, (char *)"\n"
+		"GetSize(Image argument_1, long * width, long * height)\n"
+		"\n"
+		"GetSize: Store the width and height of the 2D image into the width and height variables.\n"
+		""},
+	 { (char *)"GetSpecialDirectory", _wrap_GetSpecialDirectory, METH_VARARGS, (char *)"\n"
+		"GetSpecialDirectory(long index) -> Gatan::DM::String\n"
+		"\n"
+		"GetSpecialDirectory: Return one of the special directories. 0=current directory, \n"
+		"1=executable directory.\n"
+		""},
+	 { (char *)"GetSpecialWindow", _wrap_GetSpecialWindow, METH_VARARGS, (char *)"\n"
+		"GetSpecialWindow(long index) -> long\n"
+		"\n"
+		"GetSpecialWindow: Return one of the special windows. On Windows, 0=frame window, \n"
+		"1=top-most dialog.\n"
+		""},
+	 { (char *)"GetString", _wrap_GetString, METH_VARARGS, (char *)"\n"
+		"GetString(char const * prompt, char const * initalValue, char * result) -> bool\n"
+		"\n"
+		"GetString: Puts up a dialog with the given prompt and allows the user to enter a string. \n"
+		"The initial value is passed as a parameter and the result in stored in result. Returns 1 \n"
+		"for OK and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetSurvey", _wrap_GetSurvey, METH_VARARGS, (char *)"\n"
+		"GetSurvey(Image argument_1) -> bool\n"
+		"\n"
+		"GetSurvey: Return 1 if the survey is on; return 0 otherwise.\n"
+		""},
+	 { (char *)"GetThreeImages", _wrap_GetThreeImages, METH_VARARGS, (char *)"\n"
+		"GetThreeImages(char const * title, Image image1, Image image2, Image image3) -> bool\n"
+		"\n"
+		"GetThreeImages: Puts up a dialog and allows the user to choose three images.  Returns 1 \n"
+		"for Ok and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetThreeImagesWithPrompt", _wrap_GetThreeImagesWithPrompt, METH_VARARGS, (char *)"\n"
+		"GetThreeImagesWithPrompt(char const * prompt, char const * title, Image image1, Image image2, Image image3) -> bool\n"
+		"\n"
+		"GetThreeImagesWithPrompt: Puts up a dialog with the given prompt and allows the user to \n"
+		"choose three images.  Returns 1 for Ok and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetThreeLabeledImagesWithPrompt", _wrap_GetThreeLabeledImagesWithPrompt, METH_VARARGS, (char *)"\n"
+		"GetThreeLabeledImagesWithPrompt(char const * prompt, char const * title, char const * label1, Image image1, char const * label2, Image image2, char const * label3, Image image3) -> bool\n"
+		"\n"
+		"GetThreeLabeledImagesWithPrompt: Puts up a dialog with the given prompt and allows the \n"
+		"user to choose three images.  Returns 1 for Ok and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetTicks", _wrap_GetTicks, METH_VARARGS, (char *)"\n"
+		"GetTicks() -> uint32\n"
+		"\n"
+		"GetTicks: Return the MacOS system tick count.\n"
+		""},
+	 { (char *)"GetTicksPerSecond", _wrap_GetTicksPerSecond, METH_VARARGS, (char *)"\n"
+		"GetTicksPerSecond() -> uint32\n"
+		"\n"
+		"GetTicksPerSecond: Return the number of ticks per second.\n"
+		""},
+	 { (char *)"GetTime", _wrap_GetTime, METH_VARARGS, (char *)"\n"
+		"GetTime(bool wantSeconds, char * buffer, long buffer_length)\n"
+		"\n"
+		"GetTime: Return a string representing the current time with or without seconds as \n"
+		"indicated by the wantSeconds parameter.\n"
+		""},
+	 { (char *)"GetTwoImages", _wrap_GetTwoImages, METH_VARARGS, (char *)"\n"
+		"GetTwoImages(char const * title, Image image1, Image image2) -> bool\n"
+		"\n"
+		"GetTwoImages: Puts up a dialog and allows the user to choose two images.  Returns 1 for \n"
+		"Ok and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetTwoImagesWithPrompt", _wrap_GetTwoImagesWithPrompt, METH_VARARGS, (char *)"\n"
+		"GetTwoImagesWithPrompt(char const * prompt, char const * title, Image image1, Image image2) -> bool\n"
+		"\n"
+		"GetTwoImagesWithPrompt: Puts up a dialog with the given prompt and allows the user to \n"
+		"choose two images.  Returns 1 for Ok and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetTwoLabeledImagesWithPrompt", _wrap_GetTwoLabeledImagesWithPrompt, METH_VARARGS, (char *)"\n"
+		"GetTwoLabeledImagesWithPrompt(char const * prompt, char const * title, char const * label1, Image image1, char const * label2, Image image2) -> bool\n"
+		"\n"
+		"GetTwoLabeledImagesWithPrompt: Puts up a dialog with the given prompt and allows the \n"
+		"user to choose two images.  Returns 1 for Ok and 0 for Cancel.\n"
+		""},
+	 { (char *)"GetUnitsH", _wrap_GetUnitsH, METH_VARARGS, (char *)"\n"
+		"GetUnitsH(Image argument_1, float x) -> float\n"
+		"\n"
+		"GetUnitsH: Return the horizontal pixels x in calibrated units.\n"
+		""},
+	 { (char *)"GetUnitString", _wrap_GetUnitString, METH_VARARGS, (char *)"\n"
+		"GetUnitString(Image argument_1, char * buffer)\n"
+		"\n"
+		"GetUnitString: Copies the unit string of the image into the buffer.\n"
+		""},
+	 { (char *)"GetUnitsV", _wrap_GetUnitsV, METH_VARARGS, (char *)"\n"
+		"GetUnitsV(Image argument_1, float y) -> float\n"
+		"\n"
+		"GetUnitsV: Return the vertical pixels y in calibrated units.\n"
+		""},
+	 { (char *)"GetVarianceFloat", _wrap_GetVarianceFloat, METH_VARARGS, (char *)"\n"
+		"GetVarianceFloat(Image argument_1) -> float\n"
+		"\n"
+		"GetVarianceFloat: Return the variance of the image. No data type checking is \n"
+		"performed.\n"
+		""},
+	 { (char *)"GetWindowPosition", _wrap_GetWindowPosition, METH_VARARGS, (char *)"\n"
+		"GetWindowPosition(Image argument_1, long * xPos, long * yPos)\n"
+		"\n"
+		"GetWindowPosition: Store the image's image document window position into the xPos and \n"
+		"yPos variables.\n"
+		""},
+	 { (char *)"GetWindowSize", _wrap_GetWindowSize, METH_VARARGS, (char *)"\n"
+		"GetWindowSize(Image argument_1, long * width, long * height)\n"
+		"\n"
+		"GetWindowSize: Store the image's image document window size into the width and height \n"
+		"variables.\n"
+		""},
+	 { (char *)"GetZoom", _wrap_GetZoom, METH_VARARGS, (char *)"\n"
+		"GetZoom(Image argument_1) -> float\n"
+		"\n"
+		"GetZoom: Return the zoom of the image display.\n"
+		""},
+	 { (char *)"GrabSemaphore", _wrap_GrabSemaphore, METH_VARARGS, (char *)"\n"
+		"GrabSemaphore(long argument_1)\n"
+		"\n"
+		"GrabSemaphore: Grab the semaphore. Block until it is available. Used only with \n"
+		"background processing.\n"
+		""},
+	 { (char *)"GroupAnnotationUngroup", _wrap_GroupAnnotationUngroup, METH_VARARGS, (char *)"\n"
+		"GroupAnnotationUngroup(Gatan::DM::Component const & comp)\n"
+		"\n"
+		"GroupAnnotationUngroup: Ungroups the group annotation.\n"
+		""},
+	 { (char *)"HasAcquisitionDaemon", _wrap_HasAcquisitionDaemon, METH_VARARGS, (char *)"\n"
+		"HasAcquisitionDaemon(Image argument_1) -> bool\n"
+		"\n"
+		"HasAcquisitionDaemon: Returns 1 if the image has an attached daemon and returns 0 \n"
+		"otherwise.\n"
+		""},
+	 { (char *)"HideImage", _wrap_HideImage, METH_VARARGS, (char *)"\n"
+		"HideImage(Image argument_1)\n"
+		"\n"
+		"HideImage: Hide the image's image document.\n"
+		""},
+	 { (char *)"IFFT", _wrap_IFFT, METH_VARARGS, (char *)"\n"
+		"IFFT(Image source) -> Image\n"
+		"\n"
+		"IFFT: Creates a new complex 8-byte image from the inverse FFT of the complex image \n"
+		"source.\n"
+		""},
+	 { (char *)"ImageCalculateHistogram", _wrap_ImageCalculateHistogram, METH_VARARGS, (char *)"\n"
+		"ImageCalculateHistogram(Image image, Image hist_image, long complexMode, float min, float max)\n"
+		"\n"
+		"ImageCalculateHistogram: Calculates the histogram of 'image', mapping [min,max] into \n"
+		"'hist_image'.\n"
+		""},
+	 { (char *)"ImageCalculateMinMax", _wrap_ImageCalculateMinMax, METH_VARARGS, (char *)"\n"
+		"ImageCalculateMinMax(Image image, long surveyTechnique, long complexMode, float * min, float * max)\n"
+		"\n"
+		"ImageCalculateMinMax: Calculates the minimum and maximum value of 'image' using survey \n"
+		"technique 'surveyTechnique'.\n"
+		""},
+	 { (char *)"ImageClone", _wrap_ImageClone, METH_VARARGS, (char *)"\n"
+		"ImageClone(Image img) -> Image\n"
+		"\n"
+		"ImageClone: Returns a clone of 'img'.\n"
+		""},
+	 { (char *)"ImageCopyCalibrationFrom", _wrap_ImageCopyCalibrationFrom, METH_VARARGS, (char *)"\n"
+		"ImageCopyCalibrationFrom(Image image, Image src_image)\n"
+		"\n"
+		"ImageCopyCalibrationFrom: Copy the calibration of 'src_image' to 'image'.\n"
+		""},
+	 { (char *)"ImageCountImageDisplays", _wrap_ImageCountImageDisplays, METH_VARARGS, (char *)"\n"
+		"ImageCountImageDisplays(Image argument_1) -> long\n"
+		"\n"
+		"ImageCountImageDisplays: Returns the number of image displays in which this image is \n"
+		"displayed.\n"
+		""},
+	 { (char *)"ImageCountImageDisplaysInImageDocument", _wrap_ImageCountImageDisplaysInImageDocument, METH_VARARGS, (char *)"\n"
+		"ImageCountImageDisplaysInImageDocument(Image argument_1, Gatan::DM::ImageDocument const & imgDoc) -> long\n"
+		"\n"
+		"ImageCountImageDisplaysInImageDocument: Returns the number of image displays in the \n"
+		"image document in which this image is displayed.\n"
+		""},
+	 { (char *)"ImageCreateImageDisplay", _wrap_ImageCreateImageDisplay, METH_VARARGS, (char *)"\n"
+		"ImageCreateImageDisplay(Image argument_1, long displayType) -> Gatan::DM::ImageDisplay\n"
+		"\n"
+		"ImageCreateImageDisplay: Creates a new image display of type 'displayType' for the image.\n"
+		""},
+	 { (char *)"ImageDataChanged", _wrap_ImageDataChanged, METH_VARARGS, (char *)"\n"
+		"ImageDataChanged(Image argument_1)\n"
+		"\n"
+		"ImageDataChanged: Signal that the data of the image has changed.\n"
+		""},
+	 { (char *)"ImageDisplayAccumulateROIsToMask", _wrap_ImageDisplayAccumulateROIsToMask, METH_VARARGS, (char *)"\n"
+		"ImageDisplayAccumulateROIsToMask(Gatan::DM::ImageDisplay const & imgDisp, Image mask, float top, float left, float bottom, float right, float mask_val)\n"
+		"\n"
+		"ImageDisplayAccumulateROIsToMask: Sets mask to mask_val at points in imageDisplay's rois\n"
+		""},
+	 { (char *)"ImageDisplayAddKeyListener", _wrap_ImageDisplayAddKeyListener, METH_VARARGS, (char *)"\n"
+		"ImageDisplayAddKeyListener(Gatan::DM::ImageDisplay const & imgDisp, char const * listener_key, char const * listener_script, char const * client_id)\n"
+		"\n"
+		"ImageDisplayAddKeyListener: Adds the listener_script to the key listener list under the \n"
+		"tag listener_key.\n"
+		""},
+	 { (char *)"ImageDisplayAddROI", _wrap_ImageDisplayAddROI, METH_VARARGS, (char *)"\n"
+		"ImageDisplayAddROI(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & roi)\n"
+		"\n"
+		"ImageDisplayAddROI: Adds the roi to this image display.\n"
+		""},
+	 { (char *)"ImageDisplayAddROIAtBeginning", _wrap_ImageDisplayAddROIAtBeginning, METH_VARARGS, (char *)"\n"
+		"ImageDisplayAddROIAtBeginning(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & roi)\n"
+		"\n"
+		"ImageDisplayAddROIAtBeginning: Adds the roi to the start of this image displays ROI list.\n"
+		""},
+	 { (char *)"ImageDisplayAddROIAtEnd", _wrap_ImageDisplayAddROIAtEnd, METH_VARARGS, (char *)"\n"
+		"ImageDisplayAddROIAtEnd(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & roi)\n"
+		"\n"
+		"ImageDisplayAddROIAtEnd: Adds the roi to the end of this image displays ROI list.\n"
+		""},
+	 { (char *)"ImageDisplayChangeDisplayType", _wrap_ImageDisplayChangeDisplayType, METH_VARARGS, (char *)"\n"
+		"ImageDisplayChangeDisplayType(Gatan::DM::ImageDisplay const & imgDisp, long new_type)\n"
+		"\n"
+		"ImageDisplayChangeDisplayType: Changes the type of the image display.\n"
+		""},
+	 { (char *)"ImageDisplayCountROIs", _wrap_ImageDisplayCountROIs, METH_VARARGS, (char *)"\n"
+		"ImageDisplayCountROIs(Gatan::DM::ImageDisplay const & imgDisp) -> long\n"
+		"\n"
+		"ImageDisplayCountROIs: Returns the number of ROIs on this image display.\n"
+		""},
+	 { (char *)"ImageDisplayDeleteROI", _wrap_ImageDisplayDeleteROI, METH_VARARGS, (char *)"\n"
+		"ImageDisplayDeleteROI(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & roi)\n"
+		"\n"
+		"ImageDisplayDeleteROI: Deletes the roi from this image display.\n"
+		""},
+	 { (char *)"ImageDisplayDoesROIExist", _wrap_ImageDisplayDoesROIExist, METH_VARARGS, (char *)"\n"
+		"ImageDisplayDoesROIExist(Gatan::DM::ImageDisplay const & imgDisp, char const * name) -> bool\n"
+		"\n"
+		"ImageDisplayDoesROIExist: Determines whether the given ROI exists on this image display.\n"
+		""},
+	 { (char *)"ImageDisplayExportToFile", _wrap_ImageDisplayExportToFile, METH_VARARGS, (char *)"\n"
+		"ImageDisplayExportToFile(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::String const & format, Gatan::DM::String const & file_name)\n"
+		"\n"
+		"ImageDisplayExportToFile: Exports the display to the file 'file_name' using the format \n"
+		"'format'.\n"
+		""},
+	 { (char *)"ImageDisplayGetBufferedImage", _wrap_ImageDisplayGetBufferedImage, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetBufferedImage(Gatan::DM::ImageDisplay const & imgDisp) -> Image\n"
+		"\n"
+		"ImageDisplayGetBufferedImage: Gets the image resulting from the contrast transformation.\n"
+		""},
+	 { (char *)"ImageDisplayGetComplexMode", _wrap_ImageDisplayGetComplexMode, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetComplexMode(Gatan::DM::ImageDisplay const & imgDisp) -> long\n"
+		"\n"
+		"ImageDisplayGetComplexMode: Gets the complex mode of the display.\n"
+		""},
+	 { (char *)"ImageDisplayGetComplexModeRange", _wrap_ImageDisplayGetComplexModeRange, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetComplexModeRange(Gatan::DM::ImageDisplay const & imgDisp) -> float\n"
+		"\n"
+		"ImageDisplayGetComplexModeRange: Gets the parameter used in converting complex to real.\n"
+		""},
+	 { (char *)"ImageDisplayGetContrastLimits", _wrap_ImageDisplayGetContrastLimits, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetContrastLimits(Gatan::DM::ImageDisplay const & imgDisp, float * low, float * high)\n"
+		"\n"
+		"ImageDisplayGetContrastLimits: Gets the contrast limits of the display.\n"
+		""},
+	 { (char *)"ImageDisplayGetOutlierTrimLimits", _wrap_ImageDisplayGetOutlierTrimLimits, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetOutlierTrimLimits(Gatan::DM::ImageDisplay const & imgDisp, double * low, double * high)\n"
+		"\n"
+		"ImageDisplayGetOutlierTrimLimits: Gets the outlier limits of the display.\n"
+		""},
+	 { (char *)"ImageDisplayGetContrastChangeTriggerFractions", _wrap_ImageDisplayGetContrastChangeTriggerFractions, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetContrastChangeTriggerFractions(Gatan::DM::ImageDisplay const & imgDisp, double * low, double * high)\n"
+		"\n"
+		"ImageDisplaySetContrastChangeTriggerFractions: Sets the contrast change % limits of the display.\n"
+		""},
+	 { (char *)"ImageDisplayGetContrastMode", _wrap_ImageDisplayGetContrastMode, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetContrastMode(Gatan::DM::ImageDisplay const & imgDisp) -> long\n"
+		"\n"
+		"ImageDisplayGetContrastMode: Returns the contrast mode.\n"
+		""},
+	 { (char *)"ImageDisplayGetContrastParameters", _wrap_ImageDisplayGetContrastParameters, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetContrastParameters(Gatan::DM::ImageDisplay const & imgDisp, float * bright, float * contrast)\n"
+		"\n"
+		"ImageDisplayGetContrastParameters: Gets the parameters for the contrast mode.\n"
+		""},
+	 { (char *)"ImageDisplayGetDisplayedImage", _wrap_ImageDisplayGetDisplayedImage, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetDisplayedImage(Gatan::DM::ImageDisplay const & imgDisp) -> Image\n"
+		"\n"
+		"ImageDisplayGetDisplayedImage: Gets the image that is actually displayed in the image \n"
+		"display.\n"
+		""},
 	 { (char *)"ImageDisplayGetDisplayedLayers", _wrap_ImageDisplayGetDisplayedLayers, METH_VARARGS, (char *)"\n"
 		"ImageDisplayGetDisplayedLayers(Gatan::DM::ImageDisplay const & imgDisp, long * start, long * end)\n"
 		"ImageDisplayGetDisplayedLayers(Gatan::DM::ImageDisplay const & imgDisp, long * start1, long * end1, long * start2, long * end2)\n"
+		"\n"
+		"ImageDisplayGetDisplayedLayers: Gets the layers that are summed into the display.\n"
 		""},
-	 { (char *)"ImageDisplayGetDisplayType", _wrap_ImageDisplayGetDisplayType, METH_VARARGS, (char *)"ImageDisplayGetDisplayType(Gatan::DM::ImageDisplay const & imgDisp) -> long"},
-	 { (char *)"ImageDisplayGetDoAutoSurvey", _wrap_ImageDisplayGetDoAutoSurvey, METH_VARARGS, (char *)"ImageDisplayGetDoAutoSurvey(Gatan::DM::ImageDisplay const & imgDisp) -> bool"},
-	 { (char *)"ImageDisplayGetExportImage", _wrap_ImageDisplayGetExportImage, METH_VARARGS, (char *)"ImageDisplayGetExportImage(Gatan::DM::ImageDisplay const & imgDisp, ulong mode, Gatan::DM::ImageDisplay & clut_display) -> Image"},
-	 { (char *)"ImageDisplayGetImage", _wrap_ImageDisplayGetImage, METH_VARARGS, (char *)"ImageDisplayGetImage(Gatan::DM::ImageDisplay const & imgDisp) -> Image"},
-	 { (char *)"ImageDisplayGetImageAdjustRect", _wrap_ImageDisplayGetImageAdjustRect, METH_VARARGS, (char *)"ImageDisplayGetImageAdjustRect(Gatan::DM::ImageDisplay const & imgDisp, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"ImageDisplayGetImageAdjustRectInView", _wrap_ImageDisplayGetImageAdjustRectInView, METH_VARARGS, (char *)"ImageDisplayGetImageAdjustRectInView(Gatan::DM::ImageDisplay const & imgDisp, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"ImageDisplayGetImageRect", _wrap_ImageDisplayGetImageRect, METH_VARARGS, (char *)"ImageDisplayGetImageRect(Gatan::DM::ImageDisplay const & imgDisp, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"ImageDisplayGetImageRectInView", _wrap_ImageDisplayGetImageRectInView, METH_VARARGS, (char *)"ImageDisplayGetImageRectInView(Gatan::DM::ImageDisplay const & imgDisp, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"ImageDisplayGetInputColorTable", _wrap_ImageDisplayGetInputColorTable, METH_VARARGS, (char *)"ImageDisplayGetInputColorTable(Gatan::DM::ImageDisplay const & imgDisp) -> Image"},
-	 { (char *)"ImageDisplayGetIntensityTransformation", _wrap_ImageDisplayGetIntensityTransformation, METH_VARARGS, (char *)"ImageDisplayGetIntensityTransformation(Gatan::DM::ImageDisplay const & imgDisp) -> Image"},
-	 { (char *)"ImageDisplayIsColorTableInverted", _wrap_ImageDisplayIsColorTableInverted, METH_VARARGS, (char *)"ImageDisplayIsColorTableInverted(Gatan::DM::ImageDisplay const & imgDisp) -> bool"},
-	 { (char *)"ImageDisplayGetMinimumContrast", _wrap_ImageDisplayGetMinimumContrast, METH_VARARGS, (char *)"ImageDisplayGetMinimumContrast(Gatan::DM::ImageDisplay const & imgDisp) -> float"},
-	 { (char *)"ImageDisplayGetOutputColorTable", _wrap_ImageDisplayGetOutputColorTable, METH_VARARGS, (char *)"ImageDisplayGetOutputColorTable(Gatan::DM::ImageDisplay const & imgDisp) -> Image"},
-	 { (char *)"ImageDisplayGetROI", _wrap_ImageDisplayGetROI, METH_VARARGS, (char *)"ImageDisplayGetROI(Gatan::DM::ImageDisplay const & imgDisp, long index) -> Gatan::DM::ROI"},
-	 { (char *)"ImageDisplayGetROISelectionStyle", _wrap_ImageDisplayGetROISelectionStyle, METH_VARARGS, (char *)"ImageDisplayGetROISelectionStyle(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & r) -> long"},
-	 { (char *)"ImageDisplayGetShowExtractionAnnotation", _wrap_ImageDisplayGetShowExtractionAnnotation, METH_VARARGS, (char *)"ImageDisplayGetShowExtractionAnnotation(Gatan::DM::ImageDisplay const & imgDisp) -> bool"},
-	 { (char *)"ImageDisplayGetSurveyTechnique", _wrap_ImageDisplayGetSurveyTechnique, METH_VARARGS, (char *)"ImageDisplayGetSurveyTechnique(Gatan::DM::ImageDisplay const & imgDisp) -> long"},
-	 { (char *)"ImageDisplayIsCaptionOn", _wrap_ImageDisplayIsCaptionOn, METH_VARARGS, (char *)"ImageDisplayIsCaptionOn(Gatan::DM::ImageDisplay const & imgDisp) -> bool"},
-	 { (char *)"ImageDisplayIsROISelected", _wrap_ImageDisplayIsROISelected, METH_VARARGS, (char *)"ImageDisplayIsROISelected(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & roi) -> bool"},
-	 { (char *)"ImageDisplayIsValid", _wrap_ImageDisplayIsValid, METH_VARARGS, (char *)"ImageDisplayIsValid(Gatan::DM::ImageDisplay const & imgDisp) -> bool"},
-	 { (char *)"ImageDisplayLookupROI", _wrap_ImageDisplayLookupROI, METH_VARARGS, (char *)"ImageDisplayLookupROI(Gatan::DM::ImageDisplay const & imgDisp, char const * name) -> Gatan::DM::ROI"},
-	 { (char *)"ImageDisplayLookupROIByID", _wrap_ImageDisplayLookupROIByID, METH_VARARGS, (char *)"ImageDisplayLookupROIByID(Gatan::DM::ImageDisplay const & imgDisp, long id) -> Gatan::DM::ROI"},
-	 { (char *)"ImageDisplayRemoveKeyListener", _wrap_ImageDisplayRemoveKeyListener, METH_VARARGS, (char *)"ImageDisplayRemoveKeyListener(Gatan::DM::ImageDisplay const & imgDisp, char const * listener_key)"},
-	 { (char *)"ImageDisplaySetCaptionOn", _wrap_ImageDisplaySetCaptionOn, METH_VARARGS, (char *)"ImageDisplaySetCaptionOn(Gatan::DM::ImageDisplay const & imgDisp, bool on)"},
-	 { (char *)"ImageDisplaySetComplexMode", _wrap_ImageDisplaySetComplexMode, METH_VARARGS, (char *)"ImageDisplaySetComplexMode(Gatan::DM::ImageDisplay const & imgDisp, long mode)"},
-	 { (char *)"ImageDisplaySetComplexModeRange", _wrap_ImageDisplaySetComplexModeRange, METH_VARARGS, (char *)"ImageDisplaySetComplexModeRange(Gatan::DM::ImageDisplay const & imgDisp, float range)"},
-	 { (char *)"ImageDisplaySetContrastLimits", _wrap_ImageDisplaySetContrastLimits, METH_VARARGS, (char *)"ImageDisplaySetContrastLimits(Gatan::DM::ImageDisplay const & imgDisp, float low, float hight)"},
-	 { (char *)"ImageDisplaySetOutlierTrimLimits", _wrap_ImageDisplaySetOutlierTrimLimits, METH_VARARGS, (char *)"ImageDisplaySetOutlierTrimLimits(Gatan::DM::ImageDisplay const & imgDisp, double low, double high)"},
-	 { (char *)"ImageDisplaySetContrastChangeTriggerFractions", _wrap_ImageDisplaySetContrastChangeTriggerFractions, METH_VARARGS, (char *)"ImageDisplaySetContrastChangeTriggerFractions(Gatan::DM::ImageDisplay const & imgDisp, double low, double high)"},
-	 { (char *)"ImageDisplaySetContrastMode", _wrap_ImageDisplaySetContrastMode, METH_VARARGS, (char *)"ImageDisplaySetContrastMode(Gatan::DM::ImageDisplay const & imgDisp, long mode)"},
-	 { (char *)"ImageDisplaySetContrastParameters", _wrap_ImageDisplaySetContrastParameters, METH_VARARGS, (char *)"ImageDisplaySetContrastParameters(Gatan::DM::ImageDisplay const & imgDisp, float bright, float contrast)"},
+	 { (char *)"ImageDisplayGetDisplayType", _wrap_ImageDisplayGetDisplayType, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetDisplayType(Gatan::DM::ImageDisplay const & imgDisp) -> long\n"
+		"\n"
+		"ImageDisplayGetDisplayType: Returns type of the image display.\n"
+		""},
+	 { (char *)"ImageDisplayGetDoAutoSurvey", _wrap_ImageDisplayGetDoAutoSurvey, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetDoAutoSurvey(Gatan::DM::ImageDisplay const & imgDisp) -> bool\n"
+		"\n"
+		"ImageDisplayGetDoAutoSurvey: Determines whether min and max are determined automatically.\n"
+		""},
+	 { (char *)"ImageDisplayGetExportImage", _wrap_ImageDisplayGetExportImage, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetExportImage(Gatan::DM::ImageDisplay const & imgDisp, ulong mode, Gatan::DM::ImageDisplay & clut_display) -> Image\n"
+		"\n"
+		"ImageDisplayGetExportImage: Gets the image representation of the image as it appears on \n"
+		"the screen at full resolution.\n"
+		""},
+	 { (char *)"ImageDisplayGetImage", _wrap_ImageDisplayGetImage, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetImage(Gatan::DM::ImageDisplay const & imgDisp) -> Image\n"
+		"\n"
+		"ImageDisplayGetImage: Returns the single image displayed by the image display.\n"
+		""},
+	 { (char *)"ImageDisplayGetImageAdjustRect", _wrap_ImageDisplayGetImageAdjustRect, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetImageAdjustRect(Gatan::DM::ImageDisplay const & imgDisp, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"ImageDisplayGetImageAdjustRect: Returns the image display outside the image rect\n"
+		""},
+	 { (char *)"ImageDisplayGetImageAdjustRectInView", _wrap_ImageDisplayGetImageAdjustRectInView, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetImageAdjustRectInView(Gatan::DM::ImageDisplay const & imgDisp, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"ImageDisplayGetImageAdjustRectInView: Returns the image display outside the image rect \n"
+		"in view coordinates\n"
+		""},
+	 { (char *)"ImageDisplayGetImageRect", _wrap_ImageDisplayGetImageRect, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetImageRect(Gatan::DM::ImageDisplay const & imgDisp, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"ImageDisplayGetImageRect: Gets the bounds of the image in the image display.\n"
+		""},
+	 { (char *)"ImageDisplayGetImageRectInView", _wrap_ImageDisplayGetImageRectInView, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetImageRectInView(Gatan::DM::ImageDisplay const & imgDisp, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"ImageDisplayGetImageRectInView: Gets the bounds of the image in the image display in \n"
+		"view coordinates.\n"
+		""},
+	 { (char *)"ImageDisplayGetInputColorTable", _wrap_ImageDisplayGetInputColorTable, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetInputColorTable(Gatan::DM::ImageDisplay const & imgDisp) -> Image\n"
+		"\n"
+		"ImageDisplayGetInputColorTable: Gets the input color table for the display.\n"
+		""},
+	 { (char *)"ImageDisplayGetIntensityTransformation", _wrap_ImageDisplayGetIntensityTransformation, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetIntensityTransformation(Gatan::DM::ImageDisplay const & imgDisp) -> Image\n"
+		"\n"
+		"ImageDisplayGetIntensityTransformation: Gets the ITT of the display.\n"
+		""},
+	 { (char *)"ImageDisplayIsColorTableInverted", _wrap_ImageDisplayIsColorTableInverted, METH_VARARGS, (char *)"\n"
+		"ImageDisplayIsColorTableInverted(Gatan::DM::ImageDisplay const & imgDisp) -> bool\n"
+		"\n"
+		"ImageDisplayIsColorTableInverted: Returns true if the color table is inverted.\n"
+		""},
+	 { (char *)"ImageDisplayGetMinimumContrast", _wrap_ImageDisplayGetMinimumContrast, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetMinimumContrast(Gatan::DM::ImageDisplay const & imgDisp) -> float\n"
+		"\n"
+		"ImageDisplayGetMinimumContrast: Gets the minimum contrast of the display.\n"
+		""},
+	 { (char *)"ImageDisplayGetOutputColorTable", _wrap_ImageDisplayGetOutputColorTable, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetOutputColorTable(Gatan::DM::ImageDisplay const & imgDisp) -> Image\n"
+		"\n"
+		"ImageDisplayGetOutputColorTable: Gets the output color table for the display.\n"
+		""},
+	 { (char *)"ImageDisplayGetROI", _wrap_ImageDisplayGetROI, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetROI(Gatan::DM::ImageDisplay const & imgDisp, long index) -> Gatan::DM::ROI\n"
+		"\n"
+		"ImageDisplayGetROI: Returns the given ROI on this image display.\n"
+		""},
+	 { (char *)"ImageDisplayGetROISelectionStyle", _wrap_ImageDisplayGetROISelectionStyle, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetROISelectionStyle(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & r) -> long\n"
+		"\n"
+		"ImageDisplayGetROISelectionStyle: Gets the selection style of the roi in the imag \n"
+		"display.\n"
+		""},
+	 { (char *)"ImageDisplayGetShowExtractionAnnotation", _wrap_ImageDisplayGetShowExtractionAnnotation, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetShowExtractionAnnotation(Gatan::DM::ImageDisplay const & imgDisp) -> bool\n"
+		"\n"
+		"ImageDisplayGetShowExtractionAnnotation: Returns true if extraction annotation should be displayed.\n"
+		""},
+	 { (char *)"ImageDisplayGetSurveyTechnique", _wrap_ImageDisplayGetSurveyTechnique, METH_VARARGS, (char *)"\n"
+		"ImageDisplayGetSurveyTechnique(Gatan::DM::ImageDisplay const & imgDisp) -> long\n"
+		"\n"
+		"ImageDisplayGetSurveyTechnique: Gets the survey technique of the display.\n"
+		""},
+	 { (char *)"ImageDisplayIsCaptionOn", _wrap_ImageDisplayIsCaptionOn, METH_VARARGS, (char *)"\n"
+		"ImageDisplayIsCaptionOn(Gatan::DM::ImageDisplay const & imgDisp) -> bool\n"
+		"\n"
+		"ImageDisplayIsCaptionOn: Returns true if captions are drawn.\n"
+		""},
+	 { (char *)"ImageDisplayIsROISelected", _wrap_ImageDisplayIsROISelected, METH_VARARGS, (char *)"\n"
+		"ImageDisplayIsROISelected(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & roi) -> bool\n"
+		"\n"
+		"ImageDisplayIsROISelected: Determines whether the given ROI is selected on this image \n"
+		"display.\n"
+		""},
+	 { (char *)"ImageDisplayIsValid", _wrap_ImageDisplayIsValid, METH_VARARGS, (char *)"\n"
+		"ImageDisplayIsValid(Gatan::DM::ImageDisplay const & imgDisp) -> bool\n"
+		"\n"
+		"ImageDisplayIsValid: Returns true if 'imageDisplay' points to a valid object.\n"
+		""},
+	 { (char *)"ImageDisplayLookupROI", _wrap_ImageDisplayLookupROI, METH_VARARGS, (char *)"\n"
+		"ImageDisplayLookupROI(Gatan::DM::ImageDisplay const & imgDisp, char const * name) -> Gatan::DM::ROI\n"
+		"\n"
+		"ImageDisplayLookupROI: Returns the given ROI on this image display.\n"
+		""},
+	 { (char *)"ImageDisplayLookupROIByID", _wrap_ImageDisplayLookupROIByID, METH_VARARGS, (char *)"\n"
+		"ImageDisplayLookupROIByID(Gatan::DM::ImageDisplay const & imgDisp, long id) -> Gatan::DM::ROI\n"
+		"\n"
+		"ImageDisplayLookupROIByID: Returns the ROI with the given id on this image display.\n"
+		""},
+	 { (char *)"ImageDisplayRemoveKeyListener", _wrap_ImageDisplayRemoveKeyListener, METH_VARARGS, (char *)"\n"
+		"ImageDisplayRemoveKeyListener(Gatan::DM::ImageDisplay const & imgDisp, char const * listener_key)\n"
+		"\n"
+		"ImageDisplayRemoveKeyListener: Removes the listener script with the tag listener_key \n"
+		"from the key listener list.\n"
+		""},
+	 { (char *)"ImageDisplaySetCaptionOn", _wrap_ImageDisplaySetCaptionOn, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetCaptionOn(Gatan::DM::ImageDisplay const & imgDisp, bool on)\n"
+		"\n"
+		"ImageDisplaySetCaptionOn: Sets whether to draw captions.\n"
+		""},
+	 { (char *)"ImageDisplaySetComplexMode", _wrap_ImageDisplaySetComplexMode, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetComplexMode(Gatan::DM::ImageDisplay const & imgDisp, long mode)\n"
+		"\n"
+		"ImageDisplaySetComplexMode: Sets the complex mode of the display.\n"
+		""},
+	 { (char *)"ImageDisplaySetComplexModeRange", _wrap_ImageDisplaySetComplexModeRange, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetComplexModeRange(Gatan::DM::ImageDisplay const & imgDisp, float range)\n"
+		"\n"
+		"ImageDisplaySetComplexModeRange: Sets the parameter used in converting complex to real.\n"
+		""},
+	 { (char *)"ImageDisplaySetContrastLimits", _wrap_ImageDisplaySetContrastLimits, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetContrastLimits(Gatan::DM::ImageDisplay const & imgDisp, float low, float hight)\n"
+		"\n"
+		"ImageDisplaySetContrastLimits: Sets the contrast limits of the display.\n"
+		""},
+	 { (char *)"ImageDisplaySetOutlierTrimLimits", _wrap_ImageDisplaySetOutlierTrimLimits, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetOutlierTrimLimits(Gatan::DM::ImageDisplay const & imgDisp, double low, double high)\n"
+		"\n"
+		"ImageDisplaySetOutlierTrimLimits: Sets the outlier limits of the display.\n"
+		""},
+	 { (char *)"ImageDisplaySetContrastChangeTriggerFractions", _wrap_ImageDisplaySetContrastChangeTriggerFractions, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetContrastChangeTriggerFractions(Gatan::DM::ImageDisplay const & imgDisp, double low, double high)\n"
+		"\n"
+		"ImageDisplaySetContrastChangeTriggerFractions: Sets the contrast change % limits of the display.\n"
+		""},
+	 { (char *)"ImageDisplaySetContrastMode", _wrap_ImageDisplaySetContrastMode, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetContrastMode(Gatan::DM::ImageDisplay const & imgDisp, long mode)\n"
+		"\n"
+		"ImageDisplaySetContrastMode: Sets the contrast mode.\n"
+		""},
+	 { (char *)"ImageDisplaySetContrastParameters", _wrap_ImageDisplaySetContrastParameters, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetContrastParameters(Gatan::DM::ImageDisplay const & imgDisp, float bright, float contrast)\n"
+		"\n"
+		"ImageDisplaySetContrastParameters: Gets the parameters for the contrast mode.\n"
+		""},
 	 { (char *)"ImageDisplaySetDisplayedLayers", _wrap_ImageDisplaySetDisplayedLayers, METH_VARARGS, (char *)"\n"
 		"ImageDisplaySetDisplayedLayers(Gatan::DM::ImageDisplay const & imgDisp, long start, long end)\n"
 		"ImageDisplaySetDisplayedLayers(Gatan::DM::ImageDisplay const & imgDisp, long start1, long end1, long start2, long end2)\n"
+		"\n"
+		"ImageDisplaySetDisplayedLayers: Sets the layers that are summed into the display.\n"
 		""},
-	 { (char *)"ImageDisplaySetDoAutoSurvey", _wrap_ImageDisplaySetDoAutoSurvey, METH_VARARGS, (char *)"ImageDisplaySetDoAutoSurvey(Gatan::DM::ImageDisplay const & imgDisp, bool do_survey)"},
-	 { (char *)"ImageDisplaySetImageRect", _wrap_ImageDisplaySetImageRect, METH_VARARGS, (char *)"ImageDisplaySetImageRect(Gatan::DM::ImageDisplay const & imgDisp, float top, float left, float bottom, float right)"},
-	 { (char *)"ImageDisplaySetInputColorTable", _wrap_ImageDisplaySetInputColorTable, METH_VARARGS, (char *)"ImageDisplaySetInputColorTable(Gatan::DM::ImageDisplay const & imgDisp, Image clut)"},
-	 { (char *)"ImageDisplaySetIntensityTransformation", _wrap_ImageDisplaySetIntensityTransformation, METH_VARARGS, (char *)"ImageDisplaySetIntensityTransformation(Gatan::DM::ImageDisplay const & imgDisp, Image itt)"},
-	 { (char *)"ImageDisplaySetMinimumContrast", _wrap_ImageDisplaySetMinimumContrast, METH_VARARGS, (char *)"ImageDisplaySetMinimumContrast(Gatan::DM::ImageDisplay const & imgDisp, float contrast)"},
-	 { (char *)"ImageDisplaySetROISelected", _wrap_ImageDisplaySetROISelected, METH_VARARGS, (char *)"ImageDisplaySetROISelected(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & roi, bool select)"},
-	 { (char *)"ImageDisplaySetROISelectionStyle", _wrap_ImageDisplaySetROISelectionStyle, METH_VARARGS, (char *)"ImageDisplaySetROISelectionStyle(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & r, long style)"},
-	 { (char *)"ImageDisplaySetShowExtractionAnnotation", _wrap_ImageDisplaySetShowExtractionAnnotation, METH_VARARGS, (char *)"ImageDisplaySetShowExtractionAnnotation(Gatan::DM::ImageDisplay const & imgDisp, bool show)"},
-	 { (char *)"ImageDisplaySetSurveyTechnique", _wrap_ImageDisplaySetSurveyTechnique, METH_VARARGS, (char *)"ImageDisplaySetSurveyTechnique(Gatan::DM::ImageDisplay const & imgDisp, long tech)"},
-	 { (char *)"ImageDocumentAddImage", _wrap_ImageDocumentAddImage, METH_VARARGS, (char *)"ImageDocumentAddImage(Gatan::DM::ImageDocument const & imgDoc, Image image)"},
-	 { (char *)"ImageDocumentAddToUserInterface", _wrap_ImageDocumentAddToUserInterface, METH_VARARGS, (char *)"ImageDocumentAddToUserInterface(Gatan::DM::ImageDocument const & imgDoc)"},
-	 { (char *)"ImageDocumentClean", _wrap_ImageDocumentClean, METH_VARARGS, (char *)"ImageDocumentClean(Gatan::DM::ImageDocument const & imgDoc)"},
-	 { (char *)"ImageDocumentClone", _wrap_ImageDocumentClone, METH_VARARGS, (char *)"ImageDocumentClone(Gatan::DM::ImageDocument const & imgDoc, bool doDeepCopy) -> Gatan::DM::ImageDocument"},
-	 { (char *)"ImageDocumentClose", _wrap_ImageDocumentClose, METH_VARARGS, (char *)"ImageDocumentClose(Gatan::DM::ImageDocument const & imgDoc, bool saving)"},
-	 { (char *)"ImageDocumentCountImages", _wrap_ImageDocumentCountImages, METH_VARARGS, (char *)"ImageDocumentCountImages(Gatan::DM::ImageDocument const & imgDoc) -> long"},
-	 { (char *)"ImageDocumentCreateRGBImageFromDocument", _wrap_ImageDocumentCreateRGBImageFromDocument, METH_VARARGS, (char *)"ImageDocumentCreateRGBImageFromDocument(Gatan::DM::ImageDocument const & imgDoc, long width, long height, long extract_style, long constraints) -> Image"},
-	 { (char *)"ImageDocumentDeleteImage", _wrap_ImageDocumentDeleteImage, METH_VARARGS, (char *)"ImageDocumentDeleteImage(Gatan::DM::ImageDocument const & imgDoc, Image image)"},
-	 { (char *)"ImageDocumentDoesImageWithIDExist", _wrap_ImageDocumentDoesImageWithIDExist, METH_VARARGS, (char *)"ImageDocumentDoesImageWithIDExist(Gatan::DM::ImageDocument const & imgDoc, long id) -> bool"},
-	 { (char *)"ImageDocumentEnsurePlacedOnPage", _wrap_ImageDocumentEnsurePlacedOnPage, METH_VARARGS, (char *)"ImageDocumentEnsurePlacedOnPage(Gatan::DM::ImageDocument const & imgDoc)"},
-	 { (char *)"ImageDocumentGetAsPICT", _wrap_ImageDocumentGetAsPICT, METH_VARARGS, (char *)"ImageDocumentGetAsPICT(Gatan::DM::ImageDocument const & imgDoc) -> long"},
-	 { (char *)"ImageDocumentGetComponentByID", _wrap_ImageDocumentGetComponentByID, METH_VARARGS, (char *)"ImageDocumentGetComponentByID(Gatan::DM::ImageDocument const & imgDoc, long id) -> Gatan::DM::Component"},
-	 { (char *)"ImageDocumentGetDrawMarginsInPageMode", _wrap_ImageDocumentGetDrawMarginsInPageMode, METH_VARARGS, (char *)"ImageDocumentGetDrawMarginsInPageMode(Gatan::DM::ImageDocument const & imgDoc) -> bool"},
-	 { (char *)"ImageDocumentGetDrawPaperInPageMode", _wrap_ImageDocumentGetDrawPaperInPageMode, METH_VARARGS, (char *)"ImageDocumentGetDrawPaperInPageMode(Gatan::DM::ImageDocument const & imgDoc) -> bool"},
-	 { (char *)"ImageDocumentGetFixedWindowSize", _wrap_ImageDocumentGetFixedWindowSize, METH_VARARGS, (char *)"ImageDocumentGetFixedWindowSize(Gatan::DM::ImageDocument const & img_doc, double * width, double * height)"},
-	 { (char *)"ImageDocumentGetID", _wrap_ImageDocumentGetID, METH_VARARGS, (char *)"ImageDocumentGetID(Gatan::DM::ImageDocument const & imgDoc) -> long"},
-	 { (char *)"ImageDocumentGetImage", _wrap_ImageDocumentGetImage, METH_VARARGS, (char *)"ImageDocumentGetImage(Gatan::DM::ImageDocument const & imgDoc, long position) -> Image"},
-	 { (char *)"ImageDocumentGetImageByID", _wrap_ImageDocumentGetImageByID, METH_VARARGS, (char *)"ImageDocumentGetImageByID(Gatan::DM::ImageDocument const & imgDoc, long id) -> Image"},
-	 { (char *)"ImageDocumentGetImageModeDisplay", _wrap_ImageDocumentGetImageModeDisplay, METH_VARARGS, (char *)"ImageDocumentGetImageModeDisplay(Gatan::DM::ImageDocument const & imgDoc) -> Gatan::DM::ImageDisplay"},
-	 { (char *)"ImageDocumentGetMinimumPointSize", _wrap_ImageDocumentGetMinimumPointSize, METH_VARARGS, (char *)"ImageDocumentGetMinimumPointSize(Gatan::DM::ImageDocument const & imgDoc, float * x, float * y)"},
-	 { (char *)"ImageDocumentGetName", _wrap_ImageDocumentGetName, METH_VARARGS, (char *)"ImageDocumentGetName(Gatan::DM::ImageDocument const & imgDoc) -> Gatan::DM::String"},
-	 { (char *)"ImageDocumentGetOrientation", _wrap_ImageDocumentGetOrientation, METH_VARARGS, (char *)"ImageDocumentGetOrientation(Gatan::DM::ImageDocument const & imgDoc) -> uint32"},
-	 { (char *)"ImageDocumentGetPageBounds", _wrap_ImageDocumentGetPageBounds, METH_VARARGS, (char *)"ImageDocumentGetPageBounds(Gatan::DM::ImageDocument const & imgDoc, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"ImageDocumentGetPageResolution_72dpi", _wrap_ImageDocumentGetPageResolution_72dpi, METH_VARARGS, (char *)"ImageDocumentGetPageResolution_72dpi(Gatan::DM::ImageDocument const & imgDoc, float * horz, float * vert)"},
-	 { (char *)"ImageDocumentGetPageResolution_Printer", _wrap_ImageDocumentGetPageResolution_Printer, METH_VARARGS, (char *)"ImageDocumentGetPageResolution_Printer(Gatan::DM::ImageDocument const & imgDoc, float * horz, float * vert)"},
-	 { (char *)"ImageDocumentGetPaperBounds", _wrap_ImageDocumentGetPaperBounds, METH_VARARGS, (char *)"ImageDocumentGetPaperBounds(Gatan::DM::ImageDocument const & imgDoc, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"ImageDocumentGetPreferredViewRect", _wrap_ImageDocumentGetPreferredViewRect, METH_VARARGS, (char *)"ImageDocumentGetPreferredViewRect(Gatan::DM::ImageDocument const & imgDoc, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"ImageDocumentGetReferencePointSize", _wrap_ImageDocumentGetReferencePointSize, METH_VARARGS, (char *)"ImageDocumentGetReferencePointSize(Gatan::DM::ImageDocument const & imgDoc, float * x, float * y)"},
-	 { (char *)"ImageDocumentGetRootComponent", _wrap_ImageDocumentGetRootComponent, METH_VARARGS, (char *)"ImageDocumentGetRootComponent(Gatan::DM::ImageDocument const & imgDoc) -> Gatan::DM::Component"},
-	 { (char *)"ImageDocumentGetTagGroup", _wrap_ImageDocumentGetTagGroup, METH_VARARGS, (char *)"ImageDocumentGetTagGroup(Gatan::DM::ImageDocument const & imgDoc) -> TagGroup"},
-	 { (char *)"ImageDocumentGetUnzoomedPointSize", _wrap_ImageDocumentGetUnzoomedPointSize, METH_VARARGS, (char *)"ImageDocumentGetUnzoomedPointSize(Gatan::DM::ImageDocument const & imgDoc, float * x, float * y)"},
-	 { (char *)"ImageDocumentGetViewExtent", _wrap_ImageDocumentGetViewExtent, METH_VARARGS, (char *)"ImageDocumentGetViewExtent(Gatan::DM::ImageDocument const & imgDoc, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"ImageDocumentGetViewToWindowTransform", _wrap_ImageDocumentGetViewToWindowTransform, METH_VARARGS, (char *)"ImageDocumentGetViewToWindowTransform(Gatan::DM::ImageDocument const & imgDoc, float * off_x, float * off_y, float * scale_x, float * scale_y)"},
-	 { (char *)"ImageDocumentGetVisibleViewRect", _wrap_ImageDocumentGetVisibleViewRect, METH_VARARGS, (char *)"ImageDocumentGetVisibleViewRect(Gatan::DM::ImageDocument const & imgDoc, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"ImageDocumentGetWindow", _wrap_ImageDocumentGetWindow, METH_VARARGS, (char *)"ImageDocumentGetWindow(Gatan::DM::ImageDocument const & imgDoc) -> Gatan::DM::Window"},
-	 { (char *)"ImageDocumentHasBeenPlacedOnPage", _wrap_ImageDocumentHasBeenPlacedOnPage, METH_VARARGS, (char *)"ImageDocumentHasBeenPlacedOnPage(Gatan::DM::ImageDocument const & imgDoc) -> bool"},
-	 { (char *)"ImageDocumentHasFixedWindowSize", _wrap_ImageDocumentHasFixedWindowSize, METH_VARARGS, (char *)"ImageDocumentHasFixedWindowSize(Gatan::DM::ImageDocument const & img_doc) -> bool"},
-	 { (char *)"ImageDocumentHide", _wrap_ImageDocumentHide, METH_VARARGS, (char *)"ImageDocumentHide(Gatan::DM::ImageDocument const & imgDoc)"},
-	 { (char *)"ImageDocumentIsDirty", _wrap_ImageDocumentIsDirty, METH_VARARGS, (char *)"ImageDocumentIsDirty(Gatan::DM::ImageDocument const & img_doc) -> bool"},
-	 { (char *)"ImageDocumentIsInImageMode", _wrap_ImageDocumentIsInImageMode, METH_VARARGS, (char *)"ImageDocumentIsInImageMode(Gatan::DM::ImageDocument const & imgDoc) -> bool"},
-	 { (char *)"ImageDocumentIsInPageMode", _wrap_ImageDocumentIsInPageMode, METH_VARARGS, (char *)"ImageDocumentIsInPageMode(Gatan::DM::ImageDocument const & imgDoc) -> bool"},
-	 { (char *)"ImageDocumentIsLockedInPageMode", _wrap_ImageDocumentIsLockedInPageMode, METH_VARARGS, (char *)"ImageDocumentIsLockedInPageMode(Gatan::DM::ImageDocument const & img_doc) -> bool"},
-	 { (char *)"ImageDocumentIsValid", _wrap_ImageDocumentIsValid, METH_VARARGS, (char *)"ImageDocumentIsValid(Gatan::DM::ImageDocument const & imgDoc) -> bool"},
-	 { (char *)"ImageDocumentLockInPageMode", _wrap_ImageDocumentLockInPageMode, METH_VARARGS, (char *)"ImageDocumentLockInPageMode(Gatan::DM::ImageDocument const & img_doc, bool lock) -> bool"},
-	 { (char *)"ImageDocumentMaximizeRectInView", _wrap_ImageDocumentMaximizeRectInView, METH_VARARGS, (char *)"ImageDocumentMaximizeRectInView(Gatan::DM::ImageDocument const & imgDoc, float top, float left, float bottom, float right)"},
-	 { (char *)"ImageDocumentPrint", _wrap_ImageDocumentPrint, METH_VARARGS, (char *)"ImageDocumentPrint(Gatan::DM::ImageDocument const & imgDoc) -> bool"},
-	 { (char *)"ImageDocumentRemoveFromUserInterface", _wrap_ImageDocumentRemoveFromUserInterface, METH_VARARGS, (char *)"ImageDocumentRemoveFromUserInterface(Gatan::DM::ImageDocument const & imgDoc)"},
+	 { (char *)"ImageDisplaySetDoAutoSurvey", _wrap_ImageDisplaySetDoAutoSurvey, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetDoAutoSurvey(Gatan::DM::ImageDisplay const & imgDisp, bool do_survey)\n"
+		"\n"
+		"ImageDisplaySetDoAutoSurvey: Sets whether min and max are determined automatically.\n"
+		""},
+	 { (char *)"ImageDisplaySetImageRect", _wrap_ImageDisplaySetImageRect, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetImageRect(Gatan::DM::ImageDisplay const & imgDisp, float top, float left, float bottom, float right)\n"
+		"\n"
+		"ImageDisplaySetImageRect: Sets the bounds of the image part of the image display.\n"
+		""},
+	 { (char *)"ImageDisplaySetInputColorTable", _wrap_ImageDisplaySetInputColorTable, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetInputColorTable(Gatan::DM::ImageDisplay const & imgDisp, Image clut)\n"
+		"\n"
+		"ImageDisplaySetInputColorTable: Sets the input color table of the display.\n"
+		""},
+	 { (char *)"ImageDisplaySetIntensityTransformation", _wrap_ImageDisplaySetIntensityTransformation, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetIntensityTransformation(Gatan::DM::ImageDisplay const & imgDisp, Image itt)\n"
+		"\n"
+		"ImageDisplaySetIntensityTransformation: Sets the ITT of the display.\n"
+		""},
+	 { (char *)"ImageDisplaySetMinimumContrast", _wrap_ImageDisplaySetMinimumContrast, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetMinimumContrast(Gatan::DM::ImageDisplay const & imgDisp, float contrast)\n"
+		"\n"
+		"ImageDisplaySetMinimumContrast: Sets the minimum contrast of the display.\n"
+		""},
+	 { (char *)"ImageDisplaySetROISelected", _wrap_ImageDisplaySetROISelected, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetROISelected(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & roi, bool select)\n"
+		"\n"
+		"ImageDisplaySetROISelected: Sets the selection status of the region of interest in the \n"
+		"image display.\n"
+		""},
+	 { (char *)"ImageDisplaySetROISelectionStyle", _wrap_ImageDisplaySetROISelectionStyle, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetROISelectionStyle(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::ROI const & r, long style)\n"
+		"\n"
+		"ImageDisplaySetROISelectionStyle: Sets the selection style of the roi in the imag \n"
+		"display.\n"
+		""},
+	 { (char *)"ImageDisplaySetShowExtractionAnnotation", _wrap_ImageDisplaySetShowExtractionAnnotation, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetShowExtractionAnnotation(Gatan::DM::ImageDisplay const & imgDisp, bool show)\n"
+		"\n"
+		"ImageDisplaySetShowExtractionAnnotation: Sets if extraction annotation should be displayed.\n"
+		""},
+	 { (char *)"ImageDisplaySetSurveyTechnique", _wrap_ImageDisplaySetSurveyTechnique, METH_VARARGS, (char *)"\n"
+		"ImageDisplaySetSurveyTechnique(Gatan::DM::ImageDisplay const & imgDisp, long tech)\n"
+		"\n"
+		"ImageDisplaySetSurveyTechnique: Sets the survey technique of the display.\n"
+		""},
+	 { (char *)"ImageDocumentAddImage", _wrap_ImageDocumentAddImage, METH_VARARGS, (char *)"\n"
+		"ImageDocumentAddImage(Gatan::DM::ImageDocument const & imgDoc, Image image)\n"
+		"\n"
+		"ImageDocumentAddImage: Adds the given image to the list maintained in the image document.\n"
+		""},
+	 { (char *)"ImageDocumentAddImageDisplay", _wrap_ImageDocumentAddImageDisplay, METH_VARARGS, (char *)"\n"
+		"ImageDocumentAddImageDisplay(Gatan::DM::ImageDocument const & imgDoc, Image image, long displayType) -> Gatan::DM::ImageDisplay\n"
+		"\n"
+		"ImageDocumentAddImageDisplay: Adds the given image and an image display for it of the \n"
+		"given type.\n"
+		""},
+	 { (char *)"ImageDocumentAddToUserInterface", _wrap_ImageDocumentAddToUserInterface, METH_VARARGS, (char *)"\n"
+		"ImageDocumentAddToUserInterface(Gatan::DM::ImageDocument const & imgDoc)\n"
+		"\n"
+		"ImageDocumentAddToUserInterface: Places the image document in the list of user interface \n"
+		"documents.\n"
+		""},
+	 { (char *)"ImageDocumentClean", _wrap_ImageDocumentClean, METH_VARARGS, (char *)"\n"
+		"ImageDocumentClean(Gatan::DM::ImageDocument const & imgDoc)\n"
+		"\n"
+		"ImageDocumentClean: Marks the image document as clean (doesn't need to be saved).\n"
+		""},
+	 { (char *)"ImageDocumentClone", _wrap_ImageDocumentClone, METH_VARARGS, (char *)"\n"
+		"ImageDocumentClone(Gatan::DM::ImageDocument const & imgDoc, bool doDeepCopy) -> Gatan::DM::ImageDocument\n"
+		"\n"
+		"ImageDocumentClone: Returns a duplicate of the image docuemnt, creating a copy of its \n"
+		"images if 'doDeepCopy' is true.\n"
+		""},
+	 { (char *)"ImageDocumentClose", _wrap_ImageDocumentClose, METH_VARARGS, (char *)"\n"
+		"ImageDocumentClose(Gatan::DM::ImageDocument const & imgDoc, bool saving)\n"
+		"\n"
+		"ImageDocumentClose: Closes the given image document. If saving is true then asks whether \n"
+		"to save it, otherwise just closes it.\n"
+		""},
+	 { (char *)"ImageDocumentCountImages", _wrap_ImageDocumentCountImages, METH_VARARGS, (char *)"\n"
+		"ImageDocumentCountImages(Gatan::DM::ImageDocument const & imgDoc) -> long\n"
+		"\n"
+		"ImageDocumentCountImages: Returns the number of images contained in this image document.\n"
+		""},
+	 { (char *)"ImageDocumentCreateRGBImageFromDocument", _wrap_ImageDocumentCreateRGBImageFromDocument, METH_VARARGS, (char *)"\n"
+		"ImageDocumentCreateRGBImageFromDocument(Gatan::DM::ImageDocument const & imgDoc, long width, long height, long extract_style, long constraints) -> Image\n"
+		"\n"
+		"ImageDocumentCreateRGBImageFromDocument: Creates an image by scaling the image document \n"
+		"into ( width, height ).\n"
+		""},
+	 { (char *)"ImageDocumentDeleteImage", _wrap_ImageDocumentDeleteImage, METH_VARARGS, (char *)"\n"
+		"ImageDocumentDeleteImage(Gatan::DM::ImageDocument const & imgDoc, Image image)\n"
+		"\n"
+		"ImageDocumentDeleteImage: Deletes the given image from this image document.\n"
+		""},
+	 { (char *)"ImageDocumentDoesImageWithIDExist", _wrap_ImageDocumentDoesImageWithIDExist, METH_VARARGS, (char *)"\n"
+		"ImageDocumentDoesImageWithIDExist(Gatan::DM::ImageDocument const & imgDoc, long id) -> bool\n"
+		"\n"
+		"ImageDocumentDoesImageWithIDExist: Determines whether the image with the given id exists \n"
+		"within this image document.\n"
+		""},
+	 { (char *)"ImageDocumentEnsurePlacedOnPage", _wrap_ImageDocumentEnsurePlacedOnPage, METH_VARARGS, (char *)"\n"
+		"ImageDocumentEnsurePlacedOnPage(Gatan::DM::ImageDocument const & imgDoc)\n"
+		"\n"
+		"ImageDocumentEnsurePlacedOnPage: Makes sure the document has been layed out on the \n"
+		"physical page.\n"
+		""},
+	 { (char *)"ImageDocumentGetAsPICT", _wrap_ImageDocumentGetAsPICT, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetAsPICT(Gatan::DM::ImageDocument const & imgDoc) -> long\n"
+		"\n"
+		"ImageDocumentGetAsPICT: Returns this image as a PICT.\n"
+		""},
+	 { (char *)"ImageDocumentGetComponentByID", _wrap_ImageDocumentGetComponentByID, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetComponentByID(Gatan::DM::ImageDocument const & imgDoc, long id) -> Gatan::DM::Component\n"
+		"\n"
+		"ImageDocumentGetComponentByID: Returns an annotation contained in this image document by \n"
+		"id.\n"
+		""},
+	 { (char *)"ImageDocumentGetDrawMarginsInPageMode", _wrap_ImageDocumentGetDrawMarginsInPageMode, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetDrawMarginsInPageMode(Gatan::DM::ImageDocument const & imgDoc) -> bool\n"
+		"\n"
+		"ImageDocumentGetDrawMarginsInPageMode: returns true if the paper margins are drawn for documents\n"
+		"in page mode, false otherwise.\n"
+		""},
+	 { (char *)"ImageDocumentGetDrawPaperInPageMode", _wrap_ImageDocumentGetDrawPaperInPageMode, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetDrawPaperInPageMode(Gatan::DM::ImageDocument const & imgDoc) -> bool\n"
+		"\n"
+		"ImageDocumentGetDrawPaperInPageMode: returns true if the paper is drawn for documents in page\n"
+		" mode, false otherwise.\n"
+		""},
+	 { (char *)"ImageDocumentGetFixedWindowSize", _wrap_ImageDocumentGetFixedWindowSize, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetFixedWindowSize(Gatan::DM::ImageDocument const & img_doc, double * width, double * height)\n"
+		"\n"
+		"ImageDocumentGetFixedWindowSize: Returns values of width and height for image documents with\n"
+		"fixed size.\n"
+		""},
+	 { (char *)"ImageDocumentGetID", _wrap_ImageDocumentGetID, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetID(Gatan::DM::ImageDocument const & imgDoc) -> long\n"
+		"\n"
+		"ImageDocumentGetID: Gets the id of the image document.\n"
+		""},
+	 { (char *)"ImageDocumentGetImage", _wrap_ImageDocumentGetImage, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetImage(Gatan::DM::ImageDocument const & imgDoc, long position) -> Image\n"
+		"\n"
+		"ImageDocumentGetImage: Returns the image contained within this image document by \n"
+		"position.\n"
+		""},
+	 { (char *)"ImageDocumentGetImageByID", _wrap_ImageDocumentGetImageByID, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetImageByID(Gatan::DM::ImageDocument const & imgDoc, long id) -> Image\n"
+		"\n"
+		"ImageDocumentGetImageByID: Returns an image contained in this image document by id.\n"
+		""},
+	 { (char *)"ImageDocumentGetImageModeDisplay", _wrap_ImageDocumentGetImageModeDisplay, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetImageModeDisplay(Gatan::DM::ImageDocument const & imgDoc) -> Gatan::DM::ImageDisplay\n"
+		"\n"
+		"ImageDocumentGetImageModeDisplay: Gets the image display targeted by the current image \n"
+		"mode.\n"
+		""},
+	 { (char *)"ImageDocumentGetMinimumPointSize", _wrap_ImageDocumentGetMinimumPointSize, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetMinimumPointSize(Gatan::DM::ImageDocument const & imgDoc, float * x, float * y)\n"
+		"\n"
+		"ImageDocumentGetMinimumPointSize: Gets the size of the minimum point in view coordinates.\n"
+		""},
+	 { (char *)"ImageDocumentGetName", _wrap_ImageDocumentGetName, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetName(Gatan::DM::ImageDocument const & imgDoc) -> Gatan::DM::String\n"
+		"\n"
+		"ImageDocumentGetName: Returns the name of the image document.\n"
+		""},
+	 { (char *)"ImageDocumentGetOrientation", _wrap_ImageDocumentGetOrientation, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetOrientation(Gatan::DM::ImageDocument const & imgDoc) -> uint32\n"
+		"\n"
+		"ImageDocumentGetOrientation: Get document orientation, 0: portrait, 1: landscape\n"
+		""},
+	 { (char *)"ImageDocumentGetPageBounds", _wrap_ImageDocumentGetPageBounds, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetPageBounds(Gatan::DM::ImageDocument const & imgDoc, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"ImageDocumentGetPageBounds: Gets the page bounds of the document in page coordinates.\n"
+		""},
+	 { (char *)"ImageDocumentGetPageResolution_72dpi", _wrap_ImageDocumentGetPageResolution_72dpi, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetPageResolution_72dpi(Gatan::DM::ImageDocument const & imgDoc, float * horz, float * vert)\n"
+		"\n"
+		"ImageDocumentGetPageResolution_72dpi: Returns the resolution of page coordinates in 72 \n"
+		"dots per inch ( returns page units per dot ).\n"
+		""},
+	 { (char *)"ImageDocumentGetPageResolution_Printer", _wrap_ImageDocumentGetPageResolution_Printer, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetPageResolution_Printer(Gatan::DM::ImageDocument const & imgDoc, float * horz, float * vert)\n"
+		"\n"
+		"ImageDocumentGetPageResolution_Printer: Returns the resolution of page coordinates in \n"
+		"printer pixels ( returns page units per printer pixel ).\n"
+		""},
+	 { (char *)"ImageDocumentGetPaperBounds", _wrap_ImageDocumentGetPaperBounds, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetPaperBounds(Gatan::DM::ImageDocument const & imgDoc, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"ImageDocumentGetPaperBounds: Gets the paper bounds of the document in page coordinates.\n"
+		""},
+	 { (char *)"ImageDocumentGetPreferredViewRect", _wrap_ImageDocumentGetPreferredViewRect, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetPreferredViewRect(Gatan::DM::ImageDocument const & imgDoc, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"ImageDocumentGetPreferredViewRect: Gets rectangle in view coordinates of the area that \n"
+		"is by default displayed in this mode.\n"
+		""},
+	 { (char *)"ImageDocumentGetReferencePointSize", _wrap_ImageDocumentGetReferencePointSize, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetReferencePointSize(Gatan::DM::ImageDocument const & imgDoc, float * x, float * y)\n"
+		"\n"
+		"ImageDocumentGetReferencePointSize: Gets the size of the reference point in view \n"
+		"coordinates.\n"
+		""},
+	 { (char *)"ImageDocumentGetRootComponent", _wrap_ImageDocumentGetRootComponent, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetRootComponent(Gatan::DM::ImageDocument const & imgDoc) -> Gatan::DM::Component\n"
+		"\n"
+		"ImageDocumentGetRootComponent: Gets the root annotation of the image document.\n"
+		""},
+	 { (char *)"ImageDocumentGetTagGroup", _wrap_ImageDocumentGetTagGroup, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetTagGroup(Gatan::DM::ImageDocument const & imgDoc) -> TagGroup\n"
+		"\n"
+		"ImageDocumentGetTagGroup: Gets the tag group associated with the image document.\n"
+		""},
+	 { (char *)"ImageDocumentGetUnzoomedPointSize", _wrap_ImageDocumentGetUnzoomedPointSize, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetUnzoomedPointSize(Gatan::DM::ImageDocument const & imgDoc, float * x, float * y)\n"
+		"\n"
+		"ImageDocumentGetUnzoomedPointSize: Gets the size of the unzoomed point in view \n"
+		"coordinates.\n"
+		""},
+	 { (char *)"ImageDocumentGetViewExtent", _wrap_ImageDocumentGetViewExtent, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetViewExtent(Gatan::DM::ImageDocument const & imgDoc, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"ImageDocumentGetViewExtent: Gets the extent in view coordinates of the items visible in \n"
+		"the current view mode.\n"
+		""},
+	 { (char *)"ImageDocumentGetViewToWindowTransform", _wrap_ImageDocumentGetViewToWindowTransform, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetViewToWindowTransform(Gatan::DM::ImageDocument const & imgDoc, float * off_x, float * off_y, float * scale_x, float * scale_y)\n"
+		"\n"
+		"ImageDocumentGetViewToWindowTransform: Returns the transformation from view to screen \n"
+		"coordinates.\n"
+		""},
+	 { (char *)"ImageDocumentGetVisibleViewRect", _wrap_ImageDocumentGetVisibleViewRect, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetVisibleViewRect(Gatan::DM::ImageDocument const & imgDoc, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"ImageDocumentGetVisibleViewRect: Gets the view coordinates of the rectangle visible in \n"
+		"the view.\n"
+		""},
+	 { (char *)"ImageDocumentGetWindow", _wrap_ImageDocumentGetWindow, METH_VARARGS, (char *)"\n"
+		"ImageDocumentGetWindow(Gatan::DM::ImageDocument const & imgDoc) -> Gatan::DM::Window\n"
+		"\n"
+		"ImageDocumentGetWindow: Returns the window displaying the document.\n"
+		""},
+	 { (char *)"ImageDocumentHasBeenPlacedOnPage", _wrap_ImageDocumentHasBeenPlacedOnPage, METH_VARARGS, (char *)"\n"
+		"ImageDocumentHasBeenPlacedOnPage(Gatan::DM::ImageDocument const & imgDoc) -> bool\n"
+		"\n"
+		"ImageDocumentHasBeenPlacedOnPage: Returns 'true' if the document has been layed out \n"
+		"within the physical page.\n"
+		""},
+	 { (char *)"ImageDocumentHasFixedWindowSize", _wrap_ImageDocumentHasFixedWindowSize, METH_VARARGS, (char *)"\n"
+		"ImageDocumentHasFixedWindowSize(Gatan::DM::ImageDocument const & img_doc) -> bool\n"
+		"\n"
+		"ImageDocumentHasFixedWindowSize: Returns true if the image document is not resizable. This means\n"
+		"the window has a fixed, nonresizable frame and attempts to resize the window will fail.\n"
+		""},
+	 { (char *)"ImageDocumentHide", _wrap_ImageDocumentHide, METH_VARARGS, (char *)"\n"
+		"ImageDocumentHide(Gatan::DM::ImageDocument const & imgDoc)\n"
+		"\n"
+		"ImageDocumentHide: Hides the given image document.\n"
+		""},
+	 { (char *)"ImageDocumentIsDirty", _wrap_ImageDocumentIsDirty, METH_VARARGS, (char *)"\n"
+		"ImageDocumentIsDirty(Gatan::DM::ImageDocument const & img_doc) -> bool\n"
+		"\n"
+		"ImageDocumentIsDirty: Returns true if the document has changed since last saving it.\n"
+		""},
+	 { (char *)"ImageDocumentIsInImageMode", _wrap_ImageDocumentIsInImageMode, METH_VARARGS, (char *)"\n"
+		"ImageDocumentIsInImageMode(Gatan::DM::ImageDocument const & imgDoc) -> bool\n"
+		"\n"
+		"ImageDocumentIsInImageMode: Returns true if the view of the document is in image mode.\n"
+		""},
+	 { (char *)"ImageDocumentIsInPageMode", _wrap_ImageDocumentIsInPageMode, METH_VARARGS, (char *)"\n"
+		"ImageDocumentIsInPageMode(Gatan::DM::ImageDocument const & imgDoc) -> bool\n"
+		"\n"
+		"ImageDocumentIsInPageMode: Returns true if the view of the document is in page mode.\n"
+		""},
+	 { (char *)"ImageDocumentIsLockedInPageMode", _wrap_ImageDocumentIsLockedInPageMode, METH_VARARGS, (char *)"\n"
+		"ImageDocumentIsLockedInPageMode(Gatan::DM::ImageDocument const & img_doc) -> bool\n"
+		"\n"
+		"ImageDocumentIsLockedInPageMode: Returns true if the view of the document is always in page mode\n"
+		"and cannot be switched into image mode.\n"
+		""},
+	 { (char *)"ImageDocumentIsValid", _wrap_ImageDocumentIsValid, METH_VARARGS, (char *)"\n"
+		"ImageDocumentIsValid(Gatan::DM::ImageDocument const & imgDoc) -> bool\n"
+		"\n"
+		"ImageDocumentIsValid: Returns true if 'imageDocument' points to a valid object.\n"
+		""},
+	 { (char *)"ImageDocumentLockInPageMode", _wrap_ImageDocumentLockInPageMode, METH_VARARGS, (char *)"\n"
+		"ImageDocumentLockInPageMode(Gatan::DM::ImageDocument const & img_doc, bool lock) -> bool\n"
+		"\n"
+		"ImageDocumentLockInPageMode: Locks/Unlocks image documents in page mode display. A document\n"
+		"which is locked in page mode cannot be displayed in image mode, unless the lock is cleared.\n"
+		""},
+	 { (char *)"ImageDocumentMaximizeRectInView", _wrap_ImageDocumentMaximizeRectInView, METH_VARARGS, (char *)"\n"
+		"ImageDocumentMaximizeRectInView(Gatan::DM::ImageDocument const & imgDoc, float top, float left, float bottom, float right)\n"
+		"\n"
+		"ImageDocumentMaximizeRectInView: Zooms the view so the rectangle is centered and maximal.\n"
+		""},
+	 { (char *)"ImageDocumentPrint", _wrap_ImageDocumentPrint, METH_VARARGS, (char *)"\n"
+		"ImageDocumentPrint(Gatan::DM::ImageDocument const & imgDoc) -> bool\n"
+		"\n"
+		"ImageDocumentPrint: Print the image document, returning 'true' if successful.\n"
+		""},
+	 { (char *)"ImageDocumentRemoveFromUserInterface", _wrap_ImageDocumentRemoveFromUserInterface, METH_VARARGS, (char *)"\n"
+		"ImageDocumentRemoveFromUserInterface(Gatan::DM::ImageDocument const & imgDoc)\n"
+		"\n"
+		"ImageDocumentRemoveFromUserInterface: Removes the image document from the list of user \n"
+		"interface documents.\n"
+		""},
 	 { (char *)"ImageDocumentSaveToFile", _wrap_ImageDocumentSaveToFile, METH_VARARGS, (char *)"\n"
 		"ImageDocumentSaveToFile(Gatan::DM::ImageDocument const & imgDoc, Gatan::DM::String const & handler, Gatan::DM::String const & fileName)\n"
 		"ImageDocumentSaveToFile(Gatan::DM::ImageDocument const & imgDoc, Gatan::DM::String const & handler, Gatan::DM::String const & fileName, uint32 const saveType)\n"
+		"\n"
+		"ImageDocumentSaveToFile: Saves the image document to the given file name using the I/O \n"
+		"handler specified.\n"
 		""},
-	 { (char *)"ImageDocumentSetCurrentViewAsUnzoomed", _wrap_ImageDocumentSetCurrentViewAsUnzoomed, METH_VARARGS, (char *)"ImageDocumentSetCurrentViewAsUnzoomed(Gatan::DM::ImageDocument const & imgDoc)"},
-	 { (char *)"ImageDocumentSetDoIntegralZoom", _wrap_ImageDocumentSetDoIntegralZoom, METH_VARARGS, (char *)"ImageDocumentSetDoIntegralZoom(Gatan::DM::ImageDocument const & imgDoc, bool do_integral_zoom)"},
-	 { (char *)"ImageDocumentSetDrawMarginsInPageMode", _wrap_ImageDocumentSetDrawMarginsInPageMode, METH_VARARGS, (char *)"ImageDocumentSetDrawMarginsInPageMode(Gatan::DM::ImageDocument const & imgDoc, bool doDraw) -> bool"},
-	 { (char *)"ImageDocumentSetDrawPaperInPageMode", _wrap_ImageDocumentSetDrawPaperInPageMode, METH_VARARGS, (char *)"ImageDocumentSetDrawPaperInPageMode(Gatan::DM::ImageDocument const & imgDoc, bool doDraw) -> bool"},
-	 { (char *)"ImageDocumentSetFixedWindowSize", _wrap_ImageDocumentSetFixedWindowSize, METH_VARARGS, (char *)"ImageDocumentSetFixedWindowSize(Gatan::DM::ImageDocument const & img_doc, double width, double height)"},
-	 { (char *)"ImageDocumentSetName", _wrap_ImageDocumentSetName, METH_VARARGS, (char *)"ImageDocumentSetName(Gatan::DM::ImageDocument const & imgDoc, Gatan::DM::String const & name)"},
-	 { (char *)"ImageDocumentSetOrientation", _wrap_ImageDocumentSetOrientation, METH_VARARGS, (char *)"ImageDocumentSetOrientation(Gatan::DM::ImageDocument const & imgDoc, uint32 orientation) -> bool"},
-	 { (char *)"ImageDocumentSetRectInView", _wrap_ImageDocumentSetRectInView, METH_VARARGS, (char *)"ImageDocumentSetRectInView(Gatan::DM::ImageDocument const & imgDoc, float v_t, float v_l, float v_b, float v_r, float w_t, float w_l, float w_b, float w_r)"},
-	 { (char *)"ImageDocumentShow", _wrap_ImageDocumentShow, METH_VARARGS, (char *)"ImageDocumentShow(Gatan::DM::ImageDocument const & imgDoc) -> Gatan::DM::Window"},
-	 { (char *)"ImageDocumentShowAtPosition", _wrap_ImageDocumentShowAtPosition, METH_VARARGS, (char *)"ImageDocumentShowAtPosition(Gatan::DM::ImageDocument const & imgDoc, long x, long y) -> Gatan::DM::Window"},
-	 { (char *)"ImageDocumentShowAtRect", _wrap_ImageDocumentShowAtRect, METH_VARARGS, (char *)"ImageDocumentShowAtRect(Gatan::DM::ImageDocument const & imgDoc, long top, long left, long bottom, long right) -> Gatan::DM::Window"},
-	 { (char *)"ImageDocumentSwitchToImageMode", _wrap_ImageDocumentSwitchToImageMode, METH_VARARGS, (char *)"ImageDocumentSwitchToImageMode(Gatan::DM::ImageDocument const & imgDoc, Gatan::DM::ImageDisplay const & imgDisp)"},
-	 { (char *)"ImageDocumentSwitchToPageMode", _wrap_ImageDocumentSwitchToPageMode, METH_VARARGS, (char *)"ImageDocumentSwitchToPageMode(Gatan::DM::ImageDocument const & imgDoc)"},
-	 { (char *)"ImageDocumentUnsetFixedWindowSize", _wrap_ImageDocumentUnsetFixedWindowSize, METH_VARARGS, (char *)"ImageDocumentUnsetFixedWindowSize(Gatan::DM::ImageDocument const & img_doc)"},
-	 { (char *)"ImageDocumentUpdateDisplay", _wrap_ImageDocumentUpdateDisplay, METH_VARARGS, (char *)"ImageDocumentUpdateDisplay(Gatan::DM::ImageDocument const & imgDoc)"},
-	 { (char *)"ImageGetDataElementBitSize", _wrap_ImageGetDataElementBitSize, METH_VARARGS, (char *)"ImageGetDataElementBitSize(Image img) -> ulong"},
-	 { (char *)"ImageGetDataElementByteSize", _wrap_ImageGetDataElementByteSize, METH_VARARGS, (char *)"ImageGetDataElementByteSize(Image img) -> ulong"},
-	 { (char *)"ImageGetDataSeed", _wrap_ImageGetDataSeed, METH_VARARGS, (char *)"ImageGetDataSeed(Image img) -> ulong"},
-	 { (char *)"ImageGetDataType", _wrap_ImageGetDataType, METH_VARARGS, (char *)"ImageGetDataType(Image img) -> ulong"},
-	 { (char *)"ImageGetDescriptionText", _wrap_ImageGetDescriptionText, METH_VARARGS, (char *)"ImageGetDescriptionText(Image img) -> Gatan::DM::String"},
-	 { (char *)"ImageGetDimensionCalibration", _wrap_ImageGetDimensionCalibration, METH_VARARGS, (char *)"ImageGetDimensionCalibration(Image argument_1, long dimension, float * origin, float * scale, Gatan::DM::String & units, long calibrationFormat)"},
-	 { (char *)"ImageGetDimensionOrigin", _wrap_ImageGetDimensionOrigin, METH_VARARGS, (char *)"ImageGetDimensionOrigin(Image argument_1, long dimension) -> float"},
-	 { (char *)"ImageGetDimensionScale", _wrap_ImageGetDimensionScale, METH_VARARGS, (char *)"ImageGetDimensionScale(Image argument_1, long dimension) -> float"},
-	 { (char *)"ImageGetDimensionSize", _wrap_ImageGetDimensionSize, METH_VARARGS, (char *)"ImageGetDimensionSize(Image argument_1, ulong dimension) -> ulong"},
-	 { (char *)"ImageGetDimensionUnitInfo", _wrap_ImageGetDimensionUnitInfo, METH_VARARGS, (char *)"ImageGetDimensionUnitInfo(Image argument_1, long dimension, Gatan::DM::String & canon_units, long * power)"},
-	 { (char *)"ImageGetDimensionUnitString", _wrap_ImageGetDimensionUnitString, METH_VARARGS, (char *)"ImageGetDimensionUnitString(Image argument_1, long dimension) -> Gatan::DM::String"},
-	 { (char *)"ImageGetID", _wrap_ImageGetID, METH_VARARGS, (char *)"ImageGetID(Image argument_1) -> ulong"},
-	 { (char *)"ImageGetImageDisplay", _wrap_ImageGetImageDisplay, METH_VARARGS, (char *)"ImageGetImageDisplay(Image argument_1, long index) -> Gatan::DM::ImageDisplay"},
-	 { (char *)"ImageGetImageDisplayInImageDocument", _wrap_ImageGetImageDisplayInImageDocument, METH_VARARGS, (char *)"ImageGetImageDisplayInImageDocument(Image argument_1, Gatan::DM::ImageDocument const & imgDoc, long index) -> Gatan::DM::ImageDisplay"},
-	 { (char *)"ImageGetIntensityOrigin", _wrap_ImageGetIntensityOrigin, METH_VARARGS, (char *)"ImageGetIntensityOrigin(Image argument_1) -> float"},
-	 { (char *)"ImageGetIntensityScale", _wrap_ImageGetIntensityScale, METH_VARARGS, (char *)"ImageGetIntensityScale(Image argument_1) -> float"},
-	 { (char *)"ImageGetIntensityUnitInfo", _wrap_ImageGetIntensityUnitInfo, METH_VARARGS, (char *)"ImageGetIntensityUnitInfo(Image argument_1, Gatan::DM::String & canon_units, long * power)"},
-	 { (char *)"ImageGetIntensityUnitString", _wrap_ImageGetIntensityUnitString, METH_VARARGS, (char *)"ImageGetIntensityUnitString(Image argument_1) -> Gatan::DM::String"},
-	 { (char *)"ImageGetLabel", _wrap_ImageGetLabel, METH_VARARGS, (char *)"ImageGetLabel(Image img) -> Gatan::DM::String"},
-	 { (char *)"ImageGetName", _wrap_ImageGetName, METH_VARARGS, (char *)"ImageGetName(Image img) -> Gatan::DM::String"},
-	 { (char *)"ImageGetNumDimensions", _wrap_ImageGetNumDimensions, METH_VARARGS, (char *)"ImageGetNumDimensions(Image argument_1) -> ulong"},
-	 { (char *)"ImageGetOrCreateImageDocument", _wrap_ImageGetOrCreateImageDocument, METH_VARARGS, (char *)"ImageGetOrCreateImageDocument(Image im) -> Gatan::DM::ImageDocument"},
-	 { (char *)"ImageSetActiveSubArea", _wrap_ImageSetActiveSubArea, METH_VARARGS, (char *)"ImageSetActiveSubArea(Image im, bool setSubArea, long top, long left, long bottom, long right)"},
-	 { (char *)"ImageGetTagGroup", _wrap_ImageGetTagGroup, METH_VARARGS, (char *)"ImageGetTagGroup(Image img) -> TagGroup"},
-	 { (char *)"ImageGetUniqueID", _wrap_ImageGetUniqueID, METH_VARARGS, (char *)"ImageGetUniqueID(Image image) -> Gatan::DM::ScriptObject"},
-	 { (char *)"ImageIsDataTypeBinary", _wrap_ImageIsDataTypeBinary, METH_VARARGS, (char *)"ImageIsDataTypeBinary(Image img) -> bool"},
-	 { (char *)"ImageIsDataTypeComplex", _wrap_ImageIsDataTypeComplex, METH_VARARGS, (char *)"ImageIsDataTypeComplex(Image img) -> bool"},
-	 { (char *)"ImageIsDataTypeFloat", _wrap_ImageIsDataTypeFloat, METH_VARARGS, (char *)"ImageIsDataTypeFloat(Image img) -> bool"},
-	 { (char *)"ImageIsDataTypeInteger", _wrap_ImageIsDataTypeInteger, METH_VARARGS, (char *)"ImageIsDataTypeInteger(Image img) -> bool"},
-	 { (char *)"ImageIsDataTypePackedComplex", _wrap_ImageIsDataTypePackedComplex, METH_VARARGS, (char *)"ImageIsDataTypePackedComplex(Image img) -> bool"},
-	 { (char *)"ImageIsDataTypeReal", _wrap_ImageIsDataTypeReal, METH_VARARGS, (char *)"ImageIsDataTypeReal(Image img) -> bool"},
-	 { (char *)"ImageIsDataTypeRGB", _wrap_ImageIsDataTypeRGB, METH_VARARGS, (char *)"ImageIsDataTypeRGB(Image img) -> bool"},
-	 { (char *)"ImageIsDataTypeSignedInteger", _wrap_ImageIsDataTypeSignedInteger, METH_VARARGS, (char *)"ImageIsDataTypeSignedInteger(Image img) -> bool"},
-	 { (char *)"ImageIsDataTypeUnsignedInteger", _wrap_ImageIsDataTypeUnsignedInteger, METH_VARARGS, (char *)"ImageIsDataTypeUnsignedInteger(Image img) -> bool"},
-	 { (char *)"ImageIsDimensionCalibrationDisplayed", _wrap_ImageIsDimensionCalibrationDisplayed, METH_VARARGS, (char *)"ImageIsDimensionCalibrationDisplayed(Image im, ulong dim) -> bool"},
-	 { (char *)"ImageIsIntensityCalibrationDisplayed", _wrap_ImageIsIntensityCalibrationDisplayed, METH_VARARGS, (char *)"ImageIsIntensityCalibrationDisplayed(Image im) -> bool"},
-	 { (char *)"ImageIsValid", _wrap_ImageIsValid, METH_VARARGS, (char *)"ImageIsValid(Image image) -> bool"},
-	 { (char *)"ImageOp_ScalarCombine", _wrap_ImageOp_ScalarCombine, METH_VARARGS, (char *)"ImageOp_ScalarCombine(uint32 op, Image im1, double scalar, Image im2)"},
-	 { (char *)"ImageOp_ScalarCombineAssign", _wrap_ImageOp_ScalarCombineAssign, METH_VARARGS, (char *)"ImageOp_ScalarCombineAssign(uint32 op, double scalar, Image im)"},
-	 { (char *)"ImageSetDescriptionText", _wrap_ImageSetDescriptionText, METH_VARARGS, (char *)"ImageSetDescriptionText(Image img, Gatan::DM::String const & description)"},
-	 { (char *)"ImageSetDimensionCalibration", _wrap_ImageSetDimensionCalibration, METH_VARARGS, (char *)"ImageSetDimensionCalibration(Image argument_1, long dimenstion, float origin, float scale, Gatan::DM::String const & unitString, long calibrationFormat)"},
-	 { (char *)"ImageSetDimensionCalibrationDisplayed", _wrap_ImageSetDimensionCalibrationDisplayed, METH_VARARGS, (char *)"ImageSetDimensionCalibrationDisplayed(Image im, ulong dim, bool do_display)"},
-	 { (char *)"ImageSetDimensionOrigin", _wrap_ImageSetDimensionOrigin, METH_VARARGS, (char *)"ImageSetDimensionOrigin(Image argument_1, long dimension, float origin)"},
-	 { (char *)"ImageSetDimensionScale", _wrap_ImageSetDimensionScale, METH_VARARGS, (char *)"ImageSetDimensionScale(Image argument_1, long dimension, float scale)"},
-	 { (char *)"ImageSetDimensionUnitInfo", _wrap_ImageSetDimensionUnitInfo, METH_VARARGS, (char *)"ImageSetDimensionUnitInfo(Image argument_1, long dimension, Gatan::DM::String const & canon_units, long power)"},
-	 { (char *)"ImageSetDimensionUnitString", _wrap_ImageSetDimensionUnitString, METH_VARARGS, (char *)"ImageSetDimensionUnitString(Image argument_1, long dimension, Gatan::DM::String const & units)"},
-	 { (char *)"ImageSetIntensityCalibrationDisplayed", _wrap_ImageSetIntensityCalibrationDisplayed, METH_VARARGS, (char *)"ImageSetIntensityCalibrationDisplayed(Image im, bool do_display)"},
-	 { (char *)"ImageSetIntensityOrigin", _wrap_ImageSetIntensityOrigin, METH_VARARGS, (char *)"ImageSetIntensityOrigin(Image argument_1, float origin)"},
-	 { (char *)"ImageSetIntensityScale", _wrap_ImageSetIntensityScale, METH_VARARGS, (char *)"ImageSetIntensityScale(Image argument_1, float scale)"},
-	 { (char *)"ImageSetIntensityUnitInfo", _wrap_ImageSetIntensityUnitInfo, METH_VARARGS, (char *)"ImageSetIntensityUnitInfo(Image argument_1, Gatan::DM::String const & canon_units, long power)"},
-	 { (char *)"ImageSetIntensityUnitString", _wrap_ImageSetIntensityUnitString, METH_VARARGS, (char *)"ImageSetIntensityUnitString(Image argument_1, Gatan::DM::String const & units)"},
-	 { (char *)"ImageSetName", _wrap_ImageSetName, METH_VARARGS, (char *)"ImageSetName(Image img, Gatan::DM::String const & name)"},
-	 { (char *)"ImageWindowGetImageDocument", _wrap_ImageWindowGetImageDocument, METH_VARARGS, (char *)"ImageWindowGetImageDocument(Gatan::DM::Window const & window) -> Gatan::DM::ImageDocument"},
-	 { (char *)"InstallScriptLibraryFile", _wrap_InstallScriptLibraryFile, METH_VARARGS, (char *)"InstallScriptLibraryFile(char const * fileName) -> float"},
+	 { (char *)"ImageDocumentSetCurrentViewAsUnzoomed", _wrap_ImageDocumentSetCurrentViewAsUnzoomed, METH_VARARGS, (char *)"\n"
+		"ImageDocumentSetCurrentViewAsUnzoomed(Gatan::DM::ImageDocument const & imgDoc)\n"
+		"\n"
+		"ImageDocumentSetCurrentViewAsUnzoomed: Makes the current view the unzoomed view.\n"
+		""},
+	 { (char *)"ImageDocumentSetDoIntegralZoom", _wrap_ImageDocumentSetDoIntegralZoom, METH_VARARGS, (char *)"\n"
+		"ImageDocumentSetDoIntegralZoom(Gatan::DM::ImageDocument const & imgDoc, bool do_integral_zoom)\n"
+		"\n"
+		"ImageDocumentSetDoIntegralZoom: Sets the integral zoom flag of the image document.\n"
+		""},
+	 { (char *)"ImageDocumentSetDrawMarginsInPageMode", _wrap_ImageDocumentSetDrawMarginsInPageMode, METH_VARARGS, (char *)"\n"
+		"ImageDocumentSetDrawMarginsInPageMode(Gatan::DM::ImageDocument const & imgDoc, bool doDraw) -> bool\n"
+		"\n"
+		"ImageDocumentSetDrawMarginsInPageMode: Switches on/off drawing of paper margins for documents\n"
+		"in page mode.\n"
+		""},
+	 { (char *)"ImageDocumentSetDrawPaperInPageMode", _wrap_ImageDocumentSetDrawPaperInPageMode, METH_VARARGS, (char *)"\n"
+		"ImageDocumentSetDrawPaperInPageMode(Gatan::DM::ImageDocument const & imgDoc, bool doDraw) -> bool\n"
+		"\n"
+		"ImageDocumentSetDrawPaperInPageMode: Switches on/off drawing of paper rectangle for documents\n"
+		"in page mode.\n"
+		""},
+	 { (char *)"ImageDocumentSetFixedWindowSize", _wrap_ImageDocumentSetFixedWindowSize, METH_VARARGS, (char *)"\n"
+		"ImageDocumentSetFixedWindowSize(Gatan::DM::ImageDocument const & img_doc, double width, double height)\n"
+		"\n"
+		"ImageDocumentSetFixedWindowSize: Sets width and height of an image document and the indication\n"
+		"that the image document should use those values as a fixed size for the displayed window. This\n"
+		"function should be used before the image document is displayed for the very first time.\n"
+		""},
+	 { (char *)"ImageDocumentSetName", _wrap_ImageDocumentSetName, METH_VARARGS, (char *)"\n"
+		"ImageDocumentSetName(Gatan::DM::ImageDocument const & imgDoc, Gatan::DM::String const & name)\n"
+		"\n"
+		"ImageDocumentSetName: Sets the name of the image document.\n"
+		""},
+	 { (char *)"ImageDocumentSetOrientation", _wrap_ImageDocumentSetOrientation, METH_VARARGS, (char *)"\n"
+		"ImageDocumentSetOrientation(Gatan::DM::ImageDocument const & imgDoc, uint32 orientation) -> bool\n"
+		"\n"
+		"ImageDocumentSetOrientation: Set document orientation, 0: portrait, 1: landscape. Function return\n"
+		"true if the orientation was changed, false if there was no change.\n"
+		""},
+	 { (char *)"ImageDocumentSetRectInView", _wrap_ImageDocumentSetRectInView, METH_VARARGS, (char *)"\n"
+		"ImageDocumentSetRectInView(Gatan::DM::ImageDocument const & imgDoc, float v_t, float v_l, float v_b, float v_r, float w_t, float w_l, float w_b, float w_r)\n"
+		"\n"
+		"ImageDocumentSetRectInView: Zooms the view so the view rect (v_l,v_t,v_b,v_r) is \n"
+		"displayed in the window rect (w_l,w_t,w_b,w_r).\n"
+		""},
+	 { (char *)"ImageDocumentShow", _wrap_ImageDocumentShow, METH_VARARGS, (char *)"\n"
+		"ImageDocumentShow(Gatan::DM::ImageDocument const & imgDoc) -> Gatan::DM::Window\n"
+		"\n"
+		"ImageDocumentShow: Shows the given image document.\n"
+		""},
+	 { (char *)"ImageDocumentShowAtPosition", _wrap_ImageDocumentShowAtPosition, METH_VARARGS, (char *)"\n"
+		"ImageDocumentShowAtPosition(Gatan::DM::ImageDocument const & imgDoc, long x, long y) -> Gatan::DM::Window\n"
+		"\n"
+		"ImageDocumentShowAtPosition: Shows the given image document at the application position \n"
+		"(x,y).\n"
+		""},
+	 { (char *)"ImageDocumentShowAtRect", _wrap_ImageDocumentShowAtRect, METH_VARARGS, (char *)"\n"
+		"ImageDocumentShowAtRect(Gatan::DM::ImageDocument const & imgDoc, long top, long left, long bottom, long right) -> Gatan::DM::Window\n"
+		"\n"
+		"ImageDocumentShowAtRect: Shows the given image document at the rect \n"
+		"(top,left,bottom,right).\n"
+		""},
+	 { (char *)"ImageDocumentSwitchToImageMode", _wrap_ImageDocumentSwitchToImageMode, METH_VARARGS, (char *)"\n"
+		"ImageDocumentSwitchToImageMode(Gatan::DM::ImageDocument const & imgDoc, Gatan::DM::ImageDisplay const & imgDisp)\n"
+		"\n"
+		"ImageDocumentSwitchToImageMode: Switches the view of the document to image mode focused \n"
+		"on the display 'imgDisp'.\n"
+		""},
+	 { (char *)"ImageDocumentSwitchToPageMode", _wrap_ImageDocumentSwitchToPageMode, METH_VARARGS, (char *)"\n"
+		"ImageDocumentSwitchToPageMode(Gatan::DM::ImageDocument const & imgDoc)\n"
+		"\n"
+		"ImageDocumentSwitchToPageMode: Switches the view of the document to page mode.\n"
+		""},
+	 { (char *)"ImageDocumentUnsetFixedWindowSize", _wrap_ImageDocumentUnsetFixedWindowSize, METH_VARARGS, (char *)"\n"
+		"ImageDocumentUnsetFixedWindowSize(Gatan::DM::ImageDocument const & img_doc)\n"
+		"\n"
+		"ImageDocumentUnsetFixedWindowSize: Unsets the indication that the image document will be displayed\n"
+		"with a fixed, nonresizable window size. Function should be used before an image document is\n"
+		"displayed for the very first time.\n"
+		""},
+	 { (char *)"ImageDocumentUpdateDisplay", _wrap_ImageDocumentUpdateDisplay, METH_VARARGS, (char *)"\n"
+		"ImageDocumentUpdateDisplay(Gatan::DM::ImageDocument const & imgDoc)\n"
+		"\n"
+		"ImageDocumentUpdateDisplay: Updates the display of the image document.\n"
+		""},
+	 { (char *)"ImageGetDataElementBitSize", _wrap_ImageGetDataElementBitSize, METH_VARARGS, (char *)"\n"
+		"ImageGetDataElementBitSize(Image img) -> ulong\n"
+		"\n"
+		"ImageGetDataElementBitSize: Returns the size of the data elements in bits.\n"
+		""},
+	 { (char *)"ImageGetDataElementByteSize", _wrap_ImageGetDataElementByteSize, METH_VARARGS, (char *)"\n"
+		"ImageGetDataElementByteSize(Image img) -> ulong\n"
+		"\n"
+		"ImageGetDataElementByteSize: Returns the smallest number of bytes that can hold a data \n"
+		"element.\n"
+		""},
+	 { (char *)"ImageGetDataSeed", _wrap_ImageGetDataSeed, METH_VARARGS, (char *)"\n"
+		"ImageGetDataSeed(Image img) -> ulong\n"
+		"\n"
+		"ImageGetDataSeed: Gets the seed of the image data.\n"
+		""},
+	 { (char *)"ImageGetDataType", _wrap_ImageGetDataType, METH_VARARGS, (char *)"\n"
+		"ImageGetDataType(Image img) -> ulong\n"
+		"\n"
+		"ImageGetDataType: Returns a long representing the data type.\n"
+		""},
+	 { (char *)"ImageGetDescriptionText", _wrap_ImageGetDescriptionText, METH_VARARGS, (char *)"\n"
+		"ImageGetDescriptionText(Image img) -> Gatan::DM::String\n"
+		"\n"
+		"ImageGetDescriptionText: Gets the description text associated with the image.\n"
+		""},
+	 { (char *)"ImageGetDimensionCalibration", _wrap_ImageGetDimensionCalibration, METH_VARARGS, (char *)"\n"
+		"ImageGetDimensionCalibration(Image argument_1, long dimension, float * origin, float * scale, Gatan::DM::String & units, long calibrationFormat)\n"
+		"\n"
+		"ImageGetDimensionCalibration: Gets the calibration information of the given dimension.\n"
+		""},
+	 { (char *)"ImageGetDimensionOrigin", _wrap_ImageGetDimensionOrigin, METH_VARARGS, (char *)"\n"
+		"ImageGetDimensionOrigin(Image argument_1, long dimension) -> float\n"
+		"\n"
+		"ImageGetDimensionOrigin: Returns the origin of the given dimension of image.\n"
+		""},
+	 { (char *)"ImageGetDimensionScale", _wrap_ImageGetDimensionScale, METH_VARARGS, (char *)"\n"
+		"ImageGetDimensionScale(Image argument_1, long dimension) -> float\n"
+		"\n"
+		"ImageGetDimensionScale: Returns the scale of the given dimension of image.\n"
+		""},
+	 { (char *)"ImageGetDimensionSize", _wrap_ImageGetDimensionSize, METH_VARARGS, (char *)"\n"
+		"ImageGetDimensionSize(Image argument_1, ulong dimension) -> ulong\n"
+		"\n"
+		"ImageGetDimensionSize: Gets the size of the given dimension.\n"
+		""},
+	 { (char *)"ImageGetDimensionUnitInfo", _wrap_ImageGetDimensionUnitInfo, METH_VARARGS, (char *)"\n"
+		"ImageGetDimensionUnitInfo(Image argument_1, long dimension, Gatan::DM::String & canon_units, long * power)\n"
+		"\n"
+		"ImageGetDimensionUnitInfo: Copies the unit string of the given dimension of image to the \n"
+		"buffer.\n"
+		""},
+	 { (char *)"ImageGetDimensionUnitString", _wrap_ImageGetDimensionUnitString, METH_VARARGS, (char *)"\n"
+		"ImageGetDimensionUnitString(Image argument_1, long dimension) -> Gatan::DM::String\n"
+		"\n"
+		"ImageGetDimensionUnitString: Copies the unit string of the given dimension of image to \n"
+		"the buffer.\n"
+		""},
+	 { (char *)"ImageGetID", _wrap_ImageGetID, METH_VARARGS, (char *)"\n"
+		"ImageGetID(Image argument_1) -> ulong\n"
+		"\n"
+		"ImageGetID: Returns a unique identifier for the image.\n"
+		""},
+	 { (char *)"ImageGetImageDisplay", _wrap_ImageGetImageDisplay, METH_VARARGS, (char *)"\n"
+		"ImageGetImageDisplay(Image argument_1, long index) -> Gatan::DM::ImageDisplay\n"
+		"\n"
+		"ImageGetImageDisplay: Returns the given image display in which this image is displayed.\n"
+		""},
+	 { (char *)"ImageGetImageDisplayInImageDocument", _wrap_ImageGetImageDisplayInImageDocument, METH_VARARGS, (char *)"\n"
+		"ImageGetImageDisplayInImageDocument(Image argument_1, Gatan::DM::ImageDocument const & imgDoc, long index) -> Gatan::DM::ImageDisplay\n"
+		"\n"
+		"ImageGetImageDisplayInImageDocument: Returns the given image display in the image \n"
+		"document in which this image is displayed.\n"
+		""},
+	 { (char *)"ImageGetIntensityOrigin", _wrap_ImageGetIntensityOrigin, METH_VARARGS, (char *)"\n"
+		"ImageGetIntensityOrigin(Image argument_1) -> float\n"
+		"\n"
+		"ImageGetIntensityOrigin: Returns the origin of image's intensity.\n"
+		""},
+	 { (char *)"ImageGetIntensityScale", _wrap_ImageGetIntensityScale, METH_VARARGS, (char *)"\n"
+		"ImageGetIntensityScale(Image argument_1) -> float\n"
+		"\n"
+		"ImageGetIntensityScale: Returns the scale of image's intensity.\n"
+		""},
+	 { (char *)"ImageGetIntensityUnitInfo", _wrap_ImageGetIntensityUnitInfo, METH_VARARGS, (char *)"\n"
+		"ImageGetIntensityUnitInfo(Image argument_1, Gatan::DM::String & canon_units, long * power)\n"
+		"\n"
+		"ImageGetIntensityUnitInfo: Copies the unit string of image's intensity to the buffer.\n"
+		""},
+	 { (char *)"ImageGetIntensityUnitString", _wrap_ImageGetIntensityUnitString, METH_VARARGS, (char *)"\n"
+		"ImageGetIntensityUnitString(Image argument_1) -> Gatan::DM::String\n"
+		"\n"
+		"ImageGetIntensityUnitString: Returns the units of the image's intensity.\n"
+		""},
+	 { (char *)"ImageGetLabel", _wrap_ImageGetLabel, METH_VARARGS, (char *)"\n"
+		"ImageGetLabel(Image img) -> Gatan::DM::String\n"
+		"\n"
+		"ImageGetLabel: Gets the label of the image as used in scripts.\n"
+		""},
+	 { (char *)"ImageGetName", _wrap_ImageGetName, METH_VARARGS, (char *)"\n"
+		"ImageGetName(Image img) -> Gatan::DM::String\n"
+		"\n"
+		"ImageGetName: Gets the name of the image.\n"
+		""},
+	 { (char *)"ImageGetNumDimensions", _wrap_ImageGetNumDimensions, METH_VARARGS, (char *)"\n"
+		"ImageGetNumDimensions(Image argument_1) -> ulong\n"
+		"\n"
+		"ImageGetNumDimensions: Returns number of dimensions of the image.\n"
+		""},
+	 { (char *)"ImageGetOrCreateImageDocument", _wrap_ImageGetOrCreateImageDocument, METH_VARARGS, (char *)"\n"
+		"ImageGetOrCreateImageDocument(Image im) -> Gatan::DM::ImageDocument\n"
+		"\n"
+		"ImageGetOrCreateImageDocument: Returns an image document containing the image, creating \n"
+		"one if necessary.\n"
+		""},
+	 { (char *)"ImageSetActiveSubArea", _wrap_ImageSetActiveSubArea, METH_VARARGS, (char *)"\n"
+		"ImageSetActiveSubArea(Image im, bool setSubArea, long top, long left, long bottom, long right)\n"
+		"\n"
+		"ImageSetActiveSubArea: Sets the area to use for surveying the image data.\n"
+		""},
+	 { (char *)"ImageGetTagGroup", _wrap_ImageGetTagGroup, METH_VARARGS, (char *)"\n"
+		"ImageGetTagGroup(Image img) -> TagGroup\n"
+		"\n"
+		"ImageGetTagGroup: Gets the tags associated with the image.\n"
+		""},
+	 { (char *)"ImageGetUniqueID", _wrap_ImageGetUniqueID, METH_VARARGS, (char *)"\n"
+		"ImageGetUniqueID(Image image) -> Gatan::DM::ScriptObject\n"
+		"\n"
+		"ImageGetUniqueID: Returns the unique ID for this image. This id is globally unique \n"
+		"across sessions and locations.\n"
+		""},
+	 { (char *)"ImageIsDataTypeBinary", _wrap_ImageIsDataTypeBinary, METH_VARARGS, (char *)"\n"
+		"ImageIsDataTypeBinary(Image img) -> bool\n"
+		"\n"
+		"ImageIsDataTypeBinary: Returns true if the data in the image is binary.\n"
+		""},
+	 { (char *)"ImageIsDataTypeComplex", _wrap_ImageIsDataTypeComplex, METH_VARARGS, (char *)"\n"
+		"ImageIsDataTypeComplex(Image img) -> bool\n"
+		"\n"
+		"ImageIsDataTypeComplex: Returns true if the data in the image is complex.\n"
+		""},
+	 { (char *)"ImageIsDataTypeFloat", _wrap_ImageIsDataTypeFloat, METH_VARARGS, (char *)"\n"
+		"ImageIsDataTypeFloat(Image img) -> bool\n"
+		"\n"
+		"ImageIsDataTypeFloat: Returns true if the data in the image is floating point.\n"
+		""},
+	 { (char *)"ImageIsDataTypeInteger", _wrap_ImageIsDataTypeInteger, METH_VARARGS, (char *)"\n"
+		"ImageIsDataTypeInteger(Image img) -> bool\n"
+		"\n"
+		"ImageIsDataTypeInteger: Returns true if the data in the image is integral.\n"
+		""},
+	 { (char *)"ImageIsDataTypePackedComplex", _wrap_ImageIsDataTypePackedComplex, METH_VARARGS, (char *)"\n"
+		"ImageIsDataTypePackedComplex(Image img) -> bool\n"
+		"\n"
+		"ImageIsDataTypePackedComplex: Returns true if the data in the image is packed complex.\n"
+		""},
+	 { (char *)"ImageIsDataTypeReal", _wrap_ImageIsDataTypeReal, METH_VARARGS, (char *)"\n"
+		"ImageIsDataTypeReal(Image img) -> bool\n"
+		"\n"
+		"ImageIsDataTypeReal: Returns true if the data in the image is real.\n"
+		""},
+	 { (char *)"ImageIsDataTypeRGB", _wrap_ImageIsDataTypeRGB, METH_VARARGS, (char *)"\n"
+		"ImageIsDataTypeRGB(Image img) -> bool\n"
+		"\n"
+		"ImageIsDataTypeRGB: Returns true if the data in the image is rgb.\n"
+		""},
+	 { (char *)"ImageIsDataTypeSignedInteger", _wrap_ImageIsDataTypeSignedInteger, METH_VARARGS, (char *)"\n"
+		"ImageIsDataTypeSignedInteger(Image img) -> bool\n"
+		"\n"
+		"ImageIsDataTypeSignedInteger: Returns true if the data in the image is integral and \n"
+		"signed.\n"
+		""},
+	 { (char *)"ImageIsDataTypeUnsignedInteger", _wrap_ImageIsDataTypeUnsignedInteger, METH_VARARGS, (char *)"\n"
+		"ImageIsDataTypeUnsignedInteger(Image img) -> bool\n"
+		"\n"
+		"ImageIsDataTypeUnsignedInteger: Returns true if the data in the image is integral and \n"
+		"unsigned.\n"
+		""},
+	 { (char *)"ImageIsDimensionCalibrationDisplayed", _wrap_ImageIsDimensionCalibrationDisplayed, METH_VARARGS, (char *)"\n"
+		"ImageIsDimensionCalibrationDisplayed(Image im, ulong dim) -> bool\n"
+		"\n"
+		"ImageIsDimensionCalibrationDisplayed: Returns 'true' if the calibration of the 'dim'th \n"
+		"dimension is displayed.\n"
+		""},
+	 { (char *)"ImageIsIntensityCalibrationDisplayed", _wrap_ImageIsIntensityCalibrationDisplayed, METH_VARARGS, (char *)"\n"
+		"ImageIsIntensityCalibrationDisplayed(Image im) -> bool\n"
+		"\n"
+		"ImageIsIntensityCalibrationDisplayed: Returns 'true' if the calibration of the intensity \n"
+		"is displayed.\n"
+		""},
+	 { (char *)"ImageIsValid", _wrap_ImageIsValid, METH_VARARGS, (char *)"\n"
+		"ImageIsValid(Image image) -> bool\n"
+		"\n"
+		"ImageIsValid: Returns true if 'image' is a valid object.\n"
+		""},
+	 { (char *)"ImageOp_ScalarCombine", _wrap_ImageOp_ScalarCombine, METH_VARARGS, (char *)"\n"
+		"ImageOp_ScalarCombine(uint32 op, Image im1, double scalar, Image im2)\n"
+		"\n"
+		"ImageOp_ScalarCombine: add/multiply image 1 with scalar and assign result to image 2\n"
+		"op is add:0, mul:2\n"
+		""},
+	 { (char *)"ImageOp_ScalarCombineAssign", _wrap_ImageOp_ScalarCombineAssign, METH_VARARGS, (char *)"\n"
+		"ImageOp_ScalarCombineAssign(uint32 op, double scalar, Image im)\n"
+		"\n"
+		"ImageOp_ScalarCombineAssign: add/multiply image with scalar\n"
+		"op is add:0, mul:2\n"
+		""},
+	 { (char *)"ImageSetDescriptionText", _wrap_ImageSetDescriptionText, METH_VARARGS, (char *)"\n"
+		"ImageSetDescriptionText(Image img, Gatan::DM::String const & description)\n"
+		"\n"
+		"ImageSetDescriptionText: Sets the description text associated with the image.\n"
+		""},
+	 { (char *)"ImageSetDimensionCalibration", _wrap_ImageSetDimensionCalibration, METH_VARARGS, (char *)"\n"
+		"ImageSetDimensionCalibration(Image argument_1, long dimenstion, float origin, float scale, Gatan::DM::String const & unitString, long calibrationFormat)\n"
+		"\n"
+		"ImageSetDimensionCalibration: Sets the calibration for the given dimension.\n"
+		""},
+	 { (char *)"ImageSetDimensionCalibrationDisplayed", _wrap_ImageSetDimensionCalibrationDisplayed, METH_VARARGS, (char *)"\n"
+		"ImageSetDimensionCalibrationDisplayed(Image im, ulong dim, bool do_display)\n"
+		"\n"
+		"ImageSetDimensionCalibrationDisplayed: Sets whether or not to display the 'dim'th \n"
+		"dimension in calibrated units to 'do_display'.\n"
+		""},
+	 { (char *)"ImageSetDimensionOrigin", _wrap_ImageSetDimensionOrigin, METH_VARARGS, (char *)"\n"
+		"ImageSetDimensionOrigin(Image argument_1, long dimension, float origin)\n"
+		"\n"
+		"ImageSetDimensionOrigin: Sets the origin of the given dimension of image.\n"
+		""},
+	 { (char *)"ImageSetDimensionScale", _wrap_ImageSetDimensionScale, METH_VARARGS, (char *)"\n"
+		"ImageSetDimensionScale(Image argument_1, long dimension, float scale)\n"
+		"\n"
+		"ImageSetDimensionScale: Sets the scale of the given dimension of image.\n"
+		""},
+	 { (char *)"ImageSetDimensionUnitInfo", _wrap_ImageSetDimensionUnitInfo, METH_VARARGS, (char *)"\n"
+		"ImageSetDimensionUnitInfo(Image argument_1, long dimension, Gatan::DM::String const & canon_units, long power)\n"
+		"\n"
+		"ImageSetDimensionUnitInfo: Sets the unit string of the given dimension of image.\n"
+		""},
+	 { (char *)"ImageSetDimensionUnitString", _wrap_ImageSetDimensionUnitString, METH_VARARGS, (char *)"\n"
+		"ImageSetDimensionUnitString(Image argument_1, long dimension, Gatan::DM::String const & units)\n"
+		"\n"
+		"ImageSetDimensionUnitString: Sets the unit string of the given dimension of image.\n"
+		""},
+	 { (char *)"ImageSetIntensityCalibrationDisplayed", _wrap_ImageSetIntensityCalibrationDisplayed, METH_VARARGS, (char *)"\n"
+		"ImageSetIntensityCalibrationDisplayed(Image im, bool do_display)\n"
+		"\n"
+		"ImageSetIntensityCalibrationDisplayed: Sets whether or not to display the intensity in \n"
+		"calibrated units to 'do_display'.\n"
+		""},
+	 { (char *)"ImageSetIntensityOrigin", _wrap_ImageSetIntensityOrigin, METH_VARARGS, (char *)"\n"
+		"ImageSetIntensityOrigin(Image argument_1, float origin)\n"
+		"\n"
+		"ImageSetIntensityOrigin: Sets the origin of image's intensity.\n"
+		""},
+	 { (char *)"ImageSetIntensityScale", _wrap_ImageSetIntensityScale, METH_VARARGS, (char *)"\n"
+		"ImageSetIntensityScale(Image argument_1, float scale)\n"
+		"\n"
+		"ImageSetIntensityScale: Sets the scale of image's intensity.\n"
+		""},
+	 { (char *)"ImageSetIntensityUnitInfo", _wrap_ImageSetIntensityUnitInfo, METH_VARARGS, (char *)"\n"
+		"ImageSetIntensityUnitInfo(Image argument_1, Gatan::DM::String const & canon_units, long power)\n"
+		"\n"
+		"ImageSetIntensityUnitInfo: Sets the unit string of image's intensity.\n"
+		""},
+	 { (char *)"ImageSetIntensityUnitString", _wrap_ImageSetIntensityUnitString, METH_VARARGS, (char *)"\n"
+		"ImageSetIntensityUnitString(Image argument_1, Gatan::DM::String const & units)\n"
+		"\n"
+		"ImageSetIntensityUnitString: Sets the unit string of image's intensity.\n"
+		""},
+	 { (char *)"ImageSetName", _wrap_ImageSetName, METH_VARARGS, (char *)"\n"
+		"ImageSetName(Image img, Gatan::DM::String const & name)\n"
+		"\n"
+		"ImageSetName: Sets the name of the image.\n"
+		""},
+	 { (char *)"ImageWindowGetImageDocument", _wrap_ImageWindowGetImageDocument, METH_VARARGS, (char *)"\n"
+		"ImageWindowGetImageDocument(Gatan::DM::Window const & window) -> Gatan::DM::ImageDocument\n"
+		"\n"
+		"ImageWindowGetImageDocument: Gets the image document displayed in the window.\n"
+		""},
+	 { (char *)"InstallScriptLibraryFile", _wrap_InstallScriptLibraryFile, METH_VARARGS, (char *)"\n"
+		"InstallScriptLibraryFile(char const * fileName) -> float\n"
+		"\n"
+		"InstallScriptLibraryFile: Loads the script file indicated by fileName, executes it, and \n"
+		"publishes any functions contained inside. Always returns 0.\n"
+		""},
 	 { (char *)"IntegerImage", _wrap_IntegerImage, METH_VARARGS, (char *)"\n"
 		"IntegerImage(char const * title, long bytes, bool isSigned, long d0, long d1, long d2, long d3) -> Image\n"
 		"IntegerImage(char const * title, long bytes, bool isSigned, long d0, long d1, long d2) -> Image\n"
 		"IntegerImage(char const * title, long bytes, bool isSigned, long d0, long d1) -> Image\n"
 		"IntegerImage(char const * title, long bytes, bool isSigned, long d0) -> Image\n"
+		"\n"
+		"IntegerImage: Creates a 2D integer image of size [d0,d1] with the given title. The bytes \n"
+		"and isSigned parameters specify integer specific attributes of the data.\n"
 		""},
-	 { (char *)"Is2DDisplay", _wrap_Is2DDisplay, METH_VARARGS, (char *)"Is2DDisplay(Image argument_1) -> bool"},
-	 { (char *)"IsBinaryDataType", _wrap_IsBinaryDataType, METH_VARARGS, (char *)"IsBinaryDataType(Image argument_1) -> bool"},
-	 { (char *)"IsByteImage", _wrap_IsByteImage, METH_VARARGS, (char *)"IsByteImage(Image argument_1) -> bool"},
-	 { (char *)"IsComplexDataType", _wrap_IsComplexDataType, METH_VARARGS, (char *)"IsComplexDataType(Image argument_1, long bytes) -> bool"},
-	 { (char *)"IsComplexImage", _wrap_IsComplexImage, METH_VARARGS, (char *)"IsComplexImage(Image argument_1) -> bool"},
-	 { (char *)"IsDisplayValid", _wrap_IsDisplayValid, METH_VARARGS, (char *)"IsDisplayValid(Image argument_1) -> bool"},
-	 { (char *)"IsExceptionUserAbort", _wrap_IsExceptionUserAbort, METH_VARARGS, (char *)"IsExceptionUserAbort() -> bool"},
-	 { (char *)"IsFloatImage", _wrap_IsFloatImage, METH_VARARGS, (char *)"IsFloatImage(Image argument_1) -> bool"},
-	 { (char *)"IsImageComplex", _wrap_IsImageComplex, METH_VARARGS, (char *)"IsImageComplex(long id) -> bool"},
-	 { (char *)"IsImageReal", _wrap_IsImageReal, METH_VARARGS, (char *)"IsImageReal(long id) -> bool"},
-	 { (char *)"IsImageRGB", _wrap_IsImageRGB, METH_VARARGS, (char *)"IsImageRGB(long id) -> bool"},
-	 { (char *)"IsIntegerDataType", _wrap_IsIntegerDataType, METH_VARARGS, (char *)"IsIntegerDataType(Image argument_1, long bytes, bool isSigned) -> bool"},
-	 { (char *)"IsLongImage", _wrap_IsLongImage, METH_VARARGS, (char *)"IsLongImage(Image argument_1) -> bool"},
-	 { (char *)"IsPackedComplexImage", _wrap_IsPackedComplexImage, METH_VARARGS, (char *)"IsPackedComplexImage(Image argument_1) -> bool"},
-	 { (char *)"IsRealDataType", _wrap_IsRealDataType, METH_VARARGS, (char *)"IsRealDataType(Image argument_1, long bytes) -> bool"},
-	 { (char *)"IsRGBDataType", _wrap_IsRGBDataType, METH_VARARGS, (char *)"IsRGBDataType(Image argument_1, long bytes) -> bool"},
-	 { (char *)"IsShortImage", _wrap_IsShortImage, METH_VARARGS, (char *)"IsShortImage(Image argument_1) -> bool"},
-	 { (char *)"KeepImage", _wrap_KeepImage, METH_VARARGS, (char *)"KeepImage(Image argument_1)"},
-	 { (char *)"LinePlotImageDisplayCountSlices", _wrap_LinePlotImageDisplayCountSlices, METH_VARARGS, (char *)"LinePlotImageDisplayCountSlices(Gatan::DM::LinePlotImageDisplay const & lpid) -> long"},
-	 { (char *)"LinePlotImageDisplayGetBaseIntensity", _wrap_LinePlotImageDisplayGetBaseIntensity, METH_VARARGS, (char *)"LinePlotImageDisplayGetBaseIntensity(Gatan::DM::LinePlotImageDisplay const & lpid) -> double"},
-	 { (char *)"LinePlotImageDisplayGetContrastLimits", _wrap_LinePlotImageDisplayGetContrastLimits, METH_VARARGS, (char *)"LinePlotImageDisplayGetContrastLimits(Gatan::DM::LinePlotImageDisplay const & lpid, float * lowLimit, float * highLimit)"},
-	 { (char *)"LinePlotImageDisplayGetDisplayedChannels", _wrap_LinePlotImageDisplayGetDisplayedChannels, METH_VARARGS, (char *)"LinePlotImageDisplayGetDisplayedChannels(Gatan::DM::LinePlotImageDisplay const & lpid, float * leftChannel, float * rightChannel)"},
-	 { (char *)"LinePlotImageDisplayGetDoAutoSurvey", _wrap_LinePlotImageDisplayGetDoAutoSurvey, METH_VARARGS, (char *)"LinePlotImageDisplayGetDoAutoSurvey(Gatan::DM::LinePlotImageDisplay const & lpid, bool * doAutoSurveyLow, bool * doAutoSurveyHigh)"},
-	 { (char *)"LinePlotImageDisplayGetImageToGroupTransform", _wrap_LinePlotImageDisplayGetImageToGroupTransform, METH_VARARGS, (char *)"LinePlotImageDisplayGetImageToGroupTransform(Gatan::DM::LinePlotImageDisplay const & lpid, Gatan::DM::ScriptObject const & slice_id, Gatan::DM::ScriptObject const & ref_id, double * off_val, double * scale_val, double * off_dim_0, double * scale_dim_0)"},
-	 { (char *)"LinePlotImageDisplayGetSlice", _wrap_LinePlotImageDisplayGetSlice, METH_VARARGS, (char *)"LinePlotImageDisplayGetSlice(Gatan::DM::LinePlotImageDisplay const & lpid) -> long"},
-	 { (char *)"LinePlotImageDisplayGetSliceComponentColor", _wrap_LinePlotImageDisplayGetSliceComponentColor, METH_VARARGS, (char *)"LinePlotImageDisplayGetSliceComponentColor(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, long comp_index, double * r, double * g, double * b)"},
-	 { (char *)"LinePlotImageDisplayGetSliceDrawingStyle", _wrap_LinePlotImageDisplayGetSliceDrawingStyle, METH_VARARGS, (char *)"LinePlotImageDisplayGetSliceDrawingStyle(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index) -> long"},
-	 { (char *)"LinePlotImageDisplayGetTrackingStyle", _wrap_LinePlotImageDisplayGetTrackingStyle, METH_VARARGS, (char *)"LinePlotImageDisplayGetTrackingStyle(Gatan::DM::LinePlotImageDisplay const & lpid, uint16 * track_style_x, uint16 * track_style_y)"},
-	 { (char *)"LinePlotImageDisplayGetSliceTransparency", _wrap_LinePlotImageDisplayGetSliceTransparency, METH_VARARGS, (char *)"LinePlotImageDisplayGetSliceTransparency(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, bool * doTransparent, double * transparency)"},
-	 { (char *)"LinePlotImageDisplayGetSliceTransparencyStyle", _wrap_LinePlotImageDisplayGetSliceTransparencyStyle, METH_VARARGS, (char *)"LinePlotImageDisplayGetSliceTransparencyStyle(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, uint32 * transparencyStyle)"},
-	 { (char *)"LinePlotImageDisplayGetSliceLineThickness", _wrap_LinePlotImageDisplayGetSliceLineThickness, METH_VARARGS, (char *)"LinePlotImageDisplayGetSliceLineThickness(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index) -> long"},
-	 { (char *)"LinePlotImageDisplayIsBackgroundOn", _wrap_LinePlotImageDisplayIsBackgroundOn, METH_VARARGS, (char *)"LinePlotImageDisplayIsBackgroundOn(Gatan::DM::LinePlotImageDisplay const & lpid) -> bool"},
-	 { (char *)"LinePlotImageDisplayIsFilled", _wrap_LinePlotImageDisplayIsFilled, METH_VARARGS, (char *)"LinePlotImageDisplayIsFilled(Gatan::DM::LinePlotImageDisplay const & lpid) -> bool"},
-	 { (char *)"LinePlotImageDisplayIsFrameOn", _wrap_LinePlotImageDisplayIsFrameOn, METH_VARARGS, (char *)"LinePlotImageDisplayIsFrameOn(Gatan::DM::LinePlotImageDisplay const & lpid) -> bool"},
-	 { (char *)"LinePlotImageDisplayIsGridOn", _wrap_LinePlotImageDisplayIsGridOn, METH_VARARGS, (char *)"LinePlotImageDisplayIsGridOn(Gatan::DM::LinePlotImageDisplay const & lpid) -> bool"},
-	 { (char *)"LinePlotImageDisplaySetBackgroundOn", _wrap_LinePlotImageDisplaySetBackgroundOn, METH_VARARGS, (char *)"LinePlotImageDisplaySetBackgroundOn(Gatan::DM::LinePlotImageDisplay const & lpid, bool on)"},
-	 { (char *)"LinePlotImageDisplaySetBaseIntensity", _wrap_LinePlotImageDisplaySetBaseIntensity, METH_VARARGS, (char *)"LinePlotImageDisplaySetBaseIntensity(Gatan::DM::LinePlotImageDisplay const & lpid, double base_intensity)"},
-	 { (char *)"LinePlotImageDisplaySetContrastLimits", _wrap_LinePlotImageDisplaySetContrastLimits, METH_VARARGS, (char *)"LinePlotImageDisplaySetContrastLimits(Gatan::DM::LinePlotImageDisplay const & lpid, float lowLimit, float highLimit)"},
-	 { (char *)"LinePlotImageDisplaySetDisplayedChannels", _wrap_LinePlotImageDisplaySetDisplayedChannels, METH_VARARGS, (char *)"LinePlotImageDisplaySetDisplayedChannels(Gatan::DM::LinePlotImageDisplay const & lpid, float leftChannel, float rightChannel)"},
-	 { (char *)"LinePlotImageDisplaySetDoAutoSurvey", _wrap_LinePlotImageDisplaySetDoAutoSurvey, METH_VARARGS, (char *)"LinePlotImageDisplaySetDoAutoSurvey(Gatan::DM::LinePlotImageDisplay const & lpid, bool doAutoSurveyLow, bool doAutoSurveyHigh)"},
-	 { (char *)"LinePlotImageDisplaySetFilled", _wrap_LinePlotImageDisplaySetFilled, METH_VARARGS, (char *)"LinePlotImageDisplaySetFilled(Gatan::DM::LinePlotImageDisplay const & lpid, bool on)"},
-	 { (char *)"LinePlotImageDisplaySetFrameOn", _wrap_LinePlotImageDisplaySetFrameOn, METH_VARARGS, (char *)"LinePlotImageDisplaySetFrameOn(Gatan::DM::LinePlotImageDisplay const & lpid, bool on)"},
-	 { (char *)"LinePlotImageDisplaySetGridOn", _wrap_LinePlotImageDisplaySetGridOn, METH_VARARGS, (char *)"LinePlotImageDisplaySetGridOn(Gatan::DM::LinePlotImageDisplay const & lpid, bool on)"},
-	 { (char *)"LinePlotImageDisplaySetImageToGroupTransform", _wrap_LinePlotImageDisplaySetImageToGroupTransform, METH_VARARGS, (char *)"LinePlotImageDisplaySetImageToGroupTransform(Gatan::DM::LinePlotImageDisplay const & lpid, Gatan::DM::ScriptObject const & slice_id, Gatan::DM::ScriptObject const & ref_id, double off_val, double scale_val, double off_dim_0, double scale_dim_0)"},
-	 { (char *)"LinePlotImageDisplaySetLegendShown", _wrap_LinePlotImageDisplaySetLegendShown, METH_VARARGS, (char *)"LinePlotImageDisplaySetLegendShown(Gatan::DM::LinePlotImageDisplay const & lpid, bool on)"},
-	 { (char *)"LinePlotImageDisplaySetSlice", _wrap_LinePlotImageDisplaySetSlice, METH_VARARGS, (char *)"LinePlotImageDisplaySetSlice(Gatan::DM::LinePlotImageDisplay const & lpid, long slice)"},
-	 { (char *)"LinePlotImageDisplaySetSliceComponentColor", _wrap_LinePlotImageDisplaySetSliceComponentColor, METH_VARARGS, (char *)"LinePlotImageDisplaySetSliceComponentColor(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, long comp_index, double r, double g, double b)"},
-	 { (char *)"LinePlotImageDisplaySetSliceDrawingStyle", _wrap_LinePlotImageDisplaySetSliceDrawingStyle, METH_VARARGS, (char *)"LinePlotImageDisplaySetSliceDrawingStyle(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, long style)"},
-	 { (char *)"LinePlotImageDisplaySetSliceTransparency", _wrap_LinePlotImageDisplaySetSliceTransparency, METH_VARARGS, (char *)"LinePlotImageDisplaySetSliceTransparency(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, bool doTransparent, double transparency)"},
-	 { (char *)"LinePlotImageDisplaySetSliceTransparencyStyle", _wrap_LinePlotImageDisplaySetSliceTransparencyStyle, METH_VARARGS, (char *)"LinePlotImageDisplaySetSliceTransparencyStyle(Gatan::DM::LinePlotImageDisplay const & lpid, uint32 slice_index, uint32 transparencyStyle)"},
-	 { (char *)"LinePlotImageDisplaySetSliceLineThickness", _wrap_LinePlotImageDisplaySetSliceLineThickness, METH_VARARGS, (char *)"LinePlotImageDisplaySetSliceLineThickness(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, long thickness)"},
-	 { (char *)"LinePlotImageDisplaySetTrackingStyle", _wrap_LinePlotImageDisplaySetTrackingStyle, METH_VARARGS, (char *)"LinePlotImageDisplaySetTrackingStyle(Gatan::DM::LinePlotImageDisplay const & lpid, uint16 track_style_x, uint16 track_style_y)"},
-	 { (char *)"LUDecomposition", _wrap_LUDecomposition, METH_VARARGS, (char *)"LUDecomposition(Image a, Image b) -> Image"},
-	 { (char *)"MaintainStatus", _wrap_MaintainStatus, METH_VARARGS, (char *)"MaintainStatus()"},
-	 { (char *)"MatrixDeterminant", _wrap_MatrixDeterminant, METH_VARARGS, (char *)"MatrixDeterminant(Image a) -> float"},
-	 { (char *)"MatrixInverse", _wrap_MatrixInverse, METH_VARARGS, (char *)"MatrixInverse(Image a) -> Image"},
-	 { (char *)"MatrixMultiply", _wrap_MatrixMultiply, METH_VARARGS, (char *)"MatrixMultiply(Image a, Image b) -> Image"},
-	 { (char *)"MatrixPrint", _wrap_MatrixPrint, METH_VARARGS, (char *)"MatrixPrint(Image a)"},
-	 { (char *)"MatrixTranspose", _wrap_MatrixTranspose, METH_VARARGS, (char *)"MatrixTranspose(Image a) -> Image"},
-	 { (char *)"MedianFilter", _wrap_MedianFilter, METH_VARARGS, (char *)"MedianFilter(Image source, long filterType, long size) -> Image"},
-	 { (char *)"ModelessDialog", _wrap_ModelessDialog, METH_VARARGS, (char *)"ModelessDialog(char const * prompt, char const * buttonName, long semaphore)"},
-	 { (char *)"ModelessFFT", _wrap_ModelessFFT, METH_VARARGS, (char *)"ModelessFFT(Image argument_1, bool reduce)"},
-	 { (char *)"MPClose", _wrap_MPClose, METH_VARARGS, (char *)"MPClose(Image image, long neighbors) -> Image"},
-	 { (char *)"MPDilate", _wrap_MPDilate, METH_VARARGS, (char *)"MPDilate(Image image, long neighbors) -> Image"},
-	 { (char *)"MPDistanceMap", _wrap_MPDistanceMap, METH_VARARGS, (char *)"MPDistanceMap(Image image) -> Image"},
-	 { (char *)"MPErode", _wrap_MPErode, METH_VARARGS, (char *)"MPErode(Image image, long neighbors) -> Image"},
-	 { (char *)"MPEuclideanDistanceMap", _wrap_MPEuclideanDistanceMap, METH_VARARGS, (char *)"MPEuclideanDistanceMap(Image image) -> Image"},
-	 { (char *)"MPExactDistanceMap", _wrap_MPExactDistanceMap, METH_VARARGS, (char *)"MPExactDistanceMap(Image image) -> Image"},
-	 { (char *)"MPOpen", _wrap_MPOpen, METH_VARARGS, (char *)"MPOpen(Image image, long neighbors) -> Image"},
-	 { (char *)"MPOutline", _wrap_MPOutline, METH_VARARGS, (char *)"MPOutline(Image image) -> Image"},
-	 { (char *)"MultiplyFloatByFloat", _wrap_MultiplyFloatByFloat, METH_VARARGS, (char *)"MultiplyFloatByFloat(Image a, Image b)"},
-	 { (char *)"MultiplyPackedByFloat", _wrap_MultiplyPackedByFloat, METH_VARARGS, (char *)"MultiplyPackedByFloat(Image a, Image b)"},
-	 { (char *)"MultiplyPackedByScalar", _wrap_MultiplyPackedByScalar, METH_VARARGS, (char *)"MultiplyPackedByScalar(Image a, float argument_2)"},
-	 { (char *)"NewArrowAnnotation", _wrap_NewArrowAnnotation, METH_VARARGS, (char *)"NewArrowAnnotation(float top, float left, float bottom, float right) -> Gatan::DM::Component"},
-	 { (char *)"NewBoxAnnotation", _wrap_NewBoxAnnotation, METH_VARARGS, (char *)"NewBoxAnnotation(float top, float left, float bottom, float right) -> Gatan::DM::Component"},
-	 { (char *)"NewComponent", _wrap_NewComponent, METH_VARARGS, (char *)"NewComponent(long type, float f1, float f2, float f3, float f4) -> Gatan::DM::Component"},
-	 { (char *)"NewDoubleArrowAnnotation", _wrap_NewDoubleArrowAnnotation, METH_VARARGS, (char *)"NewDoubleArrowAnnotation(float top, float left, float bottom, float right) -> Gatan::DM::Component"},
-	 { (char *)"NewGroupAnnotation", _wrap_NewGroupAnnotation, METH_VARARGS, (char *)"NewGroupAnnotation() -> Gatan::DM::Component"},
-	 { (char *)"NewImageFromFile", _wrap_NewImageFromFile, METH_VARARGS, (char *)"NewImageFromFile(Gatan::DM::String const & file_path) -> Image"},
-	 { (char *)"NewLineAnnotation", _wrap_NewLineAnnotation, METH_VARARGS, (char *)"NewLineAnnotation(float top, float left, float bottom, float right) -> Gatan::DM::Component"},
-	 { (char *)"NewLiveFFT", _wrap_NewLiveFFT, METH_VARARGS, (char *)"NewLiveFFT(Gatan::DM::ImageDisplay const & imageDisplay, Gatan::DM::ROI const & roi, bool reduce) -> Image"},
-	 { (char *)"NewLiveHistogram", _wrap_NewLiveHistogram, METH_VARARGS, (char *)"NewLiveHistogram(Gatan::DM::ImageDisplay const & imageDisplay, Gatan::DM::ROI const & roi, long num_channels) -> Image"},
-	 { (char *)"NewLiveProfile", _wrap_NewLiveProfile, METH_VARARGS, (char *)"NewLiveProfile(Gatan::DM::ImageDisplay const & imageDisplay, float start_x, float start_y, float end_x, float end_y, float width) -> Image"},
-	 { (char *)"NewOvalAnnotation", _wrap_NewOvalAnnotation, METH_VARARGS, (char *)"NewOvalAnnotation(float top, float left, float bottom, float right) -> Gatan::DM::Component"},
-	 { (char *)"NewPictureAnnotation", _wrap_NewPictureAnnotation, METH_VARARGS, (char *)"NewPictureAnnotation(float top, float left, float bottom, float right, long picture) -> Gatan::DM::Component"},
-	 { (char *)"NewROI", _wrap_NewROI, METH_VARARGS, (char *)"NewROI() -> Gatan::DM::ROI"},
-	 { (char *)"NewScriptWindow", _wrap_NewScriptWindow, METH_VARARGS, (char *)"NewScriptWindow(Gatan::DM::String const & title, long top, long left, long bottom, long right) -> Gatan::DM::Window"},
+	 { (char *)"Is2DDisplay", _wrap_Is2DDisplay, METH_VARARGS, (char *)"\n"
+		"Is2DDisplay(Image argument_1) -> bool\n"
+		"\n"
+		"Is2DDisplay: Return 1 if the image is displayed as a raster image display; return 0 \n"
+		"otherwise.\n"
+		""},
+	 { (char *)"IsBinaryDataType", _wrap_IsBinaryDataType, METH_VARARGS, (char *)"\n"
+		"IsBinaryDataType(Image argument_1) -> bool\n"
+		"\n"
+		"IsBinaryDataType: Returns 1 if the image is an binary data type; returns 0 otherwise.\n"
+		""},
+	 { (char *)"IsByteImage", _wrap_IsByteImage, METH_VARARGS, (char *)"\n"
+		"IsByteImage(Image argument_1) -> bool\n"
+		"\n"
+		"IsByteImage: Returns 1 if the image is unsigned 1-byte integer data; returns 0 otherwise.\n"
+		""},
+	 { (char *)"IsComplexDataType", _wrap_IsComplexDataType, METH_VARARGS, (char *)"\n"
+		"IsComplexDataType(Image argument_1, long bytes) -> bool\n"
+		"\n"
+		"IsComplexDataType: Returns 1 if the image is an complex data type of size bytes; returns \n"
+		"0 otherwise.\n"
+		""},
+	 { (char *)"IsComplexImage", _wrap_IsComplexImage, METH_VARARGS, (char *)"\n"
+		"IsComplexImage(Image argument_1) -> bool\n"
+		"\n"
+		"IsComplexImage: Returns 1 if the image is single precision complex data; returns 0 \n"
+		"otherwise.\n"
+		""},
+	 { (char *)"IsDisplayValid", _wrap_IsDisplayValid, METH_VARARGS, (char *)"\n"
+		"IsDisplayValid(Image argument_1) -> bool\n"
+		"\n"
+		"IsDisplayValid: Return 1 if the image's display is up-to-date and 0 otherwise.\n"
+		""},
+	 { (char *)"IsExceptionUserAbort", _wrap_IsExceptionUserAbort, METH_VARARGS, (char *)"\n"
+		"IsExceptionUserAbort() -> bool\n"
+		"\n"
+		"IsExceptionUserAbort: Returns true if the exception currently in effect is a user abort.\n"
+		""},
+	 { (char *)"IsFloatImage", _wrap_IsFloatImage, METH_VARARGS, (char *)"\n"
+		"IsFloatImage(Image argument_1) -> bool\n"
+		"\n"
+		"IsFloatImage: Returns 1 if the image is single precision real data; returns 0 otherwise.\n"
+		""},
+	 { (char *)"IsImageComplex", _wrap_IsImageComplex, METH_VARARGS, (char *)"\n"
+		"IsImageComplex(long id) -> bool\n"
+		"\n"
+		"IsImageComplex: Return true or false to indicate whether given image with the given id \n"
+		"is complex-valued or not.\n"
+		""},
+	 { (char *)"IsImageReal", _wrap_IsImageReal, METH_VARARGS, (char *)"\n"
+		"IsImageReal(long id) -> bool\n"
+		"\n"
+		"IsImageReal: Return true or false to indicate whether given image with the given id is \n"
+		"real-valued or not.\n"
+		""},
+	 { (char *)"IsImageRGB", _wrap_IsImageRGB, METH_VARARGS, (char *)"\n"
+		"IsImageRGB(long id) -> bool\n"
+		"\n"
+		"IsImageRGB: Return true or false to indicate whether given image with the given id is \n"
+		"RGB-valued or not.\n"
+		""},
+	 { (char *)"IsIntegerDataType", _wrap_IsIntegerDataType, METH_VARARGS, (char *)"\n"
+		"IsIntegerDataType(Image argument_1, long bytes, bool isSigned) -> bool\n"
+		"\n"
+		"IsIntegerDataType: Returns 1 if the image is an integer data type of size bytes with a \n"
+		"matching sign charateristic as signed; returns 0 otherwise.\n"
+		""},
+	 { (char *)"IsLongImage", _wrap_IsLongImage, METH_VARARGS, (char *)"\n"
+		"IsLongImage(Image argument_1) -> bool\n"
+		"\n"
+		"IsLongImage: Returns 1 if the image is signed 4-byte integer data; returns 0 otherwise.\n"
+		""},
+	 { (char *)"IsPackedComplexImage", _wrap_IsPackedComplexImage, METH_VARARGS, (char *)"\n"
+		"IsPackedComplexImage(Image argument_1) -> bool\n"
+		"\n"
+		"IsPackedComplexImage: Returns 1 if the image is packed complex data; returns 0 otherwise.\n"
+		""},
+	 { (char *)"IsRealDataType", _wrap_IsRealDataType, METH_VARARGS, (char *)"\n"
+		"IsRealDataType(Image argument_1, long bytes) -> bool\n"
+		"\n"
+		"IsRealDataType: Returns 1 if the image is an real data type of size bytes; returns 0 \n"
+		"otherwise.\n"
+		""},
+	 { (char *)"IsRGBDataType", _wrap_IsRGBDataType, METH_VARARGS, (char *)"\n"
+		"IsRGBDataType(Image argument_1, long bytes) -> bool\n"
+		"\n"
+		"IsRGBDataType: Returns 1 if the image is an RGB data type of size bytes; returns 0 \n"
+		"otherwise.\n"
+		""},
+	 { (char *)"IsShortImage", _wrap_IsShortImage, METH_VARARGS, (char *)"\n"
+		"IsShortImage(Image argument_1) -> bool\n"
+		"\n"
+		"IsShortImage: Returns 1 if the image is signed 2-byte integer data; returns 0 otherwise.\n"
+		""},
+	 { (char *)"KeepImage", _wrap_KeepImage, METH_VARARGS, (char *)"\n"
+		"KeepImage(Image argument_1)\n"
+		"\n"
+		"KeepImage: Keep the image from being deleted automatically when the image's script scope \n"
+		"is exited.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayCountSlices", _wrap_LinePlotImageDisplayCountSlices, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayCountSlices(Gatan::DM::LinePlotImageDisplay const & lpid) -> long\n"
+		"\n"
+		"LinePlotImageDisplayCountSlices: Returns the number of slices in the line plot.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayGetBaseIntensity", _wrap_LinePlotImageDisplayGetBaseIntensity, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayGetBaseIntensity(Gatan::DM::LinePlotImageDisplay const & lpid) -> double\n"
+		"\n"
+		"LinePlotImageDisplayGetBaseIntensity: Returns the base intensity of the line plot.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayGetContrastLimits", _wrap_LinePlotImageDisplayGetContrastLimits, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayGetContrastLimits(Gatan::DM::LinePlotImageDisplay const & lpid, float * lowLimit, float * highLimit)\n"
+		"\n"
+		"LinePlotImageDisplayGetContrastLimits: Gets the lowest and higest intensities displayed.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayGetDisplayedChannels", _wrap_LinePlotImageDisplayGetDisplayedChannels, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayGetDisplayedChannels(Gatan::DM::LinePlotImageDisplay const & lpid, float * leftChannel, float * rightChannel)\n"
+		"\n"
+		"LinePlotImageDisplayGetDisplayedChannels: Gets the leftmost and rightmost displayed \n"
+		"channels.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayGetDoAutoSurvey", _wrap_LinePlotImageDisplayGetDoAutoSurvey, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayGetDoAutoSurvey(Gatan::DM::LinePlotImageDisplay const & lpid, bool * doAutoSurveyLow, bool * doAutoSurveyHigh)\n"
+		"\n"
+		"LinePlotImageDisplayGetDoAutoSurvey: Gets whether to auto-survey is done on the high and \n"
+		"low intensity limits.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayGetImageToGroupTransform", _wrap_LinePlotImageDisplayGetImageToGroupTransform, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayGetImageToGroupTransform(Gatan::DM::LinePlotImageDisplay const & lpid, Gatan::DM::ScriptObject const & slice_id, Gatan::DM::ScriptObject const & ref_id, double * off_val, double * scale_val, double * off_dim_0, double * scale_dim_0)\n"
+		"\n"
+		"LinePlotImageDisplayGetImageToGroupTransform: return image to group transform.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayGetSlice", _wrap_LinePlotImageDisplayGetSlice, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayGetSlice(Gatan::DM::LinePlotImageDisplay const & lpid) -> long\n"
+		"\n"
+		"LinePlotImageDisplayGetSlice: Returns slice currently displayed at the bottom.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayGetSliceComponentColor", _wrap_LinePlotImageDisplayGetSliceComponentColor, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayGetSliceComponentColor(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, long comp_index, double * r, double * g, double * b)\n"
+		"\n"
+		"LinePlotImageDisplayGetSliceComponentColor: Returns the color of the 'comp_index'th \n"
+		"component of the 'slice_index'th slice.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayGetSliceDrawingStyle", _wrap_LinePlotImageDisplayGetSliceDrawingStyle, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayGetSliceDrawingStyle(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index) -> long\n"
+		"\n"
+		"LinePlotImageDisplayGetSliceDrawingStyle: Returns the drawing style of the \n"
+		"'slice_index'th slice.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayGetTrackingStyle", _wrap_LinePlotImageDisplayGetTrackingStyle, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayGetTrackingStyle(Gatan::DM::LinePlotImageDisplay const & lpid, uint16 * track_style_x, uint16 * track_style_y)\n"
+		"\n"
+		"LinePlotImageDisplayGetTrackingStyle: Gets the tracking style of the line plot.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayGetSliceTransparency", _wrap_LinePlotImageDisplayGetSliceTransparency, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayGetSliceTransparency(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, bool * doTransparent, double * transparency)\n"
+		"\n"
+		"LinePlotImageDisplayGetSliceTransparency: Gets the transparency of the 'slice_index'th \n"
+		"slice.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayGetSliceTransparencyStyle", _wrap_LinePlotImageDisplayGetSliceTransparencyStyle, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayGetSliceTransparencyStyle(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, uint32 * transparencyStyle)\n"
+		"\n"
+		"LinePlotImageDisplayGetSliceTransparencyStyle: Gets the transparencyStyle of the 'slice_index'th \n"
+		"slice.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayGetSliceLineThickness", _wrap_LinePlotImageDisplayGetSliceLineThickness, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayGetSliceLineThickness(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index) -> long\n"
+		"\n"
+		"LinePlotImageDisplayGetSliceLineThickness: Gets the line thickness of the 'slice_index'th \n"
+		"slice.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayIsBackgroundOn", _wrap_LinePlotImageDisplayIsBackgroundOn, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayIsBackgroundOn(Gatan::DM::LinePlotImageDisplay const & lpid) -> bool\n"
+		"\n"
+		"LinePlotImageDisplayIsBackgroundOn: Returns true if the background is erased.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayIsFilled", _wrap_LinePlotImageDisplayIsFilled, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayIsFilled(Gatan::DM::LinePlotImageDisplay const & lpid) -> bool\n"
+		"\n"
+		"LinePlotImageDisplayIsFilled: Returns true if the line plot is filled.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayIsFrameOn", _wrap_LinePlotImageDisplayIsFrameOn, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayIsFrameOn(Gatan::DM::LinePlotImageDisplay const & lpid) -> bool\n"
+		"\n"
+		"LinePlotImageDisplayIsFrameOn: Returns true if the frame is drawn.\n"
+		""},
+	 { (char *)"LinePlotImageDisplayIsGridOn", _wrap_LinePlotImageDisplayIsGridOn, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplayIsGridOn(Gatan::DM::LinePlotImageDisplay const & lpid) -> bool\n"
+		"\n"
+		"LinePlotImageDisplayIsGridOn: Returns true if the grid is displayed on.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetBackgroundOn", _wrap_LinePlotImageDisplaySetBackgroundOn, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetBackgroundOn(Gatan::DM::LinePlotImageDisplay const & lpid, bool on)\n"
+		"\n"
+		"LinePlotImageDisplaySetBackgroundOn: Sets whether to erase the background.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetBaseIntensity", _wrap_LinePlotImageDisplaySetBaseIntensity, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetBaseIntensity(Gatan::DM::LinePlotImageDisplay const & lpid, double base_intensity)\n"
+		"\n"
+		"LinePlotImageDisplaySetBaseIntensity: Sets the base intensity of the line plot.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetContrastLimits", _wrap_LinePlotImageDisplaySetContrastLimits, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetContrastLimits(Gatan::DM::LinePlotImageDisplay const & lpid, float lowLimit, float highLimit)\n"
+		"\n"
+		"LinePlotImageDisplaySetContrastLimits: Sets the lowest and highest intensities displayed.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetDisplayedChannels", _wrap_LinePlotImageDisplaySetDisplayedChannels, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetDisplayedChannels(Gatan::DM::LinePlotImageDisplay const & lpid, float leftChannel, float rightChannel)\n"
+		"\n"
+		"LinePlotImageDisplaySetDisplayedChannels: Sets the leftmost and rightmost displayed \n"
+		"channels.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetDoAutoSurvey", _wrap_LinePlotImageDisplaySetDoAutoSurvey, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetDoAutoSurvey(Gatan::DM::LinePlotImageDisplay const & lpid, bool doAutoSurveyLow, bool doAutoSurveyHigh)\n"
+		"\n"
+		"LinePlotImageDisplaySetDoAutoSurvey: Sets whether to do auto-survey on the high and low \n"
+		"intensity limits.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetFilled", _wrap_LinePlotImageDisplaySetFilled, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetFilled(Gatan::DM::LinePlotImageDisplay const & lpid, bool on)\n"
+		"\n"
+		"LinePlotImageDisplaySetFilled: Sets whether to fill the lineplot.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetFrameOn", _wrap_LinePlotImageDisplaySetFrameOn, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetFrameOn(Gatan::DM::LinePlotImageDisplay const & lpid, bool on)\n"
+		"\n"
+		"LinePlotImageDisplaySetFrameOn: Sets whether to draw the frame.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetGridOn", _wrap_LinePlotImageDisplaySetGridOn, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetGridOn(Gatan::DM::LinePlotImageDisplay const & lpid, bool on)\n"
+		"\n"
+		"LinePlotImageDisplaySetGridOn: Sets whether to draw the grid.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetImageToGroupTransform", _wrap_LinePlotImageDisplaySetImageToGroupTransform, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetImageToGroupTransform(Gatan::DM::LinePlotImageDisplay const & lpid, Gatan::DM::ScriptObject const & slice_id, Gatan::DM::ScriptObject const & ref_id, double off_val, double scale_val, double off_dim_0, double scale_dim_0)\n"
+		"\n"
+		"LinePlotImageDisplaySetImageToGroupTransform: Sets image to group transfor,.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetLegendShown", _wrap_LinePlotImageDisplaySetLegendShown, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetLegendShown(Gatan::DM::LinePlotImageDisplay const & lpid, bool on)\n"
+		"\n"
+		"LinePlotImageDisplaySetLegendShown: Sets whether or not the legend is shown.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetSlice", _wrap_LinePlotImageDisplaySetSlice, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetSlice(Gatan::DM::LinePlotImageDisplay const & lpid, long slice)\n"
+		"\n"
+		"LinePlotImageDisplaySetSlice: Sets the slice currently displayed at the bottom.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetSliceComponentColor", _wrap_LinePlotImageDisplaySetSliceComponentColor, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetSliceComponentColor(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, long comp_index, double r, double g, double b)\n"
+		"\n"
+		"LinePlotImageDisplaySetSliceComponentColor: Sets the color of the 'comp_index'th \n"
+		"component of the 'slice_index'th slice.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetSliceDrawingStyle", _wrap_LinePlotImageDisplaySetSliceDrawingStyle, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetSliceDrawingStyle(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, long style)\n"
+		"\n"
+		"LinePlotImageDisplaySetSliceDrawingStyle: Sets the drawing style of the 'slice_index'th \n"
+		"slice.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetSliceTransparency", _wrap_LinePlotImageDisplaySetSliceTransparency, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetSliceTransparency(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, bool doTransparent, double transparency)\n"
+		"\n"
+		"LinePlotImageDisplaySetSliceTransparency: Sets the transparency of the 'slice_index'th \n"
+		"slice.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetSliceTransparencyStyle", _wrap_LinePlotImageDisplaySetSliceTransparencyStyle, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetSliceTransparencyStyle(Gatan::DM::LinePlotImageDisplay const & lpid, uint32 slice_index, uint32 transparencyStyle)\n"
+		"\n"
+		"LinePlotImageDisplaySetSliceTransparencyStyle: Sets the transparencyStyle of the 'slice_index'th \n"
+		"slice.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetSliceLineThickness", _wrap_LinePlotImageDisplaySetSliceLineThickness, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetSliceLineThickness(Gatan::DM::LinePlotImageDisplay const & lpid, long slice_index, long thickness)\n"
+		"\n"
+		"LinePlotImageDisplaySetSliceLineThickness: Sets the line thickness of the 'slice_index'th \n"
+		"slice.\n"
+		""},
+	 { (char *)"LinePlotImageDisplaySetTrackingStyle", _wrap_LinePlotImageDisplaySetTrackingStyle, METH_VARARGS, (char *)"\n"
+		"LinePlotImageDisplaySetTrackingStyle(Gatan::DM::LinePlotImageDisplay const & lpid, uint16 track_style_x, uint16 track_style_y)\n"
+		"\n"
+		"LinePlotImageDisplaySetTrackingStyle: Sets the tracking style of the line plot.\n"
+		""},
+	 { (char *)"LUDecomposition", _wrap_LUDecomposition, METH_VARARGS, (char *)"\n"
+		"LUDecomposition(Image a, Image b) -> Image\n"
+		"\n"
+		"LUDecomposition: Return the image resulting from a LU decomposition on images a,b.\n"
+		""},
+	 { (char *)"MaintainStatus", _wrap_MaintainStatus, METH_VARARGS, (char *)"\n"
+		"MaintainStatus()\n"
+		"\n"
+		"MaintainStatus: Update the status window if it needs to be updated.\n"
+		""},
+	 { (char *)"MatrixDeterminant", _wrap_MatrixDeterminant, METH_VARARGS, (char *)"\n"
+		"MatrixDeterminant(Image a) -> float\n"
+		"\n"
+		"MatrixDeterminant: Return the matrix determinant number of matrix image a.\n"
+		""},
+	 { (char *)"MatrixInverse", _wrap_MatrixInverse, METH_VARARGS, (char *)"\n"
+		"MatrixInverse(Image a) -> Image\n"
+		"\n"
+		"MatrixInverse: Return the matrix inverse image of matrix image a.\n"
+		""},
+	 { (char *)"MatrixMultiply", _wrap_MatrixMultiply, METH_VARARGS, (char *)"\n"
+		"MatrixMultiply(Image a, Image b) -> Image\n"
+		"\n"
+		"MatrixMultiply: Return the matrix product image of matrix images a and b.\n"
+		""},
+	 { (char *)"MatrixPrint", _wrap_MatrixPrint, METH_VARARGS, (char *)"\n"
+		"MatrixPrint(Image a)\n"
+		"\n"
+		"MatrixPrint: Print an image as a matrix to the results window.\n"
+		""},
+	 { (char *)"MatrixTranspose", _wrap_MatrixTranspose, METH_VARARGS, (char *)"\n"
+		"MatrixTranspose(Image a) -> Image\n"
+		"\n"
+		"MatrixTranspose: Return the matrix transpose image of matrix image a.\n"
+		""},
+	 { (char *)"MedianFilter", _wrap_MedianFilter, METH_VARARGS, (char *)"\n"
+		"MedianFilter(Image source, long filterType, long size) -> Image\n"
+		"\n"
+		"MedianFilter: Performs a median filter on the source image according to the filterType \n"
+		"parameter (0=horizontal, 1=vertical, 2=cross, 3=entire) and the size parameter. Size \n"
+		"specifies size in each direction - so a 'size' of 2 is a 5x5 window.\n"
+		""},
+	 { (char *)"ModelessDialog", _wrap_ModelessDialog, METH_VARARGS, (char *)"\n"
+		"ModelessDialog(char const * prompt, char const * buttonName, long semaphore)\n"
+		"\n"
+		"ModelessDialog: Present a modeless dialog with the prompt and buttonName. When the user \n"
+		"presses the button, the semaphore will be cleared. This function can only be used in the \n"
+		"background.\n"
+		""},
+	 { (char *)"ModelessFFT", _wrap_ModelessFFT, METH_VARARGS, (char *)"\n"
+		"ModelessFFT(Image argument_1, bool reduce)\n"
+		"\n"
+		"ModelessFFT: Begin the modeless FFT procedure with the image as the source. The \n"
+		"parameter reduce indicates whether to perform a reduced FFT.\n"
+		""},
+	 { (char *)"MPClose", _wrap_MPClose, METH_VARARGS, (char *)"\n"
+		"MPClose(Image image, long neighbors) -> Image\n"
+		"\n"
+		"MPClose: Morphologically close the image using the neighbors parameter to control the \n"
+		"closing and return the resulting image. The source image must be binary.\n"
+		""},
+	 { (char *)"MPDilate", _wrap_MPDilate, METH_VARARGS, (char *)"\n"
+		"MPDilate(Image image, long neighbors) -> Image\n"
+		"\n"
+		"MPDilate: Morphologically dilate the image using the neighbors parameter to control the \n"
+		"dilation and return the resulting image. The source image must be binary.\n"
+		""},
+	 { (char *)"MPDistanceMap", _wrap_MPDistanceMap, METH_VARARGS, (char *)"\n"
+		"MPDistanceMap(Image image) -> Image\n"
+		"\n"
+		"MPDistanceMap: Generate a distance map from the source image and return the resulting \n"
+		"real image. The source image must be binary.\n"
+		""},
+	 { (char *)"MPErode", _wrap_MPErode, METH_VARARGS, (char *)"\n"
+		"MPErode(Image image, long neighbors) -> Image\n"
+		"\n"
+		"MPErode: Morphologically erode the image using the neighbors parameter to control the \n"
+		"erosion and return the resulting image. The source image must be binary.\n"
+		""},
+	 { (char *)"MPEuclideanDistanceMap", _wrap_MPEuclideanDistanceMap, METH_VARARGS, (char *)"\n"
+		"MPEuclideanDistanceMap(Image image) -> Image\n"
+		"\n"
+		"MPEuclideanDistanceMap: Generate a Euclidean distance map from the source image and \n"
+		"return the resulting real image. The source image must be binary.\n"
+		""},
+	 { (char *)"MPExactDistanceMap", _wrap_MPExactDistanceMap, METH_VARARGS, (char *)"\n"
+		"MPExactDistanceMap(Image image) -> Image\n"
+		"\n"
+		"MPExactDistanceMap: Generate an exact distance map from the source image and return the \n"
+		"resulting complex image. The source image must be binary.\n"
+		""},
+	 { (char *)"MPOpen", _wrap_MPOpen, METH_VARARGS, (char *)"\n"
+		"MPOpen(Image image, long neighbors) -> Image\n"
+		"\n"
+		"MPOpen: Morphologically open the image using the neighbors parameter to control the \n"
+		"opening and return the resulting image. The source image must be binary.\n"
+		""},
+	 { (char *)"MPOutline", _wrap_MPOutline, METH_VARARGS, (char *)"\n"
+		"MPOutline(Image image) -> Image\n"
+		"\n"
+		"MPOutline: Morphologically outline the image and return the resulting image. The source \n"
+		"image must be binary.\n"
+		""},
+	 { (char *)"MultiplyFloatByFloat", _wrap_MultiplyFloatByFloat, METH_VARARGS, (char *)"\n"
+		"MultiplyFloatByFloat(Image a, Image b)\n"
+		"\n"
+		"MultiplyFloatByFloat: Multiply real image a by real image b and store the result in \n"
+		"a. No data type checking is performed.\n"
+		""},
+	 { (char *)"MultiplyPackedByFloat", _wrap_MultiplyPackedByFloat, METH_VARARGS, (char *)"\n"
+		"MultiplyPackedByFloat(Image a, Image b)\n"
+		"\n"
+		"MultiplyPackedByFloat: Multiply packed image a by real image b and store the result \n"
+		"in a. No data type checking is performed.\n"
+		""},
+	 { (char *)"MultiplyPackedByScalar", _wrap_MultiplyPackedByScalar, METH_VARARGS, (char *)"\n"
+		"MultiplyPackedByScalar(Image a, float argument_2)\n"
+		"\n"
+		"MultiplyPackedByScalar: Multiply packed image a by real and store the result in a. No \n"
+		"data type checking is performed.\n"
+		""},
+	 { (char *)"NewArrowAnnotation", _wrap_NewArrowAnnotation, METH_VARARGS, (char *)"\n"
+		"NewArrowAnnotation(float top, float left, float bottom, float right) -> Gatan::DM::Component\n"
+		"\n"
+		"NewArrowAnnotation: Creates a new arrow annotation.\n"
+		""},
+	 { (char *)"NewBoxAnnotation", _wrap_NewBoxAnnotation, METH_VARARGS, (char *)"\n"
+		"NewBoxAnnotation(float top, float left, float bottom, float right) -> Gatan::DM::Component\n"
+		"\n"
+		"NewBoxAnnotation: Creates a new box annotation.\n"
+		""},
+	 { (char *)"NewComponent", _wrap_NewComponent, METH_VARARGS, (char *)"\n"
+		"NewComponent(long type, float f1, float f2, float f3, float f4) -> Gatan::DM::Component\n"
+		"\n"
+		"NewComponent: Creates a new annotaiton of type 'type'\n"
+		""},
+	 { (char *)"NewDoubleArrowAnnotation", _wrap_NewDoubleArrowAnnotation, METH_VARARGS, (char *)"\n"
+		"NewDoubleArrowAnnotation(float top, float left, float bottom, float right) -> Gatan::DM::Component\n"
+		"\n"
+		"NewDoubleArrowAnnotation: Creates a new double arrow annotation.\n"
+		""},
+	 { (char *)"NewGroupAnnotation", _wrap_NewGroupAnnotation, METH_VARARGS, (char *)"\n"
+		"NewGroupAnnotation() -> Gatan::DM::Component\n"
+		"\n"
+		"NewGroupAnnotation: Creates a new group annotation.\n"
+		""},
+	 { (char *)"NewImageFromFile", _wrap_NewImageFromFile, METH_VARARGS, (char *)"\n"
+		"NewImageFromFile(Gatan::DM::String const & file_path) -> Image\n"
+		"\n"
+		"NewImageFromFile: Opens a file and reads it as an image.\n"
+		""},
+	 { (char *)"NewLineAnnotation", _wrap_NewLineAnnotation, METH_VARARGS, (char *)"\n"
+		"NewLineAnnotation(float top, float left, float bottom, float right) -> Gatan::DM::Component\n"
+		"\n"
+		"NewLineAnnotation: Creates a new line annotation.\n"
+		""},
+	 { (char *)"NewLiveFFT", _wrap_NewLiveFFT, METH_VARARGS, (char *)"\n"
+		"NewLiveFFT(Gatan::DM::ImageDisplay const & imageDisplay, Gatan::DM::ROI const & roi, bool reduce) -> Image\n"
+		"\n"
+		"NewLiveFFT: Creates a new live fft of the area in 'roi', that is reduced if 'reduce' is \n"
+		"'true'\n"
+		""},
+	 { (char *)"NewLiveHistogram", _wrap_NewLiveHistogram, METH_VARARGS, (char *)"\n"
+		"NewLiveHistogram(Gatan::DM::ImageDisplay const & imageDisplay, Gatan::DM::ROI const & roi, long num_channels) -> Image\n"
+		"\n"
+		"NewLiveHistogram: Creates a new live histogram of the area in 'roi', binned by \n"
+		"'num_channels'\n"
+		""},
+	 { (char *)"NewLiveProfile", _wrap_NewLiveProfile, METH_VARARGS, (char *)"\n"
+		"NewLiveProfile(Gatan::DM::ImageDisplay const & imageDisplay, float start_x, float start_y, float end_x, float end_y, float width) -> Image\n"
+		"\n"
+		"NewLiveProfile: Creates a new live profile from (start_x,start_y) to (end_x,end_y)\n"
+		""},
+	 { (char *)"NewOvalAnnotation", _wrap_NewOvalAnnotation, METH_VARARGS, (char *)"\n"
+		"NewOvalAnnotation(float top, float left, float bottom, float right) -> Gatan::DM::Component\n"
+		"\n"
+		"NewOvalAnnotation: Creates a new oval annotation.\n"
+		""},
+	 { (char *)"NewPictureAnnotation", _wrap_NewPictureAnnotation, METH_VARARGS, (char *)"\n"
+		"NewPictureAnnotation(float top, float left, float bottom, float right, long picture) -> Gatan::DM::Component\n"
+		"\n"
+		"NewPictureAnnotation: Creates a new picture annotation.\n"
+		""},
+	 { (char *)"NewROI", _wrap_NewROI, METH_VARARGS, (char *)"\n"
+		"NewROI() -> Gatan::DM::ROI\n"
+		"\n"
+		"NewROI: Creates an empty region of interest.\n"
+		""},
+	 { (char *)"NewScriptWindow", _wrap_NewScriptWindow, METH_VARARGS, (char *)"\n"
+		"NewScriptWindow(Gatan::DM::String const & title, long top, long left, long bottom, long right) -> Gatan::DM::Window\n"
+		"\n"
+		"NewScriptWindow: Creates a new editor window.\n"
+		""},
 	 { (char *)"NewScriptWindowFromFile", _wrap_NewScriptWindowFromFile, METH_VARARGS, (char *)"\n"
 		"NewScriptWindowFromFile(Gatan::DM::String const & file_name, long top, long left, long bottom, long right) -> Gatan::DM::Window\n"
 		"NewScriptWindowFromFile(Gatan::DM::String const & file_name) -> Gatan::DM::Window\n"
 		"NewScriptWindowFromFile(Gatan::DM::String const & file_name, Gatan::DM::String const & font_name, ulong attributes, ulong size) -> Gatan::DM::Window\n"
 		"NewScriptWindowFromFile(Gatan::DM::String const & file_name, Gatan::DM::String const & font_name, ulong attributes, ulong size, long top, long left, long bottom, long right) -> Gatan::DM::Window\n"
+		"\n"
+		"NewScriptWindowFromFile: Opens a file into a script window.\n"
 		""},
-	 { (char *)"NewSemaphore", _wrap_NewSemaphore, METH_VARARGS, (char *)"NewSemaphore() -> long"},
-	 { (char *)"NewTagGroup", _wrap_NewTagGroup, METH_VARARGS, (char *)"NewTagGroup() -> TagGroup"},
-	 { (char *)"NewTagList", _wrap_NewTagList, METH_VARARGS, (char *)"NewTagList() -> TagGroup"},
-	 { (char *)"NewTextAnnotation", _wrap_NewTextAnnotation, METH_VARARGS, (char *)"NewTextAnnotation(float left, float top, Gatan::DM::String const & text, float size) -> Gatan::DM::Component"},
-	 { (char *)"NextImage", _wrap_NextImage, METH_VARARGS, (char *)"NextImage(Image argument_1) -> Image"},
-	 { (char *)"ObjectTransformCompose", _wrap_ObjectTransformCompose, METH_VARARGS, (char *)"ObjectTransformCompose(double i1_o_x, double i1_o_y, double i1_s_x, double i1_s_y, double i2_o_x, double i2_o_y, double i2_s_x, double i2_s_y, double * o_o_x, double * o_o_y, double * o_s_x, double * o_s_y)"},
-	 { (char *)"ObjectTransformInvert", _wrap_ObjectTransformInvert, METH_VARARGS, (char *)"ObjectTransformInvert(double i_o_x, double i_o_y, double i_s_x, double i_s_y, double * o_o_x, double * o_o_y, double * o_s_x, double * o_s_y)"},
-	 { (char *)"ObjectTransformTransformPoint", _wrap_ObjectTransformTransformPoint, METH_VARARGS, (char *)"ObjectTransformTransformPoint(double i_o_x, double i_o_y, double i_s_x, double i_s_y, double i_p_x, double i_p_y, double * o_p_x, double * o_p_y)"},
-	 { (char *)"ObjectTransformTransformRect", _wrap_ObjectTransformTransformRect, METH_VARARGS, (char *)"ObjectTransformTransformRect(double i_o_x, double i_o_y, double i_s_x, double i_s_y, double i_r_t, double i_r_l, double i_r_b, double i_r_r, double * o_r_t, double * o_r_l, double * o_r_b, double * o_r_r)"},
-	 { (char *)"ObjectTransformUntransformPoint", _wrap_ObjectTransformUntransformPoint, METH_VARARGS, (char *)"ObjectTransformUntransformPoint(double i_o_x, double i_o_y, double i_s_x, double i_s_y, double i_p_x, double i_p_y, double * o_p_x, double * o_p_y)"},
-	 { (char *)"ObjectTransformUntransformRect", _wrap_ObjectTransformUntransformRect, METH_VARARGS, (char *)"ObjectTransformUntransformRect(double i_o_x, double i_o_y, double i_s_x, double i_s_y, double i_r_t, double i_r_l, double i_r_b, double i_r_r, double * o_r_t, double * o_r_l, double * o_r_b, double * o_r_r)"},
-	 { (char *)"OkCancelDialog", _wrap_OkCancelDialog, METH_VARARGS, (char *)"OkCancelDialog(char const * prompt) -> bool"},
-	 { (char *)"OkDialog", _wrap_OkDialog, METH_VARARGS, (char *)"OkDialog(char const * prompt)"},
-	 { (char *)"OpenAndSetProgressWindow", _wrap_OpenAndSetProgressWindow, METH_VARARGS, (char *)"OpenAndSetProgressWindow(char const * line1, char const * line2, char const * line3)"},
-	 { (char *)"OpenDialog", _wrap_OpenDialog, METH_VARARGS, (char *)"OpenDialog(Gatan::DM::String & pathname) -> bool"},
-	 { (char *)"OpenFileForReading", _wrap_OpenFileForReading, METH_VARARGS, (char *)"OpenFileForReading(Gatan::DM::String const & file_path) -> DM_FileReference"},
-	 { (char *)"OpenFileForReadingAndWriting", _wrap_OpenFileForReadingAndWriting, METH_VARARGS, (char *)"OpenFileForReadingAndWriting(Gatan::DM::String const & file_path) -> DM_FileReference"},
-	 { (char *)"OpenFileForWriting", _wrap_OpenFileForWriting, METH_VARARGS, (char *)"OpenFileForWriting(Gatan::DM::String const & file_path) -> DM_FileReference"},
-	 { (char *)"OpenImage", _wrap_OpenImage, METH_VARARGS, (char *)"OpenImage(Gatan::DM::String const & fileName) -> Image"},
-	 { (char *)"OpenResultsWindow", _wrap_OpenResultsWindow, METH_VARARGS, (char *)"OpenResultsWindow()"},
-	 { (char *)"OpenTimeBar", _wrap_OpenTimeBar, METH_VARARGS, (char *)"OpenTimeBar(char const * prompt, long total)"},
-	 { (char *)"OptionDown", _wrap_OptionDown, METH_VARARGS, (char *)"OptionDown() -> bool"},
-	 { (char *)"PackedFFT", _wrap_PackedFFT, METH_VARARGS, (char *)"PackedFFT(Image source) -> Image"},
-	 { (char *)"PackedIFFT", _wrap_PackedIFFT, METH_VARARGS, (char *)"PackedIFFT(Image source) -> Image"},
-	 { (char *)"PackedLnModulusToImage", _wrap_PackedLnModulusToImage, METH_VARARGS, (char *)"PackedLnModulusToImage(Image imageSrc, Image imageDst, float lowLimit, float highLimit, float range)"},
-	 { (char *)"PackedToComplex", _wrap_PackedToComplex, METH_VARARGS, (char *)"PackedToComplex(Image source) -> Image"},
-	 { (char *)"PathAddParentIndirection", _wrap_PathAddParentIndirection, METH_VARARGS, (char *)"PathAddParentIndirection(Gatan::DM::String const & path) -> Gatan::DM::String"},
-	 { (char *)"PathBeginRelative", _wrap_PathBeginRelative, METH_VARARGS, (char *)"PathBeginRelative() -> Gatan::DM::String"},
-	 { (char *)"PathConcatenate", _wrap_PathConcatenate, METH_VARARGS, (char *)"PathConcatenate(Gatan::DM::String const & initial_path, Gatan::DM::String const & final_path) -> Gatan::DM::String"},
-	 { (char *)"PathExtractBaseName", _wrap_PathExtractBaseName, METH_VARARGS, (char *)"PathExtractBaseName(Gatan::DM::String const & path, ulong path_type) -> Gatan::DM::String"},
-	 { (char *)"PathExtractDirectory", _wrap_PathExtractDirectory, METH_VARARGS, (char *)"PathExtractDirectory(Gatan::DM::String const & path, ulong path_type) -> Gatan::DM::String"},
-	 { (char *)"PathExtractExtension", _wrap_PathExtractExtension, METH_VARARGS, (char *)"PathExtractExtension(Gatan::DM::String const & path, ulong path_type) -> Gatan::DM::String"},
-	 { (char *)"PathExtractFileName", _wrap_PathExtractFileName, METH_VARARGS, (char *)"PathExtractFileName(Gatan::DM::String const & path, ulong path_type) -> Gatan::DM::String"},
-	 { (char *)"PathExtractParentDirectory", _wrap_PathExtractParentDirectory, METH_VARARGS, (char *)"PathExtractParentDirectory(Gatan::DM::String const & path, ulong path_type) -> Gatan::DM::String"},
-	 { (char *)"PathGetFullpath", _wrap_PathGetFullpath, METH_VARARGS, (char *)"PathGetFullpath(Gatan::DM::String const & path) -> Gatan::DM::String"},
-	 { (char *)"PathsSpecifySameFile", _wrap_PathsSpecifySameFile, METH_VARARGS, (char *)"PathsSpecifySameFile(Gatan::DM::String const & path_1, Gatan::DM::String const & path_2) -> bool"},
-	 { (char *)"Pi", _wrap_Pi, METH_VARARGS, (char *)"Pi() -> double"},
-	 { (char *)"PictureAnnotationSetPicture", _wrap_PictureAnnotationSetPicture, METH_VARARGS, (char *)"PictureAnnotationSetPicture(Gatan::DM::Component const & comp, long picture)"},
-	 { (char *)"PIctureGetBounds", _wrap_PIctureGetBounds, METH_VARARGS, (char *)"PIctureGetBounds(long picture, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"PrintImage", _wrap_PrintImage, METH_VARARGS, (char *)"PrintImage(Image argument_1)"},
-	 { (char *)"RasterImageDisplayAddThresholdToMask", _wrap_RasterImageDisplayAddThresholdToMask, METH_VARARGS, (char *)"RasterImageDisplayAddThresholdToMask(Gatan::DM::RasterImageDisplay const & rid, Image mask, float top, float left, float bottom, float right)"},
-	 { (char *)"RasterImageDisplayGetThresholdLimits", _wrap_RasterImageDisplayGetThresholdLimits, METH_VARARGS, (char *)"RasterImageDisplayGetThresholdLimits(Gatan::DM::RasterImageDisplay const & rid, float * low, float * high)"},
-	 { (char *)"RasterImageDisplayIsThresholdOn", _wrap_RasterImageDisplayIsThresholdOn, METH_VARARGS, (char *)"RasterImageDisplayIsThresholdOn(Gatan::DM::RasterImageDisplay const & rid) -> bool"},
-	 { (char *)"RasterImageDisplaySetThresholdLimits", _wrap_RasterImageDisplaySetThresholdLimits, METH_VARARGS, (char *)"RasterImageDisplaySetThresholdLimits(Gatan::DM::RasterImageDisplay const & rid, float low, float high)"},
-	 { (char *)"RasterImageDisplaySetThresholdOn", _wrap_RasterImageDisplaySetThresholdOn, METH_VARARGS, (char *)"RasterImageDisplaySetThresholdOn(Gatan::DM::RasterImageDisplay const & rid, bool on)"},
-	 { (char *)"RasterizeRGB", _wrap_RasterizeRGB, METH_VARARGS, (char *)"RasterizeRGB(Image source, bool dither) -> Image"},
-	 { (char *)"RawCopyImage", _wrap_RawCopyImage, METH_VARARGS, (char *)"RawCopyImage(Image src, Image dst)"},
-	 { (char *)"ReadFile", _wrap_ReadFile, METH_VARARGS, (char *)"ReadFile(DM_FileReference file, long count) -> Gatan::DM::String"},
-	 { (char *)"ReadFileLine", _wrap_ReadFileLine, METH_VARARGS, (char *)"ReadFileLine(DM_FileReference file, Gatan::DM::String & string) -> bool"},
-	 { (char *)"ReadRawStream", _wrap_ReadRawStream, METH_VARARGS, (char *)"ReadRawStream(long rawStream, long data, long length)"},
-	 { (char *)"RealFFT", _wrap_RealFFT, METH_VARARGS, (char *)"RealFFT(Image source) -> Image"},
-	 { (char *)"RealIFFT", _wrap_RealIFFT, METH_VARARGS, (char *)"RealIFFT(Image source) -> Image"},
+	 { (char *)"NewSemaphore", _wrap_NewSemaphore, METH_VARARGS, (char *)"\n"
+		"NewSemaphore() -> long\n"
+		"\n"
+		"NewSemaphore: Create a semaphore. Used only with background processing.\n"
+		""},
+	 { (char *)"NewTagGroup", _wrap_NewTagGroup, METH_VARARGS, (char *)"\n"
+		"NewTagGroup() -> TagGroup\n"
+		"\n"
+		"NewTagGroup: Creates an empty tag group.\n"
+		""},
+	 { (char *)"NewTagList", _wrap_NewTagList, METH_VARARGS, (char *)"\n"
+		"NewTagList() -> TagGroup\n"
+		"\n"
+		"NewTagList: Creates an empty tag list.\n"
+		""},
+	 { (char *)"NewTextAnnotation", _wrap_NewTextAnnotation, METH_VARARGS, (char *)"\n"
+		"NewTextAnnotation(float left, float top, Gatan::DM::String const & text, float size) -> Gatan::DM::Component\n"
+		"\n"
+		"NewTextAnnotation: Creates a new text annotation.\n"
+		""},
+	 { (char *)"NextImage", _wrap_NextImage, METH_VARARGS, (char *)"\n"
+		"NextImage(Image argument_1) -> Image\n"
+		"\n"
+		"NextImage: Find the next image.\n"
+		""},
+	 { (char *)"OkCancelDialog", _wrap_OkCancelDialog, METH_VARARGS, (char *)"\n"
+		"OkCancelDialog(char const * prompt) -> bool\n"
+		"\n"
+		"OkCancelDialog: Puts up a dialog with the given prompt. Returns 1 for OK and 0 for \n"
+		"Cancel.\n"
+		""},
+	 { (char *)"OkDialog", _wrap_OkDialog, METH_VARARGS, (char *)"\n"
+		"OkDialog(char const * prompt)\n"
+		"\n"
+		"OkDialog: Puts up a dialog with the given prompt.\n"
+		""},
+	 { (char *)"OpenAndSetProgressWindow", _wrap_OpenAndSetProgressWindow, METH_VARARGS, (char *)"\n"
+		"OpenAndSetProgressWindow(char const * line1, char const * line2, char const * line3)\n"
+		"\n"
+		"OpenAndSetProgressWindow: Open the progress window and sets the text within to line1, \n"
+		"line2, and line3.\n"
+		""},
+	 { (char *)"OpenDialog", _wrap_OpenDialog, METH_VARARGS, (char *)"\n"
+		"OpenDialog(Gatan::DM::String & pathname) -> bool\n"
+		"\n"
+		"OpenDialog: Puts up an Open dialog, allows the user to select a file, and stores the \n"
+		"pathname into the pathname variable. Returns 1 for OK and 0 for Cancel.\n"
+		""},
+	 { (char *)"OpenFileForReading", _wrap_OpenFileForReading, METH_VARARGS, (char *)"\n"
+		"OpenFileForReading(Gatan::DM::String const & file_path) -> DM_FileReference\n"
+		"\n"
+		"OpenFileForReading: Open the file for reading. Return the file reference for this file. \n"
+		"This call must be balanced with call to CloseFile() with the returned reference number.\n"
+		""},
+	 { (char *)"OpenFileForReadingAndWriting", _wrap_OpenFileForReadingAndWriting, METH_VARARGS, (char *)"\n"
+		"OpenFileForReadingAndWriting(Gatan::DM::String const & file_path) -> DM_FileReference\n"
+		"\n"
+		"OpenFileForReadingAndWriting: Open the file for reading and writing. Return the file \n"
+		"reference for this file. This call must be balanced with call to CloseFile() with the \n"
+		"returned reference number.\n"
+		""},
+	 { (char *)"OpenFileForWriting", _wrap_OpenFileForWriting, METH_VARARGS, (char *)"\n"
+		"OpenFileForWriting(Gatan::DM::String const & file_path) -> DM_FileReference\n"
+		"\n"
+		"OpenFileForWriting: Open the file for writing. Return the file reference for this file. \n"
+		"This call must be balanced with call to CloseFile() with the returned reference number.\n"
+		""},
+	 { (char *)"OpenImage", _wrap_OpenImage, METH_VARARGS, (char *)"\n"
+		"OpenImage(Gatan::DM::String const & fileName) -> Image\n"
+		"\n"
+		"OpenImage: Open the image with the filename. Returns the opened image.\n"
+		""},
+	 { (char *)"OpenResultsWindow", _wrap_OpenResultsWindow, METH_VARARGS, (char *)"\n"
+		"OpenResultsWindow()\n"
+		"\n"
+		"OpenResultsWindow: Open the results window if it is not already open.\n"
+		""},
+	 { (char *)"OpenTimeBar", _wrap_OpenTimeBar, METH_VARARGS, (char *)"\n"
+		"OpenTimeBar(char const * prompt, long total)\n"
+		"\n"
+		"OpenTimeBar: Opens the time bar with the given prompt. The total parameter is ignored. \n"
+		"CloseTimeBar() must be invoked exactly once for every OpenTimeBar() call.\n"
+		""},
+	 { (char *)"OptionDown", _wrap_OptionDown, METH_VARARGS, (char *)"\n"
+		"OptionDown() -> bool\n"
+		"\n"
+		"OptionDown: Returns 1 if the option key is down and 0 otherwise.\n"
+		""},
+	 { (char *)"PackedFFT", _wrap_PackedFFT, METH_VARARGS, (char *)"\n"
+		"PackedFFT(Image source) -> Image\n"
+		"\n"
+		"PackedFFT: Creates a new packed complex image from the FFT of the real image source.\n"
+		""},
+	 { (char *)"PackedIFFT", _wrap_PackedIFFT, METH_VARARGS, (char *)"\n"
+		"PackedIFFT(Image source) -> Image\n"
+		"\n"
+		"PackedIFFT: Creates a new real image from the inverse FFT of the packed complex image \n"
+		"source.\n"
+		""},
+	 { (char *)"PackedLnModulusToImage", _wrap_PackedLnModulusToImage, METH_VARARGS, (char *)"\n"
+		"PackedLnModulusToImage(Image imageSrc, Image imageDst, float lowLimit, float highLimit, float range)\n"
+		"\n"
+		"PackedLnModulusToImage: Store the unpacked log modulus of the packed complex image \n"
+		"imageSrc into imageDst using the lowLimit, highLimit, and range parameters. No data type \n"
+		"checking is performed.\n"
+		""},
+	 { (char *)"PackedToComplex", _wrap_PackedToComplex, METH_VARARGS, (char *)"\n"
+		"PackedToComplex(Image source) -> Image\n"
+		"\n"
+		"PackedToComplex: Creates a new complex 8-byte image from the packed complex source.\n"
+		""},
+	 { (char *)"PathAddParentIndirection", _wrap_PathAddParentIndirection, METH_VARARGS, (char *)"\n"
+		"PathAddParentIndirection(Gatan::DM::String const & path) -> Gatan::DM::String\n"
+		"\n"
+		"PathAddParentIndirection: Returns 'path' appended with a string denoting indirection to \n"
+		"the parent directory\n"
+		""},
+	 { (char *)"PathBeginRelative", _wrap_PathBeginRelative, METH_VARARGS, (char *)"\n"
+		"PathBeginRelative() -> Gatan::DM::String\n"
+		"\n"
+		"PathBeginRelative: Returns a string that begins a relative path\n"
+		""},
+	 { (char *)"PathConcatenate", _wrap_PathConcatenate, METH_VARARGS, (char *)"\n"
+		"PathConcatenate(Gatan::DM::String const & initial_path, Gatan::DM::String const & final_path) -> Gatan::DM::String\n"
+		"\n"
+		"PathConcatenate: Concatenates 'final_path' to 'initial_path' to create a new path, \n"
+		"adding separators as necessary.\n"
+		""},
+	 { (char *)"PathExtractBaseName", _wrap_PathExtractBaseName, METH_VARARGS, (char *)"\n"
+		"PathExtractBaseName(Gatan::DM::String const & path, ulong path_type) -> Gatan::DM::String\n"
+		"\n"
+		"PathExtractBaseName: Returns the base name portion of 'dir_path', where 'path_type' \n"
+		"denotes '1' for Mac paths, '2' for Windows paths, and '0' for current OS paths\n"
+		""},
+	 { (char *)"PathExtractDirectory", _wrap_PathExtractDirectory, METH_VARARGS, (char *)"\n"
+		"PathExtractDirectory(Gatan::DM::String const & path, ulong path_type) -> Gatan::DM::String\n"
+		"\n"
+		"PathExtractDirectory: Returns the directory portion of 'dir_path', where 'path_type' \n"
+		"denotes '1' for Mac paths, '2' for Windows paths, and '0' for current OS paths\n"
+		""},
+	 { (char *)"PathExtractExtension", _wrap_PathExtractExtension, METH_VARARGS, (char *)"\n"
+		"PathExtractExtension(Gatan::DM::String const & path, ulong path_type) -> Gatan::DM::String\n"
+		"\n"
+		"PathExtractExtension: Returns the extension portion of 'dir_path', where 'path_type' \n"
+		"denotes '1' for Mac paths, '2' for Windows32 paths, '3' for Windows64 paths, and '0' for current OS paths\n"
+		""},
+	 { (char *)"PathExtractFileName", _wrap_PathExtractFileName, METH_VARARGS, (char *)"\n"
+		"PathExtractFileName(Gatan::DM::String const & path, ulong path_type) -> Gatan::DM::String\n"
+		"\n"
+		"PathExtractFileName: Returns the file name portion of 'dir_path', where 'path_type' \n"
+		"denotes '1' for Mac paths, '2' for Windows paths, and '0' for current OS paths\n"
+		""},
+	 { (char *)"PathExtractParentDirectory", _wrap_PathExtractParentDirectory, METH_VARARGS, (char *)"\n"
+		"PathExtractParentDirectory(Gatan::DM::String const & path, ulong path_type) -> Gatan::DM::String\n"
+		"\n"
+		"PathExtractParentDirectory: Returns the parent directory portion of 'dir_path', where \n"
+		"'path_type' denotes '1' for Mac paths, '2' for Windows paths, and '0' for current OS paths\n"
+		""},
+	 { (char *)"PathGetFullpath", _wrap_PathGetFullpath, METH_VARARGS, (char *)"\n"
+		"PathGetFullpath(Gatan::DM::String const & path) -> Gatan::DM::String\n"
+		"\n"
+		"PathGetFullpath: Returns the full path name of the file denoted by 'dir_path'\n"
+		""},
+	 { (char *)"PathsSpecifySameFile", _wrap_PathsSpecifySameFile, METH_VARARGS, (char *)"\n"
+		"PathsSpecifySameFile(Gatan::DM::String const & path_1, Gatan::DM::String const & path_2) -> bool\n"
+		"\n"
+		"PathGetFullpath: Returns the full path name of the file denoted by 'dir_path'\n"
+		""},
+	 { (char *)"Pi", _wrap_Pi, METH_VARARGS, (char *)"\n"
+		"Pi() -> double\n"
+		"\n"
+		"Pi: Return an approximation of pi.\n"
+		""},
+	 { (char *)"PictureAnnotationSetPicture", _wrap_PictureAnnotationSetPicture, METH_VARARGS, (char *)"\n"
+		"PictureAnnotationSetPicture(Gatan::DM::Component const & comp, long picture)\n"
+		"\n"
+		"PictureAnnotationSetPicture: Sets the picture of an annotation.\n"
+		""},
+	 { (char *)"PIctureGetBounds", _wrap_PIctureGetBounds, METH_VARARGS, (char *)"\n"
+		"PIctureGetBounds(long picture, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"PIctureGetBounds: Gets the preferred bounds of the picture for display on the screen.\n"
+		""},
+	 { (char *)"PrintImage", _wrap_PrintImage, METH_VARARGS, (char *)"\n"
+		"PrintImage(Image argument_1)\n"
+		"\n"
+		"PrintImage: Print the image.\n"
+		""},
+	 { (char *)"RasterImageDisplayAddThresholdToMask", _wrap_RasterImageDisplayAddThresholdToMask, METH_VARARGS, (char *)"\n"
+		"RasterImageDisplayAddThresholdToMask(Gatan::DM::RasterImageDisplay const & rid, Image mask, float top, float left, float bottom, float right)\n"
+		"\n"
+		"RasterImageDisplayAddThresholdToMask: Sets the points in mask to 1 if they lie within \n"
+		"the threshold.\n"
+		""},
+	 { (char *)"RasterImageDisplayGetThresholdLimits", _wrap_RasterImageDisplayGetThresholdLimits, METH_VARARGS, (char *)"\n"
+		"RasterImageDisplayGetThresholdLimits(Gatan::DM::RasterImageDisplay const & rid, float * low, float * high)\n"
+		"\n"
+		"RasterImageDisplayGetThresholdLimits: Gets the threshold limits of the display.\n"
+		""},
+	 { (char *)"RasterImageDisplayIsThresholdOn", _wrap_RasterImageDisplayIsThresholdOn, METH_VARARGS, (char *)"\n"
+		"RasterImageDisplayIsThresholdOn(Gatan::DM::RasterImageDisplay const & rid) -> bool\n"
+		"\n"
+		"RasterImageDisplayIsThresholdOn: Determines whether the thresholding overlay is on or \n"
+		"off.\n"
+		""},
+	 { (char *)"RasterImageDisplaySetThresholdLimits", _wrap_RasterImageDisplaySetThresholdLimits, METH_VARARGS, (char *)"\n"
+		"RasterImageDisplaySetThresholdLimits(Gatan::DM::RasterImageDisplay const & rid, float low, float high)\n"
+		"\n"
+		"RasterImageDisplaySetThresholdLimits: Sets the threshold limits of the display.\n"
+		""},
+	 { (char *)"RasterImageDisplaySetThresholdOn", _wrap_RasterImageDisplaySetThresholdOn, METH_VARARGS, (char *)"\n"
+		"RasterImageDisplaySetThresholdOn(Gatan::DM::RasterImageDisplay const & rid, bool on)\n"
+		"\n"
+		"RasterImageDisplaySetThresholdOn: Sets whether the thresholding overlay is on or off.\n"
+		""},
+	 { (char *)"RasterizeRGB", _wrap_RasterizeRGB, METH_VARARGS, (char *)"\n"
+		"RasterizeRGB(Image source, bool dither) -> Image\n"
+		"\n"
+		"RasterizeRGB: Rasterize the source RGB image and return the resulting Raster image \n"
+		"displayed image with an appropriate color table. The dither parameter controls dithering.\n"
+		""},
+	 { (char *)"RawCopyImage", _wrap_RawCopyImage, METH_VARARGS, (char *)"\n"
+		"RawCopyImage(Image src, Image dst)\n"
+		"\n"
+		"RawCopyImage: Copies the src image to the dst image ignoring data types. The data type \n"
+		"sizes of the two images must be the same.\n"
+		""},
+	 { (char *)"ReadFile", _wrap_ReadFile, METH_VARARGS, (char *)"\n"
+		"ReadFile(DM_FileReference file, long count) -> Gatan::DM::String\n"
+		"\n"
+		"ReadFile: Read count bytes from the file, returning them as a string.\n"
+		""},
+	 { (char *)"ReadFileLine", _wrap_ReadFileLine, METH_VARARGS, (char *)"\n"
+		"ReadFileLine(DM_FileReference file, Gatan::DM::String & string) -> bool\n"
+		"\n"
+		"ReadFileLine: Read a line of text from the file, storing it into the string variable. \n"
+		"Return 1 if successful and 0 otherwise.\n"
+		""},
+	 { (char *)"ReadRawStream", _wrap_ReadRawStream, METH_VARARGS, (char *)"\n"
+		"ReadRawStream(long rawStream, long data, long length)\n"
+		"\n"
+		"ReadRawStream: Read length bytes from rawStream and store it into the memory pointed to \n"
+		"by data.\n"
+		""},
+	 { (char *)"RealFFT", _wrap_RealFFT, METH_VARARGS, (char *)"\n"
+		"RealFFT(Image source) -> Image\n"
+		"\n"
+		"RealFFT: Creates a new complex 8-byte image from the FFT of the real image source.\n"
+		""},
+	 { (char *)"RealIFFT", _wrap_RealIFFT, METH_VARARGS, (char *)"\n"
+		"RealIFFT(Image source) -> Image\n"
+		"\n"
+		"RealIFFT: Creates a new real image from the inverse FFT of the complex 8-byte image \n"
+		"source.\n"
+		""},
 	 { (char *)"RealImage", _wrap_RealImage, METH_VARARGS, (char *)"\n"
 		"RealImage(Gatan::DM::String const & title, uint32 bytes, uint32 d0, uint32 d1, uint32 d2, uint32 d3) -> Image\n"
 		"RealImage(Gatan::DM::String const & title, uint32 bytes, uint32 d0, uint32 d1, uint32 d2) -> Image\n"
 		"RealImage(Gatan::DM::String const & title, uint32 bytes, uint32 d0, uint32 d1) -> Image\n"
 		"RealImage(Gatan::DM::String const & title, uint32 bytes, uint32 d0) -> Image\n"
+		"\n"
+		"RealImage: Creates a 2D real image of size [d0,d1] with the given title. The bytes \n"
+		"parameter can be 4 or 8 for single and double precision floating point numbers.\n"
 		""},
-	 { (char *)"Reduce", _wrap_Reduce, METH_VARARGS, (char *)"Reduce(Image argument_1)"},
-	 { (char *)"ReducedFFT", _wrap_ReducedFFT, METH_VARARGS, (char *)"ReducedFFT(Image source) -> Image"},
-	 { (char *)"ImageUtilities_MeanAndVariance", _wrap_ImageUtilities_MeanAndVariance, METH_VARARGS, (char *)"ImageUtilities_MeanAndVariance(Image src_img, Image mask_img, double & mean, double & variance) -> double"},
-	 { (char *)"RegisterCustomMenu", _wrap_RegisterCustomMenu, METH_VARARGS, (char *)"RegisterCustomMenu(long menuHandler) -> long"},
-	 { (char *)"SetStatusBarVisibility", _wrap_SetStatusBarVisibility, METH_VARARGS, (char *)"SetStatusBarVisibility(bool visibility)"},
-	 { (char *)"SetShowHideStatusBarMenuItemEnabled", _wrap_SetShowHideStatusBarMenuItemEnabled, METH_VARARGS, (char *)"SetShowHideStatusBarMenuItemEnabled(bool enabled)"},
-	 { (char *)"UpdateStatusBar", _wrap_UpdateStatusBar, METH_VARARGS, (char *)"UpdateStatusBar(long nIndex, char const * pcText)"},
-	 { (char *)"RegisterCustomTool", _wrap_RegisterCustomTool, METH_VARARGS, (char *)"RegisterCustomTool(ULONG_PTR toolInstance, char const * toolTip, ULONG_PTR hBitmap) -> ULONG_PTR"},
-	 { (char *)"RegisterMenuAdjustment", _wrap_RegisterMenuAdjustment, METH_VARARGS, (char *)"RegisterMenuAdjustment(char const * menuName, char const * adjustedMenuName)"},
-	 { (char *)"RegisterObjectListener", _wrap_RegisterObjectListener, METH_VARARGS, (char *)"RegisterObjectListener(ulong_ptr_t object, ulong_ptr_t proc, ulong_ptr_t refCon) -> ulong_ptr_t"},
-	 { (char *)"RegisterScriptPalette", _wrap_RegisterScriptPalette, METH_VARARGS, (char *)"RegisterScriptPalette(Gatan::DM::ScriptObject const & argument_1, char const * type, char const * name)"},
-	 { (char *)"RegisterSystemIdle", _wrap_RegisterSystemIdle, METH_VARARGS, (char *)"RegisterSystemIdle(SystemIdleProc SystemIdleProc)"},
-	 { (char *)"ReleaseDataPtr", _wrap_ReleaseDataPtr, METH_VARARGS, (char *)"ReleaseDataPtr(Image argument_1)"},
-	 { (char *)"ReleaseSemaphore", _wrap_ReleaseSemaphore, METH_VARARGS, (char *)"ReleaseSemaphore(long argument_1)"},
-	 { (char *)"RemoveCustomTool", _wrap_RemoveCustomTool, METH_VARARGS, (char *)"RemoveCustomTool(long doStateProc)"},
-	 { (char *)"RevertToDefaultTool", _wrap_RevertToDefaultTool, METH_VARARGS, (char *)"RevertToDefaultTool()"},
-	 { (char *)"RemoveFunction", _wrap_RemoveFunction, METH_VARARGS, (char *)"RemoveFunction(void * fnPtr)"},
-	 { (char *)"RemovePathFromCopyToImageList", _wrap_RemovePathFromCopyToImageList, METH_VARARGS, (char *)"RemovePathFromCopyToImageList(char const * path)"},
-	 { (char *)"RemoveScriptFromMenu", _wrap_RemoveScriptFromMenu, METH_VARARGS, (char *)"RemoveScriptFromMenu(char const * commandName, char const * menuName, char const * optionalSubMenuName)"},
-	 { (char *)"ResetContrastLimitsAlways", _wrap_ResetContrastLimitsAlways, METH_VARARGS, (char *)"ResetContrastLimitsAlways(Image argument_1)"},
-	 { (char *)"Result", _wrap_Result, METH_VARARGS, (char *)"Result(Gatan::DM::String const & argument_1)"},
-	 { (char *)"Debug", _wrap_Debug, METH_VARARGS, (char *)"Debug(Gatan::DM::String const & argument_1)"},
-	 { (char *)"GetLogDirectory", _wrap_GetLogDirectory, METH_VARARGS, (char *)"GetLogDirectory(std::string & log_dir) -> bool"},
-	 { (char *)"GetLogFilename", _wrap_GetLogFilename, METH_VARARGS, (char *)"GetLogFilename(std::string & filename) -> bool"},
-	 { (char *)"CopyLogFile", _wrap_CopyLogFile, METH_VARARGS, (char *)"CopyLogFile(uint32 level) -> bool"},
-	 { (char *)"GetCopyLogFilename", _wrap_GetCopyLogFilename, METH_VARARGS, (char *)"GetCopyLogFilename(std::string & copyfilename) -> bool"},
-	 { (char *)"FlushLogFile", _wrap_FlushLogFile, METH_VARARGS, (char *)"FlushLogFile() -> bool"},
-	 { (char *)"GetLogMessageCount", _wrap_GetLogMessageCount, METH_VARARGS, (char *)"GetLogMessageCount(uint32 level) -> uint32"},
+	 { (char *)"Reduce", _wrap_Reduce, METH_VARARGS, (char *)"\n"
+		"Reduce(Image argument_1)\n"
+		"\n"
+		"Reduce: Reduces the image by 2X.\n"
+		""},
+	 { (char *)"ReducedFFT", _wrap_ReducedFFT, METH_VARARGS, (char *)"\n"
+		"ReducedFFT(Image source) -> Image\n"
+		"\n"
+		"ReducedFFT: Creates a new packed complex image from the FFT of the real image source \n"
+		"after reducing the source by a factor of 2.\n"
+		""},
+	 { (char *)"ImageUtilities_MeanAndVariance", _wrap_ImageUtilities_MeanAndVariance, METH_VARARGS, (char *)"\n"
+		"ImageUtilities_MeanAndVariance(Image src_img, Image mask_img, double & mean, double & variance) -> double\n"
+		"\n"
+		"ImageUtilities_MeanAndVariance: Calculates image stats\n"
+		""},
+	 { (char *)"RegisterCustomMenu", _wrap_RegisterCustomMenu, METH_VARARGS, (char *)"\n"
+		"RegisterCustomMenu(long menuHandler) -> long\n"
+		"\n"
+		"RegisterCustomMenu: Register a custom menu. See the SDK documentation for more \n"
+		"information.\n"
+		""},
+	 { (char *)"SetStatusBarVisibility", _wrap_SetStatusBarVisibility, METH_VARARGS, (char *)"\n"
+		"SetStatusBarVisibility(bool visibility)\n"
+		"\n"
+		"Show/Hide status bar\n"
+		""},
+	 { (char *)"SetShowHideStatusBarMenuItemEnabled", _wrap_SetShowHideStatusBarMenuItemEnabled, METH_VARARGS, (char *)"\n"
+		"SetShowHideStatusBarMenuItemEnabled(bool enabled)\n"
+		"\n"
+		"Show/Hide status bar menu item ( poor, but we want to disable item for serial scopes from Microscope plugin. RTH)\n"
+		""},
+	 { (char *)"UpdateStatusBar", _wrap_UpdateStatusBar, METH_VARARGS, (char *)"\n"
+		"UpdateStatusBar(long nIndex, char const * pcText)\n"
+		"\n"
+		"Update status bar's pane text\n"
+		""},
+	 { (char *)"RegisterCustomTool", _wrap_RegisterCustomTool, METH_VARARGS, (char *)"\n"
+		"RegisterCustomTool(ULONG_PTR toolInstance, char const * toolTip, ULONG_PTR hBitmap) -> ULONG_PTR\n"
+		"\n"
+		"RegisterCustomTool: Add the tool to the custom tool list. See the SDK documentation for \n"
+		"more information.\n"
+		""},
+	 { (char *)"RegisterMenuAdjustment", _wrap_RegisterMenuAdjustment, METH_VARARGS, (char *)"\n"
+		"RegisterMenuAdjustment(char const * menuName, char const * adjustedMenuName)\n"
+		"\n"
+		"RegisterMenuAdjustment: Unregister a menu name adjustment. See the SDK documentation for \n"
+		"more information.\n"
+		""},
+	 { (char *)"RegisterObjectListener", _wrap_RegisterObjectListener, METH_VARARGS, (char *)"\n"
+		"RegisterObjectListener(ulong_ptr_t object, ulong_ptr_t proc, ulong_ptr_t refCon) -> ulong_ptr_t\n"
+		"\n"
+		"RegisterObjectListener: Add object listener to OM object. See the SDK documentation for \n"
+		"more information.\n"
+		""},
+	 { (char *)"RegisterScriptPalette", _wrap_RegisterScriptPalette, METH_VARARGS, (char *)"\n"
+		"RegisterScriptPalette(Gatan::DM::ScriptObject const & argument_1, char const * type, char const * name)\n"
+		"\n"
+		"RegisterScriptPalette:\n"
+		""},
+	 { (char *)"RegisterSystemIdle", _wrap_RegisterSystemIdle, METH_VARARGS, (char *)"\n"
+		"RegisterSystemIdle(SystemIdleProc SystemIdleProc)\n"
+		"\n"
+		"RegisterSystemIdle: Register a system idle procedure.\n"
+		""},
+	 { (char *)"ReleaseDataPtr", _wrap_ReleaseDataPtr, METH_VARARGS, (char *)"\n"
+		"ReleaseDataPtr(Image argument_1)\n"
+		"\n"
+		"ReleaseDataPtr: Releases the pointer to the image data acquired using the GetDataPtr() \n"
+		"function.\n"
+		""},
+	 { (char *)"ReleaseSemaphore", _wrap_ReleaseSemaphore, METH_VARARGS, (char *)"\n"
+		"ReleaseSemaphore(long argument_1)\n"
+		"\n"
+		"ReleaseSemaphore: Release a semaphore. Used only with background processing.\n"
+		""},
+	 { (char *)"RemoveCustomTool", _wrap_RemoveCustomTool, METH_VARARGS, (char *)"\n"
+		"RemoveCustomTool(long doStateProc)\n"
+		"\n"
+		"RemoveCustomTool: Remove the tool to the custom tool list. See the SDK documentation for \n"
+		"more information.\n"
+		""},
+	 { (char *)"RevertToDefaultTool", _wrap_RevertToDefaultTool, METH_VARARGS, (char *)"\n"
+		"RevertToDefaultTool()\n"
+		"\n"
+		"RevertToDefaultTool: Revert DM to the default tool\n"
+		""},
+	 { (char *)"RemoveFunction", _wrap_RemoveFunction, METH_VARARGS, (char *)"\n"
+		"RemoveFunction(void * fnPtr)\n"
+		"\n"
+		"RemoveFunction: Removes the user defined function with an entry point matching fnPtr.\n"
+		""},
+	 { (char *)"RemovePathFromCopyToImageList", _wrap_RemovePathFromCopyToImageList, METH_VARARGS, (char *)"\n"
+		"RemovePathFromCopyToImageList(char const * path)\n"
+		"\n"
+		"RemovePathFromCopyToImageList: Removes 'path' from the copy to image list.\n"
+		""},
+	 { (char *)"RemoveScriptFromMenu", _wrap_RemoveScriptFromMenu, METH_VARARGS, (char *)"\n"
+		"RemoveScriptFromMenu(char const * commandName, char const * menuName, char const * optionalSubMenuName)\n"
+		"\n"
+		"RemoveScriptFromMenu: Removes the given menu command from the menu. The commandName \n"
+		"indicates the string by which this script is known to the application. The menuName and \n"
+		"optionalSubMenuName parameters specify the menu.\n"
+		""},
+	 { (char *)"ResetContrastLimitsAlways", _wrap_ResetContrastLimitsAlways, METH_VARARGS, (char *)"\n"
+		"ResetContrastLimitsAlways(Image argument_1)\n"
+		"\n"
+		"ResetContrastLimitsAlways: Reset the contrast limits of the image from the survey \n"
+		"information.\n"
+		""},
+	 { (char *)"Result", _wrap_Result, METH_VARARGS, (char *)"\n"
+		"Result(Gatan::DM::String const & argument_1)\n"
+		"\n"
+		"Result: Output the string to the results window.\n"
+		""},
+	 { (char *)"Debug", _wrap_Debug, METH_VARARGS, (char *)"\n"
+		"Debug(Gatan::DM::String const & argument_1)\n"
+		"\n"
+		"Debug: Output the string to the debug window.\n"
+		""},
+	 { (char *)"GetLogDirectory", _wrap_GetLogDirectory, METH_VARARGS, (char *)"\n"
+		"GetLogDirectory(std::string & log_dir) -> bool\n"
+		"\n"
+		"DM logger: Get DM log file directory.\n"
+		""},
+	 { (char *)"GetLogFilename", _wrap_GetLogFilename, METH_VARARGS, (char *)"\n"
+		"GetLogFilename(std::string & filename) -> bool\n"
+		"\n"
+		"DM logger: Get current DM log file name.\n"
+		""},
+	 { (char *)"CopyLogFile", _wrap_CopyLogFile, METH_VARARGS, (char *)"\n"
+		"CopyLogFile(uint32 level) -> bool\n"
+		"\n"
+		"DM logger: Copied DM log file to temp with specified Level filter\n"
+		""},
+	 { (char *)"GetCopyLogFilename", _wrap_GetCopyLogFilename, METH_VARARGS, (char *)"\n"
+		"GetCopyLogFilename(std::string & copyfilename) -> bool\n"
+		"\n"
+		"DM logger: Get copied file name created by function CopyLogFile\n"
+		""},
+	 { (char *)"FlushLogFile", _wrap_FlushLogFile, METH_VARARGS, (char *)"\n"
+		"FlushLogFile() -> bool\n"
+		"\n"
+		"DM logger: Force disc-write of log message queue\n"
+		""},
+	 { (char *)"GetLogMessageCount", _wrap_GetLogMessageCount, METH_VARARGS, (char *)"\n"
+		"GetLogMessageCount(uint32 level) -> uint32\n"
+		"\n"
+		"DM logger: Get message count with specified Level filter\n"
+		""},
 	 { (char *)"RGBImage", _wrap_RGBImage, METH_VARARGS, (char *)"\n"
 		"RGBImage(char const * title, long bytes, long d0, long d1, long d2, long d3) -> Image\n"
 		"RGBImage(char const * title, long bytes, long d0, long d1, long d2) -> Image\n"
 		"RGBImage(char const * title, long bytes, long d0, long d1) -> Image\n"
 		"RGBImage(char const * title, long bytes, long d0) -> Image\n"
+		"\n"
+		"RGBImage: Creates a 2D RGB image of size [d0,d1] with the given title. The bytes \n"
+		"parameter must be 4.\n"
 		""},
-	 { (char *)"ROIAddToMask", _wrap_ROIAddToMask, METH_VARARGS, (char *)"ROIAddToMask(Gatan::DM::ROI const & roi, Image mask, float top, float left, float bottom, float right)"},
-	 { (char *)"ROIAddVertex", _wrap_ROIAddVertex, METH_VARARGS, (char *)"ROIAddVertex(Gatan::DM::ROI const & roi, float x, float y)"},
-	 { (char *)"ROIClearVertices", _wrap_ROIClearVertices, METH_VARARGS, (char *)"ROIClearVertices(Gatan::DM::ROI const & roi)"},
-	 { (char *)"ROIClone", _wrap_ROIClone, METH_VARARGS, (char *)"ROIClone(Gatan::DM::ROI const & roi) -> Gatan::DM::ROI"},
-	 { (char *)"ROIContainsPoint", _wrap_ROIContainsPoint, METH_VARARGS, (char *)"ROIContainsPoint(Gatan::DM::ROI const & roi, float x, float y) -> bool"},
-	 { (char *)"ROICountVertices", _wrap_ROICountVertices, METH_VARARGS, (char *)"ROICountVertices(Gatan::DM::ROI const & roi) -> long"},
-	 { (char *)"ROIDeleteVertex", _wrap_ROIDeleteVertex, METH_VARARGS, (char *)"ROIDeleteVertex(Gatan::DM::ROI const & roi, long index)"},
-	 { (char *)"ROIGetColor", _wrap_ROIGetColor, METH_VARARGS, (char *)"ROIGetColor(Gatan::DM::ROI const & roi, float * r, float * g, float * b)"},
-	 { (char *)"ROIGetDeletable", _wrap_ROIGetDeletable, METH_VARARGS, (char *)"ROIGetDeletable(Gatan::DM::ROI const & roi) -> bool"},
-	 { (char *)"ROIGetID", _wrap_ROIGetID, METH_VARARGS, (char *)"ROIGetID(Gatan::DM::ROI const & roi) -> long"},
-	 { (char *)"ROIGetLabel", _wrap_ROIGetLabel, METH_VARARGS, (char *)"ROIGetLabel(Gatan::DM::ROI const & roi) -> Gatan::DM::String"},
-	 { (char *)"ROIGetLabelStripeColor", _wrap_ROIGetLabelStripeColor, METH_VARARGS, (char *)"ROIGetLabelStripeColor(Gatan::DM::ROI const & roi, float * r, float * g, float * b)"},
-	 { (char *)"ROIGetLine", _wrap_ROIGetLine, METH_VARARGS, (char *)"ROIGetLine(Gatan::DM::ROI const & roi, float * sx, float * sy, float * ex, float * ey)"},
-	 { (char *)"ROIGetMoveable", _wrap_ROIGetMoveable, METH_VARARGS, (char *)"ROIGetMoveable(Gatan::DM::ROI const & roi) -> bool"},
-	 { (char *)"ROIGetName", _wrap_ROIGetName, METH_VARARGS, (char *)"ROIGetName(Gatan::DM::ROI const & roi) -> Gatan::DM::String"},
-	 { (char *)"ROIGetPoint", _wrap_ROIGetPoint, METH_VARARGS, (char *)"ROIGetPoint(Gatan::DM::ROI const & roi, float * x, float * y)"},
-	 { (char *)"ROIGetRange", _wrap_ROIGetRange, METH_VARARGS, (char *)"ROIGetRange(Gatan::DM::ROI const & roi, float * start, float * end)"},
-	 { (char *)"ROIGetRectangle", _wrap_ROIGetRectangle, METH_VARARGS, (char *)"ROIGetRectangle(Gatan::DM::ROI const & roi, float * top, float * left, float * bottom, float * right)"},
-	 { (char *)"ROIGetResizable", _wrap_ROIGetResizable, METH_VARARGS, (char *)"ROIGetResizable(Gatan::DM::ROI const & roi) -> bool"},
-	 { (char *)"ROIGetVertex", _wrap_ROIGetVertex, METH_VARARGS, (char *)"ROIGetVertex(Gatan::DM::ROI const & roi, long index, float * x, float * y)"},
-	 { (char *)"ROIGetVolatile", _wrap_ROIGetVolatile, METH_VARARGS, (char *)"ROIGetVolatile(Gatan::DM::ROI const & roi) -> bool"},
-	 { (char *)"ROIInsertVertex", _wrap_ROIInsertVertex, METH_VARARGS, (char *)"ROIInsertVertex(Gatan::DM::ROI const & roi, long before, float x, float y)"},
-	 { (char *)"ROIIsClosed", _wrap_ROIIsClosed, METH_VARARGS, (char *)"ROIIsClosed(Gatan::DM::ROI const & roi) -> bool"},
-	 { (char *)"ROIIsLine", _wrap_ROIIsLine, METH_VARARGS, (char *)"ROIIsLine(Gatan::DM::ROI const & roi) -> bool"},
-	 { (char *)"ROIIsPoint", _wrap_ROIIsPoint, METH_VARARGS, (char *)"ROIIsPoint(Gatan::DM::ROI const & roi) -> bool"},
-	 { (char *)"ROIIsRange", _wrap_ROIIsRange, METH_VARARGS, (char *)"ROIIsRange(Gatan::DM::ROI const & roi) -> bool"},
-	 { (char *)"ROIIsRectangle", _wrap_ROIIsRectangle, METH_VARARGS, (char *)"ROIIsRectangle(Gatan::DM::ROI const & roi) -> bool"},
-	 { (char *)"ROIIsValid", _wrap_ROIIsValid, METH_VARARGS, (char *)"ROIIsValid(Gatan::DM::ROI const & roi) -> bool"},
-	 { (char *)"ROISetColor", _wrap_ROISetColor, METH_VARARGS, (char *)"ROISetColor(Gatan::DM::ROI const & roi, float r, float g, float b)"},
-	 { (char *)"ROISetDeletable", _wrap_ROISetDeletable, METH_VARARGS, (char *)"ROISetDeletable(Gatan::DM::ROI const & roi, bool deletable)"},
-	 { (char *)"ROISetIsClosed", _wrap_ROISetIsClosed, METH_VARARGS, (char *)"ROISetIsClosed(Gatan::DM::ROI const & roi, bool is_closed)"},
-	 { (char *)"ROISetLabel", _wrap_ROISetLabel, METH_VARARGS, (char *)"ROISetLabel(Gatan::DM::ROI const & roi, Gatan::DM::String const & name)"},
-	 { (char *)"ROISetBoldLabel", _wrap_ROISetBoldLabel, METH_VARARGS, (char *)"ROISetBoldLabel(Gatan::DM::ROI const & roi, bool boldLabel)"},
-	 { (char *)"ROISetBorderThickness", _wrap_ROISetBorderThickness, METH_VARARGS, (char *)"ROISetBorderThickness(Gatan::DM::ROI const & roi, float borderThickness)"},
-	 { (char *)"ROISetLine", _wrap_ROISetLine, METH_VARARGS, (char *)"ROISetLine(Gatan::DM::ROI const & roi, float sx, float sy, float ex, float ey)"},
-	 { (char *)"ROISetMoveable", _wrap_ROISetMoveable, METH_VARARGS, (char *)"ROISetMoveable(Gatan::DM::ROI const & roi, bool moveable)"},
-	 { (char *)"ROISetName", _wrap_ROISetName, METH_VARARGS, (char *)"ROISetName(Gatan::DM::ROI const & roi, Gatan::DM::String const & name)"},
-	 { (char *)"ROISetPoint", _wrap_ROISetPoint, METH_VARARGS, (char *)"ROISetPoint(Gatan::DM::ROI const & roi, float x, float y)"},
-	 { (char *)"ROISetRange", _wrap_ROISetRange, METH_VARARGS, (char *)"ROISetRange(Gatan::DM::ROI const & roi, float start, float end)"},
-	 { (char *)"ROISetRectangle", _wrap_ROISetRectangle, METH_VARARGS, (char *)"ROISetRectangle(Gatan::DM::ROI const & roi, float top, float left, float bottom, float right)"},
-	 { (char *)"ROISetRegionToComplexValue", _wrap_ROISetRegionToComplexValue, METH_VARARGS, (char *)"ROISetRegionToComplexValue(Gatan::DM::ROI const & roi, Image mask, complex128_t const & value, float top, float left, float bottom, float right)"},
-	 { (char *)"ROISetRegionToRGBValue", _wrap_ROISetRegionToRGBValue, METH_VARARGS, (char *)"ROISetRegionToRGBValue(Gatan::DM::ROI const & roi, Image mask, rgba_uint8_os_t value, float top, float left, float bottom, float right)"},
-	 { (char *)"ROISetRegionToValue", _wrap_ROISetRegionToValue, METH_VARARGS, (char *)"ROISetRegionToValue(Gatan::DM::ROI const & roi, Image mask, double value, float top, float left, float bottom, float right)"},
-	 { (char *)"ROISetResizable", _wrap_ROISetResizable, METH_VARARGS, (char *)"ROISetResizable(Gatan::DM::ROI const & roi, bool resizable)"},
-	 { (char *)"ROISetVertex", _wrap_ROISetVertex, METH_VARARGS, (char *)"ROISetVertex(Gatan::DM::ROI const & roi, long index, float x, float y)"},
-	 { (char *)"ROISetVolatile", _wrap_ROISetVolatile, METH_VARARGS, (char *)"ROISetVolatile(Gatan::DM::ROI const & roi, bool is_volatile)"},
-	 { (char *)"Rotate", _wrap_Rotate, METH_VARARGS, (char *)"Rotate(Image source, float radians) -> Image"},
-	 { (char *)"RotateLeft", _wrap_RotateLeft, METH_VARARGS, (char *)"RotateLeft(Image argument_1)"},
-	 { (char *)"RotateRight", _wrap_RotateRight, METH_VARARGS, (char *)"RotateRight(Image argument_1)"},
-	 { (char *)"Save", _wrap_Save, METH_VARARGS, (char *)"Save(Image argument_1)"},
-	 { (char *)"SaveAsDialog", _wrap_SaveAsDialog, METH_VARARGS, (char *)"SaveAsDialog(char const * prompt, char const * defaultName, char * saveName) -> bool"},
+	 { (char *)"ROIAddToMask", _wrap_ROIAddToMask, METH_VARARGS, (char *)"\n"
+		"ROIAddToMask(Gatan::DM::ROI const & roi, Image mask, float top, float left, float bottom, float right)\n"
+		"\n"
+		"ROIAddToMask: Add the region of interest to the image within the bounds of the specified \n"
+		"rectangle.\n"
+		""},
+	 { (char *)"ROIAddVertex", _wrap_ROIAddVertex, METH_VARARGS, (char *)"\n"
+		"ROIAddVertex(Gatan::DM::ROI const & roi, float x, float y)\n"
+		"\n"
+		"ROIAddVertex: Add a vertex with the given coordinates to the region of interest.\n"
+		""},
+	 { (char *)"ROIClearVertices", _wrap_ROIClearVertices, METH_VARARGS, (char *)"\n"
+		"ROIClearVertices(Gatan::DM::ROI const & roi)\n"
+		"\n"
+		"ROIClearVertices: Remove all vertices from the region of interest.\n"
+		""},
+	 { (char *)"ROIClone", _wrap_ROIClone, METH_VARARGS, (char *)"\n"
+		"ROIClone(Gatan::DM::ROI const & roi) -> Gatan::DM::ROI\n"
+		"\n"
+		"ROIClone: Returns a clone of the roi.\n"
+		""},
+	 { (char *)"ROIContainsPoint", _wrap_ROIContainsPoint, METH_VARARGS, (char *)"\n"
+		"ROIContainsPoint(Gatan::DM::ROI const & roi, float x, float y) -> bool\n"
+		"\n"
+		"ROIContainsPoint: Returns whether the region of interest encloses the given point.\n"
+		""},
+	 { (char *)"ROICountVertices", _wrap_ROICountVertices, METH_VARARGS, (char *)"\n"
+		"ROICountVertices(Gatan::DM::ROI const & roi) -> long\n"
+		"\n"
+		"ROICountVertices: Return the number of vertices comprising the region of interest.\n"
+		""},
+	 { (char *)"ROIDeleteVertex", _wrap_ROIDeleteVertex, METH_VARARGS, (char *)"\n"
+		"ROIDeleteVertex(Gatan::DM::ROI const & roi, long index)\n"
+		"\n"
+		"ROIDeleteVertex: Delete the given vertex from the region of interest.\n"
+		""},
+	 { (char *)"ROIGetColor", _wrap_ROIGetColor, METH_VARARGS, (char *)"\n"
+		"ROIGetColor(Gatan::DM::ROI const & roi, float * r, float * g, float * b)\n"
+		"\n"
+		"ROIGetColor: Stores the color of the region of interest into the variables. Each number \n"
+		"will be in the range of 0 to 1.\n"
+		""},
+	 { (char *)"ROIGetDeletable", _wrap_ROIGetDeletable, METH_VARARGS, (char *)"\n"
+		"ROIGetDeletable(Gatan::DM::ROI const & roi) -> bool\n"
+		"\n"
+		"ROIGetDeletable: Return whether the region of interest is deletable or not.\n"
+		""},
+	 { (char *)"ROIGetID", _wrap_ROIGetID, METH_VARARGS, (char *)"\n"
+		"ROIGetID(Gatan::DM::ROI const & roi) -> long\n"
+		"\n"
+		"ROIGetID: Return the ID for the region of interest.\n"
+		""},
+	 { (char *)"ROIGetLabel", _wrap_ROIGetLabel, METH_VARARGS, (char *)"\n"
+		"ROIGetLabel(Gatan::DM::ROI const & roi) -> Gatan::DM::String\n"
+		"\n"
+		"ROIGetLabel: Return the label of the region of interest.\n"
+		""},
+	 { (char *)"ROIGetLabelStripeColor", _wrap_ROIGetLabelStripeColor, METH_VARARGS, (char *)"\n"
+		"ROIGetLabelStripeColor(Gatan::DM::ROI const & roi, float * r, float * g, float * b)\n"
+		"\n"
+		"ROIGetLabelStripeColor: Stores the color of the label stripe into the variables. Each number \n"
+		"will be in the range of 0 to 1.\n"
+		""},
+	 { (char *)"ROIGetLine", _wrap_ROIGetLine, METH_VARARGS, (char *)"\n"
+		"ROIGetLine(Gatan::DM::ROI const & roi, float * sx, float * sy, float * ex, float * ey)\n"
+		"\n"
+		"ROIGetLine: Fill in the start and end points of the line represented by the region of \n"
+		"interest.\n"
+		""},
+	 { (char *)"ROIGetMoveable", _wrap_ROIGetMoveable, METH_VARARGS, (char *)"\n"
+		"ROIGetMoveable(Gatan::DM::ROI const & roi) -> bool\n"
+		"\n"
+		"ROIGetMoveable: Return whether the region of interest is moveable or not.\n"
+		""},
+	 { (char *)"ROIGetName", _wrap_ROIGetName, METH_VARARGS, (char *)"\n"
+		"ROIGetName(Gatan::DM::ROI const & roi) -> Gatan::DM::String\n"
+		"\n"
+		"ROIGetName: Return the name of the region of interest.\n"
+		""},
+	 { (char *)"ROIGetPoint", _wrap_ROIGetPoint, METH_VARARGS, (char *)"\n"
+		"ROIGetPoint(Gatan::DM::ROI const & roi, float * x, float * y)\n"
+		"\n"
+		"ROIGetPoint: Return the coordinates of the point represented by this region of interest.\n"
+		""},
+	 { (char *)"ROIGetRange", _wrap_ROIGetRange, METH_VARARGS, (char *)"\n"
+		"ROIGetRange(Gatan::DM::ROI const & roi, float * start, float * end)\n"
+		"\n"
+		"ROIGetRange: Fills in the start and end columns of the range represented by the region \n"
+		"of interest.\n"
+		""},
+	 { (char *)"ROIGetRectangle", _wrap_ROIGetRectangle, METH_VARARGS, (char *)"\n"
+		"ROIGetRectangle(Gatan::DM::ROI const & roi, float * top, float * left, float * bottom, float * right)\n"
+		"\n"
+		"ROIGetRectangle: Fill in the coordinates of the rectangle represented by the region of \n"
+		"interest.\n"
+		""},
+	 { (char *)"ROIGetResizable", _wrap_ROIGetResizable, METH_VARARGS, (char *)"\n"
+		"ROIGetResizable(Gatan::DM::ROI const & roi) -> bool\n"
+		"\n"
+		"ROIGetResizable: Return whether the region of interest is resizable or not.\n"
+		""},
+	 { (char *)"ROIGetVertex", _wrap_ROIGetVertex, METH_VARARGS, (char *)"\n"
+		"ROIGetVertex(Gatan::DM::ROI const & roi, long index, float * x, float * y)\n"
+		"\n"
+		"ROIGetVertex: Return the coordinates of the given vertex of the region of interest.\n"
+		""},
+	 { (char *)"ROIGetVolatile", _wrap_ROIGetVolatile, METH_VARARGS, (char *)"\n"
+		"ROIGetVolatile(Gatan::DM::ROI const & roi) -> bool\n"
+		"\n"
+		"ROIGetVolatile: Return whether the region of interest is volatile or not.\n"
+		""},
+	 { (char *)"ROIInsertVertex", _wrap_ROIInsertVertex, METH_VARARGS, (char *)"\n"
+		"ROIInsertVertex(Gatan::DM::ROI const & roi, long before, float x, float y)\n"
+		"\n"
+		"ROIInsertVertex: Insert a vertex with the given coordinates before the indicated vertex \n"
+		"of the region of interest.\n"
+		""},
+	 { (char *)"ROIIsClosed", _wrap_ROIIsClosed, METH_VARARGS, (char *)"\n"
+		"ROIIsClosed(Gatan::DM::ROI const & roi) -> bool\n"
+		"\n"
+		"ROIIsClosed: Returns whether the region of interest is a closed loop or not.\n"
+		""},
+	 { (char *)"ROIIsLine", _wrap_ROIIsLine, METH_VARARGS, (char *)"\n"
+		"ROIIsLine(Gatan::DM::ROI const & roi) -> bool\n"
+		"\n"
+		"ROIIsLine: Return whether the region of interest is a line.\n"
+		""},
+	 { (char *)"ROIIsPoint", _wrap_ROIIsPoint, METH_VARARGS, (char *)"\n"
+		"ROIIsPoint(Gatan::DM::ROI const & roi) -> bool\n"
+		"\n"
+		"ROIIsPoint: Return whether the region of interest is a point.\n"
+		""},
+	 { (char *)"ROIIsRange", _wrap_ROIIsRange, METH_VARARGS, (char *)"\n"
+		"ROIIsRange(Gatan::DM::ROI const & roi) -> bool\n"
+		"\n"
+		"ROIIsRange: Returns whether the region of interest is a range.\n"
+		""},
+	 { (char *)"ROIIsRectangle", _wrap_ROIIsRectangle, METH_VARARGS, (char *)"\n"
+		"ROIIsRectangle(Gatan::DM::ROI const & roi) -> bool\n"
+		"\n"
+		"ROIIsRectangle: Return whether the region of interest is a rectangle.\n"
+		""},
+	 { (char *)"ROIIsValid", _wrap_ROIIsValid, METH_VARARGS, (char *)"\n"
+		"ROIIsValid(Gatan::DM::ROI const & roi) -> bool\n"
+		"\n"
+		"ROIIsValid: Returns 'true' if the region of interest is a valid object.\n"
+		""},
+	 { (char *)"ROISetColor", _wrap_ROISetColor, METH_VARARGS, (char *)"\n"
+		"ROISetColor(Gatan::DM::ROI const & roi, float r, float g, float b)\n"
+		"\n"
+		"ROISetColor: Set the color of the region of interest. Each number should be in the range \n"
+		"of 0 to 1.\n"
+		""},
+	 { (char *)"ROISetDeletable", _wrap_ROISetDeletable, METH_VARARGS, (char *)"\n"
+		"ROISetDeletable(Gatan::DM::ROI const & roi, bool deletable)\n"
+		"\n"
+		"ROISetDeletable: Sets whether the region of interest should be deletable or not.\n"
+		""},
+	 { (char *)"ROISetIsClosed", _wrap_ROISetIsClosed, METH_VARARGS, (char *)"\n"
+		"ROISetIsClosed(Gatan::DM::ROI const & roi, bool is_closed)\n"
+		"\n"
+		"ROISetIsClosed: Sets whether the region of interest is a closed loop or not (that is the \n"
+		"last vertex connects to the first).\n"
+		""},
+	 { (char *)"ROISetLabel", _wrap_ROISetLabel, METH_VARARGS, (char *)"\n"
+		"ROISetLabel(Gatan::DM::ROI const & roi, Gatan::DM::String const & name)\n"
+		"\n"
+		"ROISetLabel: Set the label on the region of interest.\n"
+		""},
+	 { (char *)"ROISetBoldLabel", _wrap_ROISetBoldLabel, METH_VARARGS, (char *)"\n"
+		"ROISetBoldLabel(Gatan::DM::ROI const & roi, bool boldLabel)\n"
+		"\n"
+		"ROISetLabel: Set the label on the region of interest to bold.\n"
+		""},
+	 { (char *)"ROISetBorderThickness", _wrap_ROISetBorderThickness, METH_VARARGS, (char *)"\n"
+		"ROISetBorderThickness(Gatan::DM::ROI const & roi, float borderThickness)\n"
+		"\n"
+		"ROISetLabel: Set the label on the region of interest to bold.\n"
+		""},
+	 { (char *)"ROISetLine", _wrap_ROISetLine, METH_VARARGS, (char *)"\n"
+		"ROISetLine(Gatan::DM::ROI const & roi, float sx, float sy, float ex, float ey)\n"
+		"\n"
+		"ROISetLine: Set the region of interest to a line with the given start and end \n"
+		"coordinates.\n"
+		""},
+	 { (char *)"ROISetMoveable", _wrap_ROISetMoveable, METH_VARARGS, (char *)"\n"
+		"ROISetMoveable(Gatan::DM::ROI const & roi, bool moveable)\n"
+		"\n"
+		"ROISetMoveable: Sets whether the region of interest should be moveable or not.\n"
+		""},
+	 { (char *)"ROISetName", _wrap_ROISetName, METH_VARARGS, (char *)"\n"
+		"ROISetName(Gatan::DM::ROI const & roi, Gatan::DM::String const & name)\n"
+		"\n"
+		"ROISetName: Set the name of the region of interest.\n"
+		""},
+	 { (char *)"ROISetPoint", _wrap_ROISetPoint, METH_VARARGS, (char *)"\n"
+		"ROISetPoint(Gatan::DM::ROI const & roi, float x, float y)\n"
+		"\n"
+		"ROISetPoint: Set the region of interest to a point with the given coordinate.\n"
+		""},
+	 { (char *)"ROISetRange", _wrap_ROISetRange, METH_VARARGS, (char *)"\n"
+		"ROISetRange(Gatan::DM::ROI const & roi, float start, float end)\n"
+		"\n"
+		"ROISetRange: Sets the region of interest to a range with the given start and end columns.\n"
+		""},
+	 { (char *)"ROISetRectangle", _wrap_ROISetRectangle, METH_VARARGS, (char *)"\n"
+		"ROISetRectangle(Gatan::DM::ROI const & roi, float top, float left, float bottom, float right)\n"
+		"\n"
+		"ROISetRectangle: Set the region of interest to a rectangle with the given coordinates.\n"
+		""},
+	 { (char *)"ROISetRegionToComplexValue", _wrap_ROISetRegionToComplexValue, METH_VARARGS, (char *)"\n"
+		"ROISetRegionToComplexValue(Gatan::DM::ROI const & roi, Image mask, complex128_t const & value, float top, float left, float bottom, float right)\n"
+		"\n"
+		"ROISetRegionToComplexValue: Sets the area in 'mask' corresponding to the region to the \n"
+		"value 'value'.\n"
+		""},
+	 { (char *)"ROISetRegionToRGBValue", _wrap_ROISetRegionToRGBValue, METH_VARARGS, (char *)"\n"
+		"ROISetRegionToRGBValue(Gatan::DM::ROI const & roi, Image mask, rgba_uint8_os_t value, float top, float left, float bottom, float right)\n"
+		"\n"
+		"ROISetRegionToRGBValue: Sets the area in 'mask' corresponding to the region to the value \n"
+		"'value'.\n"
+		""},
+	 { (char *)"ROISetRegionToValue", _wrap_ROISetRegionToValue, METH_VARARGS, (char *)"\n"
+		"ROISetRegionToValue(Gatan::DM::ROI const & roi, Image mask, double value, float top, float left, float bottom, float right)\n"
+		"\n"
+		"ROISetRegionToValue: Sets the area in 'mask' corresponding to the region to the value \n"
+		"'value'.\n"
+		""},
+	 { (char *)"ROISetResizable", _wrap_ROISetResizable, METH_VARARGS, (char *)"\n"
+		"ROISetResizable(Gatan::DM::ROI const & roi, bool resizable)\n"
+		"\n"
+		"ROISetResizable: Sets whether the region of interest should be resizable or not.\n"
+		""},
+	 { (char *)"ROISetVertex", _wrap_ROISetVertex, METH_VARARGS, (char *)"\n"
+		"ROISetVertex(Gatan::DM::ROI const & roi, long index, float x, float y)\n"
+		"\n"
+		"ROISetVertex: Set the coordinates of the given vertex of the region of interest.\n"
+		""},
+	 { (char *)"ROISetVolatile", _wrap_ROISetVolatile, METH_VARARGS, (char *)"\n"
+		"ROISetVolatile(Gatan::DM::ROI const & roi, bool is_volatile)\n"
+		"\n"
+		"ROISetVolatile: Set whether the region of interest is volatile or not.\n"
+		""},
+	 { (char *)"Rotate", _wrap_Rotate, METH_VARARGS, (char *)"\n"
+		"Rotate(Image source, float radians) -> Image\n"
+		"\n"
+		"Rotate: Creates a new real image by rotating the source image counterclockwise by \n"
+		"radians.\n"
+		""},
+	 { (char *)"RotateLeft", _wrap_RotateLeft, METH_VARARGS, (char *)"\n"
+		"RotateLeft(Image argument_1)\n"
+		"\n"
+		"RotateLeft: Rotates the image to the left by 90�.\n"
+		""},
+	 { (char *)"RotateRight", _wrap_RotateRight, METH_VARARGS, (char *)"\n"
+		"RotateRight(Image argument_1)\n"
+		"\n"
+		"RotateRight: Rotates the image to the right by 90�.\n"
+		""},
+	 { (char *)"Save", _wrap_Save, METH_VARARGS, (char *)"\n"
+		"Save(Image argument_1)\n"
+		"\n"
+		"Save: Save the image under the it's current filename.\n"
+		""},
+	 { (char *)"SaveAsDialog", _wrap_SaveAsDialog, METH_VARARGS, (char *)"\n"
+		"SaveAsDialog(char const * prompt, char const * defaultName, char * saveName) -> bool\n"
+		"\n"
+		"SaveAsDialog: Puts up the SaveAs dialog with the given prompt and default file name, and \n"
+		"then stores the chosen path for the saved file into the saveName variable. Returns 1 for \n"
+		"OK and 0 for Cancel.\n"
+		""},
 	 { (char *)"SaveAsGatan", _wrap_SaveAsGatan, METH_VARARGS, (char *)"\n"
 		"SaveAsGatan(Image argument_1, Gatan::DM::String const & file_path)\n"
 		"SaveAsGatan(Image argument_1, Gatan::DM::String const & file_path, bool inc_thumb)\n"
+		"\n"
+		"SaveAsGatan: Save the image to the fileName in Gatan 4.0 file format.\n"
 		""},
 	 { (char *)"SaveAsGatan3", _wrap_SaveAsGatan3, METH_VARARGS, (char *)"\n"
 		"SaveAsGatan3(Image argument_1, Gatan::DM::String const & file_path)\n"
 		"SaveAsGatan3(Image argument_1, Gatan::DM::String const & file_path, bool inc_thumb)\n"
+		"\n"
+		"SaveAsGatan3: Save the image to the fileName in Gatan 3.0 file format. \n"
+		"( No thumbnail option ).\n"
 		""},
-	 { (char *)"SaveAsGIF", _wrap_SaveAsGIF, METH_VARARGS, (char *)"SaveAsGIF(Image argument_1, Gatan::DM::String const & fileName)"},
-	 { (char *)"SaveAsPCX", _wrap_SaveAsPCX, METH_VARARGS, (char *)"SaveAsPCX(Image argument_1, Gatan::DM::String const & fileName)"},
-	 { (char *)"SaveAsPICT", _wrap_SaveAsPICT, METH_VARARGS, (char *)"SaveAsPICT(Image argument_1, Gatan::DM::String const & file_path)"},
-	 { (char *)"SaveAsRawData", _wrap_SaveAsRawData, METH_VARARGS, (char *)"SaveAsRawData(Image argument_1, Gatan::DM::String const & file_path)"},
-	 { (char *)"SaveAsSmallHeader", _wrap_SaveAsSmallHeader, METH_VARARGS, (char *)"SaveAsSmallHeader(Image argument_1, Gatan::DM::String const & file_path)"},
-	 { (char *)"SaveAsText", _wrap_SaveAsText, METH_VARARGS, (char *)"SaveAsText(Image argument_1, Gatan::DM::String const & file_path)"},
-	 { (char *)"SaveAsTIFF", _wrap_SaveAsTIFF, METH_VARARGS, (char *)"SaveAsTIFF(Image argument_1, Gatan::DM::String const & fileName)"},
-	 { (char *)"SaveImage", _wrap_SaveImage, METH_VARARGS, (char *)"SaveImage(Image argument_1, Gatan::DM::String const & file_path)"},
-	 { (char *)"SaveAsMSA", _wrap_SaveAsMSA, METH_VARARGS, (char *)"SaveAsMSA(Image argument_1, Gatan::DM::String const & file_path)"},
-	 { (char *)"ScrapClear", _wrap_ScrapClear, METH_VARARGS, (char *)"ScrapClear(Image argument_1)"},
-	 { (char *)"ScrapCopy", _wrap_ScrapCopy, METH_VARARGS, (char *)"ScrapCopy(Image argument_1)"},
-	 { (char *)"ScrapGetLocation", _wrap_ScrapGetLocation, METH_VARARGS, (char *)"ScrapGetLocation(Image argument_1, long * top, long * left)"},
-	 { (char *)"ScrapGetSize", _wrap_ScrapGetSize, METH_VARARGS, (char *)"ScrapGetSize(Image argument_1, long * width, long * height)"},
-	 { (char *)"ScrapMerge", _wrap_ScrapMerge, METH_VARARGS, (char *)"ScrapMerge(Image argument_1)"},
-	 { (char *)"ScrapPaste", _wrap_ScrapPaste, METH_VARARGS, (char *)"ScrapPaste(Image argument_1)"},
-	 { (char *)"ScrapPasteNew", _wrap_ScrapPasteNew, METH_VARARGS, (char *)"ScrapPasteNew()"},
-	 { (char *)"ScrapSetLocation", _wrap_ScrapSetLocation, METH_VARARGS, (char *)"ScrapSetLocation(Image argument_1, long top, long left)"},
-	 { (char *)"ScreenGetBounds", _wrap_ScreenGetBounds, METH_VARARGS, (char *)"ScreenGetBounds(long index, long * t, long * l, long * b, long * r)"},
-	 { (char *)"ScreenGetWorkArea", _wrap_ScreenGetWorkArea, METH_VARARGS, (char *)"ScreenGetWorkArea(long index, long * t, long * l, long * b, long * r)"},
-	 { (char *)"ScriptInterfaceGenerateStubs", _wrap_ScriptInterfaceGenerateStubs, METH_VARARGS, (char *)"ScriptInterfaceGenerateStubs(char const * interface_name, Gatan::DM::String & str_h, Gatan::DM::String & str_cp)"},
-	 { (char *)"ScriptObjectGetClassToken", _wrap_ScriptObjectGetClassToken, METH_VARARGS, (char *)"ScriptObjectGetClassToken(Gatan::DM::ScriptObject const & scriptObject, Gatan::DM::String const & class_name) -> ulong"},
-	 { (char *)"ScriptObjectGetID", _wrap_ScriptObjectGetID, METH_VARARGS, (char *)"ScriptObjectGetID(Gatan::DM::ScriptObject const & scriptObject) -> long"},
-	 { (char *)"ScriptObjectIsValid", _wrap_ScriptObjectIsValid, METH_VARARGS, (char *)"ScriptObjectIsValid(Gatan::DM::ScriptObject const & scriptObject) -> bool"},
+	 { (char *)"SaveAsGIF", _wrap_SaveAsGIF, METH_VARARGS, (char *)"\n"
+		"SaveAsGIF(Image argument_1, Gatan::DM::String const & fileName)\n"
+		"\n"
+		"SaveAsGIF: Save the image to the fileName in GIF file format. The DM Import/Export \n"
+		"Plug-in must be installed in order for this function to work.\n"
+		""},
+	 { (char *)"SaveAsPCX", _wrap_SaveAsPCX, METH_VARARGS, (char *)"\n"
+		"SaveAsPCX(Image argument_1, Gatan::DM::String const & fileName)\n"
+		"\n"
+		"SaveAsPCX: Save the image to the fileName in PCX file format. The DM Import/Export \n"
+		"Plug-in must be installed in order for this function to work.\n"
+		""},
+	 { (char *)"SaveAsPICT", _wrap_SaveAsPICT, METH_VARARGS, (char *)"\n"
+		"SaveAsPICT(Image argument_1, Gatan::DM::String const & file_path)\n"
+		"\n"
+		"SaveAsPICT: Save the image to the fileName in PICT file format. The DM Import/Export \n"
+		"Plug-in must be installed in order for this function to work.\n"
+		""},
+	 { (char *)"SaveAsRawData", _wrap_SaveAsRawData, METH_VARARGS, (char *)"\n"
+		"SaveAsRawData(Image argument_1, Gatan::DM::String const & file_path)\n"
+		"\n"
+		"SaveAsRawData: Save the image to the fileName in raw file format.\n"
+		""},
+	 { (char *)"SaveAsSmallHeader", _wrap_SaveAsSmallHeader, METH_VARARGS, (char *)"\n"
+		"SaveAsSmallHeader(Image argument_1, Gatan::DM::String const & file_path)\n"
+		"\n"
+		"SaveAsSmallHeader: Save the image to the fileName in Gatan small header file format.\n"
+		""},
+	 { (char *)"SaveAsText", _wrap_SaveAsText, METH_VARARGS, (char *)"\n"
+		"SaveAsText(Image argument_1, Gatan::DM::String const & file_path)\n"
+		"\n"
+		"SaveAsText: Save the image to the fileName in text file format.\n"
+		""},
+	 { (char *)"SaveAsTIFF", _wrap_SaveAsTIFF, METH_VARARGS, (char *)"\n"
+		"SaveAsTIFF(Image argument_1, Gatan::DM::String const & fileName)\n"
+		"\n"
+		"SaveAsTIFF: Save the image to the fileName in TIFF file format. The DM Import/Export \n"
+		"Plug-in must be installed in order for this function to work.\n"
+		""},
+	 { (char *)"SaveImage", _wrap_SaveImage, METH_VARARGS, (char *)"\n"
+		"SaveImage(Image argument_1, Gatan::DM::String const & file_path)\n"
+		"\n"
+		"SaveImage: Save the image to the fileName in it's current file format.\n"
+		""},
+	 { (char *)"SaveAsMSA", _wrap_SaveAsMSA, METH_VARARGS, (char *)"\n"
+		"SaveAsMSA(Image argument_1, Gatan::DM::String const & file_path)\n"
+		"\n"
+		"SaveAsMSA: Save the image to the fileName in MSA file format.\n"
+		""},
+	 { (char *)"ScrapClear", _wrap_ScrapClear, METH_VARARGS, (char *)"\n"
+		"ScrapClear(Image argument_1)\n"
+		"\n"
+		"ScrapClear: Clear the pasted image (if there is one) from the image.\n"
+		""},
+	 { (char *)"ScrapCopy", _wrap_ScrapCopy, METH_VARARGS, (char *)"\n"
+		"ScrapCopy(Image argument_1)\n"
+		"\n"
+		"ScrapCopy: Copy the selected portion of the image to the scrap.\n"
+		""},
+	 { (char *)"ScrapGetLocation", _wrap_ScrapGetLocation, METH_VARARGS, (char *)"\n"
+		"ScrapGetLocation(Image argument_1, long * top, long * left)\n"
+		"\n"
+		"ScrapGetLocation: Store the pasted image location (in image coordinates) into the top \n"
+		"and left variables.\n"
+		""},
+	 { (char *)"ScrapGetSize", _wrap_ScrapGetSize, METH_VARARGS, (char *)"\n"
+		"ScrapGetSize(Image argument_1, long * width, long * height)\n"
+		"\n"
+		"ScrapGetSize: Store the pasted image size (in image coordinates) into the width and \n"
+		"height variables.\n"
+		""},
+	 { (char *)"ScrapMerge", _wrap_ScrapMerge, METH_VARARGS, (char *)"\n"
+		"ScrapMerge(Image argument_1)\n"
+		"\n"
+		"ScrapMerge: Merge the pasted image (if there is one) with the image.\n"
+		""},
+	 { (char *)"ScrapPaste", _wrap_ScrapPaste, METH_VARARGS, (char *)"\n"
+		"ScrapPaste(Image argument_1)\n"
+		"\n"
+		"ScrapPaste: Paste the scrap into the image.\n"
+		""},
+	 { (char *)"ScrapPasteNew", _wrap_ScrapPasteNew, METH_VARARGS, (char *)"\n"
+		"ScrapPasteNew()\n"
+		"\n"
+		"ScrapPasteNew: Paste the scrap into a new image.\n"
+		""},
+	 { (char *)"ScrapSetLocation", _wrap_ScrapSetLocation, METH_VARARGS, (char *)"\n"
+		"ScrapSetLocation(Image argument_1, long top, long left)\n"
+		"\n"
+		"ScrapSetLocation: Set the location of the pasted image (if there is one) to [top,left].\n"
+		""},
+	 { (char *)"ScreenGetBounds", _wrap_ScreenGetBounds, METH_VARARGS, (char *)"\n"
+		"ScreenGetBounds(long index, long * t, long * l, long * b, long * r)\n"
+		"\n"
+		"ScreenGetBounds: Gets the bounds of the 'index'th screen.\n"
+		""},
+	 { (char *)"ScreenGetWorkArea", _wrap_ScreenGetWorkArea, METH_VARARGS, (char *)"\n"
+		"ScreenGetWorkArea(long index, long * t, long * l, long * b, long * r)\n"
+		"\n"
+		"ScreenGetWorkArea: Gets the bounds of the 'index'th screen.\n"
+		""},
+	 { (char *)"ScriptInterfaceGenerateStubs", _wrap_ScriptInterfaceGenerateStubs, METH_VARARGS, (char *)"\n"
+		"ScriptInterfaceGenerateStubs(char const * interface_name, Gatan::DM::String & str_h, Gatan::DM::String & str_cp)\n"
+		"\n"
+		"ScriptInterfaceGenerateStubs: Generates C++ stubs for the interface.\n"
+		""},
+	 { (char *)"ScriptObjectGetClassToken", _wrap_ScriptObjectGetClassToken, METH_VARARGS, (char *)"\n"
+		"ScriptObjectGetClassToken(Gatan::DM::ScriptObject const & scriptObject, Gatan::DM::String const & class_name) -> ulong\n"
+		"\n"
+		"ScriptObjectGetClassToken: Gets the token in 'scriptObject' corresponding to the class \n"
+		"'class_name'.\n"
+		""},
+	 { (char *)"ScriptObjectGetID", _wrap_ScriptObjectGetID, METH_VARARGS, (char *)"\n"
+		"ScriptObjectGetID(Gatan::DM::ScriptObject const & scriptObject) -> long\n"
+		"\n"
+		"ScriptObjectGetID: Returns a unique ID for this object. The object can be recovered by \n"
+		"using GetScriptObjectFromID function.\n"
+		""},
+	 { (char *)"ScriptObjectIsValid", _wrap_ScriptObjectIsValid, METH_VARARGS, (char *)"\n"
+		"ScriptObjectIsValid(Gatan::DM::ScriptObject const & scriptObject) -> bool\n"
+		"\n"
+		"ScriptObjectIsValid: Returns true if 'scriptObject' references a valid object.\n"
+		""},
 	 { (char *)"ScriptObjectLookupMethod", _wrap_ScriptObjectLookupMethod, METH_VARARGS, (char *)"\n"
 		"ScriptObjectLookupMethod(Gatan::DM::ScriptObject const & scriptObject, Gatan::DM::Function const & meth_abs, char const * class_name) -> Gatan::DM::Function\n"
 		"ScriptObjectLookupMethod(Gatan::DM::ScriptObject const & scriptObject, Gatan::DM::Function const & meth_abs) -> Gatan::DM::Function\n"
+		"\n"
+		"ScriptObjectLookupMethod: Returns the method of this object corresponding to the \n"
+		"abstract method 'meth_abs' and class 'class_name'.\n"
 		""},
-	 { (char *)"ScriptWindowExecute", _wrap_ScriptWindowExecute, METH_VARARGS, (char *)"ScriptWindowExecute(Gatan::DM::Window const & window)"},
-	 { (char *)"SelectImage", _wrap_SelectImage, METH_VARARGS, (char *)"SelectImage(Image argument_1)"},
-	 { (char *)"SetColorMode", _wrap_SetColorMode, METH_VARARGS, (char *)"SetColorMode(Image argument_1, short mode)"},
-	 { (char *)"SetComplexMode", _wrap_SetComplexMode, METH_VARARGS, (char *)"SetComplexMode(Image argument_1, short mode)"},
-	 { (char *)"SetContrastMode", _wrap_SetContrastMode, METH_VARARGS, (char *)"SetContrastMode(Image argument_1, short mode)"},
-	 { (char *)"SetCustomCLUT", _wrap_SetCustomCLUT, METH_VARARGS, (char *)"SetCustomCLUT(Image argument_1, Image clutImage)"},
-	 { (char *)"SetDisplayType", _wrap_SetDisplayType, METH_VARARGS, (char *)"SetDisplayType(Image argument_1, long displayType)"},
-	 { (char *)"SetDoCreateCustomIcon", _wrap_SetDoCreateCustomIcon, METH_VARARGS, (char *)"SetDoCreateCustomIcon(Image image, bool doCreateCustomIcon)"},
-	 { (char *)"SetDoSavePreview", _wrap_SetDoSavePreview, METH_VARARGS, (char *)"SetDoSavePreview(Image image, bool doSavePreview)"},
-	 { (char *)"SetEstimatedMinMax", _wrap_SetEstimatedMinMax, METH_VARARGS, (char *)"SetEstimatedMinMax(Image argument_1, float min, float max)"},
-	 { (char *)"SetImagePositionWithinWindow", _wrap_SetImagePositionWithinWindow, METH_VARARGS, (char *)"SetImagePositionWithinWindow(Image argument_1, long x, long y)"},
-	 { (char *)"SetInversionMode", _wrap_SetInversionMode, METH_VARARGS, (char *)"SetInversionMode(Image argument_1, bool inverted)"},
-	 { (char *)"SetLimits", _wrap_SetLimits, METH_VARARGS, (char *)"SetLimits(Image argument_1, float low, float high)"},
-	 { (char *)"SetMinContrast", _wrap_SetMinContrast, METH_VARARGS, (char *)"SetMinContrast(Image argument_1, float minContrast)"},
-	 { (char *)"SetName", _wrap_SetName, METH_VARARGS, (char *)"SetName(Image argument_1, char const * name)"},
-	 { (char *)"SetOrigin", _wrap_SetOrigin, METH_VARARGS, (char *)"SetOrigin(Image argument_1, float x, float y)"},
-	 { (char *)"SetPixel", _wrap_SetPixel, METH_VARARGS, (char *)"SetPixel(Image argument_1, long x, long y, double value)"},
-	 { (char *)"SetRawStreamPos", _wrap_SetRawStreamPos, METH_VARARGS, (char *)"SetRawStreamPos(long rawStream, long mode, long offset)"},
-	 { (char *)"SetScale", _wrap_SetScale, METH_VARARGS, (char *)"SetScale(Image argument_1, float x, float y)"},
-	 { (char *)"SetSelection", _wrap_SetSelection, METH_VARARGS, (char *)"SetSelection(Image argument_1, long top, long left, long bottom, long right)"},
-	 { (char *)"SetSurvey", _wrap_SetSurvey, METH_VARARGS, (char *)"SetSurvey(Image argument_1, bool surveyOnOff)"},
-	 { (char *)"SetSurveyTechnique", _wrap_SetSurveyTechnique, METH_VARARGS, (char *)"SetSurveyTechnique(Image argument_1, short mode)"},
-	 { (char *)"SetToZero", _wrap_SetToZero, METH_VARARGS, (char *)"SetToZero(Image argument_1)"},
-	 { (char *)"SetUnitString", _wrap_SetUnitString, METH_VARARGS, (char *)"SetUnitString(Image argument_1, char const * unitString)"},
-	 { (char *)"SetUsesToZero", _wrap_SetUsesToZero, METH_VARARGS, (char *)"SetUsesToZero(Image argument_1)"},
-	 { (char *)"SetWindowBounds", _wrap_SetWindowBounds, METH_VARARGS, (char *)"SetWindowBounds(Image argument_1, long top, long left, long bottom, long right)"},
-	 { (char *)"SetWindowPosition", _wrap_SetWindowPosition, METH_VARARGS, (char *)"SetWindowPosition(Image argument_1, long xPos, long yPos)"},
-	 { (char *)"SetWindowSize", _wrap_SetWindowSize, METH_VARARGS, (char *)"SetWindowSize(Image argument_1, long width, long height)"},
-	 { (char *)"SetZoom", _wrap_SetZoom, METH_VARARGS, (char *)"SetZoom(Image argument_1, float zoom)"},
-	 { (char *)"ShiftCenter", _wrap_ShiftCenter, METH_VARARGS, (char *)"ShiftCenter(Image image)"},
-	 { (char *)"ShiftDown", _wrap_ShiftDown, METH_VARARGS, (char *)"ShiftDown() -> bool"},
-	 { (char *)"ShowAlert", _wrap_ShowAlert, METH_VARARGS, (char *)"ShowAlert(Gatan::DM::String const & prompt, long alertStyle)"},
-	 { (char *)"ShowWarning", _wrap_ShowWarning, METH_VARARGS, (char *)"ShowWarning(Gatan::DM::String const & title, Gatan::DM::String const & prompt, bool * do_not_warn_again) -> bool"},
-	 { (char *)"Sleep", _wrap_Sleep, METH_VARARGS, (char *)"Sleep(float seconds)"},
-	 { (char *)"SpaceDown", _wrap_SpaceDown, METH_VARARGS, (char *)"SpaceDown() -> bool"},
-	 { (char *)"StopAcquisitionDaemon", _wrap_StopAcquisitionDaemon, METH_VARARGS, (char *)"StopAcquisitionDaemon(Image argument_1)"},
-	 { (char *)"StopAllAcquisitionDaemons", _wrap_StopAllAcquisitionDaemons, METH_VARARGS, (char *)"StopAllAcquisitionDaemons()"},
+	 { (char *)"ScriptWindowExecute", _wrap_ScriptWindowExecute, METH_VARARGS, (char *)"\n"
+		"ScriptWindowExecute(Gatan::DM::Window const & window)\n"
+		"\n"
+		"ScriptWindowExecute: Executes the script in the script window.\n"
+		""},
+	 { (char *)"SelectImage", _wrap_SelectImage, METH_VARARGS, (char *)"\n"
+		"SelectImage(Image argument_1)\n"
+		"\n"
+		"SelectImage: Bring the image's image document window to the front.\n"
+		""},
+	 { (char *)"SetColorMode", _wrap_SetColorMode, METH_VARARGS, (char *)"\n"
+		"SetColorMode(Image argument_1, short mode)\n"
+		"\n"
+		"SetColorMode: Set the color mode of the image. The possible values for mode are \n"
+		"1=greyscale, 3=rainbow, 4=temperature.\n"
+		""},
+	 { (char *)"SetComplexMode", _wrap_SetComplexMode, METH_VARARGS, (char *)"\n"
+		"SetComplexMode(Image argument_1, short mode)\n"
+		"\n"
+		"SetComplexMode: Set the complex-to-real mode of the image. The possible value for mode \n"
+		"are 1=real, 2=imaginary, 3=modulus, 4=log of modulus, 5=phase.\n"
+		""},
+	 { (char *)"SetContrastMode", _wrap_SetContrastMode, METH_VARARGS, (char *)"\n"
+		"SetContrastMode(Image argument_1, short mode)\n"
+		"\n"
+		"SetContrastMode: Set the constrast mode of the image. The possible value for mode are \n"
+		"1=linear, 2=equalized, 3=contoured, 4=custom.\n"
+		""},
+	 { (char *)"SetCustomCLUT", _wrap_SetCustomCLUT, METH_VARARGS, (char *)"\n"
+		"SetCustomCLUT(Image argument_1, Image clutImage)\n"
+		"\n"
+		"SetCustomCLUT: Set the CLUT for the image to clutImage. clutImage must be a 256x1 RGB \n"
+		"image.\n"
+		""},
+	 { (char *)"SetDisplayType", _wrap_SetDisplayType, METH_VARARGS, (char *)"\n"
+		"SetDisplayType(Image argument_1, long displayType)\n"
+		"\n"
+		"SetDisplayType: Set the display type of the image. Possible displayType values are \n"
+		"-1=best, 1=raster image, 2=surface plot, 3=RGB, 4=line plot, 5=spreadsheet.\n"
+		""},
+	 { (char *)"SetDoCreateCustomIcon", _wrap_SetDoCreateCustomIcon, METH_VARARGS, (char *)"\n"
+		"SetDoCreateCustomIcon(Image image, bool doCreateCustomIcon)\n"
+		"\n"
+		"SetDoCreateCustomIcon: Open the image with the filename. Returns the opened image.\n"
+		""},
+	 { (char *)"SetDoSavePreview", _wrap_SetDoSavePreview, METH_VARARGS, (char *)"\n"
+		"SetDoSavePreview(Image image, bool doSavePreview)\n"
+		"\n"
+		"SetDoSavePreview: Sets whether to save a preview along with the saved file.\n"
+		""},
+	 { (char *)"SetEstimatedMinMax", _wrap_SetEstimatedMinMax, METH_VARARGS, (char *)"\n"
+		"SetEstimatedMinMax(Image argument_1, float min, float max)\n"
+		"\n"
+		"SetEstimatedMinMax: Set the estimated minimum and maximum of the image to min, max. This \n"
+		"can be used if survey is turned off.\n"
+		""},
+	 { (char *)"SetImagePositionWithinWindow", _wrap_SetImagePositionWithinWindow, METH_VARARGS, (char *)"\n"
+		"SetImagePositionWithinWindow(Image argument_1, long x, long y)\n"
+		"\n"
+		"SetImagePositionWithinWindow: Set top-left position of the image to [x,y] within the \n"
+		"image document.\n"
+		""},
+	 { (char *)"SetInversionMode", _wrap_SetInversionMode, METH_VARARGS, (char *)"\n"
+		"SetInversionMode(Image argument_1, bool inverted)\n"
+		"\n"
+		"SetInversionMode: Set the contrast of the image to be inverted or not inverted.\n"
+		""},
+	 { (char *)"SetLimits", _wrap_SetLimits, METH_VARARGS, (char *)"\n"
+		"SetLimits(Image argument_1, float low, float high)\n"
+		"\n"
+		"SetLimits: Set the lowest and highest displayed pixel values for the image. Everything \n"
+		"below low will be the 'black' color and every above high will be the 'white' color. The \n"
+		"black and white colors may not actually be black and white if the color table is not \n"
+		"greyscale.\n"
+		""},
+	 { (char *)"SetMinContrast", _wrap_SetMinContrast, METH_VARARGS, (char *)"\n"
+		"SetMinContrast(Image argument_1, float minContrast)\n"
+		"\n"
+		"SetMinContrast: Set the minimum amount of contrast for the image to minContrast.\n"
+		""},
+	 { (char *)"SetName", _wrap_SetName, METH_VARARGS, (char *)"\n"
+		"SetName(Image argument_1, char const * name)\n"
+		"\n"
+		"SetName: Sets the name of the image's image document to name.\n"
+		""},
+	 { (char *)"SetOrigin", _wrap_SetOrigin, METH_VARARGS, (char *)"\n"
+		"SetOrigin(Image argument_1, float x, float y)\n"
+		"\n"
+		"SetOrigin: Set the origin of the image coordinates to [x,y] which are in pixel units.\n"
+		""},
+	 { (char *)"SetPixel", _wrap_SetPixel, METH_VARARGS, (char *)"\n"
+		"SetPixel(Image argument_1, long x, long y, double value)\n"
+		"\n"
+		"SetPixel: Sets the pixel in the image at [x,y] to value.\n"
+		""},
+	 { (char *)"SetRawStreamPos", _wrap_SetRawStreamPos, METH_VARARGS, (char *)"\n"
+		"SetRawStreamPos(long rawStream, long mode, long offset)\n"
+		"\n"
+		"SetRawStreamPos: Set the current position in rawStream to offset using the mode.\n"
+		""},
+	 { (char *)"SetScale", _wrap_SetScale, METH_VARARGS, (char *)"\n"
+		"SetScale(Image argument_1, float x, float y)\n"
+		"\n"
+		"SetScale: Set the scale of the image to [x,y].\n"
+		""},
+	 { (char *)"SetSelection", _wrap_SetSelection, METH_VARARGS, (char *)"\n"
+		"SetSelection(Image argument_1, long top, long left, long bottom, long right)\n"
+		"\n"
+		"SetSelection: Sets the selection of the image to [top,left,bottom,right].\n"
+		""},
+	 { (char *)"SetSurvey", _wrap_SetSurvey, METH_VARARGS, (char *)"\n"
+		"SetSurvey(Image argument_1, bool surveyOnOff)\n"
+		"\n"
+		"SetSurvey: Turn surveying on or off for the image.\n"
+		""},
+	 { (char *)"SetSurveyTechnique", _wrap_SetSurveyTechnique, METH_VARARGS, (char *)"\n"
+		"SetSurveyTechnique(Image argument_1, short mode)\n"
+		"\n"
+		"SetSurveyTechnique: Set the survey technique for the image to mode. Mode can be \n"
+		"0=cross-wire, 1=whole image, 2=sparse.\n"
+		""},
+	 { (char *)"SetToZero", _wrap_SetToZero, METH_VARARGS, (char *)"\n"
+		"SetToZero(Image argument_1)\n"
+		"\n"
+		"SetToZero: Set the image to zero.\n"
+		""},
+	 { (char *)"SetUnitString", _wrap_SetUnitString, METH_VARARGS, (char *)"\n"
+		"SetUnitString(Image argument_1, char const * unitString)\n"
+		"\n"
+		"SetUnitString: Set the units of the image to unitString.\n"
+		""},
+	 { (char *)"SetUsesToZero", _wrap_SetUsesToZero, METH_VARARGS, (char *)"\n"
+		"SetUsesToZero(Image argument_1)\n"
+		"\n"
+		"SetUsesToZero: Mark the image as deletable at scope exit.\n"
+		""},
+	 { (char *)"SetWindowBounds", _wrap_SetWindowBounds, METH_VARARGS, (char *)"\n"
+		"SetWindowBounds(Image argument_1, long top, long left, long bottom, long right)\n"
+		"\n"
+		"SetWindowBounds: Set the image's image document window bounds to \n"
+		"(left,top),(right,bottom).\n"
+		""},
+	 { (char *)"SetWindowPosition", _wrap_SetWindowPosition, METH_VARARGS, (char *)"\n"
+		"SetWindowPosition(Image argument_1, long xPos, long yPos)\n"
+		"\n"
+		"SetWindowPosition: Set the image's image document window position to [xPos, yPos]. Only \n"
+		"valid for images that are already shown in a window.\n"
+		""},
+	 { (char *)"SetWindowSize", _wrap_SetWindowSize, METH_VARARGS, (char *)"\n"
+		"SetWindowSize(Image argument_1, long width, long height)\n"
+		"\n"
+		"SetWindowSize: Set the image's image document window size to [width, height].\n"
+		""},
+	 { (char *)"SetZoom", _wrap_SetZoom, METH_VARARGS, (char *)"\n"
+		"SetZoom(Image argument_1, float zoom)\n"
+		"\n"
+		"SetZoom: Set the zoom of the image display.\n"
+		""},
+	 { (char *)"ShiftCenter", _wrap_ShiftCenter, METH_VARARGS, (char *)"\n"
+		"ShiftCenter(Image image)\n"
+		"\n"
+		"ShiftCenter: Shifts each dimension of an image by half. For two dimensional images it\n"
+		" will swap quadrants. This is the forward shift function to move the image center\n"
+		" from (0,0) to (x/2, y/2). To shift it back use the UnShiftCenter function.\n"
+		""},
+	 { (char *)"ShiftDown", _wrap_ShiftDown, METH_VARARGS, (char *)"\n"
+		"ShiftDown() -> bool\n"
+		"\n"
+		"ShiftDown: Returns 1 if the shift key is down and 0 otherwise.\n"
+		""},
+	 { (char *)"ShowAlert", _wrap_ShowAlert, METH_VARARGS, (char *)"\n"
+		"ShowAlert(Gatan::DM::String const & prompt, long alertStyle)\n"
+		"\n"
+		"ShowAlert: Puts up an alert with the given prompt and style.\n"
+		""},
+	 { (char *)"ShowWarning", _wrap_ShowWarning, METH_VARARGS, (char *)"\n"
+		"ShowWarning(Gatan::DM::String const & title, Gatan::DM::String const & prompt, bool * do_not_warn_again) -> bool\n"
+		"\n"
+		"ShowWarning: Puts up a warning with the given title and prompt with a choice to prevent \n"
+		"future warnings. Returns 1 for OK and 0 for Cancel.\n"
+		""},
+	 { (char *)"Sleep", _wrap_Sleep, METH_VARARGS, (char *)"\n"
+		"Sleep(float seconds)\n"
+		"\n"
+		"Sleep: Puts the current thread to sleep for the given number of seconds (resolution may \n"
+		"vary by platform).\n"
+		""},
+	 { (char *)"SpaceDown", _wrap_SpaceDown, METH_VARARGS, (char *)"\n"
+		"SpaceDown() -> bool\n"
+		"\n"
+		"SpaceDown: Returns 1 if the space key is down and 0 otherwise.\n"
+		""},
+	 { (char *)"StopAcquisitionDaemon", _wrap_StopAcquisitionDaemon, METH_VARARGS, (char *)"\n"
+		"StopAcquisitionDaemon(Image argument_1)\n"
+		"\n"
+		"StopAcquisitionDaemon: Stop all acquisition daemons associated with the image.\n"
+		""},
+	 { (char *)"StopAllAcquisitionDaemons", _wrap_StopAllAcquisitionDaemons, METH_VARARGS, (char *)"\n"
+		"StopAllAcquisitionDaemons()\n"
+		"\n"
+		"StopAllAcquisitionDaemons: Stop all acquisition daemons with any image within the \n"
+		"application.\n"
+		""},
 	 { (char *)"StringAppend", _wrap_StringAppend, METH_VARARGS, (char *)"\n"
 		"StringAppend(Gatan::DM::String & s1, Gatan::DM::String const & s2) -> Gatan::DM::String\n"
 		"StringAppend(Gatan::DM::String & s1, ulong ch, ulong encoding_id) -> Gatan::DM::String\n"
+		"\n"
+		"StringAppend: Appends string s2 to s1, converting its encoding to that of s1 if \n"
+		"necessary.\n"
 		""},
-	 { (char *)"StringCompare", _wrap_StringCompare, METH_VARARGS, (char *)"StringCompare(Gatan::DM::String const & s1, Gatan::DM::String const & s2) -> long"},
-	 { (char *)"StringConvertToEncoding", _wrap_StringConvertToEncoding, METH_VARARGS, (char *)"StringConvertToEncoding(Gatan::DM::String const & s1, ulong encoding_id) -> Gatan::DM::String"},
-	 { (char *)"StringIsValid", _wrap_StringIsValid, METH_VARARGS, (char *)"StringIsValid(Gatan::DM::String const & str) -> bool"},
-	 { (char *)"SubtractMeanPacked", _wrap_SubtractMeanPacked, METH_VARARGS, (char *)"SubtractMeanPacked(Image a)"},
-	 { (char *)"SubtractMultiply", _wrap_SubtractMultiply, METH_VARARGS, (char *)"SubtractMultiply(Image a, Image b, Image c)"},
-	 { (char *)"SurfacePlotImageDisplayGetCubeAxes", _wrap_SurfacePlotImageDisplayGetCubeAxes, METH_VARARGS, (char *)"SurfacePlotImageDisplayGetCubeAxes(Gatan::DM::SurfacePlotImageDisplay const & spid, float * x_axis_x, float * x_axis_y, float * y_axis_x, float * y_axis_y, float * z_axis)"},
-	 { (char *)"SurfacePlotImageDisplayGetCubePoint", _wrap_SurfacePlotImageDisplayGetCubePoint, METH_VARARGS, (char *)"SurfacePlotImageDisplayGetCubePoint(Gatan::DM::SurfacePlotImageDisplay const & spid, long which_point, float * x, float * y)"},
-	 { (char *)"SurfacePlotImageDisplayIsShadingOn", _wrap_SurfacePlotImageDisplayIsShadingOn, METH_VARARGS, (char *)"SurfacePlotImageDisplayIsShadingOn(Gatan::DM::SurfacePlotImageDisplay const & spid) -> bool"},
-	 { (char *)"SurfacePlotImageDisplaySetCubeAxes", _wrap_SurfacePlotImageDisplaySetCubeAxes, METH_VARARGS, (char *)"SurfacePlotImageDisplaySetCubeAxes(Gatan::DM::SurfacePlotImageDisplay const & spid, float x_axis_x, float x_axis_y, float y_axis_x, float y_axis_y, float z_axis)"},
-	 { (char *)"SurfacePlotImageDisplaySetShadingOn", _wrap_SurfacePlotImageDisplaySetShadingOn, METH_VARARGS, (char *)"SurfacePlotImageDisplaySetShadingOn(Gatan::DM::SurfacePlotImageDisplay const & spid, bool on)"},
-	 { (char *)"SurveyNormalPackedModulus", _wrap_SurveyNormalPackedModulus, METH_VARARGS, (char *)"SurveyNormalPackedModulus(Image image, float * lowLimit, float * highLimit)"},
-	 { (char *)"SVDecomposition", _wrap_SVDecomposition, METH_VARARGS, (char *)"SVDecomposition(Image a, Image b) -> Image"},
-	 { (char *)"SVDFit", _wrap_SVDFit, METH_VARARGS, (char *)"SVDFit(Image a, Image b, float tolerance) -> Image"},
-	 { (char *)"SwapByteOrder", _wrap_SwapByteOrder, METH_VARARGS, (char *)"SwapByteOrder(Image argument_1)"},
-	 { (char *)"SwapWordOrder", _wrap_SwapWordOrder, METH_VARARGS, (char *)"SwapWordOrder(Image argument_1)"},
-	 { (char *)"TagGroupAddLabeledTagGroup", _wrap_TagGroupAddLabeledTagGroup, METH_VARARGS, (char *)"TagGroupAddLabeledTagGroup(TagGroup tagGroup, char const * label, TagGroup newGroup) -> TagGroup"},
-	 { (char *)"TagGroupAddTagGroupAfter", _wrap_TagGroupAddTagGroupAfter, METH_VARARGS, (char *)"TagGroupAddTagGroupAfter(TagGroup tagList, long ref_index, TagGroup newGroup) -> TagGroup"},
-	 { (char *)"TagGroupAddTagGroupAtBeginning", _wrap_TagGroupAddTagGroupAtBeginning, METH_VARARGS, (char *)"TagGroupAddTagGroupAtBeginning(TagGroup tagList, TagGroup newGroup) -> TagGroup"},
-	 { (char *)"TagGroupAddTagGroupAtEnd", _wrap_TagGroupAddTagGroupAtEnd, METH_VARARGS, (char *)"TagGroupAddTagGroupAtEnd(TagGroup tagList, TagGroup newGroup) -> TagGroup"},
-	 { (char *)"TagGroupAddTagGroupBefore", _wrap_TagGroupAddTagGroupBefore, METH_VARARGS, (char *)"TagGroupAddTagGroupBefore(TagGroup tagList, long ref_index, TagGroup newGroup) -> TagGroup"},
-	 { (char *)"TagGroupClone", _wrap_TagGroupClone, METH_VARARGS, (char *)"TagGroupClone(TagGroup tagGroup) -> TagGroup"},
-	 { (char *)"TagGroupCopyTag", _wrap_TagGroupCopyTag, METH_VARARGS, (char *)"TagGroupCopyTag(TagGroup tagGroup, TagGroup srcGroup, long srcIndex) -> long"},
-	 { (char *)"TagGroupCopyTagToPath", _wrap_TagGroupCopyTagToPath, METH_VARARGS, (char *)"TagGroupCopyTagToPath(TagGroup tagGroup, Gatan::DM::String const & tag_path_dst, TagGroup srcGroup, Gatan::DM::String const & tag_path_src) -> long"},
-	 { (char *)"TagGroupCopyTagsFrom", _wrap_TagGroupCopyTagsFrom, METH_VARARGS, (char *)"TagGroupCopyTagsFrom(TagGroup tagGroup, TagGroup srcGroup)"},
-	 { (char *)"TagGroupCopyTagToIndex", _wrap_TagGroupCopyTagToIndex, METH_VARARGS, (char *)"TagGroupCopyTagToIndex(TagGroup tagGroup, long dstIndex, TagGroup srcGroup, long srcIndex)"},
-	 { (char *)"TagGroupCountTags", _wrap_TagGroupCountTags, METH_VARARGS, (char *)"TagGroupCountTags(TagGroup tagGroup) -> long"},
-	 { (char *)"TagGroupCreateGroupTagAfter", _wrap_TagGroupCreateGroupTagAfter, METH_VARARGS, (char *)"TagGroupCreateGroupTagAfter(TagGroup tagList, long ref_index) -> TagGroup"},
-	 { (char *)"TagGroupCreateGroupTagAtBeginning", _wrap_TagGroupCreateGroupTagAtBeginning, METH_VARARGS, (char *)"TagGroupCreateGroupTagAtBeginning(TagGroup tagList) -> TagGroup"},
-	 { (char *)"TagGroupCreateGroupTagAtEnd", _wrap_TagGroupCreateGroupTagAtEnd, METH_VARARGS, (char *)"TagGroupCreateGroupTagAtEnd(TagGroup tagList) -> TagGroup"},
-	 { (char *)"TagGroupCreateGroupTagBefore", _wrap_TagGroupCreateGroupTagBefore, METH_VARARGS, (char *)"TagGroupCreateGroupTagBefore(TagGroup tagList, long ref_index) -> TagGroup"},
-	 { (char *)"TagGroupCreateListTagAfter", _wrap_TagGroupCreateListTagAfter, METH_VARARGS, (char *)"TagGroupCreateListTagAfter(TagGroup tagList, long ref_index) -> TagGroup"},
-	 { (char *)"TagGroupCreateListTagAtBeginning", _wrap_TagGroupCreateListTagAtBeginning, METH_VARARGS, (char *)"TagGroupCreateListTagAtBeginning(TagGroup tagList) -> TagGroup"},
-	 { (char *)"TagGroupCreateListTagAtEnd", _wrap_TagGroupCreateListTagAtEnd, METH_VARARGS, (char *)"TagGroupCreateListTagAtEnd(TagGroup tagList) -> TagGroup"},
-	 { (char *)"TagGroupCreateListTagBefore", _wrap_TagGroupCreateListTagBefore, METH_VARARGS, (char *)"TagGroupCreateListTagBefore(TagGroup tagList, long ref_index) -> TagGroup"},
-	 { (char *)"TagGroupCreateNewLabeledGroup", _wrap_TagGroupCreateNewLabeledGroup, METH_VARARGS, (char *)"TagGroupCreateNewLabeledGroup(TagGroup tagGroup, char const * label) -> TagGroup"},
-	 { (char *)"TagGroupCreateNewLabeledList", _wrap_TagGroupCreateNewLabeledList, METH_VARARGS, (char *)"TagGroupCreateNewLabeledList(TagGroup tagGroup, char const * label) -> TagGroup"},
-	 { (char *)"TagGroupCreateNewLabeledTag", _wrap_TagGroupCreateNewLabeledTag, METH_VARARGS, (char *)"TagGroupCreateNewLabeledTag(TagGroup tagGroup, char const * label) -> long"},
-	 { (char *)"TagGroupCreateNewTagAfter", _wrap_TagGroupCreateNewTagAfter, METH_VARARGS, (char *)"TagGroupCreateNewTagAfter(TagGroup tagList, long ref_index) -> long"},
-	 { (char *)"TagGroupCreateNewTagAtBeginning", _wrap_TagGroupCreateNewTagAtBeginning, METH_VARARGS, (char *)"TagGroupCreateNewTagAtBeginning(TagGroup tagList) -> long"},
-	 { (char *)"TagGroupCreateNewTagAtEnd", _wrap_TagGroupCreateNewTagAtEnd, METH_VARARGS, (char *)"TagGroupCreateNewTagAtEnd(TagGroup tagList) -> long"},
-	 { (char *)"TagGroupCreateNewTagBefore", _wrap_TagGroupCreateNewTagBefore, METH_VARARGS, (char *)"TagGroupCreateNewTagBefore(TagGroup tagList, long ref_index) -> long"},
-	 { (char *)"TagGroupDeleteAllTags", _wrap_TagGroupDeleteAllTags, METH_VARARGS, (char *)"TagGroupDeleteAllTags(TagGroup tagGroup)"},
-	 { (char *)"TagGroupDeleteTagWithIndex", _wrap_TagGroupDeleteTagWithIndex, METH_VARARGS, (char *)"TagGroupDeleteTagWithIndex(TagGroup taGroup, long index)"},
-	 { (char *)"TagGroupDeleteTagWithLabel", _wrap_TagGroupDeleteTagWithLabel, METH_VARARGS, (char *)"TagGroupDeleteTagWithLabel(TagGroup tagGroup, Gatan::DM::String const & tagPath) -> bool"},
-	 { (char *)"TagGroupDoesTagExist", _wrap_TagGroupDoesTagExist, METH_VARARGS, (char *)"TagGroupDoesTagExist(TagGroup tagGroup, Gatan::DM::String const & tagPath) -> bool"},
-	 { (char *)"TagGroupExecuteScriptGroup", _wrap_TagGroupExecuteScriptGroup, METH_VARARGS, (char *)"TagGroupExecuteScriptGroup(TagGroup tagGroup, char const * form)"},
-	 { (char *)"TagGroupGetIndexedTagAsArray", _wrap_TagGroupGetIndexedTagAsArray, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsArray(TagGroup tagGroup, ulong index, Image image) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsBoolean", _wrap_TagGroupGetIndexedTagAsBoolean, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsBoolean(TagGroup tagGroup, long index, bool * val) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsDouble", _wrap_TagGroupGetIndexedTagAsDouble, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsDouble(TagGroup tagGroup, long index, double * number) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsDoubleComplex", _wrap_TagGroupGetIndexedTagAsDoubleComplex, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsDoubleComplex(TagGroup tagGroup, long index, complex128_t * c) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsEightBitColor", _wrap_TagGroupGetIndexedTagAsEightBitColor, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsEightBitColor(TagGroup tagGroup, long index, rgba_uint8_os_t * c) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsFloat", _wrap_TagGroupGetIndexedTagAsFloat, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsFloat(TagGroup tagGroup, long index, float * number) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsFloatComplex", _wrap_TagGroupGetIndexedTagAsFloatComplex, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsFloatComplex(TagGroup tagGroup, long index, complex128_t * c) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsFloatPoint", _wrap_TagGroupGetIndexedTagAsFloatPoint, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsFloatPoint(TagGroup tagGroup, long index, float * x, float * y) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsFloatRect", _wrap_TagGroupGetIndexedTagAsFloatRect, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsFloatRect(TagGroup tagGroup, long index, float * t, float * l, float * b, float * r) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsLong", _wrap_TagGroupGetIndexedTagAsLong, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsLong(TagGroup tagGroup, long index, long * number) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsLongPoint", _wrap_TagGroupGetIndexedTagAsLongPoint, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsLongPoint(TagGroup tagGroup, long index, SSIZE_T * x, SSIZE_T * y) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsLongRect", _wrap_TagGroupGetIndexedTagAsLongRect, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsLongRect(TagGroup tagGroup, long index, SSIZE_T * t, SSIZE_T * l, SSIZE_T * b, SSIZE_T * r) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsShort", _wrap_TagGroupGetIndexedTagAsShort, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsShort(TagGroup tagGroup, long index, short * number) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsShortPoint", _wrap_TagGroupGetIndexedTagAsShortPoint, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsShortPoint(TagGroup tagGroup, long index, short * x, short * y) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsShortRect", _wrap_TagGroupGetIndexedTagAsShortRect, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsShortRect(TagGroup tagGroup, long index, short * t, short * l, short * b, short * r) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsString", _wrap_TagGroupGetIndexedTagAsString, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsString(TagGroup tagGroup, long index, Gatan::DM::String & str) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsTagGroup", _wrap_TagGroupGetIndexedTagAsTagGroup, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsTagGroup(TagGroup tagGroup, long index, TagGroup subGroup) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsText", _wrap_TagGroupGetIndexedTagAsText, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsText(TagGroup tagGroup, long index, Gatan::DM::String & str) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsUInt16", _wrap_TagGroupGetIndexedTagAsUInt16, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsUInt16(TagGroup tagGroup, long index, uint16 * number) -> bool"},
-	 { (char *)"TagGroupGetIndexedTagAsUInt32", _wrap_TagGroupGetIndexedTagAsUInt32, METH_VARARGS, (char *)"TagGroupGetIndexedTagAsUInt32(TagGroup tagGroup, long index, ulong * number) -> bool"},
-	 { (char *)"TagGroupGetOrCreateTagGroup", _wrap_TagGroupGetOrCreateTagGroup, METH_VARARGS, (char *)"TagGroupGetOrCreateTagGroup(TagGroup tagGroup, Gatan::DM::String const & tagPath) -> TagGroup"},
-	 { (char *)"TagGroupGetOrCreateTagList", _wrap_TagGroupGetOrCreateTagList, METH_VARARGS, (char *)"TagGroupGetOrCreateTagList(TagGroup tagGroup, Gatan::DM::String const & tagPath) -> TagGroup"},
-	 { (char *)"TagGroupGetSeeds", _wrap_TagGroupGetSeeds, METH_VARARGS, (char *)"TagGroupGetSeeds(TagGroup tagGroup) -> long"},
-	 { (char *)"TagGroupGetTagAsArray", _wrap_TagGroupGetTagAsArray, METH_VARARGS, (char *)"TagGroupGetTagAsArray(TagGroup tagGroup, char const * tagPath, Image image) -> bool"},
-	 { (char *)"TagGroupGetTagAsBoolean", _wrap_TagGroupGetTagAsBoolean, METH_VARARGS, (char *)"TagGroupGetTagAsBoolean(TagGroup tags, Gatan::DM::String const & tag_path, bool * tag_val) -> bool"},
-	 { (char *)"TagGroupGetTagAsDouble", _wrap_TagGroupGetTagAsDouble, METH_VARARGS, (char *)"TagGroupGetTagAsDouble(TagGroup tagGroup, char const * tagPath, double * number) -> bool"},
-	 { (char *)"TagGroupGetTagAsDoubleComplex", _wrap_TagGroupGetTagAsDoubleComplex, METH_VARARGS, (char *)"TagGroupGetTagAsDoubleComplex(TagGroup tagGroup, char const * tagPath, complex128_t * c) -> bool"},
-	 { (char *)"TagGroupGetTagAsEightBitColor", _wrap_TagGroupGetTagAsEightBitColor, METH_VARARGS, (char *)"TagGroupGetTagAsEightBitColor(TagGroup tagGroup, char const * tagPath, rgba_uint8_os_t * c) -> bool"},
-	 { (char *)"TagGroupGetTagAsFloat", _wrap_TagGroupGetTagAsFloat, METH_VARARGS, (char *)"TagGroupGetTagAsFloat(TagGroup tagGroup, char const * tagPath, float * number) -> bool"},
-	 { (char *)"TagGroupGetTagAsFloatComplex", _wrap_TagGroupGetTagAsFloatComplex, METH_VARARGS, (char *)"TagGroupGetTagAsFloatComplex(TagGroup tagGroup, char const * tagPath, complex128_t * c) -> bool"},
-	 { (char *)"TagGroupGetTagAsFloatPoint", _wrap_TagGroupGetTagAsFloatPoint, METH_VARARGS, (char *)"TagGroupGetTagAsFloatPoint(TagGroup tagGroup, char const * tagPath, float * x, float * y) -> bool"},
-	 { (char *)"TagGroupGetTagAsFloatRect", _wrap_TagGroupGetTagAsFloatRect, METH_VARARGS, (char *)"TagGroupGetTagAsFloatRect(TagGroup tagGroup, char const * tagPath, float * t, float * l, float * b, float * r) -> bool"},
-	 { (char *)"TagGroupGetTagAsLong", _wrap_TagGroupGetTagAsLong, METH_VARARGS, (char *)"TagGroupGetTagAsLong(TagGroup tagGroup, char const * tagPath, long * number) -> bool"},
-	 { (char *)"TagGroupGetTagAsLongPoint", _wrap_TagGroupGetTagAsLongPoint, METH_VARARGS, (char *)"TagGroupGetTagAsLongPoint(TagGroup tagGroup, char const * tagPath, long * x, long * y) -> bool"},
-	 { (char *)"TagGroupGetTagAsLongRect", _wrap_TagGroupGetTagAsLongRect, METH_VARARGS, (char *)"TagGroupGetTagAsLongRect(TagGroup tagGroup, char const * tagPath, long * t, long * l, long * b, long * r) -> bool"},
+	 { (char *)"StringCompare", _wrap_StringCompare, METH_VARARGS, (char *)"\n"
+		"StringCompare(Gatan::DM::String const & s1, Gatan::DM::String const & s2) -> long\n"
+		"\n"
+		"StringCompare: Compares strings 's1' and 's2', returning -1,0, or 1 if s1 is less, \n"
+		"equal, or greater than s2.\n"
+		""},
+	 { (char *)"StringConvertToEncoding", _wrap_StringConvertToEncoding, METH_VARARGS, (char *)"\n"
+		"StringConvertToEncoding(Gatan::DM::String const & s1, ulong encoding_id) -> Gatan::DM::String\n"
+		"\n"
+		"StringConvertToEncoding: Converts 's1' to the encoding specified by 'encoding_id'.\n"
+		""},
+	 { (char *)"StringIsValid", _wrap_StringIsValid, METH_VARARGS, (char *)"\n"
+		"StringIsValid(Gatan::DM::String const & str) -> bool\n"
+		"\n"
+		"StringIsValid: Returns true if 'str' is a valid object.\n"
+		""},
+	 { (char *)"SubtractMeanPacked", _wrap_SubtractMeanPacked, METH_VARARGS, (char *)"\n"
+		"SubtractMeanPacked(Image a)\n"
+		"\n"
+		"SubtractMeanPacked: Subtract the mean from the packed image a. No data type checking \n"
+		"is performed.\n"
+		""},
+	 { (char *)"SubtractMultiply", _wrap_SubtractMultiply, METH_VARARGS, (char *)"\n"
+		"SubtractMultiply(Image a, Image b, Image c)\n"
+		"\n"
+		"SubtractMultiply: Subtract real image b from real image a, multiply the result by \n"
+		"real image c, and store the result in image a. No data type checking is performed.\n"
+		""},
+	 { (char *)"SurfacePlotImageDisplayGetCubeAxes", _wrap_SurfacePlotImageDisplayGetCubeAxes, METH_VARARGS, (char *)"\n"
+		"SurfacePlotImageDisplayGetCubeAxes(Gatan::DM::SurfacePlotImageDisplay const & spid, float * x_axis_x, float * x_axis_y, float * y_axis_x, float * y_axis_y, float * z_axis)\n"
+		"\n"
+		"SurfacePlotImageDisplayGetCubeAxes: Gets the points describing the surface plot cube.\n"
+		""},
+	 { (char *)"SurfacePlotImageDisplayGetCubePoint", _wrap_SurfacePlotImageDisplayGetCubePoint, METH_VARARGS, (char *)"\n"
+		"SurfacePlotImageDisplayGetCubePoint(Gatan::DM::SurfacePlotImageDisplay const & spid, long which_point, float * x, float * y)\n"
+		"\n"
+		"SurfacePlotImageDisplayGetCubePoint: Gets the child coordinates of the cube point \n"
+		"indicated by 'which_point'\n"
+		""},
+	 { (char *)"SurfacePlotImageDisplayIsShadingOn", _wrap_SurfacePlotImageDisplayIsShadingOn, METH_VARARGS, (char *)"\n"
+		"SurfacePlotImageDisplayIsShadingOn(Gatan::DM::SurfacePlotImageDisplay const & spid) -> bool\n"
+		"\n"
+		"SurfacePlotImageDisplayIsShadingOn: Determines whether shading is on or off.\n"
+		""},
+	 { (char *)"SurfacePlotImageDisplaySetCubeAxes", _wrap_SurfacePlotImageDisplaySetCubeAxes, METH_VARARGS, (char *)"\n"
+		"SurfacePlotImageDisplaySetCubeAxes(Gatan::DM::SurfacePlotImageDisplay const & spid, float x_axis_x, float x_axis_y, float y_axis_x, float y_axis_y, float z_axis)\n"
+		"\n"
+		"SurfacePlotImageDisplaySetCubeAxes: Sets the points describing the surface plot cube.\n"
+		""},
+	 { (char *)"SurfacePlotImageDisplaySetShadingOn", _wrap_SurfacePlotImageDisplaySetShadingOn, METH_VARARGS, (char *)"\n"
+		"SurfacePlotImageDisplaySetShadingOn(Gatan::DM::SurfacePlotImageDisplay const & spid, bool on)\n"
+		"\n"
+		"SurfacePlotImageDisplaySetShadingOn: Sets whether shading is on or off.\n"
+		""},
+	 { (char *)"SurveyNormalPackedModulus", _wrap_SurveyNormalPackedModulus, METH_VARARGS, (char *)"\n"
+		"SurveyNormalPackedModulus(Image image, float * lowLimit, float * highLimit)\n"
+		"\n"
+		"SurveyNormalPackedModulus: Survey packed image a and store the minimum and maximum \n"
+		"values found into the lowLimit and highLimit variables. No data type checking is \n"
+		"performed.\n"
+		""},
+	 { (char *)"SVDecomposition", _wrap_SVDecomposition, METH_VARARGS, (char *)"\n"
+		"SVDecomposition(Image a, Image b) -> Image\n"
+		"\n"
+		"SVDecomposition: Return the image resulting from a SV decomposition on images a,b.\n"
+		""},
+	 { (char *)"SVDFit", _wrap_SVDFit, METH_VARARGS, (char *)"\n"
+		"SVDFit(Image a, Image b, float tolerance) -> Image\n"
+		"\n"
+		"SVDFit: Return the image resulting from a SVD fit on images a,b with the given tolerance.\n"
+		""},
+	 { (char *)"SwapByteOrder", _wrap_SwapByteOrder, METH_VARARGS, (char *)"\n"
+		"SwapByteOrder(Image argument_1)\n"
+		"\n"
+		"SwapByteOrder: Swaps the byte order for each long word in the image. ABCD become DCBA.\n"
+		""},
+	 { (char *)"SwapWordOrder", _wrap_SwapWordOrder, METH_VARARGS, (char *)"\n"
+		"SwapWordOrder(Image argument_1)\n"
+		"\n"
+		"SwapWordOrder: Swaps the byte order for each short word in the image. ABCD become BADC.\n"
+		""},
+	 { (char *)"TagGroupAddLabeledTagGroup", _wrap_TagGroupAddLabeledTagGroup, METH_VARARGS, (char *)"\n"
+		"TagGroupAddLabeledTagGroup(TagGroup tagGroup, char const * label, TagGroup newGroup) -> TagGroup\n"
+		"\n"
+		"TagGroupAddLabeledTagGroup: Adds 'newGroup' to 'tagGroup' at the label 'label'.\n"
+		""},
+	 { (char *)"TagGroupAddTagGroupAfter", _wrap_TagGroupAddTagGroupAfter, METH_VARARGS, (char *)"\n"
+		"TagGroupAddTagGroupAfter(TagGroup tagList, long ref_index, TagGroup newGroup) -> TagGroup\n"
+		"\n"
+		"TagGroupAddTagGroupAfter: Adds 'newGroup' to 'tagList' after index 'ref_index'.\n"
+		""},
+	 { (char *)"TagGroupAddTagGroupAtBeginning", _wrap_TagGroupAddTagGroupAtBeginning, METH_VARARGS, (char *)"\n"
+		"TagGroupAddTagGroupAtBeginning(TagGroup tagList, TagGroup newGroup) -> TagGroup\n"
+		"\n"
+		"TagGroupAddTagGroupAtBeginning: Adds 'newGroup' to the beginning of 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupAddTagGroupAtEnd", _wrap_TagGroupAddTagGroupAtEnd, METH_VARARGS, (char *)"\n"
+		"TagGroupAddTagGroupAtEnd(TagGroup tagList, TagGroup newGroup) -> TagGroup\n"
+		"\n"
+		"TagGroupAddTagGroupAtEnd: Adds 'newGroup' to the end of 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupAddTagGroupBefore", _wrap_TagGroupAddTagGroupBefore, METH_VARARGS, (char *)"\n"
+		"TagGroupAddTagGroupBefore(TagGroup tagList, long ref_index, TagGroup newGroup) -> TagGroup\n"
+		"\n"
+		"TagGroupAddTagGroupBefore: Adds 'newGroup' to 'tagList' before index 'ref_index'.\n"
+		""},
+	 { (char *)"TagGroupClone", _wrap_TagGroupClone, METH_VARARGS, (char *)"\n"
+		"TagGroupClone(TagGroup tagGroup) -> TagGroup\n"
+		"\n"
+		"TagGroupClone: Returns an identical copy of 'tagGroup' and its sub-tags.\n"
+		""},
+	 { (char *)"TagGroupCopyTag", _wrap_TagGroupCopyTag, METH_VARARGS, (char *)"\n"
+		"TagGroupCopyTag(TagGroup tagGroup, TagGroup srcGroup, long srcIndex) -> long\n"
+		"\n"
+		"TagGroupCopyTag: Copies the 'srcIndex'th tag in 'srcGroup' to 'tagGroup'.\n"
+		""},
+	 { (char *)"TagGroupCopyTagToPath", _wrap_TagGroupCopyTagToPath, METH_VARARGS, (char *)"\n"
+		"TagGroupCopyTagToPath(TagGroup tagGroup, Gatan::DM::String const & tag_path_dst, TagGroup srcGroup, Gatan::DM::String const & tag_path_src) -> long\n"
+		"\n"
+		"TagGroupCopyTag: Copies the 'srcIndex'th tag in 'srcGroup' to 'tagGroup'.\n"
+		""},
+	 { (char *)"TagGroupCopyTagsFrom", _wrap_TagGroupCopyTagsFrom, METH_VARARGS, (char *)"\n"
+		"TagGroupCopyTagsFrom(TagGroup tagGroup, TagGroup srcGroup)\n"
+		"\n"
+		"TagGroupCopyTagsFrom: Copies tags in 'srcGroup' to 'tagGroup'.\n"
+		""},
+	 { (char *)"TagGroupCopyTagToIndex", _wrap_TagGroupCopyTagToIndex, METH_VARARGS, (char *)"\n"
+		"TagGroupCopyTagToIndex(TagGroup tagGroup, long dstIndex, TagGroup srcGroup, long srcIndex)\n"
+		"\n"
+		"TagGroupCopyTagToIndex: Copies data in the 'srcIndex'th tag in 'srcGroup' to the \n"
+		"'dstIndex'th tag in 'tagGroup'.\n"
+		""},
+	 { (char *)"TagGroupCountTags", _wrap_TagGroupCountTags, METH_VARARGS, (char *)"\n"
+		"TagGroupCountTags(TagGroup tagGroup) -> long\n"
+		"\n"
+		"TagGroupCountTags: Returns the number of sub-tags in this tag group.\n"
+		""},
+	 { (char *)"TagGroupCreateGroupTagAfter", _wrap_TagGroupCreateGroupTagAfter, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateGroupTagAfter(TagGroup tagList, long ref_index) -> TagGroup\n"
+		"\n"
+		"TagGroupCreateGroupTagAfter: Creates a new tag group after 'ref_index' in 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupCreateGroupTagAtBeginning", _wrap_TagGroupCreateGroupTagAtBeginning, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateGroupTagAtBeginning(TagGroup tagList) -> TagGroup\n"
+		"\n"
+		"TagGroupCreateGroupTagAtBeginning: Creates a new tag group at the beginning of 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupCreateGroupTagAtEnd", _wrap_TagGroupCreateGroupTagAtEnd, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateGroupTagAtEnd(TagGroup tagList) -> TagGroup\n"
+		"\n"
+		"TagGroupCreateGroupTagAtEnd: Creates a new tag group at the end of 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupCreateGroupTagBefore", _wrap_TagGroupCreateGroupTagBefore, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateGroupTagBefore(TagGroup tagList, long ref_index) -> TagGroup\n"
+		"\n"
+		"TagGroupCreateGroupTagBefore: Creates a new tag group before 'ref_index' in 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupCreateListTagAfter", _wrap_TagGroupCreateListTagAfter, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateListTagAfter(TagGroup tagList, long ref_index) -> TagGroup\n"
+		"\n"
+		"TagGroupCreateListTagAfter: Creates a new tag group after 'ref_index' in 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupCreateListTagAtBeginning", _wrap_TagGroupCreateListTagAtBeginning, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateListTagAtBeginning(TagGroup tagList) -> TagGroup\n"
+		"\n"
+		"TagGroupCreateListTagAtBeginning: Creates a new tag group at the beginning of 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupCreateListTagAtEnd", _wrap_TagGroupCreateListTagAtEnd, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateListTagAtEnd(TagGroup tagList) -> TagGroup\n"
+		"\n"
+		"TagGroupCreateListTagAtEnd: Creates a new tag group at the end of 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupCreateListTagBefore", _wrap_TagGroupCreateListTagBefore, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateListTagBefore(TagGroup tagList, long ref_index) -> TagGroup\n"
+		"\n"
+		"TagGroupCreateListTagBefore: Creates a new tag group before 'ref_index' in 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupCreateNewLabeledGroup", _wrap_TagGroupCreateNewLabeledGroup, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateNewLabeledGroup(TagGroup tagGroup, char const * label) -> TagGroup\n"
+		"\n"
+		"TagGroupCreateNewLabeledGroup: Adds a new tag group at label 'label' and returns the new \n"
+		"group.\n"
+		""},
+	 { (char *)"TagGroupCreateNewLabeledList", _wrap_TagGroupCreateNewLabeledList, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateNewLabeledList(TagGroup tagGroup, char const * label) -> TagGroup\n"
+		"\n"
+		"TagGroupCreateNewLabeledList: Adds a new tag list at label 'label' and returns the new \n"
+		"group.\n"
+		""},
+	 { (char *)"TagGroupCreateNewLabeledTag", _wrap_TagGroupCreateNewLabeledTag, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateNewLabeledTag(TagGroup tagGroup, char const * label) -> long\n"
+		"\n"
+		"TagGroupCreateNewLabeledTag: Creates a new labeled tag and returns its index.\n"
+		""},
+	 { (char *)"TagGroupCreateNewTagAfter", _wrap_TagGroupCreateNewTagAfter, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateNewTagAfter(TagGroup tagList, long ref_index) -> long\n"
+		"\n"
+		"TagGroupCreateNewTagAfter: Creates a new tag after 'ref_index' in 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupCreateNewTagAtBeginning", _wrap_TagGroupCreateNewTagAtBeginning, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateNewTagAtBeginning(TagGroup tagList) -> long\n"
+		"\n"
+		"TagGroupCreateNewTagAtBeginning: Creates a new tag at the beginning of 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupCreateNewTagAtEnd", _wrap_TagGroupCreateNewTagAtEnd, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateNewTagAtEnd(TagGroup tagList) -> long\n"
+		"\n"
+		"TagGroupCreateNewTagAtEnd: Creates a new tag at the end of 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupCreateNewTagBefore", _wrap_TagGroupCreateNewTagBefore, METH_VARARGS, (char *)"\n"
+		"TagGroupCreateNewTagBefore(TagGroup tagList, long ref_index) -> long\n"
+		"\n"
+		"TagGroupCreateNewTagBefore: Creates a new tag before 'ref_index' in 'tagList'.\n"
+		""},
+	 { (char *)"TagGroupDeleteAllTags", _wrap_TagGroupDeleteAllTags, METH_VARARGS, (char *)"\n"
+		"TagGroupDeleteAllTags(TagGroup tagGroup)\n"
+		"\n"
+		"TagGroupDeleteAllTags: Deletes all the tags in 'tagGroup'.\n"
+		""},
+	 { (char *)"TagGroupDeleteTagWithIndex", _wrap_TagGroupDeleteTagWithIndex, METH_VARARGS, (char *)"\n"
+		"TagGroupDeleteTagWithIndex(TagGroup taGroup, long index)\n"
+		"\n"
+		"TagGroupDeleteTagWithIndex: Deletes the tag at index 'index'.\n"
+		""},
+	 { (char *)"TagGroupDeleteTagWithLabel", _wrap_TagGroupDeleteTagWithLabel, METH_VARARGS, (char *)"\n"
+		"TagGroupDeleteTagWithLabel(TagGroup tagGroup, Gatan::DM::String const & tagPath) -> bool\n"
+		"\n"
+		"TagGroupDeleteTagWithLabel: Deletes the tag labelled by the path 'tagPath'. Returns false\n"
+		"if the label could not be found.\n"
+		""},
+	 { (char *)"TagGroupDoesTagExist", _wrap_TagGroupDoesTagExist, METH_VARARGS, (char *)"\n"
+		"TagGroupDoesTagExist(TagGroup tagGroup, Gatan::DM::String const & tagPath) -> bool\n"
+		"\n"
+		"TagGroupDoesTagExist: Finds the tag group and index corresponding to the tag referenced \n"
+		"by 'tagPath' in 'tagGroup'.\n"
+		""},
+	 { (char *)"TagGroupExecuteScriptGroup", _wrap_TagGroupExecuteScriptGroup, METH_VARARGS, (char *)"\n"
+		"TagGroupExecuteScriptGroup(TagGroup tagGroup, char const * form)\n"
+		"\n"
+		"TagGroupExecuteScriptGroup: Execute a group of script functions in 'tagGroup'. The \n"
+		"actual scripts executed will be formed by sprintf'ing into the 'form' parameter.  The \n"
+		"form parameter should contain exactly one '%s' into which the function name will be \n"
+		"inserted.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsArray", _wrap_TagGroupGetIndexedTagAsArray, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsArray(TagGroup tagGroup, ulong index, Image image) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsArray: Gets the data at 'index' in 'tagGroup' as an array of data \n"
+		"in 'image'.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsBoolean", _wrap_TagGroupGetIndexedTagAsBoolean, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsBoolean(TagGroup tagGroup, long index, bool * val) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsBoolean: Gets the data at 'index' in 'tagGroup' as a boolean.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsDouble", _wrap_TagGroupGetIndexedTagAsDouble, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsDouble(TagGroup tagGroup, long index, double * number) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsDouble: Gets the data at 'index' in 'tagGroup' as a double.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsDoubleComplex", _wrap_TagGroupGetIndexedTagAsDoubleComplex, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsDoubleComplex(TagGroup tagGroup, long index, complex128_t * c) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsDoubleComplex: Gets the data at 'index' in 'tagGroup' as a double \n"
+		"complex.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsEightBitColor", _wrap_TagGroupGetIndexedTagAsEightBitColor, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsEightBitColor(TagGroup tagGroup, long index, rgba_uint8_os_t * c) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsEightBitColor: Gets the data at 'index' in 'tagGroup' as an eight \n"
+		"bit color.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsFloat", _wrap_TagGroupGetIndexedTagAsFloat, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsFloat(TagGroup tagGroup, long index, float * number) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsFloat: Gets the data at 'index' in 'tagGroup' as a float.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsFloatComplex", _wrap_TagGroupGetIndexedTagAsFloatComplex, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsFloatComplex(TagGroup tagGroup, long index, complex128_t * c) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsFloatComplex: Gets the data at 'index' in 'tagGroup' as a float \n"
+		"complex.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsFloatPoint", _wrap_TagGroupGetIndexedTagAsFloatPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsFloatPoint(TagGroup tagGroup, long index, float * x, float * y) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsFloatPoint: Gets the data at 'index' in 'tagGroup' as a float \n"
+		"point.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsFloatRect", _wrap_TagGroupGetIndexedTagAsFloatRect, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsFloatRect(TagGroup tagGroup, long index, float * t, float * l, float * b, float * r) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsFloatRect: Gets the data at 'index' in 'tagGroup' as a float rect.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsLong", _wrap_TagGroupGetIndexedTagAsLong, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsLong(TagGroup tagGroup, long index, long * number) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsLong: Gets the data at 'index' in 'tagGroup' as a long.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsLongPoint", _wrap_TagGroupGetIndexedTagAsLongPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsLongPoint(TagGroup tagGroup, long index, SSIZE_T * x, SSIZE_T * y) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsLongPoint: Gets the data at 'index' in 'tagGroup' as a long point.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsLongRect", _wrap_TagGroupGetIndexedTagAsLongRect, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsLongRect(TagGroup tagGroup, long index, SSIZE_T * t, SSIZE_T * l, SSIZE_T * b, SSIZE_T * r) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsLongRect: Gets the data at 'index' in 'tagGroup' as a long rect.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsShort", _wrap_TagGroupGetIndexedTagAsShort, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsShort(TagGroup tagGroup, long index, short * number) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsShort: Gets the data at 'index' in 'tagGroup' as a short.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsShortPoint", _wrap_TagGroupGetIndexedTagAsShortPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsShortPoint(TagGroup tagGroup, long index, short * x, short * y) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsShortPoint: Gets the data at 'index' in 'tagGroup' as a short \n"
+		"point.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsShortRect", _wrap_TagGroupGetIndexedTagAsShortRect, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsShortRect(TagGroup tagGroup, long index, short * t, short * l, short * b, short * r) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsShortRect: Gets the data at 'index' in 'tagGroup' as a short rect.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsString", _wrap_TagGroupGetIndexedTagAsString, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsString(TagGroup tagGroup, long index, Gatan::DM::String & str) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsString: Gets the data at 'index' in 'tagGroup' as a string.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsTagGroup", _wrap_TagGroupGetIndexedTagAsTagGroup, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsTagGroup(TagGroup tagGroup, long index, TagGroup subGroup) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsTagGroup: Gets the data at 'index' in 'TagGroup' as a group.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsText", _wrap_TagGroupGetIndexedTagAsText, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsText(TagGroup tagGroup, long index, Gatan::DM::String & str) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsText: Gets the data at 'index' in 'tagGroup' as a string.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsUInt16", _wrap_TagGroupGetIndexedTagAsUInt16, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsUInt16(TagGroup tagGroup, long index, uint16 * number) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsUInt16: Gets the data at 'index' in 'tagGroup' as a 16-bit \n"
+		"unsigned integer.\n"
+		""},
+	 { (char *)"TagGroupGetIndexedTagAsUInt32", _wrap_TagGroupGetIndexedTagAsUInt32, METH_VARARGS, (char *)"\n"
+		"TagGroupGetIndexedTagAsUInt32(TagGroup tagGroup, long index, ulong * number) -> bool\n"
+		"\n"
+		"TagGroupGetIndexedTagAsUInt32: Gets the data at 'index' in 'tagGroup' as a 32-bit \n"
+		"unsigned integer.\n"
+		""},
+	 { (char *)"TagGroupGetOrCreateTagGroup", _wrap_TagGroupGetOrCreateTagGroup, METH_VARARGS, (char *)"\n"
+		"TagGroupGetOrCreateTagGroup(TagGroup tagGroup, Gatan::DM::String const & tagPath) -> TagGroup\n"
+		"\n"
+		"TagGroupGetOrCreateTagGroup: Gets the tag group named by 'tagPath', or creates a new \n"
+		"such group and all necessary intermediate groups.\n"
+		""},
+	 { (char *)"TagGroupGetOrCreateTagList", _wrap_TagGroupGetOrCreateTagList, METH_VARARGS, (char *)"\n"
+		"TagGroupGetOrCreateTagList(TagGroup tagGroup, Gatan::DM::String const & tagPath) -> TagGroup\n"
+		"\n"
+		"TagGroupGetOrCreateTagList: Gets the tag list named by 'tagPath', or creates a new such \n"
+		"list and all necessary intermediate groups.\n"
+		""},
+	 { (char *)"TagGroupGetSeeds", _wrap_TagGroupGetSeeds, METH_VARARGS, (char *)"\n"
+		"TagGroupGetSeeds(TagGroup tagGroup) -> long\n"
+		"\n"
+		"TagGroupGetSeeds: Gets a set of seeds that describe the tag group.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsArray", _wrap_TagGroupGetTagAsArray, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsArray(TagGroup tagGroup, char const * tagPath, Image image) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsArray: Gets the data at 'tagPath' in 'tagGroup' as an array of data in \n"
+		"'image'.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsBoolean", _wrap_TagGroupGetTagAsBoolean, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsBoolean(TagGroup tags, Gatan::DM::String const & tag_path, bool * tag_val) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsBoolean: Gets the data at 'tagPath' in 'tagGroup' as a boolean.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsDouble", _wrap_TagGroupGetTagAsDouble, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsDouble(TagGroup tagGroup, char const * tagPath, double * number) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsDouble: Gets the data at 'tagPath' in 'tagGroup' as a double.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsDoubleComplex", _wrap_TagGroupGetTagAsDoubleComplex, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsDoubleComplex(TagGroup tagGroup, char const * tagPath, complex128_t * c) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsDoubleComplex: Gets the data at 'tagPath' in 'tagGroup' as a double \n"
+		"complex.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsEightBitColor", _wrap_TagGroupGetTagAsEightBitColor, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsEightBitColor(TagGroup tagGroup, char const * tagPath, rgba_uint8_os_t * c) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsEightBitColor: Gets the data at 'tagPath' in 'tagGroup' as an eight bit \n"
+		"color.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsFloat", _wrap_TagGroupGetTagAsFloat, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsFloat(TagGroup tagGroup, char const * tagPath, float * number) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsFloat: Gets the data at 'tagPath' in 'tagGroup' as a float.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsFloatComplex", _wrap_TagGroupGetTagAsFloatComplex, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsFloatComplex(TagGroup tagGroup, char const * tagPath, complex128_t * c) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsFloatComplex: Gets the data at 'tagPath' in 'tagGroup' as a float \n"
+		"complex.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsFloatPoint", _wrap_TagGroupGetTagAsFloatPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsFloatPoint(TagGroup tagGroup, char const * tagPath, float * x, float * y) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsFloatPoint: Gets the data at 'tagPath' in 'tagGroup' as a short point.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsFloatRect", _wrap_TagGroupGetTagAsFloatRect, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsFloatRect(TagGroup tagGroup, char const * tagPath, float * t, float * l, float * b, float * r) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsFloatRect: Gets the data at 'tagPath' in 'tagGroup' as a short rect.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsLong", _wrap_TagGroupGetTagAsLong, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsLong(TagGroup tagGroup, char const * tagPath, long * number) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsLong: Gets the data at 'tagPath' in 'tagGroup' as a long.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsLongPoint", _wrap_TagGroupGetTagAsLongPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsLongPoint(TagGroup tagGroup, char const * tagPath, long * x, long * y) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsLongPoint: Gets the data at 'tagPath' in 'tagGroup' as a long point.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsLongRect", _wrap_TagGroupGetTagAsLongRect, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsLongRect(TagGroup tagGroup, char const * tagPath, long * t, long * l, long * b, long * r) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsLongRect: Gets the data at 'tagPath' in 'tagGroup' as a long rect.\n"
+		""},
 	 { (char *)"TagGroupGetTagAsRGBUInt16", _wrap_TagGroupGetTagAsRGBUInt16, METH_VARARGS, (char *)"\n"
 		"TagGroupGetTagAsRGBUInt16(TagGroup tagGroup, long index, uint16 * r, uint16 * g, uint16 * b) -> bool\n"
 		"TagGroupGetTagAsRGBUInt16(TagGroup tagGroup, char const * tagPath, uint16 * r, uint16 * g, uint16 * b) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsRGBUInt16: Gets the data at 'index' in 'tagGroup' as a 16-bit rgb value.\n"
 		""},
-	 { (char *)"TagGroupGetTagAsShort", _wrap_TagGroupGetTagAsShort, METH_VARARGS, (char *)"TagGroupGetTagAsShort(TagGroup tagGroup, char const * tagPath, short * number) -> bool"},
-	 { (char *)"TagGroupGetTagAsShortPoint", _wrap_TagGroupGetTagAsShortPoint, METH_VARARGS, (char *)"TagGroupGetTagAsShortPoint(TagGroup tagGroup, char const * tagPath, short * x, short * y) -> bool"},
-	 { (char *)"TagGroupGetTagAsShortRect", _wrap_TagGroupGetTagAsShortRect, METH_VARARGS, (char *)"TagGroupGetTagAsShortRect(TagGroup tagGroup, char const * tagPath, short * t, short * l, short * b, short * r) -> bool"},
-	 { (char *)"TagGroupGetTagAsString", _wrap_TagGroupGetTagAsString, METH_VARARGS, (char *)"TagGroupGetTagAsString(TagGroup tagGroup, char const * tagPath, Gatan::DM::String & str) -> bool"},
-	 { (char *)"TagGroupGetTagAsTagGroup", _wrap_TagGroupGetTagAsTagGroup, METH_VARARGS, (char *)"TagGroupGetTagAsTagGroup(TagGroup tags, Gatan::DM::String const & tag_path, TagGroup sub_tags) -> bool"},
-	 { (char *)"TagGroupGetTagAsList", _wrap_TagGroupGetTagAsList, METH_VARARGS, (char *)"TagGroupGetTagAsList(TagGroup tagGroup, char const * tagPath, TagGroup subGroup) -> bool"},
-	 { (char *)"TagGroupGetTagAsText", _wrap_TagGroupGetTagAsText, METH_VARARGS, (char *)"TagGroupGetTagAsText(TagGroup tagGroup, char const * tagPath, Gatan::DM::String & str) -> bool"},
-	 { (char *)"TagGroupGetTagAsUInt16", _wrap_TagGroupGetTagAsUInt16, METH_VARARGS, (char *)"TagGroupGetTagAsUInt16(TagGroup tagGroup, char const * tagPath, uint16 * number) -> bool"},
-	 { (char *)"TagGroupGetTagAsUInt32", _wrap_TagGroupGetTagAsUInt32, METH_VARARGS, (char *)"TagGroupGetTagAsUInt32(TagGroup tagGroup, char const * tagPath, ulong * number) -> bool"},
-	 { (char *)"TagGroupGetTagLabel", _wrap_TagGroupGetTagLabel, METH_VARARGS, (char *)"TagGroupGetTagLabel(TagGroup tagGroup, long index) -> Gatan::DM::String"},
-	 { (char *)"TagGroupGetTagSize", _wrap_TagGroupGetTagSize, METH_VARARGS, (char *)"TagGroupGetTagSize(TagGroup tagGroup, long index) -> long"},
-	 { (char *)"TagGroupGetTagType", _wrap_TagGroupGetTagType, METH_VARARGS, (char *)"TagGroupGetTagType(TagGroup tagGroup, long index, long type_index) -> long"},
-	 { (char *)"TagGroupGetTagTypeLength", _wrap_TagGroupGetTagTypeLength, METH_VARARGS, (char *)"TagGroupGetTagTypeLength(TagGroup tagGroup, long index) -> long"},
-	 { (char *)"TagGroupHasChangedSince", _wrap_TagGroupHasChangedSince, METH_VARARGS, (char *)"TagGroupHasChangedSince(TagGroup tagGroup, long seeds) -> bool"},
-	 { (char *)"TagGroupInsertTagAsArray", _wrap_TagGroupInsertTagAsArray, METH_VARARGS, (char *)"TagGroupInsertTagAsArray(TagGroup tagGroup, ulong ref_index, Image image)"},
-	 { (char *)"TagGroupInsertTagAsBoolean", _wrap_TagGroupInsertTagAsBoolean, METH_VARARGS, (char *)"TagGroupInsertTagAsBoolean(TagGroup tagGroup, long ref_index, bool val)"},
-	 { (char *)"TagGroupInsertTagAsDouble", _wrap_TagGroupInsertTagAsDouble, METH_VARARGS, (char *)"TagGroupInsertTagAsDouble(TagGroup tagGroup, long ref_index, double number)"},
-	 { (char *)"TagGroupInsertTagAsDoubleComplex", _wrap_TagGroupInsertTagAsDoubleComplex, METH_VARARGS, (char *)"TagGroupInsertTagAsDoubleComplex(TagGroup tagGroup, long ref_index, complex128_t const & c)"},
-	 { (char *)"TagGroupInsertTagAsEightBitColor", _wrap_TagGroupInsertTagAsEightBitColor, METH_VARARGS, (char *)"TagGroupInsertTagAsEightBitColor(TagGroup tagGroup, long ref_index, rgba_uint8_os_t c)"},
-	 { (char *)"TagGroupInsertTagAsFloat", _wrap_TagGroupInsertTagAsFloat, METH_VARARGS, (char *)"TagGroupInsertTagAsFloat(TagGroup tagGroup, long ref_index, float number)"},
-	 { (char *)"TagGroupInsertTagAsFloatComplex", _wrap_TagGroupInsertTagAsFloatComplex, METH_VARARGS, (char *)"TagGroupInsertTagAsFloatComplex(TagGroup tagGroup, long ref_index, complex128_t const & c)"},
-	 { (char *)"TagGroupInsertTagAsFloatPoint", _wrap_TagGroupInsertTagAsFloatPoint, METH_VARARGS, (char *)"TagGroupInsertTagAsFloatPoint(TagGroup tagGroup, long ref_index, float x, float y)"},
-	 { (char *)"TagGroupInsertTagAsFloatRect", _wrap_TagGroupInsertTagAsFloatRect, METH_VARARGS, (char *)"TagGroupInsertTagAsFloatRect(TagGroup tagGroup, long ref_index, float t, float l, float b, float r)"},
-	 { (char *)"TagGroupInsertTagAsLong", _wrap_TagGroupInsertTagAsLong, METH_VARARGS, (char *)"TagGroupInsertTagAsLong(TagGroup tagGroup, long ref_index, long number)"},
-	 { (char *)"TagGroupInsertTagAsLongPoint", _wrap_TagGroupInsertTagAsLongPoint, METH_VARARGS, (char *)"TagGroupInsertTagAsLongPoint(TagGroup tagGroup, long ref_index, long x, long y)"},
-	 { (char *)"TagGroupInsertTagAsLongRect", _wrap_TagGroupInsertTagAsLongRect, METH_VARARGS, (char *)"TagGroupInsertTagAsLongRect(TagGroup tagGroup, long ref_index, long t, long l, long b, long r)"},
-	 { (char *)"TagGroupInsertTagAsRGBUInt16", _wrap_TagGroupInsertTagAsRGBUInt16, METH_VARARGS, (char *)"TagGroupInsertTagAsRGBUInt16(TagGroup tagGroup, long ref_index, uint16 r, uint16 g, uint16 b)"},
-	 { (char *)"TagGroupInsertTagAsShort", _wrap_TagGroupInsertTagAsShort, METH_VARARGS, (char *)"TagGroupInsertTagAsShort(TagGroup tagGroup, long ref_index, short number)"},
-	 { (char *)"TagGroupInsertTagAsShortPoint", _wrap_TagGroupInsertTagAsShortPoint, METH_VARARGS, (char *)"TagGroupInsertTagAsShortPoint(TagGroup tagGroup, long ref_index, short x, short y)"},
-	 { (char *)"TagGroupInsertTagAsShortRect", _wrap_TagGroupInsertTagAsShortRect, METH_VARARGS, (char *)"TagGroupInsertTagAsShortRect(TagGroup tagGroup, long ref_index, short t, short l, short b, short r)"},
-	 { (char *)"TagGroupInsertTagAsString", _wrap_TagGroupInsertTagAsString, METH_VARARGS, (char *)"TagGroupInsertTagAsString(TagGroup tagGroup, long ref_index, Gatan::DM::String const & s)"},
-	 { (char *)"TagGroupInsertTagAsTagGroup", _wrap_TagGroupInsertTagAsTagGroup, METH_VARARGS, (char *)"TagGroupInsertTagAsTagGroup(TagGroup tagGroup, long ref_index, TagGroup subGroup)"},
-	 { (char *)"TagGroupInsertTagAsText", _wrap_TagGroupInsertTagAsText, METH_VARARGS, (char *)"TagGroupInsertTagAsText(TagGroup tagGroup, long ref_index, Gatan::DM::String const & s)"},
-	 { (char *)"TagGroupInsertTagAsUInt16", _wrap_TagGroupInsertTagAsUInt16, METH_VARARGS, (char *)"TagGroupInsertTagAsUInt16(TagGroup tagGroup, long ref_index, uint16 number)"},
-	 { (char *)"TagGroupInsertTagAsUInt32", _wrap_TagGroupInsertTagAsUInt32, METH_VARARGS, (char *)"TagGroupInsertTagAsUInt32(TagGroup tagGroup, long ref_index, ulong number)"},
-	 { (char *)"TagGroupIsList", _wrap_TagGroupIsList, METH_VARARGS, (char *)"TagGroupIsList(TagGroup tagGroup) -> bool"},
-	 { (char *)"TagGroupIsOpen", _wrap_TagGroupIsOpen, METH_VARARGS, (char *)"TagGroupIsOpen(TagGroup tagGroup) -> bool"},
-	 { (char *)"TagGroupIsValid", _wrap_TagGroupIsValid, METH_VARARGS, (char *)"TagGroupIsValid(TagGroup tagGroup) -> bool"},
-	 { (char *)"TagGroupLoadFromFile", _wrap_TagGroupLoadFromFile, METH_VARARGS, (char *)"TagGroupLoadFromFile(TagGroup tagGroup, Gatan::DM::String const & path) -> bool"},
-	 { (char *)"TagGroupLoadFromFileWithLabel", _wrap_TagGroupLoadFromFileWithLabel, METH_VARARGS, (char *)"TagGroupLoadFromFileWithLabel(TagGroup tagGroup, Gatan::DM::String const & path, Gatan::DM::String & label) -> bool"},
-	 { (char *)"TagGroupMarkAsChanged", _wrap_TagGroupMarkAsChanged, METH_VARARGS, (char *)"TagGroupMarkAsChanged(TagGroup tagGroup)"},
-	 { (char *)"TagGroupMergeTagsFrom", _wrap_TagGroupMergeTagsFrom, METH_VARARGS, (char *)"TagGroupMergeTagsFrom(TagGroup tagGroup, TagGroup srcGroup)"},
-	 { (char *)"TagGroupOpenBrowserWindow", _wrap_TagGroupOpenBrowserWindow, METH_VARARGS, (char *)"TagGroupOpenBrowserWindow(TagGroup tagGroup, bool isFileBased) -> Gatan::DM::Window"},
-	 { (char *)"TagGroupParseAndCreateTagPath", _wrap_TagGroupParseAndCreateTagPath, METH_VARARGS, (char *)"TagGroupParseAndCreateTagPath(TagGroup tagGroup, Gatan::DM::String const & tagPath, TagGroup parentGroup, Gatan::DM::String & label) -> long"},
-	 { (char *)"TagGroupParseTagPath", _wrap_TagGroupParseTagPath, METH_VARARGS, (char *)"TagGroupParseTagPath(TagGroup tagGroup, Gatan::DM::String const & tagPath, TagGroup parentGroup, Gatan::DM::String & label) -> long"},
-	 { (char *)"TagGroupReleaseSeeds", _wrap_TagGroupReleaseSeeds, METH_VARARGS, (char *)"TagGroupReleaseSeeds(TagGroup tagGroup, long seeds)"},
-	 { (char *)"TagGroupReplaceTagsWithCopy", _wrap_TagGroupReplaceTagsWithCopy, METH_VARARGS, (char *)"TagGroupReplaceTagsWithCopy(TagGroup tagGroup, TagGroup srcGroup)"},
-	 { (char *)"TagGroupSaveToFile", _wrap_TagGroupSaveToFile, METH_VARARGS, (char *)"TagGroupSaveToFile(TagGroup tagGroup, Gatan::DM::String const & path)"},
-	 { (char *)"TagGroupSaveToFileWithLabel", _wrap_TagGroupSaveToFileWithLabel, METH_VARARGS, (char *)"TagGroupSaveToFileWithLabel(TagGroup tagGroup, Gatan::DM::String const & path, Gatan::DM::String const & label)"},
-	 { (char *)"TagGroupSetIndexedTagAsArray", _wrap_TagGroupSetIndexedTagAsArray, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsArray(TagGroup tagGroup, ulong index, Image image)"},
-	 { (char *)"TagGroupSetIndexedTagAsBoolean", _wrap_TagGroupSetIndexedTagAsBoolean, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsBoolean(TagGroup tagGroup, long index, bool val)"},
-	 { (char *)"TagGroupSetIndexedTagAsDouble", _wrap_TagGroupSetIndexedTagAsDouble, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsDouble(TagGroup tagGroup, long index, double number)"},
-	 { (char *)"TagGroupSetIndexedTagAsDoubleComplex", _wrap_TagGroupSetIndexedTagAsDoubleComplex, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsDoubleComplex(TagGroup tagGroup, long index, complex128_t const & c)"},
-	 { (char *)"TagGroupSetIndexedTagAsEightBitColor", _wrap_TagGroupSetIndexedTagAsEightBitColor, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsEightBitColor(TagGroup tagGroup, long index, rgba_uint8_os_t c)"},
-	 { (char *)"TagGroupSetIndexedTagAsFloat", _wrap_TagGroupSetIndexedTagAsFloat, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsFloat(TagGroup tagGroup, long index, float number)"},
-	 { (char *)"TagGroupSetIndexedTagAsFloatComplex", _wrap_TagGroupSetIndexedTagAsFloatComplex, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsFloatComplex(TagGroup tagGroup, long index, complex128_t const & c)"},
-	 { (char *)"TagGroupSetIndexedTagAsFloatPoint", _wrap_TagGroupSetIndexedTagAsFloatPoint, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsFloatPoint(TagGroup tagGroup, long index, float x, float y)"},
-	 { (char *)"TagGroupSetIndexedTagAsFloatRect", _wrap_TagGroupSetIndexedTagAsFloatRect, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsFloatRect(TagGroup tagGroup, long index, float t, float l, float b, float r)"},
-	 { (char *)"TagGroupSetIndexedTagAsLong", _wrap_TagGroupSetIndexedTagAsLong, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsLong(TagGroup tagGroup, long index, long number)"},
-	 { (char *)"TagGroupSetIndexedTagAsLongPoint", _wrap_TagGroupSetIndexedTagAsLongPoint, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsLongPoint(TagGroup tagGroup, long index, SSIZE_T x, SSIZE_T y)"},
-	 { (char *)"TagGroupSetIndexedTagAsLongRect", _wrap_TagGroupSetIndexedTagAsLongRect, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsLongRect(TagGroup tagGroup, long index, SSIZE_T t, SSIZE_T l, SSIZE_T b, SSIZE_T r)"},
-	 { (char *)"TagGroupSetIndexedTagAsRGBUInt16", _wrap_TagGroupSetIndexedTagAsRGBUInt16, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsRGBUInt16(TagGroup tagGroup, long index, uint16 r, uint16 g, uint16 b)"},
-	 { (char *)"TagGroupSetIndexedTagAsShort", _wrap_TagGroupSetIndexedTagAsShort, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsShort(TagGroup tagGroup, long index, short number)"},
-	 { (char *)"TagGroupSetIndexedTagAsShortPoint", _wrap_TagGroupSetIndexedTagAsShortPoint, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsShortPoint(TagGroup tagGroup, long index, short x, short y)"},
-	 { (char *)"TagGroupSetIndexedTagAsShortRect", _wrap_TagGroupSetIndexedTagAsShortRect, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsShortRect(TagGroup tagGroup, long index, short t, short l, short b, short r)"},
-	 { (char *)"TagGroupSetIndexedTagAsString", _wrap_TagGroupSetIndexedTagAsString, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsString(TagGroup tagGroup, long index, Gatan::DM::String const & s)"},
-	 { (char *)"TagGroupSetIndexedTagAsTagGroup", _wrap_TagGroupSetIndexedTagAsTagGroup, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsTagGroup(TagGroup tagGroup, long index, TagGroup subGroup)"},
-	 { (char *)"TagGroupSetIndexedTagAsText", _wrap_TagGroupSetIndexedTagAsText, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsText(TagGroup tagGroup, long index, Gatan::DM::String const & s)"},
-	 { (char *)"TagGroupSetIndexedTagAsUInt16", _wrap_TagGroupSetIndexedTagAsUInt16, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsUInt16(TagGroup tagGroup, long index, uint16 number)"},
-	 { (char *)"TagGroupSetIndexedTagAsUInt32", _wrap_TagGroupSetIndexedTagAsUInt32, METH_VARARGS, (char *)"TagGroupSetIndexedTagAsUInt32(TagGroup tagGroup, long index, ulong number)"},
-	 { (char *)"TagGroupSetIsOpen", _wrap_TagGroupSetIsOpen, METH_VARARGS, (char *)"TagGroupSetIsOpen(TagGroup tagGroup, bool is_open)"},
-	 { (char *)"TagGroupSetTagAsArray", _wrap_TagGroupSetTagAsArray, METH_VARARGS, (char *)"TagGroupSetTagAsArray(TagGroup tagGroup, char const * tagPath, Image image)"},
-	 { (char *)"TagGroupSetTagAsBoolean", _wrap_TagGroupSetTagAsBoolean, METH_VARARGS, (char *)"TagGroupSetTagAsBoolean(TagGroup tagGroup, char const * tagPath, bool val)"},
-	 { (char *)"TagGroupSetTagAsDouble", _wrap_TagGroupSetTagAsDouble, METH_VARARGS, (char *)"TagGroupSetTagAsDouble(TagGroup tagGroup, char const * tagPath, double number)"},
-	 { (char *)"TagGroupSetTagAsDoubleComplex", _wrap_TagGroupSetTagAsDoubleComplex, METH_VARARGS, (char *)"TagGroupSetTagAsDoubleComplex(TagGroup tagGroup, char const * tagPath, complex128_t const & c)"},
-	 { (char *)"TagGroupSetTagAsEightBitColor", _wrap_TagGroupSetTagAsEightBitColor, METH_VARARGS, (char *)"TagGroupSetTagAsEightBitColor(TagGroup tagGroup, char const * tagPath, rgba_uint8_os_t c)"},
-	 { (char *)"TagGroupSetTagAsFloat", _wrap_TagGroupSetTagAsFloat, METH_VARARGS, (char *)"TagGroupSetTagAsFloat(TagGroup tagGroup, char const * tagPath, float number)"},
-	 { (char *)"TagGroupSetTagAsFloatComplex", _wrap_TagGroupSetTagAsFloatComplex, METH_VARARGS, (char *)"TagGroupSetTagAsFloatComplex(TagGroup tagGroup, char const * tagPath, complex128_t const & c)"},
-	 { (char *)"TagGroupSetTagAsFloatPoint", _wrap_TagGroupSetTagAsFloatPoint, METH_VARARGS, (char *)"TagGroupSetTagAsFloatPoint(TagGroup tagGroup, char const * tagPath, float x, float y)"},
-	 { (char *)"TagGroupSetTagAsFloatRect", _wrap_TagGroupSetTagAsFloatRect, METH_VARARGS, (char *)"TagGroupSetTagAsFloatRect(TagGroup tagGroup, char const * tagPath, float t, float l, float b, float r)"},
-	 { (char *)"TagGroupSetTagAsLong", _wrap_TagGroupSetTagAsLong, METH_VARARGS, (char *)"TagGroupSetTagAsLong(TagGroup tagGroup, char const * tagPath, long number)"},
-	 { (char *)"TagGroupSetTagAsLongPoint", _wrap_TagGroupSetTagAsLongPoint, METH_VARARGS, (char *)"TagGroupSetTagAsLongPoint(TagGroup tagGroup, char const * tagPath, long x, long y)"},
-	 { (char *)"TagGroupSetTagAsLongRect", _wrap_TagGroupSetTagAsLongRect, METH_VARARGS, (char *)"TagGroupSetTagAsLongRect(TagGroup tagGroup, char const * tagPath, long t, long l, long b, long r)"},
-	 { (char *)"TagGroupSetTagAsRGBUInt16", _wrap_TagGroupSetTagAsRGBUInt16, METH_VARARGS, (char *)"TagGroupSetTagAsRGBUInt16(TagGroup tagGroup, char const * tagPath, uint16 r, uint16 g, uint16 b)"},
-	 { (char *)"TagGroupSetTagAsShort", _wrap_TagGroupSetTagAsShort, METH_VARARGS, (char *)"TagGroupSetTagAsShort(TagGroup tagGroup, char const * tagPath, short number)"},
-	 { (char *)"TagGroupSetTagAsShortPoint", _wrap_TagGroupSetTagAsShortPoint, METH_VARARGS, (char *)"TagGroupSetTagAsShortPoint(TagGroup tagGroup, char const * tagPath, short x, short y)"},
-	 { (char *)"TagGroupSetTagAsShortRect", _wrap_TagGroupSetTagAsShortRect, METH_VARARGS, (char *)"TagGroupSetTagAsShortRect(TagGroup tagGroup, char const * tagPath, short t, short l, short b, short r)"},
-	 { (char *)"TagGroupSetTagAsString", _wrap_TagGroupSetTagAsString, METH_VARARGS, (char *)"TagGroupSetTagAsString(TagGroup tagGroup, char const * tagPath, Gatan::DM::String const & s)"},
-	 { (char *)"TagGroupSetTagAsTagGroup", _wrap_TagGroupSetTagAsTagGroup, METH_VARARGS, (char *)"TagGroupSetTagAsTagGroup(TagGroup tags, Gatan::DM::String const & tag_path, TagGroup tag_val)"},
-	 { (char *)"TagGroupSetTagAsText", _wrap_TagGroupSetTagAsText, METH_VARARGS, (char *)"TagGroupSetTagAsText(TagGroup tagGroup, char const * tagPath, Gatan::DM::String const & s)"},
-	 { (char *)"TagGroupSetTagAsUInt16", _wrap_TagGroupSetTagAsUInt16, METH_VARARGS, (char *)"TagGroupSetTagAsUInt16(TagGroup tagGroup, char const * tagPath, uint16 number)"},
-	 { (char *)"TagGroupSetTagAsUInt32", _wrap_TagGroupSetTagAsUInt32, METH_VARARGS, (char *)"TagGroupSetTagAsUInt32(TagGroup tagGroup, char const * tagPath, ulong number)"},
-	 { (char *)"TagGroupSetTagRGBBitmap", _wrap_TagGroupSetTagRGBBitmap, METH_VARARGS, (char *)"TagGroupSetTagRGBBitmap(TagGroup tagGroup, char const * tagPath, Image image)"},
-	 { (char *)"TextAnnotationGetAlignment", _wrap_TextAnnotationGetAlignment, METH_VARARGS, (char *)"TextAnnotationGetAlignment(Gatan::DM::Component const & comp) -> long"},
-	 { (char *)"TextAnnotationGetFixedPoint", _wrap_TextAnnotationGetFixedPoint, METH_VARARGS, (char *)"TextAnnotationGetFixedPoint(Gatan::DM::Component const & comp, float * x, float * y)"},
-	 { (char *)"TextAnnotationGetResizeStyle", _wrap_TextAnnotationGetResizeStyle, METH_VARARGS, (char *)"TextAnnotationGetResizeStyle(Gatan::DM::Component const & comp) -> long"},
-	 { (char *)"TextAnnotationGetText", _wrap_TextAnnotationGetText, METH_VARARGS, (char *)"TextAnnotationGetText(Gatan::DM::Component const & comp) -> Gatan::DM::String"},
-	 { (char *)"TextAnnotationSetAlignment", _wrap_TextAnnotationSetAlignment, METH_VARARGS, (char *)"TextAnnotationSetAlignment(Gatan::DM::Component const & comp, long alignment)"},
-	 { (char *)"TextAnnotationSetFixedPoint", _wrap_TextAnnotationSetFixedPoint, METH_VARARGS, (char *)"TextAnnotationSetFixedPoint(Gatan::DM::Component const & comp, float x, float y)"},
-	 { (char *)"TextAnnotationSetResizeStyle", _wrap_TextAnnotationSetResizeStyle, METH_VARARGS, (char *)"TextAnnotationSetResizeStyle(Gatan::DM::Component const & comp, long style)"},
-	 { (char *)"TextAnnotationSetText", _wrap_TextAnnotationSetText, METH_VARARGS, (char *)"TextAnnotationSetText(Gatan::DM::Component const & comp, Gatan::DM::String const & text)"},
-	 { (char *)"ThrowableIsValid", _wrap_ThrowableIsValid, METH_VARARGS, (char *)"ThrowableIsValid(Gatan::DM::Throwable const & throw_) -> bool"},
-	 { (char *)"TickCount", _wrap_TickCount, METH_VARARGS, (char *)"TickCount() -> uint32"},
-	 { (char *)"TransformPointFromImageToWindow", _wrap_TransformPointFromImageToWindow, METH_VARARGS, (char *)"TransformPointFromImageToWindow(Image image, float x_image, float y_image, float * x_window, float * y_window)"},
-	 { (char *)"TrapException", _wrap_TrapException, METH_VARARGS, (char *)"TrapException(short error, long context)"},
-	 { (char *)"TryToUse", _wrap_TryToUse, METH_VARARGS, (char *)"TryToUse(char const * name, long width, long height, short dataType, short h, short v, bool * fresh) -> Image"},
-	 { (char *)"TurboFFT", _wrap_TurboFFT, METH_VARARGS, (char *)"TurboFFT(Image buffer, Image fft, Image dark, Image gain, long top, long left, long bottom, long right, long dst, long rowBytes)"},
-	 { (char *)"TwoButtonDialog", _wrap_TwoButtonDialog, METH_VARARGS, (char *)"TwoButtonDialog(char const * prompt, char const * acceptLabel, char const * rejectLabel) -> bool"},
+	 { (char *)"TagGroupGetTagAsShort", _wrap_TagGroupGetTagAsShort, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsShort(TagGroup tagGroup, char const * tagPath, short * number) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsShort: Gets the data at 'tagPath' in 'tagGroup' as a short.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsShortPoint", _wrap_TagGroupGetTagAsShortPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsShortPoint(TagGroup tagGroup, char const * tagPath, short * x, short * y) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsShortPoint: Gets the data at 'tagPath' in 'tagGroup' as a short point.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsShortRect", _wrap_TagGroupGetTagAsShortRect, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsShortRect(TagGroup tagGroup, char const * tagPath, short * t, short * l, short * b, short * r) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsShortRect: Gets the data at 'tagPath' in 'tagGroup' as a short rect.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsString", _wrap_TagGroupGetTagAsString, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsString(TagGroup tagGroup, char const * tagPath, Gatan::DM::String & str) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsString: Gets the data at 'tagPath' in 'tagGroup' as a string.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsTagGroup", _wrap_TagGroupGetTagAsTagGroup, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsTagGroup(TagGroup tags, Gatan::DM::String const & tag_path, TagGroup sub_tags) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsTagGroup: Gets the data at 'tagPath' in 'TagGroup' as a group.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsList", _wrap_TagGroupGetTagAsList, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsList(TagGroup tagGroup, char const * tagPath, TagGroup subGroup) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsList: Gets the data at 'tagPath' in 'TagGroup' as a list.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsText", _wrap_TagGroupGetTagAsText, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsText(TagGroup tagGroup, char const * tagPath, Gatan::DM::String & str) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsText: Gets the data at 'tagPath' in 'tagGroup' as a string.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsUInt16", _wrap_TagGroupGetTagAsUInt16, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsUInt16(TagGroup tagGroup, char const * tagPath, uint16 * number) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsUInt16: Gets the data at 'tagPath' in 'tagGroup' as a 16-bit unsigned \n"
+		"integer.\n"
+		""},
+	 { (char *)"TagGroupGetTagAsUInt32", _wrap_TagGroupGetTagAsUInt32, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagAsUInt32(TagGroup tagGroup, char const * tagPath, ulong * number) -> bool\n"
+		"\n"
+		"TagGroupGetTagAsUInt32: Gets the data at 'tagPath' in 'tagGroup' as a 32-bit unsigned \n"
+		"integer.\n"
+		""},
+	 { (char *)"TagGroupGetTagLabel", _wrap_TagGroupGetTagLabel, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagLabel(TagGroup tagGroup, long index) -> Gatan::DM::String\n"
+		"\n"
+		"TagGroupGetTagLabel: Gets the label of the 'index'th tag in the tag group.\n"
+		""},
+	 { (char *)"TagGroupGetTagSize", _wrap_TagGroupGetTagSize, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagSize(TagGroup tagGroup, long index) -> long\n"
+		"\n"
+		"TagGroupGetTagSize: Gets the size of the tag.\n"
+		""},
+	 { (char *)"TagGroupGetTagType", _wrap_TagGroupGetTagType, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagType(TagGroup tagGroup, long index, long type_index) -> long\n"
+		"\n"
+		"TagGroupGetTagType: Returns the 'type_index'th element of the tag's type.\n"
+		""},
+	 { (char *)"TagGroupGetTagTypeLength", _wrap_TagGroupGetTagTypeLength, METH_VARARGS, (char *)"\n"
+		"TagGroupGetTagTypeLength(TagGroup tagGroup, long index) -> long\n"
+		"\n"
+		"TagGroupGetTagTypeLength: Returns number of elements in the tag's type.\n"
+		""},
+	 { (char *)"TagGroupHasChangedSince", _wrap_TagGroupHasChangedSince, METH_VARARGS, (char *)"\n"
+		"TagGroupHasChangedSince(TagGroup tagGroup, long seeds) -> bool\n"
+		"\n"
+		"TagGroupHasChangedSince: Returns true if the tag group has changed since 'seeds' was \n"
+		"constructed.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsArray", _wrap_TagGroupInsertTagAsArray, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsArray(TagGroup tagGroup, ulong ref_index, Image image)\n"
+		"\n"
+		"TagGroupInsertTagAsArray: Inserts new data before 'ref_index' in 'tagGroup' as an array \n"
+		"of data in 'image'.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsBoolean", _wrap_TagGroupInsertTagAsBoolean, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsBoolean(TagGroup tagGroup, long ref_index, bool val)\n"
+		"\n"
+		"TagGroupInsertTagAsBoolean: Inserts new data before 'ref_index' in 'tagGroup' as a \n"
+		"boolean.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsDouble", _wrap_TagGroupInsertTagAsDouble, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsDouble(TagGroup tagGroup, long ref_index, double number)\n"
+		"\n"
+		"TagGroupInsertTagAsDouble: Inserts new data before 'ref_index' in 'tagGroup' as a double.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsDoubleComplex", _wrap_TagGroupInsertTagAsDoubleComplex, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsDoubleComplex(TagGroup tagGroup, long ref_index, complex128_t const & c)\n"
+		"\n"
+		"TagGroupInsertTagAsDoubleComplex: Inserts new data before 'ref_index' in 'tagGroup' as a \n"
+		"double complex.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsEightBitColor", _wrap_TagGroupInsertTagAsEightBitColor, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsEightBitColor(TagGroup tagGroup, long ref_index, rgba_uint8_os_t c)\n"
+		"\n"
+		"TagGroupInsertTagAsEightBitColor: Inserts new data before 'ref_index' in 'tagGroup' as \n"
+		"an eight bit color.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsFloat", _wrap_TagGroupInsertTagAsFloat, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsFloat(TagGroup tagGroup, long ref_index, float number)\n"
+		"\n"
+		"TagGroupInsertTagAsFloat: Inserts new data before 'ref_index' in 'tagGroup' as a float.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsFloatComplex", _wrap_TagGroupInsertTagAsFloatComplex, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsFloatComplex(TagGroup tagGroup, long ref_index, complex128_t const & c)\n"
+		"\n"
+		"TagGroupInsertTagAsFloatComplex: Inserts new data before 'ref_index' in 'tagGroup' as a \n"
+		"float complex.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsFloatPoint", _wrap_TagGroupInsertTagAsFloatPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsFloatPoint(TagGroup tagGroup, long ref_index, float x, float y)\n"
+		"\n"
+		"TagGroupInsertTagAsFloatPoint: Inserts new data before 'ref_index' in 'tagGroup' as a \n"
+		"float point.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsFloatRect", _wrap_TagGroupInsertTagAsFloatRect, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsFloatRect(TagGroup tagGroup, long ref_index, float t, float l, float b, float r)\n"
+		"\n"
+		"TagGroupInsertTagAsFloatRect: Inserts new data before 'ref_index' in 'tagGroup' as a \n"
+		"float rect.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsLong", _wrap_TagGroupInsertTagAsLong, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsLong(TagGroup tagGroup, long ref_index, long number)\n"
+		"\n"
+		"TagGroupInsertTagAsLong: Inserts new data before 'ref_index' in 'tagGroup' as a long.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsLongPoint", _wrap_TagGroupInsertTagAsLongPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsLongPoint(TagGroup tagGroup, long ref_index, long x, long y)\n"
+		"\n"
+		"TagGroupInsertTagAsLongPoint: Inserts new data before 'ref_index' in 'tagGroup' as a \n"
+		"long point.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsLongRect", _wrap_TagGroupInsertTagAsLongRect, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsLongRect(TagGroup tagGroup, long ref_index, long t, long l, long b, long r)\n"
+		"\n"
+		"TagGroupInsertTagAsLongRect: Inserts new data before 'ref_index' in 'tagGroup' as a long \n"
+		"rect.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsRGBUInt16", _wrap_TagGroupInsertTagAsRGBUInt16, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsRGBUInt16(TagGroup tagGroup, long ref_index, uint16 r, uint16 g, uint16 b)\n"
+		"\n"
+		"TagGroupInsertTagAsRGBUInt16: Inserts new data before 'ref_index' in 'tagGroup' as a \n"
+		"16-bit rgb value.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsShort", _wrap_TagGroupInsertTagAsShort, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsShort(TagGroup tagGroup, long ref_index, short number)\n"
+		"\n"
+		"TagGroupInsertTagAsShort: Inserts new data before 'ref_index' in 'tagGroup' as a short.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsShortPoint", _wrap_TagGroupInsertTagAsShortPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsShortPoint(TagGroup tagGroup, long ref_index, short x, short y)\n"
+		"\n"
+		"TagGroupInsertTagAsShortPoint: Inserts new data before 'ref_index' in 'tagGroup' as a \n"
+		"short point.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsShortRect", _wrap_TagGroupInsertTagAsShortRect, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsShortRect(TagGroup tagGroup, long ref_index, short t, short l, short b, short r)\n"
+		"\n"
+		"TagGroupInsertTagAsShortRect: Inserts new data before 'ref_index' in 'tagGroup' as a \n"
+		"short rect.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsString", _wrap_TagGroupInsertTagAsString, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsString(TagGroup tagGroup, long ref_index, Gatan::DM::String const & s)\n"
+		"\n"
+		"TagGroupInsertTagAsString: Inserts new data before 'ref_index' in 'tagGroup' as a string.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsTagGroup", _wrap_TagGroupInsertTagAsTagGroup, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsTagGroup(TagGroup tagGroup, long ref_index, TagGroup subGroup)\n"
+		"\n"
+		"TagGroupInsertTagAsTagGroup: Inserts new data before 'ref_index' in 'TagGroup' as a \n"
+		"group.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsText", _wrap_TagGroupInsertTagAsText, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsText(TagGroup tagGroup, long ref_index, Gatan::DM::String const & s)\n"
+		"\n"
+		"TagGroupInsertTagAsText: Inserts new data before 'ref_index' in 'tagGroup' as a string.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsUInt16", _wrap_TagGroupInsertTagAsUInt16, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsUInt16(TagGroup tagGroup, long ref_index, uint16 number)\n"
+		"\n"
+		"TagGroupInsertTagAsUInt16: Inserts new data before 'ref_index' in 'tagGroup' as a 16-bit \n"
+		"unsigned integer.\n"
+		""},
+	 { (char *)"TagGroupInsertTagAsUInt32", _wrap_TagGroupInsertTagAsUInt32, METH_VARARGS, (char *)"\n"
+		"TagGroupInsertTagAsUInt32(TagGroup tagGroup, long ref_index, ulong number)\n"
+		"\n"
+		"TagGroupInsertTagAsUInt32: Inserts new data before 'ref_index' in 'tagGroup' as a 32-bit \n"
+		"unsigned integer.\n"
+		""},
+	 { (char *)"TagGroupIsList", _wrap_TagGroupIsList, METH_VARARGS, (char *)"\n"
+		"TagGroupIsList(TagGroup tagGroup) -> bool\n"
+		"\n"
+		"TagGroupIsList: Returns true if the tag group is a list.\n"
+		""},
+	 { (char *)"TagGroupIsOpen", _wrap_TagGroupIsOpen, METH_VARARGS, (char *)"\n"
+		"TagGroupIsOpen(TagGroup tagGroup) -> bool\n"
+		"\n"
+		"TagGroupIsOpen: Returns whether 'tagGroup' is open or not.\n"
+		""},
+	 { (char *)"TagGroupIsValid", _wrap_TagGroupIsValid, METH_VARARGS, (char *)"\n"
+		"TagGroupIsValid(TagGroup tagGroup) -> bool\n"
+		"\n"
+		"TagGroupIsValid: Returns true if 'tagGroup' references a valid object.\n"
+		""},
+	 { (char *)"TagGroupLoadFromFile", _wrap_TagGroupLoadFromFile, METH_VARARGS, (char *)"\n"
+		"TagGroupLoadFromFile(TagGroup tagGroup, Gatan::DM::String const & path) -> bool\n"
+		"\n"
+		"TagGroupLoadFromFile: Loads the contents of the file specified by 'path' into the tag \n"
+		"group.\n"
+		""},
+	 { (char *)"TagGroupLoadFromFileWithLabel", _wrap_TagGroupLoadFromFileWithLabel, METH_VARARGS, (char *)"\n"
+		"TagGroupLoadFromFileWithLabel(TagGroup tagGroup, Gatan::DM::String const & path, Gatan::DM::String & label) -> bool\n"
+		"\n"
+		"TagGroupLoadFromFileWithLabel: Loads the contents of the file specified by 'path' into \n"
+		"the tag group and returns the label, if any.\n"
+		""},
+	 { (char *)"TagGroupMarkAsChanged", _wrap_TagGroupMarkAsChanged, METH_VARARGS, (char *)"\n"
+		"TagGroupMarkAsChanged(TagGroup tagGroup)\n"
+		"\n"
+		"TagGroupMarkAsChanged: Marks 'tagGroup' as having beein modified.\n"
+		""},
+	 { (char *)"TagGroupMergeTagsFrom", _wrap_TagGroupMergeTagsFrom, METH_VARARGS, (char *)"\n"
+		"TagGroupMergeTagsFrom(TagGroup tagGroup, TagGroup srcGroup)\n"
+		"\n"
+		"TagGroupMergeTagsFrom: merges tags from 'srcGroup' into 'tagGroup'.\n"
+		""},
+	 { (char *)"TagGroupOpenBrowserWindow", _wrap_TagGroupOpenBrowserWindow, METH_VARARGS, (char *)"\n"
+		"TagGroupOpenBrowserWindow(TagGroup tagGroup, bool isFileBased) -> Gatan::DM::Window\n"
+		"\n"
+		"TagGroupOpenBrowserWindow: Opens a browser window for the tag group.\n"
+		""},
+	 { (char *)"TagGroupParseAndCreateTagPath", _wrap_TagGroupParseAndCreateTagPath, METH_VARARGS, (char *)"\n"
+		"TagGroupParseAndCreateTagPath(TagGroup tagGroup, Gatan::DM::String const & tagPath, TagGroup parentGroup, Gatan::DM::String & label) -> long\n"
+		"\n"
+		"TagGroupParseAndCreateTagPath: Finds the tag group and index corresponding to the tag \n"
+		"referenced by 'tagPath' in 'tagGroup'.\n"
+		""},
+	 { (char *)"TagGroupParseTagPath", _wrap_TagGroupParseTagPath, METH_VARARGS, (char *)"\n"
+		"TagGroupParseTagPath(TagGroup tagGroup, Gatan::DM::String const & tagPath, TagGroup parentGroup, Gatan::DM::String & label) -> long\n"
+		"\n"
+		"TagGroupParseTagPath: Finds the tag group and index corresponding to the tag referenced \n"
+		"by 'tagPath' in 'tagGroup'.\n"
+		""},
+	 { (char *)"TagGroupReleaseSeeds", _wrap_TagGroupReleaseSeeds, METH_VARARGS, (char *)"\n"
+		"TagGroupReleaseSeeds(TagGroup tagGroup, long seeds)\n"
+		"\n"
+		"TagGroupReleaseSeeds: Releases the seeds returned by 'TagGroupGetSeeds'.\n"
+		""},
+	 { (char *)"TagGroupReplaceTagsWithCopy", _wrap_TagGroupReplaceTagsWithCopy, METH_VARARGS, (char *)"\n"
+		"TagGroupReplaceTagsWithCopy(TagGroup tagGroup, TagGroup srcGroup)\n"
+		"\n"
+		"TagGroupReplaceTagsWithCopy: Deletes all tags in 'tagGroup' and copies tags in \n"
+		"'srcGroup' to 'tagGroup'.\n"
+		""},
+	 { (char *)"TagGroupSaveToFile", _wrap_TagGroupSaveToFile, METH_VARARGS, (char *)"\n"
+		"TagGroupSaveToFile(TagGroup tagGroup, Gatan::DM::String const & path)\n"
+		"\n"
+		"TagGroupSaveToFile: Saves the contents of the tag group to the file specified by 'path'.\n"
+		""},
+	 { (char *)"TagGroupSaveToFileWithLabel", _wrap_TagGroupSaveToFileWithLabel, METH_VARARGS, (char *)"\n"
+		"TagGroupSaveToFileWithLabel(TagGroup tagGroup, Gatan::DM::String const & path, Gatan::DM::String const & label)\n"
+		"\n"
+		"TagGroupSaveToFileWithLabel: Saves the contents of the tag group and the label 'label' \n"
+		"to the file specified by 'path'.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsArray", _wrap_TagGroupSetIndexedTagAsArray, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsArray(TagGroup tagGroup, ulong index, Image image)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsArray: Set the data at 'index' in 'tagGroup' as an array of data \n"
+		"in 'image'.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsBoolean", _wrap_TagGroupSetIndexedTagAsBoolean, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsBoolean(TagGroup tagGroup, long index, bool val)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsBoolean: Sets the data at 'index' in 'tagGroup' as a boolean.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsDouble", _wrap_TagGroupSetIndexedTagAsDouble, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsDouble(TagGroup tagGroup, long index, double number)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsDouble: Sets the data at 'index' in 'tagGroup' as a double.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsDoubleComplex", _wrap_TagGroupSetIndexedTagAsDoubleComplex, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsDoubleComplex(TagGroup tagGroup, long index, complex128_t const & c)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsDoubleComplex: Sets the data at 'index' in 'tagGroup' as a double \n"
+		"complex.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsEightBitColor", _wrap_TagGroupSetIndexedTagAsEightBitColor, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsEightBitColor(TagGroup tagGroup, long index, rgba_uint8_os_t c)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsEightBitColor: Sets the data at 'index' in 'tagGroup' as an eight \n"
+		"bit color.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsFloat", _wrap_TagGroupSetIndexedTagAsFloat, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsFloat(TagGroup tagGroup, long index, float number)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsFloat: Sets the data at 'index' in 'tagGroup' as a float.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsFloatComplex", _wrap_TagGroupSetIndexedTagAsFloatComplex, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsFloatComplex(TagGroup tagGroup, long index, complex128_t const & c)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsFloatComplex: Sets the data at 'index' in 'tagGroup' as a float \n"
+		"complex.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsFloatPoint", _wrap_TagGroupSetIndexedTagAsFloatPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsFloatPoint(TagGroup tagGroup, long index, float x, float y)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsFloatPoint: Sets the data at 'index' in 'tagGroup' as a float \n"
+		"point.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsFloatRect", _wrap_TagGroupSetIndexedTagAsFloatRect, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsFloatRect(TagGroup tagGroup, long index, float t, float l, float b, float r)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsFloatRect: Sets the data at 'index' in 'tagGroup' as a float rect.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsLong", _wrap_TagGroupSetIndexedTagAsLong, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsLong(TagGroup tagGroup, long index, long number)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsLong: Sets the data at 'index' in 'tagGroup' as a long.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsLongPoint", _wrap_TagGroupSetIndexedTagAsLongPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsLongPoint(TagGroup tagGroup, long index, SSIZE_T x, SSIZE_T y)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsLongPoint: Sets the data at 'index' in 'tagGroup' as a long point.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsLongRect", _wrap_TagGroupSetIndexedTagAsLongRect, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsLongRect(TagGroup tagGroup, long index, SSIZE_T t, SSIZE_T l, SSIZE_T b, SSIZE_T r)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsLongRect: Sets the data at 'index' in 'tagGroup' as a long rect.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsRGBUInt16", _wrap_TagGroupSetIndexedTagAsRGBUInt16, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsRGBUInt16(TagGroup tagGroup, long index, uint16 r, uint16 g, uint16 b)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsRGBUInt16: Sets the data at 'index' in 'tagGroup' as a 16-bit rgb \n"
+		"value.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsShort", _wrap_TagGroupSetIndexedTagAsShort, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsShort(TagGroup tagGroup, long index, short number)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsShort: Sets the data at 'index' in 'tagGroup' as a short.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsShortPoint", _wrap_TagGroupSetIndexedTagAsShortPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsShortPoint(TagGroup tagGroup, long index, short x, short y)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsShortPoint: Sets the data at 'index' in 'tagGroup' as a short \n"
+		"point.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsShortRect", _wrap_TagGroupSetIndexedTagAsShortRect, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsShortRect(TagGroup tagGroup, long index, short t, short l, short b, short r)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsShortRect: Sets the data at 'index' in 'tagGroup' as a short rect.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsString", _wrap_TagGroupSetIndexedTagAsString, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsString(TagGroup tagGroup, long index, Gatan::DM::String const & s)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsString: Sets the data at 'index' in 'tagGroup' as a string.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsTagGroup", _wrap_TagGroupSetIndexedTagAsTagGroup, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsTagGroup(TagGroup tagGroup, long index, TagGroup subGroup)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsTagGroup: Sets the data at 'index' in 'TagGroup' as a group.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsText", _wrap_TagGroupSetIndexedTagAsText, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsText(TagGroup tagGroup, long index, Gatan::DM::String const & s)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsText: Sets the data at 'index' in 'tagGroup' as a string.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsUInt16", _wrap_TagGroupSetIndexedTagAsUInt16, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsUInt16(TagGroup tagGroup, long index, uint16 number)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsUInt16: Sets the data at 'index' in 'tagGroup' as a 16-bit \n"
+		"unsigned integer.\n"
+		""},
+	 { (char *)"TagGroupSetIndexedTagAsUInt32", _wrap_TagGroupSetIndexedTagAsUInt32, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIndexedTagAsUInt32(TagGroup tagGroup, long index, ulong number)\n"
+		"\n"
+		"TagGroupSetIndexedTagAsUInt32: Sets the data at 'index' in 'tagGroup' as a 32-bit \n"
+		"unsigned integer.\n"
+		""},
+	 { (char *)"TagGroupSetIsOpen", _wrap_TagGroupSetIsOpen, METH_VARARGS, (char *)"\n"
+		"TagGroupSetIsOpen(TagGroup tagGroup, bool is_open)\n"
+		"\n"
+		"TagGroupSetIsOpen: Sets whether 'tagGroup' is open or not.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsArray", _wrap_TagGroupSetTagAsArray, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsArray(TagGroup tagGroup, char const * tagPath, Image image)\n"
+		"\n"
+		"TagGroupSetTagAsArray: Set the data at 'tagPath' in 'tagGroup' as an array of data in \n"
+		"'image'.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsBoolean", _wrap_TagGroupSetTagAsBoolean, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsBoolean(TagGroup tagGroup, char const * tagPath, bool val)\n"
+		"\n"
+		"TagGroupSetTagAsBoolean: Sets the data at 'tagPath' in 'tagGroup' as a boolean.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsDouble", _wrap_TagGroupSetTagAsDouble, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsDouble(TagGroup tagGroup, char const * tagPath, double number)\n"
+		"\n"
+		"TagGroupSetTagAsDouble: Sets the data at 'tagPath' in 'tagGroup' as a double.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsDoubleComplex", _wrap_TagGroupSetTagAsDoubleComplex, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsDoubleComplex(TagGroup tagGroup, char const * tagPath, complex128_t const & c)\n"
+		"\n"
+		"TagGroupSetTagAsDoubleComplex: Sets the data at 'tagPath' in 'tagGroup' as a double \n"
+		"complex.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsEightBitColor", _wrap_TagGroupSetTagAsEightBitColor, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsEightBitColor(TagGroup tagGroup, char const * tagPath, rgba_uint8_os_t c)\n"
+		"\n"
+		"TagGroupSetTagAsEightBitColor: Sets the data at 'tagPath' in 'tagGroup' as an eight bit \n"
+		"color.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsFloat", _wrap_TagGroupSetTagAsFloat, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsFloat(TagGroup tagGroup, char const * tagPath, float number)\n"
+		"\n"
+		"TagGroupSetTagAsFloat: Sets the data at 'tagPath' in 'tagGroup' as a float.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsFloatComplex", _wrap_TagGroupSetTagAsFloatComplex, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsFloatComplex(TagGroup tagGroup, char const * tagPath, complex128_t const & c)\n"
+		"\n"
+		"TagGroupSetTagAsFloatComplex: Sets the data at 'tagPath' in 'tagGroup' as a float \n"
+		"complex.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsFloatPoint", _wrap_TagGroupSetTagAsFloatPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsFloatPoint(TagGroup tagGroup, char const * tagPath, float x, float y)\n"
+		"\n"
+		"TagGroupSetTagAsFloatPoint: Sets the data at 'tagPath' in 'tagGroup' as a float point.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsFloatRect", _wrap_TagGroupSetTagAsFloatRect, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsFloatRect(TagGroup tagGroup, char const * tagPath, float t, float l, float b, float r)\n"
+		"\n"
+		"TagGroupSetTagAsFloatRect: Sets the data at 'tagPath' in 'tagGroup' as a float rect.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsLong", _wrap_TagGroupSetTagAsLong, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsLong(TagGroup tagGroup, char const * tagPath, long number)\n"
+		"\n"
+		"TagGroupSetTagAsLong: Sets the data at 'tagPath' in 'tagGroup' as a long.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsLongPoint", _wrap_TagGroupSetTagAsLongPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsLongPoint(TagGroup tagGroup, char const * tagPath, long x, long y)\n"
+		"\n"
+		"TagGroupSetTagAsLongPoint: Sets the data at 'tagPath' in 'tagGroup' as a long point.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsLongRect", _wrap_TagGroupSetTagAsLongRect, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsLongRect(TagGroup tagGroup, char const * tagPath, long t, long l, long b, long r)\n"
+		"\n"
+		"TagGroupSetTagAsLongRect: Sets the data at 'tagPath' in 'tagGroup' as a long rect.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsRGBUInt16", _wrap_TagGroupSetTagAsRGBUInt16, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsRGBUInt16(TagGroup tagGroup, char const * tagPath, uint16 r, uint16 g, uint16 b)\n"
+		"\n"
+		"TagGroupSetTagAsRGBUInt16: Sets the data at 'tagPath' in 'tagGroup' as a 16-bit rgb \n"
+		"value.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsShort", _wrap_TagGroupSetTagAsShort, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsShort(TagGroup tagGroup, char const * tagPath, short number)\n"
+		"\n"
+		"TagGroupSetTagAsShort: Sets the data at 'tagPath' in 'tagGroup' as a short.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsShortPoint", _wrap_TagGroupSetTagAsShortPoint, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsShortPoint(TagGroup tagGroup, char const * tagPath, short x, short y)\n"
+		"\n"
+		"TagGroupSetTagAsShortPoint: Sets the data at 'tagPath' in 'tagGroup' as a short point.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsShortRect", _wrap_TagGroupSetTagAsShortRect, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsShortRect(TagGroup tagGroup, char const * tagPath, short t, short l, short b, short r)\n"
+		"\n"
+		"TagGroupSetTagAsShortRect: Sets the data at 'tagPath' in 'tagGroup' as a short rect.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsString", _wrap_TagGroupSetTagAsString, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsString(TagGroup tagGroup, char const * tagPath, Gatan::DM::String const & s)\n"
+		"\n"
+		"TagGroupSetTagAsString: Sets the data at 'tagPath' in 'tagGroup' as a string.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsTagGroup", _wrap_TagGroupSetTagAsTagGroup, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsTagGroup(TagGroup tags, Gatan::DM::String const & tag_path, TagGroup tag_val)\n"
+		"\n"
+		"TagGroupSetTagAsTagGroup: Sets the data at 'tagPath' in 'TagGroup' as a group.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsText", _wrap_TagGroupSetTagAsText, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsText(TagGroup tagGroup, char const * tagPath, Gatan::DM::String const & s)\n"
+		"\n"
+		"TagGroupSetTagAsText: Sets the data at 'tagPath' in 'tagGroup' as a string.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsUInt16", _wrap_TagGroupSetTagAsUInt16, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsUInt16(TagGroup tagGroup, char const * tagPath, uint16 number)\n"
+		"\n"
+		"TagGroupSetTagAsUInt16: Sets the data at 'tagPath' in 'tagGroup' as a 16-bit unsigned \n"
+		"integer.\n"
+		""},
+	 { (char *)"TagGroupSetTagAsUInt32", _wrap_TagGroupSetTagAsUInt32, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagAsUInt32(TagGroup tagGroup, char const * tagPath, ulong number)\n"
+		"\n"
+		"TagGroupSetTagAsUInt32: Sets the data at 'tagPath' in 'tagGroup' as a 32-bit unsigned \n"
+		"integer.\n"
+		""},
+	 { (char *)"TagGroupSetTagRGBBitmap", _wrap_TagGroupSetTagRGBBitmap, METH_VARARGS, (char *)"\n"
+		"TagGroupSetTagRGBBitmap(TagGroup tagGroup, char const * tagPath, Image image)\n"
+		"\n"
+		"TagGroupSetTagRGBBitmap: Sets the data at 'tagPath' in 'tagGroup' as a RGB bitmap.\n"
+		""},
+	 { (char *)"TextAnnotationGetAlignment", _wrap_TextAnnotationGetAlignment, METH_VARARGS, (char *)"\n"
+		"TextAnnotationGetAlignment(Gatan::DM::Component const & comp) -> long\n"
+		"\n"
+		"TextAnnotationGetAlignment: Gets the alignment of the text in the text annotation.\n"
+		""},
+	 { (char *)"TextAnnotationGetFixedPoint", _wrap_TextAnnotationGetFixedPoint, METH_VARARGS, (char *)"\n"
+		"TextAnnotationGetFixedPoint(Gatan::DM::Component const & comp, float * x, float * y)\n"
+		"\n"
+		"TextAnnotationGetFixedPoint: Gets the fixed point of the text annotation.\n"
+		""},
+	 { (char *)"TextAnnotationGetResizeStyle", _wrap_TextAnnotationGetResizeStyle, METH_VARARGS, (char *)"\n"
+		"TextAnnotationGetResizeStyle(Gatan::DM::Component const & comp) -> long\n"
+		"\n"
+		"TextAnnotationGetResizeStyle: Gets the resize style of the text annotation.\n"
+		""},
+	 { (char *)"TextAnnotationGetText", _wrap_TextAnnotationGetText, METH_VARARGS, (char *)"\n"
+		"TextAnnotationGetText(Gatan::DM::Component const & comp) -> Gatan::DM::String\n"
+		"\n"
+		"TextAnnotationGetText: Gets the text of a text annotation.\n"
+		""},
+	 { (char *)"TextAnnotationSetAlignment", _wrap_TextAnnotationSetAlignment, METH_VARARGS, (char *)"\n"
+		"TextAnnotationSetAlignment(Gatan::DM::Component const & comp, long alignment)\n"
+		"\n"
+		"TextAnnotationSetAlignment: Sets the alignment of the text in the text annotation.\n"
+		""},
+	 { (char *)"TextAnnotationSetFixedPoint", _wrap_TextAnnotationSetFixedPoint, METH_VARARGS, (char *)"\n"
+		"TextAnnotationSetFixedPoint(Gatan::DM::Component const & comp, float x, float y)\n"
+		"\n"
+		"TextAnnotationSetFixedPoint: Sets the fixed point of the text annotation.\n"
+		""},
+	 { (char *)"TextAnnotationSetResizeStyle", _wrap_TextAnnotationSetResizeStyle, METH_VARARGS, (char *)"\n"
+		"TextAnnotationSetResizeStyle(Gatan::DM::Component const & comp, long style)\n"
+		"\n"
+		"TextAnnotationSetResizeStyle: Sets the resize style of the text annotation.\n"
+		""},
+	 { (char *)"TextAnnotationSetText", _wrap_TextAnnotationSetText, METH_VARARGS, (char *)"\n"
+		"TextAnnotationSetText(Gatan::DM::Component const & comp, Gatan::DM::String const & text)\n"
+		"\n"
+		"TextAnnotationSetText: Sets the text of a text annotation.\n"
+		""},
+	 { (char *)"ThrowableIsValid", _wrap_ThrowableIsValid, METH_VARARGS, (char *)"\n"
+		"ThrowableIsValid(Gatan::DM::Throwable const & throw_) -> bool\n"
+		"\n"
+		"ThrowableIsValid: Returns true if 'throw_' is a valid object.\n"
+		""},
+	 { (char *)"TickCount", _wrap_TickCount, METH_VARARGS, (char *)"\n"
+		"TickCount() -> uint32\n"
+		"\n"
+		"TickCount: Return the MacOS system tick count.\n"
+		""},
+	 { (char *)"TransferTagsAndApplyDataBar", _wrap_TransferTagsAndApplyDataBar, METH_VARARGS, (char *)"\n"
+		"TransferTagsAndApplyDataBar(Image argument_1)\n"
+		"\n"
+		"TransferTagsAndApplyDataBar: Transfer tags and apply data bar to the image. (Deprecated, use\n"
+		" AutoApplyDefaultLayout instead.)\n"
+		""},
+	 { (char *)"TransformPointFromImageToWindow", _wrap_TransformPointFromImageToWindow, METH_VARARGS, (char *)"\n"
+		"TransformPointFromImageToWindow(Image image, float x_image, float y_image, float * x_window, float * y_window)\n"
+		"\n"
+		"TransformPointFromImageToWindow: Place in (x_window,y_window) the\n"
+		""},
+	 { (char *)"TrapException", _wrap_TrapException, METH_VARARGS, (char *)"\n"
+		"TrapException(short error, long context)\n"
+		"\n"
+		"TrapException: Mark the exception to be thrown upon return external function call.\n"
+		""},
+	 { (char *)"TryToUse", _wrap_TryToUse, METH_VARARGS, (char *)"\n"
+		"TryToUse(char const * name, long width, long height, short dataType, short h, short v, bool * fresh) -> Image\n"
+		"\n"
+		"TryToUse: Look for an image with the given name, width, height, dataType, and position \n"
+		"[h,v]. Return it if found and create it if not. Store 1 into fresh if it was created and \n"
+		"0 if not.\n"
+		""},
+	 { (char *)"TurboFFT", _wrap_TurboFFT, METH_VARARGS, (char *)"\n"
+		"TurboFFT(Image buffer, Image fft, Image dark, Image gain, long top, long left, long bottom, long right, long dst, long rowBytes)\n"
+		"\n"
+		"TurboFFT: Perform a turbo FFT on the real image fft minus the real dark image and \n"
+		"multiplied by the real gain image. Store the resulting FFT into the packed complex image \n"
+		"fft. Copy the sub-area of unsigned 1-byte integer image src indicated by \n"
+		"[top,left,bottom,right] to dst. The rowBytes parameter indicates the length of the row of \n"
+		"dst. To copy to the screen, pass 0 for dst and rowBytes. The real buffer image is a \n"
+		"scratch area. No data type checking is performed.\n"
+		""},
+	 { (char *)"TwoButtonDialog", _wrap_TwoButtonDialog, METH_VARARGS, (char *)"\n"
+		"TwoButtonDialog(char const * prompt, char const * acceptLabel, char const * rejectLabel) -> bool\n"
+		"\n"
+		"TwoButtonDialog: Puts up a dialog with the given prompt and two buttons labeled \n"
+		"according to the parameters. Returns 1 for the acceptLabel button and false for the other \n"
+		"one.\n"
+		""},
 	 { (char *)"UpdateDataBar", _wrap_UpdateDataBar, METH_VARARGS, (char *)"\n"
 		"UpdateDataBar(Image argument_1)\n"
 		"UpdateDataBar(Image argument_1, bool update_all)\n"
+		"\n"
+		"UpdateDataBar: causes an update of the live data bar components based on the passed image.\n"
 		""},
-	 { (char *)"ApplyDefaultLayout", _wrap_ApplyDefaultLayout, METH_VARARGS, (char *)"ApplyDefaultLayout(Image img)"},
-	 { (char *)"AutoApplyDefaultLayout", _wrap_AutoApplyDefaultLayout, METH_VARARGS, (char *)"AutoApplyDefaultLayout(Image img)"},
-	 { (char *)"UnregisterCustomMenu", _wrap_UnregisterCustomMenu, METH_VARARGS, (char *)"UnregisterCustomMenu(long menuHandlerToken)"},
-	 { (char *)"UnregisterCustomTool", _wrap_UnregisterCustomTool, METH_VARARGS, (char *)"UnregisterCustomTool(ULONG_PTR toolToken)"},
-	 { (char *)"UnregisterObjectListener", _wrap_UnregisterObjectListener, METH_VARARGS, (char *)"UnregisterObjectListener(ulong_ptr_t object, ulong_ptr_t id)"},
-	 { (char *)"UnregisterSystemIdle", _wrap_UnregisterSystemIdle, METH_VARARGS, (char *)"UnregisterSystemIdle(SystemIdleProc SystemIdleProc)"},
-	 { (char *)"UnShiftCenter", _wrap_UnShiftCenter, METH_VARARGS, (char *)"UnShiftCenter(Image image)"},
-	 { (char *)"UpdateDisplay", _wrap_UpdateDisplay, METH_VARARGS, (char *)"UpdateDisplay(Image argument_1, long startRow, long endRow)"},
-	 { (char *)"UpdateImage", _wrap_UpdateImage, METH_VARARGS, (char *)"UpdateImage(Image argument_1)"},
-	 { (char *)"UpdateTimeBarPercentage", _wrap_UpdateTimeBarPercentage, METH_VARARGS, (char *)"UpdateTimeBarPercentage(float percentage)"},
-	 { (char *)"ValidateSurvey", _wrap_ValidateSurvey, METH_VARARGS, (char *)"ValidateSurvey(Image argument_1)"},
-	 { (char *)"variance", _wrap_variance, METH_VARARGS, (char *)"variance(Image argument_1) -> float"},
-	 { (char *)"WindowClose", _wrap_WindowClose, METH_VARARGS, (char *)"WindowClose(Gatan::DM::Window const & window, bool verify)"},
-	 { (char *)"WindowGetCurrentFile", _wrap_WindowGetCurrentFile, METH_VARARGS, (char *)"WindowGetCurrentFile(Gatan::DM::Window const & window) -> Gatan::DM::String"},
-	 { (char *)"WindowGetContentBounds", _wrap_WindowGetContentBounds, METH_VARARGS, (char *)"WindowGetContentBounds(Gatan::DM::Window const & window, long * top, long * left, long * bottom, long * right)"},
-	 { (char *)"WindowGetContentPosition", _wrap_WindowGetContentPosition, METH_VARARGS, (char *)"WindowGetContentPosition(Gatan::DM::Window const & window, long * x, long * y)"},
-	 { (char *)"WindowGetContentSize", _wrap_WindowGetContentSize, METH_VARARGS, (char *)"WindowGetContentSize(Gatan::DM::Window const & window, long * x, long * y)"},
-	 { (char *)"WindowGetFrameBounds", _wrap_WindowGetFrameBounds, METH_VARARGS, (char *)"WindowGetFrameBounds(Gatan::DM::Window const & window, long * top, long * left, long * bottom, long * right)"},
-	 { (char *)"WindowGetFramePosition", _wrap_WindowGetFramePosition, METH_VARARGS, (char *)"WindowGetFramePosition(Gatan::DM::Window const & window, long * x, long * y)"},
-	 { (char *)"WindowGetFrameSize", _wrap_WindowGetFrameSize, METH_VARARGS, (char *)"WindowGetFrameSize(Gatan::DM::Window const & window, long * x, long * y)"},
-	 { (char *)"WindowGetMousePosition", _wrap_WindowGetMousePosition, METH_VARARGS, (char *)"WindowGetMousePosition(Gatan::DM::Window const & window, long * x, long * y)"},
-	 { (char *)"WindowGetTitle", _wrap_WindowGetTitle, METH_VARARGS, (char *)"WindowGetTitle(Gatan::DM::Window const & window) -> Gatan::DM::String"},
-	 { (char *)"WindowGetType", _wrap_WindowGetType, METH_VARARGS, (char *)"WindowGetType(Gatan::DM::Window const & window) -> long"},
-	 { (char *)"WindowGetViewState", _wrap_WindowGetViewState, METH_VARARGS, (char *)"WindowGetViewState(Gatan::DM::Window const & window) -> long"},
-	 { (char *)"WindowHide", _wrap_WindowHide, METH_VARARGS, (char *)"WindowHide(Gatan::DM::Window const & window)"},
-	 { (char *)"WindowIsOpen", _wrap_WindowIsOpen, METH_VARARGS, (char *)"WindowIsOpen(Gatan::DM::Window const & window) -> bool"},
-	 { (char *)"WindowIsShown", _wrap_WindowIsShown, METH_VARARGS, (char *)"WindowIsShown(Gatan::DM::Window const & window) -> bool"},
-	 { (char *)"WindowIsValid", _wrap_WindowIsValid, METH_VARARGS, (char *)"WindowIsValid(Gatan::DM::Window const & window) -> bool"},
-	 { (char *)"WindowSelect", _wrap_WindowSelect, METH_VARARGS, (char *)"WindowSelect(Gatan::DM::Window const & window)"},
-	 { (char *)"WindowSendBehind", _wrap_WindowSendBehind, METH_VARARGS, (char *)"WindowSendBehind(Gatan::DM::Window const & window, Gatan::DM::Window const & behind_window)"},
-	 { (char *)"WindowSetCurrentFile", _wrap_WindowSetCurrentFile, METH_VARARGS, (char *)"WindowSetCurrentFile(Gatan::DM::Window const & window, Gatan::DM::String const & file_path_tok)"},
-	 { (char *)"WindowSetContentBounds", _wrap_WindowSetContentBounds, METH_VARARGS, (char *)"WindowSetContentBounds(Gatan::DM::Window const & window, long top, long left, long bottom, long right)"},
-	 { (char *)"WindowSetContentPosition", _wrap_WindowSetContentPosition, METH_VARARGS, (char *)"WindowSetContentPosition(Gatan::DM::Window const & window, long x, long y)"},
-	 { (char *)"WindowSetContentSize", _wrap_WindowSetContentSize, METH_VARARGS, (char *)"WindowSetContentSize(Gatan::DM::Window const & window, long x, long y)"},
-	 { (char *)"WindowSetFrameBounds", _wrap_WindowSetFrameBounds, METH_VARARGS, (char *)"WindowSetFrameBounds(Gatan::DM::Window const & window, long top, long left, long bottom, long right)"},
-	 { (char *)"WindowSetFramePosition", _wrap_WindowSetFramePosition, METH_VARARGS, (char *)"WindowSetFramePosition(Gatan::DM::Window const & window, long x, long y)"},
-	 { (char *)"WindowSetFrameSize", _wrap_WindowSetFrameSize, METH_VARARGS, (char *)"WindowSetFrameSize(Gatan::DM::Window const & window, long x, long y)"},
-	 { (char *)"WindowSetTitle", _wrap_WindowSetTitle, METH_VARARGS, (char *)"WindowSetTitle(Gatan::DM::Window const & window, Gatan::DM::String const & title)"},
-	 { (char *)"WindowSetViewState", _wrap_WindowSetViewState, METH_VARARGS, (char *)"WindowSetViewState(Gatan::DM::Window const & window, long viewState)"},
-	 { (char *)"WindowShow", _wrap_WindowShow, METH_VARARGS, (char *)"WindowShow(Gatan::DM::Window const & window)"},
-	 { (char *)"WindowUpdate", _wrap_WindowUpdate, METH_VARARGS, (char *)"WindowUpdate(Gatan::DM::Window const & window)"},
-	 { (char *)"SetFloatingWindowHeight", _wrap_SetFloatingWindowHeight, METH_VARARGS, (char *)"SetFloatingWindowHeight(Gatan::DM::String const & name, long height)"},
-	 { (char *)"WriteFile", _wrap_WriteFile, METH_VARARGS, (char *)"WriteFile(DM_FileReference file, Gatan::DM::String const & data)"},
-	 { (char *)"WriteRawStream", _wrap_WriteRawStream, METH_VARARGS, (char *)"WriteRawStream(long rawStream, long data, long length)"},
-	 { (char *)"XX_GetProcessKey", _wrap_XX_GetProcessKey, METH_VARARGS, (char *)"XX_GetProcessKey(long pid) -> short"},
-	 { (char *)"XX_InstallImageProcess", _wrap_XX_InstallImageProcess, METH_VARARGS, (char *)"XX_InstallImageProcess(Image argument_1, long pid)"},
-	 { (char *)"Yield", _wrap_Yield, METH_VARARGS, (char *)"Yield()"},
-	 { (char *)"SetForbidScriptDialogFlag", _wrap_SetForbidScriptDialogFlag, METH_VARARGS, (char *)"SetForbidScriptDialogFlag(bool flag) -> bool"},
-	 { (char *)"CountImageDisplays", _wrap_CountImageDisplays, METH_VARARGS, (char *)"\n"
-		"CountImageDisplays() -> uint32\n"
-		"CountImageDisplays(Image argument_1) -> uint32\n"
+	 { (char *)"ApplyDefaultLayout", _wrap_ApplyDefaultLayout, METH_VARARGS, (char *)"\n"
+		"ApplyDefaultLayout(Image img)\n"
+		"\n"
+		"ApplyDefaultLayout: applies a default layout to the image document containing the zero'th \n"
+		"image display of this image. The default layout may include a scalemark and/or a databar.\n"
+		"In the page mode the layout includes image display position(s). The databar components are generated based\n"
+		"on the tags on this image.\n"
 		""},
-	 { (char *)"ShowImage", _wrap_ShowImage, METH_VARARGS, (char *)"\n"
-		"ShowImage(Image img) -> Gatan::DM::Window\n"
-		"ShowImage(DM_ObjectToken const & img) -> Gatan::DM::Window\n"
-		"ShowImage(Image img, Gatan::DM::ImageDisplay & img_disp) -> Gatan::DM::Window\n"
-		"ShowImage(Image img, Gatan::DM::ImageDisplay & img_disp, Gatan::DM::ImageDocument & img_doc) -> Gatan::DM::Window\n"
+	 { (char *)"AutoApplyDefaultLayout", _wrap_AutoApplyDefaultLayout, METH_VARARGS, (char *)"\n"
+		"AutoApplyDefaultLayout(Image img)\n"
+		"\n"
+		"AutoApplyDefaultLayout: checks DM preferences and optionally applies a default layout to the \n"
+		"image document containing the zero'th image display of this image. The default layout may \n"
+		"include a scalemark and/or a databar. In the page mode the layout includes image display position(s). \n"
+		"The databar components are generated based on the tags on this image.\n"
 		""},
-	 { (char *)"ShowImageDisplay", _wrap_ShowImageDisplay, METH_VARARGS, (char *)"\n"
-		"ShowImageDisplay(Gatan::DM::ImageDisplay const & img_disp) -> Gatan::DM::Window\n"
-		"ShowImageDisplay(Gatan::DM::ImageDisplay const & img_disp, Gatan::DM::ImageDocument & img_doc) -> Gatan::DM::Window\n"
+	 { (char *)"UnregisterCustomMenu", _wrap_UnregisterCustomMenu, METH_VARARGS, (char *)"\n"
+		"UnregisterCustomMenu(long menuHandlerToken)\n"
+		"\n"
+		"UnregisterCustomMenu: Unregister a custom menu. See the SDK documentation for more \n"
+		"information.\n"
 		""},
-	 { (char *)"GetNthImageDisplay", _wrap_GetNthImageDisplay, METH_VARARGS, (char *)"\n"
-		"GetNthImageDisplay(uint32 index) -> Gatan::DM::ImageDisplay\n"
-		"GetNthImageDisplay(uint32 index, Gatan::DM::ImageDocument & img_doc) -> Gatan::DM::ImageDisplay\n"
-		"GetNthImageDisplay(uint32 index, Gatan::DM::ImageDocument & img_doc, Gatan::DM::Window & img_win) -> Gatan::DM::ImageDisplay\n"
-		"GetNthImageDisplay(Image img, uint32 index) -> Gatan::DM::ImageDisplay\n"
-		"GetNthImageDisplay(Image img, uint32 index, Gatan::DM::ImageDocument & img_doc) -> Gatan::DM::ImageDisplay\n"
-		"GetNthImageDisplay(Image img, uint32 index, Gatan::DM::ImageDocument & img_doc, Gatan::DM::Window & img_win) -> Gatan::DM::ImageDisplay\n"
+	 { (char *)"UnregisterCustomTool", _wrap_UnregisterCustomTool, METH_VARARGS, (char *)"\n"
+		"UnregisterCustomTool(ULONG_PTR toolToken)\n"
+		"\n"
+		"UnregisterCustomTool: Remove the tool to the custom tool list. See the SDK documentation \n"
+		"for more information.\n"
 		""},
-	 { (char *)"NewImageDisplay", _wrap_NewImageDisplay, METH_VARARGS, (char *)"NewImageDisplay(Image img, Gatan::DM::String const & display_type) -> Gatan::DM::ImageDisplay"},
-	 { (char *)"ImageDocumentAddImageDisplay", _wrap_ImageDocumentAddImageDisplay, METH_VARARGS, (char *)"\n"
-		"ImageDocumentAddImageDisplay(Gatan::DM::ImageDocument const & imgDoc, Image image, long displayType) -> Gatan::DM::ImageDisplay\n"
-		"ImageDocumentAddImageDisplay(Gatan::DM::ImageDocument const & imgDoc, Gatan::DM::ImageDisplay const & img_disp) -> Gatan::DM::ImageDisplay\n"
-		"ImageDocumentAddImageDisplay(Gatan::DM::ImageDocument const & img_doc, Image img, Gatan::DM::String const & img_disp_type_name) -> Gatan::DM::ImageDisplay\n"
+	 { (char *)"UnregisterObjectListener", _wrap_UnregisterObjectListener, METH_VARARGS, (char *)"\n"
+		"UnregisterObjectListener(ulong_ptr_t object, ulong_ptr_t id)\n"
+		"\n"
+		"UnregisterObjectListener: Remove object listener from OM object. See the SDK \n"
+		"documentation for more information.\n"
 		""},
-	 { (char *)"ImageDisplayAddImage", _wrap_ImageDisplayAddImage, METH_VARARGS, (char *)"ImageDisplayAddImage(Gatan::DM::ImageDisplay const & img_disp, Image image, Gatan::DM::String const & label) -> Gatan::DM::ScriptObject"},
-	 { (char *)"ImageDisplayChangeDisplayType", _wrap_ImageDisplayChangeDisplayType, METH_VARARGS, (char *)"\n"
-		"ImageDisplayChangeDisplayType(Gatan::DM::ImageDisplay const & imgDisp, long new_type)\n"
-		"ImageDisplayChangeDisplayType(Gatan::DM::ImageDisplay const & imgDisp, Gatan::DM::String const & new_display_type) -> Gatan::DM::ImageDisplay\n"
+	 { (char *)"UnregisterSystemIdle", _wrap_UnregisterSystemIdle, METH_VARARGS, (char *)"\n"
+		"UnregisterSystemIdle(SystemIdleProc SystemIdleProc)\n"
+		"\n"
+		"UnregisterSystemIdle: Unregister a system idle procedure.\n"
 		""},
-	 { (char *)"ImageDisplayCountSlices", _wrap_ImageDisplayCountSlices, METH_VARARGS, (char *)"ImageDisplayCountSlices(Gatan::DM::ImageDisplay const & id) -> uint32"},
-	 { (char *)"ImageDisplayFindSliceIndexById", _wrap_ImageDisplayFindSliceIndexById, METH_VARARGS, (char *)"ImageDisplayFindSliceIndexById(Gatan::DM::ImageDisplay const & id, Gatan::DM::ScriptObject const & slice_id, uint32 * slice_index) -> bool"},
-	 { (char *)"ImageDisplayGetSliceIdByIndex", _wrap_ImageDisplayGetSliceIdByIndex, METH_VARARGS, (char *)"ImageDisplayGetSliceIdByIndex(Gatan::DM::ImageDisplay const & id, uint32 slice_index) -> Gatan::DM::ScriptObject"},
-	 { (char *)"ImageDisplayGetSliceIdByLabel", _wrap_ImageDisplayGetSliceIdByLabel, METH_VARARGS, (char *)"ImageDisplayGetSliceIdByLabel(Gatan::DM::ImageDisplay const & id, Gatan::DM::String const & slice_label) -> Gatan::DM::ScriptObject"},
-	 { (char *)"ImageDisplayContainsSliceWithId", _wrap_ImageDisplayContainsSliceWithId, METH_VARARGS, (char *)"ImageDisplayContainsSliceWithId(Gatan::DM::ImageDisplay const & img_disp, Gatan::DM::ScriptObject const & slice_id) -> bool"},
-	 { (char *)"ImageDisplayGetSliceLabelById", _wrap_ImageDisplayGetSliceLabelById, METH_VARARGS, (char *)"ImageDisplayGetSliceLabelById(Gatan::DM::ImageDisplay const & img_disp, Gatan::DM::ScriptObject const & slice_id) -> Gatan::DM::String"},
-	 { (char *)"ImageDisplaySetSliceLabelById", _wrap_ImageDisplaySetSliceLabelById, METH_VARARGS, (char *)"ImageDisplaySetSliceLabelById(Gatan::DM::ImageDisplay const & img_disp, Gatan::DM::ScriptObject const & slice_id, Gatan::DM::String const & label)"},
-	 { (char *)"ImageDisplayGetFullSliceLabelById", _wrap_ImageDisplayGetFullSliceLabelById, METH_VARARGS, (char *)"ImageDisplayGetFullSliceLabelById(Gatan::DM::ImageDisplay const & img_disp, Gatan::DM::ScriptObject const & slice_id) -> Gatan::DM::String"},
-	 { (char *)"ImageDisplayFindSliceIdByLabel", _wrap_ImageDisplayFindSliceIdByLabel, METH_VARARGS, (char *)"ImageDisplayFindSliceIdByLabel(Gatan::DM::ImageDisplay const & img_disp, Gatan::DM::String const & slice_label, Gatan::DM::ScriptObject & slice_id) -> bool"},
-	 { (char *)"ImageDisplayGetCalibrationSlice", _wrap_ImageDisplayGetCalibrationSlice, METH_VARARGS, (char *)"ImageDisplayGetCalibrationSlice(Gatan::DM::ImageDisplay const & img_disp) -> Gatan::DM::ScriptObject"},
-	 { (char *)"ImageDisplaySetCalibrationSlice", _wrap_ImageDisplaySetCalibrationSlice, METH_VARARGS, (char *)"ImageDisplaySetCalibrationSlice(Gatan::DM::ImageDisplay const & img_disp, Gatan::DM::ScriptObject const & slice_id)"},
-	 { (char *)"ImageDisplayGetSinglePrimarySlice", _wrap_ImageDisplayGetSinglePrimarySlice, METH_VARARGS, (char *)"ImageDisplayGetSinglePrimarySlice(Gatan::DM::ImageDisplay const & id) -> Gatan::DM::ScriptObject"},
-	 { (char *)"ImageDisplayIsSliceSelected", _wrap_ImageDisplayIsSliceSelected, METH_VARARGS, (char *)"ImageDisplayIsSliceSelected(Gatan::DM::ImageDisplay const & id, Gatan::DM::ScriptObject const & slice_id) -> bool"},
-	 { (char *)"ImageDisplaySetSliceSelected", _wrap_ImageDisplaySetSliceSelected, METH_VARARGS, (char *)"ImageDisplaySetSliceSelected(Gatan::DM::ImageDisplay const & id, Gatan::DM::ScriptObject const & slice_id, bool is_selected)"},
-	 { (char *)"ImageDisplayIsSliceVisible", _wrap_ImageDisplayIsSliceVisible, METH_VARARGS, (char *)"ImageDisplayIsSliceVisible(Gatan::DM::ImageDisplay const & id, Gatan::DM::ScriptObject const & slice_id) -> bool"},
-	 { (char *)"ImageDisplaySetSliceVisible", _wrap_ImageDisplaySetSliceVisible, METH_VARARGS, (char *)"ImageDisplaySetSliceVisible(Gatan::DM::ImageDisplay const & id, Gatan::DM::ScriptObject const & slice_id, bool is_visible)"},
-	 { (char *)"ImageDisplayDeleteSliceWithId", _wrap_ImageDisplayDeleteSliceWithId, METH_VARARGS, (char *)"ImageDisplayDeleteSliceWithId(Gatan::DM::ImageDisplay const & id, Gatan::DM::ScriptObject const & slice_id) -> bool"},
-	 { (char *)"ImageDisplayGetSliceImageById", _wrap_ImageDisplayGetSliceImageById, METH_VARARGS, (char *)"\n"
-		"ImageDisplayGetSliceImageById(Gatan::DM::ImageDisplay const & img_disp, Gatan::DM::ScriptObject const & slice_id) -> Image\n"
-		"ImageDisplayGetSliceImageById(Gatan::DM::ImageDisplay const & img_disp, Gatan::DM::ScriptObject const & slice_id, Gatan::DM::ROI const & r) -> Image\n"
+	 { (char *)"UnShiftCenter", _wrap_UnShiftCenter, METH_VARARGS, (char *)"\n"
+		"UnShiftCenter(Image image)\n"
+		"\n"
+		"UnShiftCenter: Shifts each dimension of an image by half. For two dimensional images it\n"
+		" will swap quadrants. This is the backward shift function to move the image center\n"
+		" from (x/2, y/2) to (0,0). To shift it forward use the ShiftCenter function.\n"
 		""},
-	 { (char *)"ImageDisplayGetSliceImageByLabel", _wrap_ImageDisplayGetSliceImageByLabel, METH_VARARGS, (char *)"\n"
-		"ImageDisplayGetSliceImageByLabel(Gatan::DM::ImageDisplay const & img_disp, Gatan::DM::String const & slice_label) -> Image\n"
-		"ImageDisplayGetSliceImageByLabel(Gatan::DM::ImageDisplay const & img_disp, Gatan::DM::String const & slice_label, Gatan::DM::ROI const & r) -> Image\n"
+	 { (char *)"UpdateDisplay", _wrap_UpdateDisplay, METH_VARARGS, (char *)"\n"
+		"UpdateDisplay(Image argument_1, long startRow, long endRow)\n"
+		"\n"
+		"UpdateDisplay: Update the image display portion that displays the image rows from \n"
+		"startRow to endRow.\n"
 		""},
-	 { (char *)"ImageDisplayGetSliceImageByIndex", _wrap_ImageDisplayGetSliceImageByIndex, METH_VARARGS, (char *)"\n"
-		"ImageDisplayGetSliceImageByIndex(Gatan::DM::ImageDisplay const & img_disp, uint32 slice_index) -> Image\n"
-		"ImageDisplayGetSliceImageByIndex(Gatan::DM::ImageDisplay const & img_disp, uint32 slice_index, Gatan::DM::ROI const & r) -> Image\n"
+	 { (char *)"UpdateImage", _wrap_UpdateImage, METH_VARARGS, (char *)"\n"
+		"UpdateImage(Image argument_1)\n"
+		"\n"
+		"UpdateImage: Update the image immediately.\n"
 		""},
-	 { (char *)"ImageDisplaySetIntensityLabel", _wrap_ImageDisplaySetIntensityLabel, METH_VARARGS, (char *)"ImageDisplaySetIntensityLabel(Gatan::DM::ImageDisplay const & img_disp, Gatan::DM::String const & label)"},
-	 { (char *)"ImageDisplaySetDimensionLabel", _wrap_ImageDisplaySetDimensionLabel, METH_VARARGS, (char *)"ImageDisplaySetDimensionLabel(Gatan::DM::ImageDisplay const & img_disp, uint32 i_dim, Gatan::DM::String const & label)"},
-	 { (char *)"ImageDisplayGetIntensityLabel", _wrap_ImageDisplayGetIntensityLabel, METH_VARARGS, (char *)"ImageDisplayGetIntensityLabel(Gatan::DM::ImageDisplay const & img_disp) -> Gatan::DM::String"},
-	 { (char *)"ImageDisplayGetDimensionLabel", _wrap_ImageDisplayGetDimensionLabel, METH_VARARGS, (char *)"ImageDisplayGetDimensionLabel(Gatan::DM::ImageDisplay const & img_disp, uint32 i_dim) -> Gatan::DM::String"},
-	 { (char *)"TransferTagsAndApplyDataBar", _wrap_TransferTagsAndApplyDataBar, METH_VARARGS, (char *)"\n"
-		"TransferTagsAndApplyDataBar(Image argument_1)\n"
-		"TransferTagsAndApplyDataBar(Image dst_img, uint32 prompt_options)\n"
+	 { (char *)"UpdateTimeBarPercentage", _wrap_UpdateTimeBarPercentage, METH_VARARGS, (char *)"\n"
+		"UpdateTimeBarPercentage(float percentage)\n"
+		"\n"
+		"UpdateTimeBarPercentage: Updates an open time bar to the given percentage.\n"
 		""},
-	 { (char *)"Throw", _wrap_Throw, METH_VARARGS, (char *)"Throw(Gatan::DM::Throwable const & dm_throw)"},
-	 { (char *)"PostException", _wrap_PostException, METH_VARARGS, (char *)"PostException(Gatan::DM::Throwable const & dm_throw)"},
-	 { (char *)"NewThrowableFromString", _wrap_NewThrowableFromString, METH_VARARGS, (char *)"NewThrowableFromString(::Gatan::PlugIn::DM_Env * dm_env, Gatan::DM::String const & exception) -> Gatan::DM::Throwable"},
-	 { (char *)"OutputDebugString", _wrap_OutputDebugString, METH_VARARGS, (char *)"OutputDebugString(Gatan::DM::String const & str)"},
-	 { (char *)"ThrowUserAbort", _wrap_ThrowUserAbort, METH_VARARGS, (char *)"ThrowUserAbort()"},
-	 { (char *)"GetInstallationID", _wrap_GetInstallationID, METH_VARARGS, (char *)"GetInstallationID() -> Gatan::DM::String"},
-	 { (char *)"IsProductLicensed", _wrap_IsProductLicensed, METH_VARARGS, (char *)"IsProductLicensed(char const * productName) -> bool"},
-	 { (char *)"CountProductFeatures", _wrap_CountProductFeatures, METH_VARARGS, (char *)"CountProductFeatures(char const * productName) -> ulong"},
-	 { (char *)"GetNthProductFeature", _wrap_GetNthProductFeature, METH_VARARGS, (char *)"GetNthProductFeature(char const * productName, ulong index) -> ulong"},
-	 { (char *)"LinePlotImageDisplayAddPeakLabel", _wrap_LinePlotImageDisplayAddPeakLabel, METH_VARARGS, (char *)"LinePlotImageDisplayAddPeakLabel(Gatan::DM::LinePlotImageDisplay const & lpid, float label_posX, float label_posY, Gatan::DM::String const & lbl)"},
-	 { (char *)"LinePlotImageDisplayRemovePeakLabel", _wrap_LinePlotImageDisplayRemovePeakLabel, METH_VARARGS, (char *)"LinePlotImageDisplayRemovePeakLabel(Gatan::DM::LinePlotImageDisplay const & lpid, float label_posX)"},
-	 { (char *)"GetDefaultLinePlotDisplaySize", _wrap_GetDefaultLinePlotDisplaySize, METH_VARARGS, (char *)"GetDefaultLinePlotDisplaySize(float * width, float * height)"},
-	 { (char *)"NewObjectList", _wrap_NewObjectList, METH_VARARGS, (char *)"\n"
-		"NewObjectList(PlugIn::DM_Env * dm_env) -> Gatan::DM::ScriptObjectList\n"
-		"NewObjectList(PlugIn::DM_Env * dm_env, const_value_range< Gatan::DM::ScriptObject > const & objs) -> Gatan::DM::ScriptObjectList\n"
+	 { (char *)"ValidateSurvey", _wrap_ValidateSurvey, METH_VARARGS, (char *)"\n"
+		"ValidateSurvey(Image argument_1)\n"
+		"\n"
+		"ValidateSurvey: Do the survey if necessary.\n"
 		""},
-	 { (char *)"ObjectList_SizeOfList", _wrap_ObjectList_SizeOfList, METH_VARARGS, (char *)"ObjectList_SizeOfList(PlugIn::DM_Env * dm_env, Gatan::DM::ScriptObjectList const & list_obj) -> ulong"},
-	 { (char *)"ObjectList_ClearList", _wrap_ObjectList_ClearList, METH_VARARGS, (char *)"ObjectList_ClearList(PlugIn::DM_Env * dm_env, Gatan::DM::ScriptObjectList const & list_obj)"},
-	 { (char *)"ObjectList_ObjectAt", _wrap_ObjectList_ObjectAt, METH_VARARGS, (char *)"ObjectList_ObjectAt(PlugIn::DM_Env * dm_env, Gatan::DM::ScriptObjectList const & list_obj, ulong index) -> Gatan::DM::ScriptObject"},
-	 { (char *)"ObjectList_ObjectsAt", _wrap_ObjectList_ObjectsAt, METH_VARARGS, (char *)"ObjectList_ObjectsAt(PlugIn::DM_Env * dm_env, Gatan::DM::ScriptObjectList const & list_obj, ulong start_idx, ulong des_num, std::vector< Gatan::DM::ScriptObject > & objs) -> ulong"},
-	 { (char *)"ObjectList_AddObjectToList", _wrap_ObjectList_AddObjectToList, METH_VARARGS, (char *)"ObjectList_AddObjectToList(PlugIn::DM_Env * dm_env, Gatan::DM::ScriptObjectList const & list_obj, Gatan::DM::ScriptObject const & obj) -> long"},
-	 { (char *)"ObjectList_AddObjectsToList", _wrap_ObjectList_AddObjectsToList, METH_VARARGS, (char *)"ObjectList_AddObjectsToList(PlugIn::DM_Env * dm_env, Gatan::DM::ScriptObjectList const & list_obj, const_value_range< Gatan::DM::ScriptObject > const & objs)"},
-	 { (char *)"ObjectList_MergeFrom", _wrap_ObjectList_MergeFrom, METH_VARARGS, (char *)"ObjectList_MergeFrom(PlugIn::DM_Env * dm_env, Gatan::DM::ScriptObject const & dst_list, Gatan::DM::ScriptObject const & src_list)"},
-	 { (char *)"ExecuteInMainThread", _wrap_ExecuteInMainThread, METH_VARARGS, (char *)"ExecuteInMainThread(PlugIn::DM_Env * dm_env, Gatan::DM::ScriptObject const & obj, Gatan::DM::String const & method)"},
-	 { (char *)"ExecuteInBackgroundThread", _wrap_ExecuteInBackgroundThread, METH_VARARGS, (char *)"ExecuteInBackgroundThread(PlugIn::DM_Env * dm_env, Gatan::DM::ScriptObject const & obj, Gatan::DM::String const & method)"},
-	 { (char *)"ExecuteInCOMFreeThreadedApartment", _wrap_ExecuteInCOMFreeThreadedApartment, METH_VARARGS, (char *)"ExecuteInCOMFreeThreadedApartment(PlugIn::DM_Env * dm_env, Gatan::DM::ScriptObject const & obj, Gatan::DM::String const & method)"},
-	 { (char *)"NewVoidProcCallback", _wrap_NewVoidProcCallback, METH_VARARGS, (char *)"NewVoidProcCallback(boost::function0< void > const & func, char_range const & method_name) -> Gatan::DM::ScriptObject"},
-	 { (char *)"AddMainThreadPeriodicTask", _wrap_AddMainThreadPeriodicTask, METH_VARARGS, (char *)"\n"
-		"AddMainThreadPeriodicTask(Gatan::DM::ScriptObject const & task_obj, Gatan::DM::String const & method_name, double period_s) -> ulong_ptr_t\n"
-		"AddMainThreadPeriodicTask(boost::function0< void > const & task, double period_s) -> ulong_ptr_t\n"
+	 { (char *)"variance", _wrap_variance, METH_VARARGS, (char *)"\n"
+		"variance(Image argument_1) -> float\n"
+		"\n"
+		"variance: Return the variance of the image.\n"
 		""},
-	 { (char *)"RemoveMainThreadTask", _wrap_RemoveMainThreadTask, METH_VARARGS, (char *)"RemoveMainThreadTask(ulong_ptr_t task_token)"},
-	 { (char *)"AddBackgroundPeriodicTask", _wrap_AddBackgroundPeriodicTask, METH_VARARGS, (char *)"\n"
-		"AddBackgroundPeriodicTask(Gatan::DM::ScriptObject const & task_obj, Gatan::DM::String const & meth_name, double period_s) -> ulong_ptr_t\n"
-		"AddBackgroundPeriodicTask(boost::function0< void > const & task, double period_s) -> ulong_ptr_t\n"
+	 { (char *)"WindowClose", _wrap_WindowClose, METH_VARARGS, (char *)"\n"
+		"WindowClose(Gatan::DM::Window const & window, bool verify)\n"
+		"\n"
+		"WindowClose: Closes the window, prompting the user if 'verify' is true.\n"
 		""},
-	 { (char *)"RemoveBackgroundTask", _wrap_RemoveBackgroundTask, METH_VARARGS, (char *)"RemoveBackgroundTask(ulong_ptr_t task_token)"},
+	 { (char *)"WindowGetCurrentFile", _wrap_WindowGetCurrentFile, METH_VARARGS, (char *)"\n"
+		"WindowGetCurrentFile(Gatan::DM::Window const & window) -> Gatan::DM::String\n"
+		"\n"
+		"WindowGetCurrentFile: Gets the file name of the window's document.\n"
+		""},
+	 { (char *)"WindowGetContentBounds", _wrap_WindowGetContentBounds, METH_VARARGS, (char *)"\n"
+		"WindowGetContentBounds(Gatan::DM::Window const & window, long * top, long * left, long * bottom, long * right)\n"
+		"\n"
+		"WindowGetContentBounds: Gets the bounding rectangle of the content area of the 'window'.\n"
+		""},
+	 { (char *)"WindowGetContentPosition", _wrap_WindowGetContentPosition, METH_VARARGS, (char *)"\n"
+		"WindowGetContentPosition(Gatan::DM::Window const & window, long * x, long * y)\n"
+		"\n"
+		"WindowGetContentPosition: Gets the position of the top-left corner of the content area \n"
+		"of the 'window'.\n"
+		""},
+	 { (char *)"WindowGetContentSize", _wrap_WindowGetContentSize, METH_VARARGS, (char *)"\n"
+		"WindowGetContentSize(Gatan::DM::Window const & window, long * x, long * y)\n"
+		"\n"
+		"WindowGetContentSize: Gets the size of the content area of the 'window'.\n"
+		""},
+	 { (char *)"WindowGetFrameBounds", _wrap_WindowGetFrameBounds, METH_VARARGS, (char *)"\n"
+		"WindowGetFrameBounds(Gatan::DM::Window const & window, long * top, long * left, long * bottom, long * right)\n"
+		"\n"
+		"WindowGetFrameBounds: Gets the bounding rectangle of the frame area of the 'window'.\n"
+		""},
+	 { (char *)"WindowGetFramePosition", _wrap_WindowGetFramePosition, METH_VARARGS, (char *)"\n"
+		"WindowGetFramePosition(Gatan::DM::Window const & window, long * x, long * y)\n"
+		"\n"
+		"WindowGetFramePosition: Gets the position of the top-left corner of the frame area of \n"
+		"the 'window'.\n"
+		""},
+	 { (char *)"WindowGetFrameSize", _wrap_WindowGetFrameSize, METH_VARARGS, (char *)"\n"
+		"WindowGetFrameSize(Gatan::DM::Window const & window, long * x, long * y)\n"
+		"\n"
+		"WindowGetFrameSize: Gets the size of the frame area of the 'window'.\n"
+		""},
+	 { (char *)"WindowGetMousePosition", _wrap_WindowGetMousePosition, METH_VARARGS, (char *)"\n"
+		"WindowGetMousePosition(Gatan::DM::Window const & window, long * x, long * y)\n"
+		"\n"
+		"WindowGetMousePosition: Gets the current position of the mouse in the windows coordinate \n"
+		"system.\n"
+		""},
+	 { (char *)"WindowGetTitle", _wrap_WindowGetTitle, METH_VARARGS, (char *)"\n"
+		"WindowGetTitle(Gatan::DM::Window const & window) -> Gatan::DM::String\n"
+		"\n"
+		"WindowGetTitle: Gets the title of the window.\n"
+		""},
+	 { (char *)"WindowGetType", _wrap_WindowGetType, METH_VARARGS, (char *)"\n"
+		"WindowGetType(Gatan::DM::Window const & window) -> long\n"
+		"\n"
+		"WindowGetType: Gets the type of the window.\n"
+		""},
+	 { (char *)"WindowGetViewState", _wrap_WindowGetViewState, METH_VARARGS, (char *)"\n"
+		"WindowGetViewState(Gatan::DM::Window const & window) -> long\n"
+		"\n"
+		"WindowGetViewState: Gets the view state of the window. (0 normal, 1 maximized, 2 minimized\n"
+		""},
+	 { (char *)"WindowHide", _wrap_WindowHide, METH_VARARGS, (char *)"\n"
+		"WindowHide(Gatan::DM::Window const & window)\n"
+		"\n"
+		"WindowHide: Hides the window.\n"
+		""},
+	 { (char *)"WindowIsOpen", _wrap_WindowIsOpen, METH_VARARGS, (char *)"\n"
+		"WindowIsOpen(Gatan::DM::Window const & window) -> bool\n"
+		"\n"
+		"WindowIsOpen: Returns true if the window has not been closed.\n"
+		""},
+	 { (char *)"WindowIsShown", _wrap_WindowIsShown, METH_VARARGS, (char *)"\n"
+		"WindowIsShown(Gatan::DM::Window const & window) -> bool\n"
+		"\n"
+		"WindowIsShown: Returns true if the window is shown.\n"
+		""},
+	 { (char *)"WindowIsValid", _wrap_WindowIsValid, METH_VARARGS, (char *)"\n"
+		"WindowIsValid(Gatan::DM::Window const & window) -> bool\n"
+		"\n"
+		"WindowIsValid: Returns true if 'window' points to a valid object.\n"
+		""},
+	 { (char *)"WindowSelect", _wrap_WindowSelect, METH_VARARGS, (char *)"\n"
+		"WindowSelect(Gatan::DM::Window const & window)\n"
+		"\n"
+		"WindowSelect: Brings 'window' to the front.\n"
+		""},
+	 { (char *)"WindowSendBehind", _wrap_WindowSendBehind, METH_VARARGS, (char *)"\n"
+		"WindowSendBehind(Gatan::DM::Window const & window, Gatan::DM::Window const & behind_window)\n"
+		"\n"
+		"WindowSendBehind: Sends 'window' behind 'behind_window'.\n"
+		""},
+	 { (char *)"WindowSetCurrentFile", _wrap_WindowSetCurrentFile, METH_VARARGS, (char *)"\n"
+		"WindowSetCurrentFile(Gatan::DM::Window const & window, Gatan::DM::String const & file_path_tok)\n"
+		"\n"
+		"WindowSetCurrentFile: Sets the file of the window's document to the specified file.\n"
+		""},
+	 { (char *)"WindowSetContentBounds", _wrap_WindowSetContentBounds, METH_VARARGS, (char *)"\n"
+		"WindowSetContentBounds(Gatan::DM::Window const & window, long top, long left, long bottom, long right)\n"
+		"\n"
+		"WindowSetContentBounds: Sets the bounding rectangle of the content area of the 'window'.\n"
+		""},
+	 { (char *)"WindowSetContentPosition", _wrap_WindowSetContentPosition, METH_VARARGS, (char *)"\n"
+		"WindowSetContentPosition(Gatan::DM::Window const & window, long x, long y)\n"
+		"\n"
+		"WindowSetContentPosition: Sets the position of the top-left corner of the content area \n"
+		"of the 'window'.\n"
+		""},
+	 { (char *)"WindowSetContentSize", _wrap_WindowSetContentSize, METH_VARARGS, (char *)"\n"
+		"WindowSetContentSize(Gatan::DM::Window const & window, long x, long y)\n"
+		"\n"
+		"WindowSetContentSize: Sets the size of the content area of the 'window'.\n"
+		""},
+	 { (char *)"WindowSetFrameBounds", _wrap_WindowSetFrameBounds, METH_VARARGS, (char *)"\n"
+		"WindowSetFrameBounds(Gatan::DM::Window const & window, long top, long left, long bottom, long right)\n"
+		"\n"
+		"WindowSetFrameBounds: Sets the bounding rectangle of the frame area of the 'window'.\n"
+		""},
+	 { (char *)"WindowSetFramePosition", _wrap_WindowSetFramePosition, METH_VARARGS, (char *)"\n"
+		"WindowSetFramePosition(Gatan::DM::Window const & window, long x, long y)\n"
+		"\n"
+		"WindowSetFramePosition: Sets the position of the top-left corner of the frame area of \n"
+		"the 'window'.\n"
+		""},
+	 { (char *)"WindowSetFrameSize", _wrap_WindowSetFrameSize, METH_VARARGS, (char *)"\n"
+		"WindowSetFrameSize(Gatan::DM::Window const & window, long x, long y)\n"
+		"\n"
+		"WindowSetFrameSize: Sets the size of the frame area of the 'window'.\n"
+		""},
+	 { (char *)"WindowSetTitle", _wrap_WindowSetTitle, METH_VARARGS, (char *)"\n"
+		"WindowSetTitle(Gatan::DM::Window const & window, Gatan::DM::String const & title)\n"
+		"\n"
+		"WindowSetTitle: Sets the title of the window.\n"
+		""},
+	 { (char *)"WindowSetViewState", _wrap_WindowSetViewState, METH_VARARGS, (char *)"\n"
+		"WindowSetViewState(Gatan::DM::Window const & window, long viewState)\n"
+		"\n"
+		"WindowSetViewState: sets the view type of the window (0 normal,1 maximized, 2 minimized.\n"
+		""},
+	 { (char *)"WindowShow", _wrap_WindowShow, METH_VARARGS, (char *)"\n"
+		"WindowShow(Gatan::DM::Window const & window)\n"
+		"\n"
+		"WindowShow: Shows the window.\n"
+		""},
+	 { (char *)"WindowUpdate", _wrap_WindowUpdate, METH_VARARGS, (char *)"\n"
+		"WindowUpdate(Gatan::DM::Window const & window)\n"
+		"\n"
+		"WindowUpdate: Updates 'window's display.\n"
+		""},
+	 { (char *)"SetFloatingWindowHeight", _wrap_SetFloatingWindowHeight, METH_VARARGS, (char *)"\n"
+		"SetFloatingWindowHeight(Gatan::DM::String const & name, long height)\n"
+		"\n"
+		"SetFloatingWindowHeight: sets height of a named floating window (DM palette).\n"
+		" If the window is docked, the adjustment causes re-computation and an update of the docking \n"
+		" column layout.\n"
+		""},
+	 { (char *)"WriteFile", _wrap_WriteFile, METH_VARARGS, (char *)"\n"
+		"WriteFile(DM_FileReference file, Gatan::DM::String const & data)\n"
+		"\n"
+		"WriteFile: Write the string to the file.\n"
+		""},
+	 { (char *)"WriteRawStream", _wrap_WriteRawStream, METH_VARARGS, (char *)"\n"
+		"WriteRawStream(long rawStream, long data, long length)\n"
+		"\n"
+		"WriteRawStream: Write length bytes from the memory pointed to by data to rawStream.\n"
+		""},
+	 { (char *)"XX_GetProcessKey", _wrap_XX_GetProcessKey, METH_VARARGS, (char *)"\n"
+		"XX_GetProcessKey(long pid) -> short\n"
+		"\n"
+		"XX_GetProcessKey: Return a keystroke associated with the background process indicated by \n"
+		"pid.\n"
+		""},
+	 { (char *)"XX_InstallImageProcess", _wrap_XX_InstallImageProcess, METH_VARARGS, (char *)"\n"
+		"XX_InstallImageProcess(Image argument_1, long pid)\n"
+		"\n"
+		"XX_InstallImageProcess: Associate the process indicated by pid with the image. \n"
+		"Keystrokes going to the image will queue in the process after this call.\n"
+		""},
+	 { (char *)"Yield", _wrap_Yield, METH_VARARGS, (char *)"\n"
+		"Yield()\n"
+		"\n"
+		"Yield: Yield to another background task.\n"
+		""},
+	 { (char *)"SetForbidScriptDialogFlag", _wrap_SetForbidScriptDialogFlag, METH_VARARGS, (char *)"\n"
+		"SetForbidScriptDialogFlag(bool flag) -> bool\n"
+		"\n"
+		"SetForbidScriptDialogFlag: Sets flag that allows to disable script dialogs implemented in \n"
+		"Scriptdialog.cpp\n"
+		""},
 	 { NULL, NULL, 0, NULL }
 };
 
@@ -52401,9 +52367,7 @@ SWIGINTERN SwigPyClientData SwigPyBuiltin__Gatan__DM__TagGroup_clientdata = {0, 
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
 static swig_type_info _swigt__p_CDialog = {"_p_CDialog", "CDialog *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_CWnd = {"_p_CWnd", "CWnd *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_DM_FileReference = {"_p_DM_FileReference", "DM_FileReference *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_DM_ObjectToken = {"_p_DM_ObjectToken", "DM_ObjectToken *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Gatan__DM__Component = {"_p_Gatan__DM__Component", "Gatan::DM::Component *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Gatan__DM__Function = {"_p_Gatan__DM__Function", "Gatan::DM::Function *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Gatan__DM__Image = {"_p_Gatan__DM__Image", "Gatan::DM::Image *", 0, 0, (void*)&SwigPyBuiltin__Gatan__DM__Image_clientdata, 0};
@@ -52412,14 +52376,13 @@ static swig_type_info _swigt__p_Gatan__DM__ImageDocument = {"_p_Gatan__DM__Image
 static swig_type_info _swigt__p_Gatan__DM__LinePlotImageDisplay = {"_p_Gatan__DM__LinePlotImageDisplay", "Gatan::DM::LinePlotImageDisplay *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Gatan__DM__ROI = {"_p_Gatan__DM__ROI", "Gatan::DM::ROI *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Gatan__DM__RasterImageDisplay = {"_p_Gatan__DM__RasterImageDisplay", "Gatan::DM::RasterImageDisplay *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_Gatan__DM__ScriptObject = {"_p_Gatan__DM__ScriptObject", "Gatan::DM::ScriptObject *|Gatan::DM::ScriptObjectList *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Gatan__DM__ScriptObject = {"_p_Gatan__DM__ScriptObject", "Gatan::DM::ScriptObject *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Gatan__DM__String = {"_p_Gatan__DM__String", "Gatan::DM::String *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Gatan__DM__SurfacePlotImageDisplay = {"_p_Gatan__DM__SurfacePlotImageDisplay", "Gatan::DM::SurfacePlotImageDisplay *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Gatan__DM__TagGroup = {"_p_Gatan__DM__TagGroup", "Gatan::DM::TagGroup *", 0, 0, (void*)&SwigPyBuiltin__Gatan__DM__TagGroup_clientdata, 0};
 static swig_type_info _swigt__p_Gatan__DM__Throwable = {"_p_Gatan__DM__Throwable", "Gatan::DM::Throwable *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Gatan__DM__Window = {"_p_Gatan__DM__Window", "Gatan::DM::Window *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Gatan__PlugIn__DM_Env = {"_p_Gatan__PlugIn__DM_Env", "::Gatan::PlugIn::DM_Env *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_PlugIn__DM_Env = {"_p_PlugIn__DM_Env", "PlugIn::DM_Env *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Py_ssize_t = {"_p_Py_ssize_t", "Py_ssize_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_SSIZE_T = {"_p_SSIZE_T", "SSIZE_T *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_SwigPyObject = {"_p_SwigPyObject", "SwigPyObject *", 0, 0, (void*)0, 0};
@@ -52427,18 +52390,15 @@ static swig_type_info _swigt__p_SystemIdleProc = {"_p_SystemIdleProc", "SystemId
 static swig_type_info _swigt__p_TagGroupIterator = {"_p_TagGroupIterator", "TagGroupIterator *", 0, 0, (void*)&SwigPyBuiltin__TagGroupIterator_clientdata, 0};
 static swig_type_info _swigt__p_ULONG_PTR = {"_p_ULONG_PTR", "ULONG_PTR *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_bool = {"_p_bool", "bool *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_boost__function0T_void_t = {"_p_boost__function0T_void_t", "boost::function0< void > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char_range = {"_p_char_range", "char_range *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_complex128_t = {"_p_complex128_t", "complex128_t *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_const_value_rangeT_Gatan__DM__ScriptObject_t = {"_p_const_value_rangeT_Gatan__DM__ScriptObject_t", "const_value_range< Gatan::DM::ScriptObject > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_double = {"_p_double", "double *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_float = {"_p_float", "float *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_long = {"_p_long", "long *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_rgba_uint8_os_t = {"_p_rgba_uint8_os_t", "rgba_uint8_os_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_short = {"_p_short", "short *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__string = {"_p_std__string", "std::string *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__vectorT_Gatan__DM__ScriptObject_t = {"_p_std__vectorT_Gatan__DM__ScriptObject_t", "std::vector< Gatan::DM::ScriptObject > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_uint16 = {"_p_uint16", "uint16 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_uint32 = {"_p_uint32", "uint32 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ulong = {"_p_ulong", "ulong *", 0, 0, (void*)0, 0};
@@ -52446,9 +52406,7 @@ static swig_type_info _swigt__p_ulong_ptr_t = {"_p_ulong_ptr_t", "ulong_ptr_t *"
 
 static swig_type_info *swig_type_initial[] = {
   &_swigt__p_CDialog,
-  &_swigt__p_CWnd,
   &_swigt__p_DM_FileReference,
-  &_swigt__p_DM_ObjectToken,
   &_swigt__p_Gatan__DM__Component,
   &_swigt__p_Gatan__DM__Function,
   &_swigt__p_Gatan__DM__Image,
@@ -52464,7 +52422,6 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_Gatan__DM__Throwable,
   &_swigt__p_Gatan__DM__Window,
   &_swigt__p_Gatan__PlugIn__DM_Env,
-  &_swigt__p_PlugIn__DM_Env,
   &_swigt__p_Py_ssize_t,
   &_swigt__p_SSIZE_T,
   &_swigt__p_SwigPyObject,
@@ -52472,18 +52429,15 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_TagGroupIterator,
   &_swigt__p_ULONG_PTR,
   &_swigt__p_bool,
-  &_swigt__p_boost__function0T_void_t,
   &_swigt__p_char,
   &_swigt__p_char_range,
   &_swigt__p_complex128_t,
-  &_swigt__p_const_value_rangeT_Gatan__DM__ScriptObject_t,
   &_swigt__p_double,
   &_swigt__p_float,
   &_swigt__p_long,
   &_swigt__p_rgba_uint8_os_t,
   &_swigt__p_short,
   &_swigt__p_std__string,
-  &_swigt__p_std__vectorT_Gatan__DM__ScriptObject_t,
   &_swigt__p_uint16,
   &_swigt__p_uint32,
   &_swigt__p_ulong,
@@ -52491,9 +52445,7 @@ static swig_type_info *swig_type_initial[] = {
 };
 
 static swig_cast_info _swigc__p_CDialog[] = {  {&_swigt__p_CDialog, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_CWnd[] = {  {&_swigt__p_CWnd, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_DM_FileReference[] = {  {&_swigt__p_DM_FileReference, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_DM_ObjectToken[] = {  {&_swigt__p_DM_ObjectToken, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Gatan__DM__Component[] = {  {&_swigt__p_Gatan__DM__Component, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Gatan__DM__Function[] = {  {&_swigt__p_Gatan__DM__Function, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Gatan__DM__Image[] = {  {&_swigt__p_Gatan__DM__Image, 0, 0, 0},{0, 0, 0, 0}};
@@ -52509,7 +52461,6 @@ static swig_cast_info _swigc__p_Gatan__DM__TagGroup[] = {  {&_swigt__p_Gatan__DM
 static swig_cast_info _swigc__p_Gatan__DM__Throwable[] = {  {&_swigt__p_Gatan__DM__Throwable, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Gatan__DM__Window[] = {  {&_swigt__p_Gatan__DM__Window, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Gatan__PlugIn__DM_Env[] = {  {&_swigt__p_Gatan__PlugIn__DM_Env, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_PlugIn__DM_Env[] = {  {&_swigt__p_PlugIn__DM_Env, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Py_ssize_t[] = {  {&_swigt__p_Py_ssize_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_SSIZE_T[] = {  {&_swigt__p_SSIZE_T, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_SwigPyObject[] = {  {&_swigt__p_SwigPyObject, 0, 0, 0},{0, 0, 0, 0}};
@@ -52517,18 +52468,15 @@ static swig_cast_info _swigc__p_SystemIdleProc[] = {  {&_swigt__p_SystemIdleProc
 static swig_cast_info _swigc__p_TagGroupIterator[] = {  {&_swigt__p_TagGroupIterator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ULONG_PTR[] = {  {&_swigt__p_ULONG_PTR, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_bool[] = {  {&_swigt__p_bool, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_boost__function0T_void_t[] = {  {&_swigt__p_boost__function0T_void_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char_range[] = {  {&_swigt__p_char_range, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_complex128_t[] = {  {&_swigt__p_complex128_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_const_value_rangeT_Gatan__DM__ScriptObject_t[] = {  {&_swigt__p_const_value_rangeT_Gatan__DM__ScriptObject_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_double[] = {  {&_swigt__p_double, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_float[] = {  {&_swigt__p_float, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long[] = {  {&_swigt__p_long, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_rgba_uint8_os_t[] = {  {&_swigt__p_rgba_uint8_os_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_short[] = {  {&_swigt__p_short, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__string[] = {  {&_swigt__p_std__string, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_std__vectorT_Gatan__DM__ScriptObject_t[] = {  {&_swigt__p_std__vectorT_Gatan__DM__ScriptObject_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_uint16[] = {  {&_swigt__p_uint16, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_uint32[] = {  {&_swigt__p_uint32, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ulong[] = {  {&_swigt__p_ulong, 0, 0, 0},{0, 0, 0, 0}};
@@ -52536,9 +52484,7 @@ static swig_cast_info _swigc__p_ulong_ptr_t[] = {  {&_swigt__p_ulong_ptr_t, 0, 0
 
 static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_CDialog,
-  _swigc__p_CWnd,
   _swigc__p_DM_FileReference,
-  _swigc__p_DM_ObjectToken,
   _swigc__p_Gatan__DM__Component,
   _swigc__p_Gatan__DM__Function,
   _swigc__p_Gatan__DM__Image,
@@ -52554,7 +52500,6 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_Gatan__DM__Throwable,
   _swigc__p_Gatan__DM__Window,
   _swigc__p_Gatan__PlugIn__DM_Env,
-  _swigc__p_PlugIn__DM_Env,
   _swigc__p_Py_ssize_t,
   _swigc__p_SSIZE_T,
   _swigc__p_SwigPyObject,
@@ -52562,18 +52507,15 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_TagGroupIterator,
   _swigc__p_ULONG_PTR,
   _swigc__p_bool,
-  _swigc__p_boost__function0T_void_t,
   _swigc__p_char,
   _swigc__p_char_range,
   _swigc__p_complex128_t,
-  _swigc__p_const_value_rangeT_Gatan__DM__ScriptObject_t,
   _swigc__p_double,
   _swigc__p_float,
   _swigc__p_long,
   _swigc__p_rgba_uint8_os_t,
   _swigc__p_short,
   _swigc__p_std__string,
-  _swigc__p_std__vectorT_Gatan__DM__ScriptObject_t,
   _swigc__p_uint16,
   _swigc__p_uint32,
   _swigc__p_ulong,

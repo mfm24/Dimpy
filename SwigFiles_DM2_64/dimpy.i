@@ -183,15 +183,15 @@ PyObject* PythonTagGroup_mp_subscript(PyObject *self, PyObject *key)
 		sprintf_s(buffer, 64, "[%d]", PyInt_AsLong(key));
 		skey=buffer;
 	}
-	else if(	else if(PyUnicode_Chek(key)) {(key)) {
+	else if(PyUnicode_Check(key)) {
 		if(PyUnicode_READY(key)==0 && PyUnicode_KIND(key)==PyUnicode_1BYTE_KIND) {
 			skey=(char*)PyUnicode_DATA(key);
 		}
 		else {
-			SWIG_exception_fail(SWIG_ValueError, "in method 'TagGroup::__subscript__', argument 2 must be 8-bit uncicode");
+			SWIG_exception_fail(SWIG_ValueError, "in method 'TagGroup::__subscript__', argument 2 must be 8-bit unicode");
 		}
 	}
-  else { 
+    else { 
     SWIG_exception_fail(SWIG_ValueError, "in method 'TagGroup::__subscript__', argument 2 of type 'String' or 'int' or 'unicode'"); 
   } 
   Gatan::DM::TagGroup *tg = reinterpret_cast<Gatan::DM::TagGroup*>(argp);

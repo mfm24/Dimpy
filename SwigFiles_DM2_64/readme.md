@@ -36,5 +36,11 @@ This contains DM specific python conversion functions. Specifically:
 - **Gatan::DM::Image** implements the buffer protocol.
   For python <3 we have to add  Py_TPFLAGS_HAVE_NEWBUFFER to the class definition, and the only way to do so is to redefine Py_TPFLAGS_DEFAULT. For python >=3 we don't need to worry about this
 	  
-- **Gatan::DM::TagGroup implemetns the iteration, length, and subscript slots.
+- **Gatan::DM::TagGroup** implements the iteration, length, and subscript slots.
+
+We also forward declare 
+
+- Gatan::DM::Image
+- Gatan::DM::TagGroup
+
 	  

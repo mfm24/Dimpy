@@ -9,8 +9,9 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-pyd|x64'">
-    <LocalDebuggerCommand>"C:\Program Files\Gatan\DigitalMicrograph.exe"</LocalDebuggerCommand>
+    <LocalDebuggerCommand>DigitalMicrograph.exe</LocalDebuggerCommand>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>"C:\Program Files\Gatan\"</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LocalDebuggerCommand>DigitalMicrograph.exe</LocalDebuggerCommand>
@@ -18,7 +19,8 @@
     <LocalDebuggerWorkingDirectory>"C:\Program Files\Gatan\"</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommand>"C:\Program Files\Gatan\DigitalMicrograph.exe"</LocalDebuggerCommand>
+    <LocalDebuggerCommand>DigitalMicrograph.exe</LocalDebuggerCommand>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>"C:\Program Files\Gatan\"</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
 </Project>
