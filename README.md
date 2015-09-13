@@ -9,8 +9,8 @@ Installation
 Instructions for 64-bit GMS2 and Python 3.4
 
 1. Download python3.4 (WinPython recommended)
-2. Copy `0_DimpyLoader.dll` and `Dimpy34.dll` to DM plugin **USER** folder. **(This must be the User folder, normally C:\ProgramData\Gatan\Plugins)**
-3. We need to set some reigstry values so that the plugins can find the Python folder
+2. Copy `0_DimpyLoader.dll` and `Dimpy34.dll` to DM user plugin folder (usually C:\ProgramData\Gatan\Plugins)
+3. We need to set a reigstry value so that the plugins can find the Python folder
 this should be automated in the future:
  
  - Set **HKCU\Software\DimPy\PythonPath** to the location of `python27.dll`. 
