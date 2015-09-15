@@ -10,3 +10,5 @@ __pycache__
 SwigFiles_DM2_64/Dimpy_wrap.c
 SwigFiles_DM2_64/Dimpy_wrap.cxx
 SwigFiles_DM2_64/DimPy.py
+*.ncb
+*.user
