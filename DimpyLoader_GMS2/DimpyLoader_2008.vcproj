@@ -62,6 +62,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				OutputFile="$(OutDir)\0_DimpyLoader.dll"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="C:\ProgramData\Gatan\DMSDK\lib\x64"
 				GenerateDebugInformation="true"
@@ -137,6 +138,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				OutputFile="$(OutDir)\0_DimpyLoader.dll"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="C:\ProgramData\Gatan\DMSDK\lib\x64"
 				GenerateDebugInformation="true"
