@@ -13,7 +13,7 @@ Instructions for 64-bit GMS2 and Python 3.4
 3. We need to set a reigstry value so that the plugins can find the Python folder
 this should be automated in the future:
  
- - Set **HKCU\Software\DimPy\PythonPath** to the location of `python34.dll`. 
+ - Set **HKCU\Software\DimPy\Python34Path** to the location of `python34.dll`. 
    If using WinPython, will be something like `path\WinPython-64bit-3.4.3.5\python-3.4.3.amd64`
    
 4. Run DM. Make sure you don't get any errors loading Dimpy34 or 0_DimpyLoader DLLs. You should see the following in the results window:
